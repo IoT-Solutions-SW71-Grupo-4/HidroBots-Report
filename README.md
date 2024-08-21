@@ -190,6 +190,41 @@
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
+<table>
+  <tr align="center">
+    <td rowspan="4">
+      <img src="./assets/profile_images/Diego_image.jpg" alt="Diego's profile image" min-width="400" max-width="900"/>
+    </td>
+    <td align="left">
+      <b>Nombre y Apellido:</b>
+      <br>            
+      Diego Defilippi Santillán
+    </td>
+  </tr>
+  <tr>
+    <td align="left">
+    <b>Código:</b>
+    <br>
+    U202120448
+    </td>
+  </tr>
+  <tr>
+    <td align="left">
+    <b>Carrera:</b>
+    <br>
+    Ingeniería de Software
+    </td>
+  </tr>
+  <tr>
+    <td align="left">
+    <b>Acerca de:</b>
+    <br>
+    Soy Diego Defilippi, tengo 21 años y tengo una gran pasión por la programación y el diseño de software. Desde hace tres años, estoy aprendiendo las diversas ramas de esta fascinante ingeniería, como el backend, frontend y data science. Además, siempre ando en búsqueda de soluciones creativas e innovadoras ante problemas cotidianos. Finalmente, me considero una persona autodidacta, organizada y con muchos ánimos de aprender.
+    </td>
+  </tr>
+  </tr>
+</table>
+
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
