@@ -262,6 +262,9 @@
 Nuestra propuesta es la creación de una solucion IoT, la cual tiene como objetivo principal la automatización de tareas de riego en cultivos agrícolas, aplicando tecnologías de IoT para la recolección de datos y la toma de decisiones en tiempo real.
 
 ### 1.2.1. Antecedentes y problemática
+ **What? - ¿Qué?** <br>
+
+ Según resultados de la Encuesta Nacional Agropecuaria (ENA) 2016, ejecutada por el Instituto Nacional de Estadística e Informática (INEI), se informó que del total de pequeños productores/as (45,3%) que aplicaron riego, el 17,1% utilizaron riego tecnificado incrementándose en 2,2 puntos porcentuales, respecto al año 2015. Por lo tanto, se puede inferir que el riego tecnificado es una tecnología que se está implementando en la agricultura peruana, pero aún no es lo suficientemente accesible para todos los agricultores.
 
 ### 1.2.2. Lean UX Process
 
