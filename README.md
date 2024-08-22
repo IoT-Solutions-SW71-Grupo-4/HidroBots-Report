@@ -259,7 +259,7 @@
 </table>
 
 ## 1.2. Solution Profile
-Nuestra solución es la creación de una solucion IoT, la cual tiene como objetivo principal la automatización de tareas de riego en cultivos agrícolas, aplicando tecnologías de IoT para la recolección de datos y la toma de decisiones en tiempo real.
+Nuestra propuesta es la creación de una solucion IoT, la cual tiene como objetivo principal la automatización de tareas de riego en cultivos agrícolas, aplicando tecnologías de IoT para la recolección de datos y la toma de decisiones en tiempo real.
 
 ### 1.2.1. Antecedentes y problemática
 
