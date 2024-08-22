@@ -218,6 +218,68 @@
 
 ### 2.2.1. Diseño de entrevistas
 
+Se han establecido algunas preguntas dirigidas a nuestro grupo objetivo con el fin de recolectar información cualitativa, como opiniones o descripciones. Esta información será muy útil en la creación de nuestra solución.
+
+<b>Preguntas generales:</b>
+
+- ¿Cuál es su nombre?
+- ¿Cuántos años tiene?
+- ¿En qué ciudad y distrito reside?
+- ¿A qué se dedica actualmente?
+
+<b>Segmento 1: Medianos agricultores</b>
+
+<b>Preguntas sobre su experiencia:</b>
+
+- En términos de cantidad, ¿considera que su producción es al por mayor o al por menor?
+- ¿Qué tipo de cultivos normalmente maneja?
+- ¿Cómo gestiona normalmente sus cosechas?
+- ¿Qué datos considera importantes tener en cuenta para un seguimiento adecuado?
+- ¿Cómo realiza generalmente el monitoreo de las condiciones del suelo?
+- ¿Cómo realiza el riego de sus cultivos? ¿Utilizas algún sistema automatizado o es manual?
+
+<b>Preguntas sobre los desafíos y problemas:</b>
+
+- ¿Ha enfrentado problemas relacionados con el riego, como escasez de agua o falta de uniformidad en la distribución?- ¿Cómo ha solucionado dichos problemas?
+- ¿Ha enfrentado problemas relacionados con el cambio brusco en el clima últimamente? ¿Cómo ha mitigado estos cambios?
+- ¿Qué dificultades encuentra al verificar la calidad del suelo? ¿Cómo afecta una mala verificación a la calidad de los productos?
+- ¿Qué tan complejo es, para usted, identificar y corregir los posibles imprevistos?
+- ¿Cómo afectan estos problemas a su productividad y rentabilidad?
+- ¿Qué obstáculos ha encontrado al intentar implementar nuevas tecnologías en sus cultivos?
+
+<b>Deseos del usuario:</b>
+
+- ¿Qué información le gustaría recibir para tomar mejores decisiones sobre sus cultivos?
+- ¿Busca mejorar la eficiencia del uso de recursos como el agua y los fertilizantes? Si es así, ¿qué métodos emplea?
+
+<b>Segmento 2: Centros de investigación agrícola</b>
+
+**Preguntas sobre su experiencia:**
+
+- ¿Cuál es tu rol dentro del centro de investigación y en qué proyectos estás actualmente involucrado?
+- ¿Cómo gestionan y controlan el riego en los cultivos? ¿Qué herramientas utilizan para hacer estas mediciones?
+- ¿Cómo verifican la calidad del suelo de los cultivos al momento de realizar sus experimentos?
+- ¿Qué características valoras más en una herramienta para la recolección de datos?
+- ¿Cómo se procesan los datos recolectados en los diferentes experimentos?
+- ¿De qué manera usted visualiza los datos recolectados en los diferentes experimentos?
+
+<b>Desafíos y problemas:</b>
+
+- ¿Qué desafíos enfrenta usualmente al momento de hacer mediciones de datos (Ejemplo, humedad, temperatura, etc)?
+- ¿Ha tenido problemas para obtener datos precisos y en tiempo real? ¿Cómo han afectado estos problemas sus resultados de investigación?
+
+**Deseos:**
+
+- ¿Qué datos le gustaría recolectar para mejorar su comprensión de los procesos agrícolas y desarrollar nuevas tecnologías?
+- ¿Usted desearía que ciertos procesos fueran automatizados? Si es así, ¿cuáles procesos?
+
+**A continuación, se presenta al entrevistado la idea del proyecto junto a las principales funcionalidades que esta posee.**
+
+- ¿Qué te parece la propuesta de proyecto?
+- ¿Alguna vez ha usado una aplicación y dispositivo como el presentado? ¿Cuál fue su experiencia?
+- ¿Cuál es el aspecto que más le llama la atención?
+- ¿Qué otras características le gustaría que tuviera la aplicación?
+
 ### 2.2.2. Registro de entrevistas
 
 ### 2.2.3. Análisis de entrevistas
