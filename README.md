@@ -223,6 +223,39 @@
     </td>
   </tr>
   </tr>
+
+  <tr align="center">
+    <td rowspan="4">
+      <img src="./assets/profile_images/Jose_image.jpeg" alt="Diego's profile image" min-width="400" max-width="900"/>
+    </td>
+    <td align="left">
+      <b>Nombre y Apellido:</b>
+      <br>            
+      José Carlos Isaac Ampudia Flores
+    </td>
+  </tr>
+  <tr>
+    <td align="left">
+    <b>Código:</b>
+    <br>
+    U202112936
+    </td>
+  </tr>
+  <tr>
+    <td align="left">
+    <b>Carrera:</b>
+    <br>
+    Ingeniería de Software
+    </td>
+  </tr>
+  <tr>
+    <td align="left">
+    <b>Acerca de:</b>
+    <br>
+    Soy José Ampudia, tengo 20 años, estudiante de la carrera de Ingeniería de Software, tengo habilidades en el desarrollo web, tanto en el frontend como en el backend. Me gusta aprender cosas nuevas y apoyar a mis compañeros en lo que necesiten. Me considero una persona responsable, proactiva y con muchas ganas de aprender.
+    </td>
+  </tr>
+  </tr>
 </table>
 
 ## 1.2. Solution Profile
