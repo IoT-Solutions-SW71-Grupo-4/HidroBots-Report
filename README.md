@@ -263,32 +263,32 @@ Nuestra propuesta es la creación de una solucion IoT, la cual tiene como objeti
 
 ### 1.2.1. Antecedentes y problemática
  
- **What? - ¿Qué?**
+ **What? - ¿Qué?** <br>
  Según resultados de la Encuesta Nacional Agropecuaria (ENA) 2016, ejecutada por el Instituto Nacional de Estadística e Informática (INEI), se informó que del total de pequeños productores/as (45,3%) que aplicaron riego, el 17,1% utilizaron riego tecnificado incrementándose en 2,2 puntos porcentuales, respecto al año 2015. Por lo tanto, el problema principal que se presenta es la falta de acceso a tecnologías de riego tecnificado, lo cual limita la eficiencia en el uso del agua y la productividad de los cultivos.
 
-  **When? - ¿Cuándo?**
+  **When? - ¿Cuándo?** <br>
   El problema surge cuando se refleja la necesidad para automatizar procesos de riego en cultivos agrícolas, por lo que la falta de tecnología para realizar un riego eficiente en los plantíos, limita la eficiencia en el uso del agua y la productividad de los cultivos.
 
-  **Where? - ¿Dónde?**
+  **Where? - ¿Dónde?** <br>
   El problema se presenta en zonas rurales de Perú, donde la agricultura es una de las principales actividades económicas, y donde la falta de tecnología para realizar un riego eficiente en los cultivos, limita la eficiencia en el uso del agua y la productividad de los cultivos. Esta solución está direccionada a los Medianos agricultores y Centros de Investigación Agrícola del Perú.
 
-  **Who? - ¿Quién?**
+  **Who? - ¿Quién?** <br>
   Los principales usuarios afectados por este problema son los medianos agricultores y centros de investigación agrícola del Perú, y los beneficiarios directos serán los profesinales técnicos y especialistas en agricultura, quienes podrán tener acceso a una herramienta tecnológica que les permita automatizar procesos de riego en cultivos agrícolas, de esta manera ambos segmentos objetivos mejorarán la productividad de los cultivos.
 
-  **Why? - ¿Por qué?**
+  **Why? - ¿Por qué?** <br>
   Las causas principales es la manera en cómo se involucra la tecnología con la agricultura. Muchas veces los agricultores no tienen acceso a soluciones digitales, por lo que esta falta de integración tecnológica limita la productividad de los cultivos y el uso eficiente del agua.
 
-  **How? - ¿Cómo?**
+  **How? - ¿Cómo?** <br>
   Se implementará una solución IoT, la cual permitirá a los usuarios controlar el riego de sus cultivos de manera remota, accediendo desde su dispositivo móvil o computadora, a través de una aplicación web y móvil, el cual podrán recibir notificaciones en tiempo real sobre el estado de sus cultivos.
 
-  **How much? - ¿Cuánto?**
-  _¿Cuánto afecta este problema?:_
+  **How much? - ¿Cuánto?** <br>
+  _¿Cuánto afecta este problema?:_ <br>
   La sequía, el estrés hídrico y las bajas temperaturas influyeron en la disminución de la población pecuaria durante el año 2016, siendo las alpacas con 889 mil cabezas y ovinos con 836 mil cabezas, las especies que más disminuyeron respecto al año anterior, principalmente en los departamentos de la zona sur del país. Igualmente, se observó una disminución en el número de productores/as que conducen estas especies. (INEI, 2016).
 
-  _¿Cuánto costará resolver este problema?:_
+  _¿Cuánto costará resolver este problema?:_ <br>
   El costo de la solución dependerá de la cantidad de sensores y actuadores que se requieran para la implementación de la solución IoT, además de los costos de mantenimiento y soporte técnico.
 
-  _¿Cuántas personas se beneficiarán?:_
+  _¿Cuántas personas se beneficiarán?:_ <br>
   La solución puede ser utilizada por los profesionales técnicos y especialistas en agricultura, por lo que no hay un límite de personas que usen la solución, pero se estima que al menos el 40% de los medianos agricultores y centros de investigación agrícola del Perú podrían beneficiarse de la solución.
 
 
