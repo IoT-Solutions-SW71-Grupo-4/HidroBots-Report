@@ -256,6 +256,39 @@
     </td>
   </tr>
   </tr>
+   <tr align="center">
+    <td rowspan="4">
+      <img src="./assets/profile_images/Tatiana_image.jpg" alt="Tatiana's profile image" min-width="400" max-width="900"/>
+    </td>
+    <td align="left">
+      <b>Nombre y Apellido:</b>
+      <br>            
+      Tatiana Medalith Paucar De La Cruz
+    </td>
+  </tr>
+  <tr>
+    <td align="left">
+    <b>Código:</b>
+    <br>
+    U20211F955
+    </td>
+  </tr>
+  <tr>
+    <td align="left">
+    <b>Carrera:</b>
+    <br>
+    Ingeniería de Software
+    </td>
+  </tr>
+  <tr>
+    <td align="left">
+    <b>Acerca de:</b>
+    <br>
+     Soy Tatiana Medalith Paucar De La Cruz, tengo 20 años y estudio Ingeniería de Software en la UPC. Mi interés se enfoca principalmente en el desarrollo web y móvil, así como en la seguridad informática. Además, me considero una persona organizada y responsable, con un compromiso hacia el aprendizaje y la mejora continua.
+    </td>
+  </tr>
+  </tr>
+
 </table>
 
 ## 1.2. Solution Profile
