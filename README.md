@@ -290,7 +290,7 @@ Se han establecido algunas preguntas dirigidas a nuestro grupo objetivo con el f
 | **Distrito** | Distrito |
 | **Fecha** | 23-08-2024 |
 | <img src="assets/ss_entrevistas/ss_entrevista.png"/> | Descripcion de la entrevista. |
-| **URL de la grabación** | [upc-pre-202402-si729-SV55-CodeConnect-needfinding-sprint-1](Link de la entrevista) |
+| **URL de la grabación** | [upc-pre-202402-si572-SW71-HidroBots-needfinding-sprint-1](Link de la entrevista) |
 | **Timming** | Timming |
 
 
@@ -306,7 +306,7 @@ Se han establecido algunas preguntas dirigidas a nuestro grupo objetivo con el f
 | **Distrito** | Iquitos |
 | **Fecha** | 23-08-2024 |
 | <img src="assets/ss_entrevistas/segmento2_entrevista1.png"/> | Nuestro invitado Piero Silvano, nos comenta que está en un proyecto referente al cultivo del cacao, y que es encargado de gestionar el riego y asegurarse que las plantas estén en condiciones óptimas para su crecimiento. Nos comenta que cuentan con sistemas de riegos manuales que se conectan a una llave de las cuales personalmente tiene que dirigirse a encender dicha llave para que el sistema de riego sea activado, valora mucho que las herramientas para recolectar datos sean fáciles de usar, porque el cacao requiere un control riguroso, menciona que los datos recolectados se registran manualmente por medio de fotos y en hojas de cálculo donde se procesa la información. También nos menciona que el desafío principal es obtener mediciones exactas de humedad y temperatura constante, dado que el clima de Iquitos es bastante raro, porque en un solo dia puede estar soleado y llover. Nos comenta que sus deseos son recolectar datos precisos sobre los nutrientes del suelo y la humedad y sobre todo automatizar el sistema de riego y las mediciones del clima y suelo. Respecto a la idea del proyecto, nos menciona que le entusiasma mucho ver cómo nuestra solución podría adaptarse a cultivos específicos como el cacao, que requiere un manejo preciso de las condiciones ambientales. |
-| **URL de la grabación** | [upc-pre-202402-si729-SV55-CodeConnect-needfinding-sprint-1](Link de la entrevista) |
+| **URL de la grabación** | [upc-pre-202402-si572-SW71-HidroBots-needfinding-sprint-1](Link de la entrevista) |
 | **Timming** | Timming |
 
 
