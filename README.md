@@ -291,6 +291,9 @@ Nuestra propuesta es la creación de una solucion IoT, la cual tiene como objeti
   _¿Cuántas personas se beneficiarán?:_ <br>
   La solución puede ser utilizada por los profesionales técnicos y especialistas en agricultura, por lo que no hay un límite de personas que usen la solución, pero se estima que al menos el 40% de los medianos agricultores y centros de investigación agrícola del Perú podrían beneficiarse de la solución.
 
+  **Conclusiones de 5w y 2h:** <br>
+  En conclusión, gracias a la implementación de las 5W's y 2H's, se ha podido identificar el problema principal que se presenta en la agricultura peruana, Para conseguir una solución eficiente se presentará el producto a medianos agricultores y centros de investigación agrícola para que de esta manera puedan mejorar la productividad de los cultivos.
+
 
 
 
