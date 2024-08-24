@@ -283,15 +283,15 @@ Se han establecido algunas preguntas dirigidas a nuestro grupo objetivo con el f
 ### 2.2.2. Registro de entrevistas
 - Entrevistas realizadas a Medianos agricultores (Segmento 1):
 
-| **Entrevista 1** | **Nombre del entrevistado** |
+| **Entrevista 1** | **Juan Armando Castilla Saldaña** |
 | --- | --- |
-| **Edad** | Edad |
-| **Ocupación** | Ocupacion|
-| **Distrito** | Distrito |
+| **Edad** | 38 |
+| **Ocupación** | Tecnico Agropecuario |
+| **Distrito** | Ica |
 | **Fecha** | 23-08-2024 |
-| <img src="assets/ss_entrevistas/ss_entrevista.png"/> | Descripcion de la entrevista. |
-| **URL de la grabación** | [upc-pre-202402-si572-SW71-HidroBots-needfinding-sprint-1](Link de la entrevista) |
-| **Timming** | Timming |
+| <img src="assets/ss_entrevistas/segmento1_entrevista1.png"/> | La entrevista fue realizada a Juan Castilla, un técnico agropecuario de 38 años dedicado al cultivo de cítricos en la región de Ica. Él trabaja en un fundo que dirige su producción hacia el mercado mayorista, tanto nacional como internacional, por lo que es crucial asegurar la alta calidad del producto. Para lograr esto, ajusta los costos y proyecta inversiones basándose en datos críticos como los porcentajes de maduración de los cultivos. Además, realiza análisis psicoquímicos del suelo y utiliza un sistema de riego por goteo con proyección a automatización. Juan menciona que ha enfrentado desafíos climáticos, como el fenómeno de El Niño, que han requerido un aumento en el riego y la aplicación de bioestimulantes para mantener la productividad. En cuanto a la calidad del suelo, toma muestras, las envía a laboratorio y aplica un programa nutricional basado en los resultados. Aunque ha trabajado con tecnología de sensores para el riego automatizado, ha enfrentado problemas con la señal en áreas remotas. Castilla considera interesante la propuesta de automatizar el riego y el monitoreo nutricional mediante una aplicación, pero subraya la importancia de evaluar los costos y beneficios antes de su implementación. |
+| **URL de la grabación** |  |
+| **Timming** |  |
 
 
 
