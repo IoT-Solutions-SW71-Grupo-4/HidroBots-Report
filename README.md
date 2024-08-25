@@ -329,10 +329,6 @@ Nuestra propuesta es la creación de una solucion IoT, la cual tiene como objeti
 
 
 
-
-
-
-
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
@@ -347,6 +343,81 @@ En HidroBots, entendemos que en el Perú, una de las mayores fuentes de ingreso 
 
 
 #### 1.2.2.2. Lean UX Assumptions
+
+###### **Business Outcomes:**
+
+- Incremento del 30% en la eficiencia del uso del agua en los cultivos de los clientes que adopten la solución en el primer año.
+- Incremento de la productividad de los cultivos en un 20% que utilicen nuestra plataforma durante una jornada completa.
+- 40% de reducción en el tiempo dedicado al monitoreo manual de los cultivos por parte de los profesionales técnicos y especialistas en agricultura.
+- 20% de aumento en la adopción de tecnologías de riego tecnificado entre los medianos agricultores de Perú en los primeros dos años de lanzamiento.
+- 50% de disminución en las pérdidas de cultivos debido a sequías para los usuarios de la plataforma.
+- 15% de aumento en los ingresos de los agricultores que utilizan la solución, debido a la mejora en la calidad y cantidad de sus cosechas.
+- 60% de reducción en el número de visitas presenciales necesarias para el mantenimiento de los sistemas de riego.
+
+###### **Users:**
+
+Medianos agricultores y Centros de Investigación Agrícola del Perú, especialmente el personal técnico y especialistas en agricultura, que buscan mejorar la productividad de sus cultivos por medio de la automatización de procesos de riego.
+
+###### **User Outcomes & Benefits:**
+
+- Medianos agricultores: Control de riego en sus cultivos desde cualquier lugar, monitorear el estado de sus plantíos, recolectar información sobre la composición del suelo y tomar decisiones en tiempo real, mejorando la eficiencia el uso del agua.
+
+- Centros de Investigación Agrícola: Recolección de datos en tiempo real, análisis de la composición del suelo, lo que permite realizar investigaciones mucho más precisas y eficientes.
+
+###### **Feature Assumptions:**
+
+- Monitoreo en tiempo real sobre la humedad del suelo, la temperatura, que permitan a los usuarios tomar decisiones.
+
+- Control remoto de riego, función que permitirá controlar el riego de los cultivos desde la aplicación.
+
+- Alertas personalizadas, los usuarios recibirán notificaciones cuando los sensores de humedad del suelo bajen de un umbral determinado.
+
+- Interfaz amigable, la aplicación será fácil de usar y accesible para los usuarios, mostrando información relevante de manera clara y concisa.
+
+###### **Business Assumptions:**
+
+1.  **Creemos que nuestros usuarios necesitan** un proceso de riego automatizado donde puedan controlar el riego de sus cultivos desde cualquier lugar y en tiempo real desde sus dispositivos móviles o computadoras.
+
+2. **Estas necesidades se pueden satisfacer** a través de una solución IoT y la creación de una aplicación web y móvil que permita a los usuarios controlar el riego de sus cultivos de manera remota.
+
+3. **Nuestros clientes serán** medianos agricultores y centros de investigación agrícola del Perú, que buscan mejorar la productividad de sus cultivos.
+
+4. **El valor más importante que un cliente quiere de nuestros servicios es**  la capacidad de poder controlar el sistema de riego para sus cultivos desde cualquier lugar, monitoreando el estado de sus plantíos, recolectando información sobre la composición del suelo y tomando decisiones en tiempo real, de esta manera mejorando la eficiencia el uso del agua.
+
+5. **El cliente también va obtener** otros beneficios adicionales como la toma de decisiones dentro de la aplicación, además de recibir notificaciones en tiempo real sobre el estado de sus cultivos.
+
+6. **Vamos a obtener la mayoría de nuestros clientes mediante** la promoción de la solución IoT en ferias agrícolas, eventos de agricultura y a través de la publicidad en redes sociales.
+
+7. **Vamos a obtener ingresos mediante** la venta de la propuesta IoT y la suscripción a la aplicación web y móvil.
+
+8. **Nuestra competencia principal** son las empresas que ofrecen soluciones de riego tecnificado en el mercado peruano.
+
+9. **Vamos a tener ventaja frente a nuestra competencia debido a** la usabilidad y accesibilidad de nuestra aplicación. Además del sistema de riego automatizado, nuestra aplicación permitirá a los usuarios monitorear el estado de sus cultivos y recibir notificaciones.
+
+10. **El mayor riesgo del servicio es** la falta de adopción de la solución por parte de los usuarios, debido a la falta de conocimiento sobre la tecnología y la falta de confianza en la solución.
+
+11. **Lo resolveremos mediante** el desarrollo de pruebas que serán realizadas por los usuarios y estableciendo una estrategia de marketing, como videos del funcionamiento correcto del servicio, permitiendo a los usuarios adoptar la confianza en la solución.
+
+###### **User Assumptions:**
+
+**¿Quién es el usuario?** <br>
+Los usuarios son medianos agricultores y Centros de Investigación Agrícola del Perú, especialmente el personal técnico y especialistas en agricultura. <br>
+
+**¿Qué problemas tiene nuestro producto? ¿Resolver?** <br>
+Gran parte del sector agrícola, no están familiarizados con la tecnología, lo que generaría dificultades al adaptarse a nuestra propuesta. Para resolver esto, nuestro producto debe ser altamente intuitivo y fácil de usar, implementar guías de paso a paso y tutoriales para los usuarios. <br>
+
+**¿Qué características son importantes?** <br>
+Las características que resaltan son el monitoreo en tiempo real sobre la humedad del suelo, el control de riego remoto, notificaciones de alerta, simplicidad en la interfaz, programar riegos automáticos. Del miismo modo se tiene pensado implementar datos históricos y ver estos datos en gráficos. <br>
+
+**¿Dónde encaja nuestro producto en su trabajo o vida?** <br>
+Nuestro producto encaja en la vida laboral de los agricultores y técnicos de los centros de investigación agrícola, automatizando procesos repetitivos y disminuyendo las visitas presenciales a los cultivos. <br>
+
+**¿Cuándo y cómo es nuestro producto? ¿Usado?** <br>
+Nuestro producto es usado a lo largo del día, principalmente en las horas de riego, dependiendo de los niveles de humedad, dado que en el amanecer y atardecer, la humedad es propensa a cambiar. <br>
+
+**¿Cómo debe verse nuestro productoo y cómo debe comportarse?** <br>
+La interfaz visusal debe ser intuitiva y amigable, mostrando información relevante de manera clara, con gráficos fáciles de entender. Debe comportarse de manera ágil, tiempos de respuesta rápidos y fluidos, esto implica que sea multiplataforma, es decir, que pueda ser accedido desde cualquier dispositivo. <br>
+
 
 #### 1.2.2.3. Lean UX Hyphotesis Statements
 
