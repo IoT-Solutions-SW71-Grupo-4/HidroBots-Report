@@ -453,7 +453,19 @@ A continuación, se presentan las hipótesis que se han planteado para la soluci
 
 #### 1.2.2.4. Lean UX Canvas
 
+<img src="./assets/lean_ux_canvas/Lean_UX_Canvas.png" alt="Lean UX Canvas"/>
+
 ## 1.3. Segmentos objetivo
+
+Un estudio reciente de la Encuesta Nacional Agropecuaria (ENA) 2016, ejecutada por el Instituto Nacional de Estadística e Informática (INEI), informó que del total de pequeños productores/as (45,3%) que aplicaron riego, el 17,1% utilizaron riego tecnificado incrementándose en 2,2 puntos porcentuales, respecto al año 2015. Por lo tanto, el problema principal que se presenta es la falta de acceso a tecnologías de riego tecnificado, lo cual limita la eficiencia en el uso del agua y la productividad de los cultivos.
+
+Nuestros principales segmentos objetivo son:
+
+- **Medianos agricultores:** <br>
+ Los medianos agricultores son un segmento clave para nuestra solución, ya que son los principales usuarios que se beneficiarán de la automatización de procesos de riego en sus cultivos. Este segmento se caracteriza por tener un tamaño de terreno mediano, con una producción agrícola considerable y una necesidad de mejorar la eficiencia en el uso del agua y la productividad de sus cultivos. <br>
+
+- **Centros de Investigación Agrícola:** <br>
+Los centros de investigación agrícola son otro segmento objetivo importante, ya que son los encargados de realizar investigaciones y estudios sobre la agricultura en el Perú. Estos centros necesitan herramientas tecnológicas que les permitan recolectar datos en tiempo real, analizar la composición del suelo y realizar investigaciones mucho más precisas y eficientes.
 
 # Capítulo II: Requirements Elicitation & Analysis
 
