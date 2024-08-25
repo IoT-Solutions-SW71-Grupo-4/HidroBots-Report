@@ -69,7 +69,7 @@
   - [1.2.2 Lean UX Process](#122-lean-ux-process)
     - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
     - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hyphotesis-statements)
+    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
     - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
 - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 
@@ -419,7 +419,37 @@ Nuestro producto es usado a lo largo del día, principalmente en las horas de ri
 La interfaz visusal debe ser intuitiva y amigable, mostrando información relevante de manera clara, con gráficos fáciles de entender. Debe comportarse de manera ágil, tiempos de respuesta rápidos y fluidos, esto implica que sea multiplataforma, es decir, que pueda ser accedido desde cualquier dispositivo. <br>
 
 
-#### 1.2.2.3. Lean UX Hyphotesis Statements
+#### 1.2.2.3. Lean UX Hypothesis Statements
+
+A continuación, se presentan las hipótesis que se han planteado para la solución a la problemática dentro de las funcionalidades que ofrece nuestra propuesta de solución IoT. Cada hipótesis será específica, medible, de tal manera que se pueda evaluar el éxito de manera objetiva.
+
+- **Hypothesis Statement 1:** <br>
+    **Creemos que** los medianos agricultores necesitan una funcionalidad que les permita monitorear en tiempo real para asegurarse del uso eficiente del agua y evitar desperdicios. <br>
+
+    **Sabremos** que hemos tenido éxito. <br>
+
+    **Cuando** el 80% de los usuarios informen una reducción en el tiempo dedicado al monitoreo manual y un 30% de aumento en la eficiencia del uso del agua. <br>
+
+- **Hypothesis Statement 2:** <br>
+    **Creemos que** los usuarios necesitan una funcionalidad que les permita controlar el riego de sus cultivos desde la aplicación y programar riegos automáticos. <br>
+
+    **Sabremos** que hemos tenido éxito. <br>
+
+    **Cuando** se haya logrado una reducción del 50% en las visitas presenciales necesarias para activar manualmente el riego y un 20% de aumento en la productividad de los cultivos. <br>
+
+- **Hypothesis Statement 3:** <br>
+    **Creemos que** los usuarios necesitan recibir alertas personalizadas cuando los niveles de humedad del suelo bajen de un umbral crítico para tomar decisiones rápidas y evitar daños en los cultivos. <br>
+
+    **Sabremos** que hemos tenido éxito. <br>
+
+    **Cuando** los usuarios logren reducir las incidencias de riego en un 45% gracias a la acción inmediata tras recibir alertas. <br>
+
+- **Hypothesis Statement 4:** <br>
+    **Creemos que** los usuarios necesitan una interfaz fácil de usar y accesible para poder visualizar la información importante sobre el estado de sus cultivos. <br>
+
+    **Sabremos** que hemos tenido éxito. <br>
+
+    **Cuando** el 80% de los usuarios completen tareas básicas en la aplicación sin necesidad de asistencia adicional. <br>
 
 #### 1.2.2.4. Lean UX Canvas
 
