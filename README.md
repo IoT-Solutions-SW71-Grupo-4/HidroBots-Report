@@ -337,6 +337,15 @@ Nuestra propuesta es la creación de una solucion IoT, la cual tiene como objeti
 
 #### 1.2.2.1. Lean UX Problem Statements
 
+**Problem Statement:** <br>
+
+En HidroBots, entendemos que en el Perú, una de las mayores fuentes de ingreso es la agricultura. Por ello, es bien sabido que para realizar producciones agrícolas de calidad implican muchos factores, la calidad de los suelos, la riqueza de los sustratos, presencia de minerales ricos en nutrientes y lo más importante, las aguas que estarán disponibles para hidratar los cultivos.<br>
+
+**Problema:** En la actualidad, algunos entienden que la tecnología y la agricultura no van de la mano, esto no es así. Muchos agricultores desconocen de la existencia de tecnologías que les permitan automatizar procesos, principalmente el riego de sus cultivos. Por ello, se ha identificado que la falta de acceso a tecnologías de riego tecnificado limita la eficiencia en el uso del agua y la productividad de los cultivos. <br>
+
+**Impacto:** Esta propuesta genera un impacto bastante positivo en el área de la agricultura, porque permitirá a los medianos agricultores y centros de investigación agrícola del Perú, tener acceso a una herramienta tecnológica que les permita automatizar procesos de riego en cultivos agrícolas, poder controlar el riego de sus cultivos desde cualquier lugar y en tiempo real desde sus dispositivos móviles o computadoras.<br>
+
+
 #### 1.2.2.2. Lean UX Assumptions
 
 #### 1.2.2.3. Lean UX Hyphotesis Statements
