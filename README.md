@@ -289,6 +289,39 @@
   </tr>
   </tr>
 
+<tr align="center">
+    <td rowspan="4">
+      <img src="./assets/profile_images/Leonardo_image.jpg" alt="Diego's profile image" min-width="400" max-width="900"/>
+    </td>
+    <td align="left">
+      <b>Nombre y Apellido:</b>
+      <br>            
+      Leonardo Paul López Huarcaya
+    </td>
+  </tr>
+  <tr>
+    <td align="left">
+    <b>Código:</b>
+    <br>
+    U202124304
+    </td>
+  </tr>
+  <tr>
+    <td align="left">
+    <b>Carrera:</b>
+    <br>
+    Ingeniería de Software
+    </td>
+  </tr>
+  <tr>
+    <td align="left">
+    <b>Acerca de:</b>
+    <br>
+    Soy Leonardo López, tengo 20 años y cuento con conocimiento de Angular, Sprint Boot, mysql y Flutter, herramientas necesarias para la creación de este proyecto. Finalmente, me considero una persona proactiva, autodidacta y con un buen trabajo en equipo.
+    </td>
+  </tr>
+  </tr>
+  
 </table>
 
 ## 1.2. Solution Profile
