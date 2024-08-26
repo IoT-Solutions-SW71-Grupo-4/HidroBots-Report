@@ -316,6 +316,12 @@ Se han establecido algunas preguntas dirigidas a nuestro grupo objetivo con el f
 
 ### 2.3.1. User Personas
 
+- User persona medianos agricultores
+
+![User Persona: Medianos Agricultores](assets/ss_entrevistas/segmento1_userpersona.png)
+
+
+
 ### 2.3.2. User Task Matrix
 
 ### 2.3.3. User Journey Mapping
