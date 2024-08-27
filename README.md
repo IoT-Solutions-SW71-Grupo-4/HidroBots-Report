@@ -321,7 +321,7 @@ Se han establecido algunas preguntas dirigidas a nuestro grupo objetivo con el f
 ![User Persona: Medianos Agricultores](assets/ss_entrevistas/segmento1_userpersona.png)
 
 
-**- Segmento 2: Centros de Investigación Agrícola**
+**Segmento 2: Centros de Investigación Agrícola**
 
 ![User Persona: Centros de Investigación Agrícola](assets/ss_entrevistas/segmento2_userpersona.png)
 
@@ -334,12 +334,18 @@ Se han establecido algunas preguntas dirigidas a nuestro grupo objetivo con el f
 **Segmento 1: Medianos agricultores**
 ![User Persona: EmpathyMapping](assets/EmpathyMapping/Segment1.png)
 
-**- Segmento 2: Centros de Investigación Agrícola**
+**Segmento 2: Centros de Investigación Agrícola**
 
 ![User Persona: EmpathyMapping](assets/EmpathyMapping/Segment2.png)
 
 ### 2.3.5. As-Is Scenario Mapping
 
+**Segmento 1: Medianos agricultores**
+![User Persona: EmpathyMapping](assets/As-Is_Scenario_Mapping/segment1.jpg)
+
+**Segmento 2: Centros de Investigación Agrícola**
+
+![User Persona: EmpathyMapping](assets/As-Is_Scenario_Mapping/segment2.jpg)
 
 ## 2.4. Ubiquitous Language
 
