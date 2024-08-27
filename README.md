@@ -350,7 +350,15 @@ Se han establecido algunas preguntas dirigidas a nuestro grupo objetivo con el f
 | **Timming** |  |
 
 
-
+| **Entrevista 2** | **Martin Cifuentes** |
+| --- | --- |
+| **Edad** | 20 |
+| **Ocupación** | Practicante de ingenieria agricola |
+| **Distrito** | Ica |
+| **Fecha** | 25-08-2024 |
+| <img src="assets/ss_entrevistas/Segmento1_entrevista2.png"/> | La entrevista fue realizada a Martin, un asistente de un empresario agricola años dedicado al cultivo de tuberculos la región de Ica. Él trabaja en una empresa que siembra y comercializa tuberculos dirigiendo su produccion hacia grandes comerciantes del mercado nacional. Para lograr esto, se hace uso de una siembra manual y gracias a la experiencia en la prediccion del clima manejan su negocio basándose en guias de mantenimiento y la experiencia pura de sus empleados. Se esta viendo el como implementar un sistema de riego en sus tierras para mejorar la calidad y rentabildiad de sus productos. Aunque no ha trabajado con tecnología de sensores para el riego automatizado, ha sabido manejar de una manera optima el bienestar de sus cultivos. |
+| **URL de la grabación** |  |
+| **Timming** |  |
 
 
 - Entrevistas realizadas a Centros de investigación agrícola (Segmento 2):
