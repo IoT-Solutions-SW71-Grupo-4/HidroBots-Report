@@ -373,6 +373,15 @@ Se han establecido algunas preguntas dirigidas a nuestro grupo objetivo con el f
 | **URL de la grabación** | [upc-pre-202402-si572-SW71-HidroBots-needfinding-sprint-1](Link de la entrevista) |
 | **Timming** | Timming |
 
+| **Entrevista 5** | **Diego Miguel Ramirez Ortega** |
+| --- | --- |
+| **Edad** | 25 |
+| **Ocupación** | Practicante de Agronomía|
+| **Distrito** | Ica |
+| **Fecha** | 26-08-2024 |
+| <img src="assets/ss_entrevistas/segmento2_entrevista2.png"/> | El practicante Diego Ramirez nos cuenta su experiencia desde que trabajo en la producción de uva en una empresa de exportación de esta misma. Nos cuenta los métodos que usa y cuales fueron sus principales problematicas que le impulsaron para implementarlas en el trabajo. Igualmente los beneficios que les trajo esta y la importancia que tiene la tecnologia en este sector. En su experiencia afirma que el regado por goteo y el sensor de tierra que utilizan, para identificar la fertilidad de sus tierras antes de realizar una siembra, tubo un resultado positivo en sus ganancias y cantidad de producción en los mese que estos se realizaban. |
+| **URL de la grabación** | [upc-pre-202402-si572-SW71-HidroBots-needfinding-sprint-1](Link de la entrevista) |
+| **Timming** | Timming |
 
 ### 2.2.3. Análisis de entrevistas
 
