@@ -400,25 +400,37 @@ Se han establecido algunas preguntas dirigidas a nuestro grupo objetivo con el f
 
 ### 2.3.2. User Task Matrix
 
+
+
 ### 2.3.3. User Journey Mapping
+
+**Segmento 1: Medianos agricultores**
+
+![User Journey Mapping: Medianos Agricultores](assets/Journey_Map/segment1.png)
+
+
+**Segmento 2: Centros de Investigación Agrícola**
+
+![User Journey Mapping: Centros de Investigación Agrícola](assets/Journey_Map/segment2.png)
+
 
 ### 2.3.4. Empathy Mapping
 
 **Segmento 1: Medianos agricultores**
-![User Persona: EmpathyMapping](assets/EmpathyMapping/Segment1.png)
+![Empathy Mapping: Medianos Agricultores](assets/EmpathyMapping/Segment1.png)
 
 **Segmento 2: Centros de Investigación Agrícola**
 
-![User Persona: EmpathyMapping](assets/EmpathyMapping/Segment2.png)
+![Empathy Mapping: Centros de Investigación Agrícola](assets/EmpathyMapping/Segment2.png)
 
 ### 2.3.5. As-Is Scenario Mapping
 
 **Segmento 1: Medianos agricultores**
-![User Persona: EmpathyMapping](assets/As-Is_Scenario_Mapping/segment1.jpg)
+![As-Is Scenario Mapping: Medianos agricultores](assets/As-Is_Scenario_Mapping/segment1.jpg)
 
 **Segmento 2: Centros de Investigación Agrícola**
 
-![User Persona: EmpathyMapping](assets/As-Is_Scenario_Mapping/segment2.jpg)
+![As-Is Scenario Mapping: Centros de Investigación Agrícola](assets/As-Is_Scenario_Mapping/segment2.jpg)
 
 ## 2.4. Ubiquitous Language
 
