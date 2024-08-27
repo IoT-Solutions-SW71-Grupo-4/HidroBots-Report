@@ -400,6 +400,93 @@ Se han establecido algunas preguntas dirigidas a nuestro grupo objetivo con el f
 
 ### 2.3.2. User Task Matrix
 
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">Tareas</th>
+      <th colspan="2">Medianos Agricultores</th>
+      <th colspan="2">Centro de Investigaciones Agrícolas</th>
+    </tr>
+    <tr>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+      <th>Frecuencia</th>
+      <th>Importancia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Supervisar el riego</td>
+      <td>Diario</td>
+      <td>Alta</td>
+      <td>Semanal</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Monitorear la calidad del suelo</td>
+      <td>Semanal</td>
+      <td>Alta</td>
+      <td>Diario</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Consultar datos históricos</td>
+      <td>Mensual</td>
+      <td>Media</td>
+      <td>Trimestral</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td>Optimizar el uso del agua</td>
+      <td>Semanal</td>
+      <td>Alta</td>
+      <td>Mensual</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Planificar cultivos futuros</td>
+      <td>Quincenal</td>
+      <td>Alta</td>
+      <td>Mensual</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Gestionar recursos genéticos</td>
+      <td>Mensual</td>
+      <td>Media</td>
+      <td>Trimestral</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Adoptar nuevas tecnologías</td>
+      <td>Mensual</td>
+      <td>Alta</td>
+      <td>Mensual</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Reportar problemas de plagas</td>
+      <td>Quincenal</td>
+      <td>Media</td>
+      <td>Quincenal</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td>Mejorar la gestión del suelo</td>
+      <td>Semanal</td>
+      <td>Alta</td>
+      <td>Mensual</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Realizar análisis de suelo</td>
+      <td>Trimestral</td>
+      <td>Alta</td>
+      <td>Trimestral</td>
+      <td>Alta</td>
+    </tr>
+  </tbody>
+</table>
 
 
 ### 2.3.3. User Journey Mapping
