@@ -389,6 +389,8 @@ Se han establecido algunas preguntas dirigidas a nuestro grupo objetivo con el f
 
 ### 2.3.1. User Personas
 
+<p  style="text-align: justify;">Se presentan los perfiles de los medianos agricultores y centros de investigación agrícola que utilizarán nuestra solución. Estos perfiles son cruciales para entender sus necesidades específicas y diseñar una herramienta que mejore su gestión de riego. </p>
+
 **Segmento 1: Medianos agricultores**
 
 ![User Persona: Medianos Agricultores](assets/ss_entrevistas/segmento1_userpersona.png)
@@ -400,96 +402,102 @@ Se han establecido algunas preguntas dirigidas a nuestro grupo objetivo con el f
 
 ### 2.3.2. User Task Matrix
 
+<p  style="text-align: justify;">Se detallan las tareas principales de los medianos agricultores y los centros de investigación agrícola, así como su frecuencia e importancia. </p>
+
 <table>
   <thead>
     <tr>
       <th rowspan="2">Tareas</th>
-      <th colspan="2">Medianos Agricultores</th>
-      <th colspan="2">Centro de Investigaciones Agrícolas</th>
+      <td colspan="2">Medianos Agricultores</td>
+      <td colspan="2">Centros de Investigación Agrícola</td>
     </tr>
     <tr>
-      <th>Frecuencia</th>
-      <th>Importancia</th>
-      <th>Frecuencia</th>
-      <th>Importancia</th>
+      <th>Frequency</th>
+      <th>Importance</th>
+      <th>Frequency</th>
+      <th>Importance</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Supervisar el riego</td>
-      <td>Diario</td>
-      <td>Alta</td>
-      <td>Semanal</td>
-      <td>Alta</td>
+      <td>Daily</td>
+      <td>High</td>
+      <td>Weekly</td>
+      <td>High</td>
     </tr>
     <tr>
       <td>Monitorear la calidad del suelo</td>
-      <td>Semanal</td>
-      <td>Alta</td>
-      <td>Diario</td>
-      <td>Alta</td>
+      <td>Weekly</td>
+      <td>High</td>
+      <td>Daily</td>
+      <td>High</td>
     </tr>
     <tr>
       <td>Consultar datos históricos</td>
-      <td>Mensual</td>
-      <td>Media</td>
-      <td>Trimestral</td>
-      <td>Media</td>
+      <td>Monthly</td>
+      <td>Medium</td>
+      <td>Quarterly</td>
+      <td>Medium</td>
     </tr>
     <tr>
       <td>Optimizar el uso del agua</td>
-      <td>Semanal</td>
-      <td>Alta</td>
-      <td>Mensual</td>
-      <td>Alta</td>
+      <td>Weekly</td>
+      <td>High</td>
+      <td>Monthly</td>
+      <td>High</td>
     </tr>
     <tr>
       <td>Planificar cultivos futuros</td>
-      <td>Quincenal</td>
-      <td>Alta</td>
-      <td>Mensual</td>
-      <td>Alta</td>
+      <td>Biweekly</td>
+      <td>High</td>
+      <td>Monthly</td>
+      <td>High</td>
     </tr>
     <tr>
       <td>Gestionar recursos genéticos</td>
-      <td>Mensual</td>
-      <td>Media</td>
-      <td>Trimestral</td>
-      <td>Alta</td>
+      <td>Monthly</td>
+      <td>Medium</td>
+      <td>Quarterly</td>
+      <td>High</td>
     </tr>
     <tr>
       <td>Adoptar nuevas tecnologías</td>
-      <td>Mensual</td>
-      <td>Alta</td>
-      <td>Mensual</td>
-      <td>Alta</td>
+      <td>Monthly</td>
+      <td>High</td>
+      <td>Monthly</td>
+      <td>High</td>
     </tr>
     <tr>
       <td>Reportar problemas de plagas</td>
-      <td>Quincenal</td>
-      <td>Media</td>
-      <td>Quincenal</td>
-      <td>Media</td>
+      <td>Biweekly</td>
+      <td>Medium</td>
+      <td>Biweekly</td>
+      <td>Medium</td>
     </tr>
     <tr>
       <td>Mejorar la gestión del suelo</td>
-      <td>Semanal</td>
-      <td>Alta</td>
-      <td>Mensual</td>
-      <td>Alta</td>
+      <td>Weekly</td>
+      <td>High</td>
+      <td>Monthly</td>
+      <td>High</td>
     </tr>
     <tr>
       <td>Realizar análisis de suelo</td>
-      <td>Trimestral</td>
-      <td>Alta</td>
-      <td>Trimestral</td>
-      <td>Alta</td>
+      <td>Quarterly</td>
+      <td>High</td>
+      <td>Quarterly</td>
+      <td>High</td>
     </tr>
   </tbody>
 </table>
 
+ <p  style="text-align: justify;">La frecuencia de las tareas agrícolas en Perú varía según el cultivo. Los medianos agricultores deben supervisar el riego y optimizar el uso del agua semanalmente para cultivos con alta demanda hídrica, mientras que monitorean la calidad del suelo regularmente. Los centros de investigación agrícola, en cambio, se concentran en la monitorización diaria del suelo para cultivos que requieren ajustes precisos, y realizan planificación y adopción de nuevas tecnologías con menos frecuencia para mejorar continuamente la producción. </p>
+
 
 ### 2.3.3. User Journey Mapping
+
+ <p  style="text-align: justify;">Este gráfico muestra cómo los usuarios interactúan con nuestra solución a lo largo del tiempo, destacando sus experiencias clave y áreas de mejora. Este enfoque garantiza que la solución se alinee con sus flujos de trabajo y satisfaga sus necesidades de manera efectiva. </p>
 
 **Segmento 1: Medianos agricultores**
 
@@ -503,7 +511,10 @@ Se han establecido algunas preguntas dirigidas a nuestro grupo objetivo con el f
 
 ### 2.3.4. Empathy Mapping
 
+ <p  style="text-align: justify;">Mediante este gráfico se refleja las percepciones y sentimientos de los usuarios al interactuar con nuestro aplicativo. Este análisis nos permite entender mejor sus experiencias y desafíos, lo que nos ayuda a diseñar una solución más adecuada y centrada en sus necesidades. </p>
+
 **Segmento 1: Medianos agricultores**
+
 ![Empathy Mapping: Medianos Agricultores](assets/EmpathyMapping/Segment1.png)
 
 **Segmento 2: Centros de Investigación Agrícola**
@@ -512,7 +523,10 @@ Se han establecido algunas preguntas dirigidas a nuestro grupo objetivo con el f
 
 ### 2.3.5. As-Is Scenario Mapping
 
+ <p  style="text-align: justify;">Se describen los procesos actuales de los usuarios antes de la implementación de nuestra solución. Esto nos permite identificar ineficiencias y oportunidades para mejorar la gestión del riego y la productividad agrícola con nuestra tecnología. </p>
+
 **Segmento 1: Medianos agricultores**
+
 ![As-Is Scenario Mapping: Medianos agricultores](assets/As-Is_Scenario_Mapping/segment1.jpg)
 
 **Segmento 2: Centros de Investigación Agrícola**
