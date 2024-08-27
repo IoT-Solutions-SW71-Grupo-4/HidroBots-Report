@@ -206,6 +206,8 @@
 
 ## 1.3. Segmentos objetivo
 
+<div align="justify">
+
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
@@ -534,6 +536,36 @@ Se han establecido algunas preguntas dirigidas a nuestro grupo objetivo con el f
 ![As-Is Scenario Mapping: Centros de Investigación Agrícola](assets/As-Is_Scenario_Mapping/segment2.jpg)
 
 ## 2.4. Ubiquitous Language
+
+En esta sección, se definen términos clave para el dominio del negocio, basándose en el enfoque de Ubiquitous Language propuesto por Eric Evans en Domain-Driven Design. Estas definiciones buscan asegurar una comunicación clara y efectiva entre los miembros del equipo, alineando el vocabulario técnico con las necesidades del proyecto.
+
++ **Soil Analysis (Análisis del Suelo):** El análisis del suelo implica la recolección y evaluación de muestras de suelo para determinar su composición química y física. Este proceso incluye la medición de niveles de pH, nutrientes esenciales (como nitrógeno, fósforo y potasio), contenido de materia orgánica y estructura del suelo. Los resultados del análisis permiten a los agricultores ajustar la fertilización y las prácticas de cultivo, mejorando así la salud y el rendimiento de los cultivos.
+</br>
+
++ **Fertilizer Application (Aplicación de Fertilizantes):** La aplicación de fertilizantes es el proceso de añadir nutrientes al suelo para mejorar su fertilidad y proporcionar a las plantas los elementos esenciales necesarios para su crecimiento y desarrollo. Esto puede hacerse mediante la aplicación directa al suelo, fertirrigación (mezclando fertilizantes con el agua de riego) o mediante aplicaciones foliares (aplicando fertilizantes directamente sobre las hojas). La aplicación de fertilizantes debe ser gestionada cuidadosamente para evitar el exceso y para asegurar que las plantas reciban los nutrientes en las proporciones correctas.
+</br>
+
+
++ **Irrigation System (Sistema de Riego):** Un sistema de riego es una infraestructura diseñada para suministrar agua a los cultivos de manera eficiente. Puede incluir una variedad de componentes como tuberías, bombas, aspersores, goteo y sistemas de mangueras. Los sistemas de riego pueden ser de diferentes tipos, como riego por goteo, riego por aspersión, riego por gravedad, entre otros. La elección del sistema depende de factores como el tipo de cultivo, las condiciones del suelo, la disponibilidad de agua y el clima. La gestión adecuada del sistema de riego es crucial para asegurar un suministro adecuado de agua, minimizando el desperdicio y optimizando el uso de recursos.
+</br>
+
++ **Climate Monitoring (Monitoreo Climático):** El monitoreo climático implica la observación y registro continuo de variables climáticas relevantes, como temperatura, humedad, precipitaciones, velocidad del viento y radiación solar. Esto se realiza mediante sensores y estaciones meteorológicas instaladas en el campo. La información recolectada permite a los agricultores tomar decisiones informadas sobre el manejo de los cultivos, como ajustar el riego en función de las condiciones climáticas actuales, prever posibles eventos climáticos adversos y planificar actividades agrícolas. También es esencial para realizar análisis de tendencias climáticas y adaptar las prácticas agrícolas a cambios estacionales y extremos.
+</br>
+
++ **User Notifications (Notificaciones al Usuario):** Las notificaciones al usuario son mensajes enviados a través de la aplicación para informar a los usuarios sobre eventos importantes o acciones requeridas. Estas notificaciones pueden incluir alertas sobre el estado del sistema de riego, recordatorios para la aplicación de fertilizantes, actualizaciones sobre las condiciones climáticas, y advertencias sobre posibles problemas detectados por los sensores (como niveles bajos de humedad o deficiencias de nutrientes). Las notificaciones pueden ser enviadas por diferentes medios, como mensajes push en la aplicación móvil, correos electrónicos o mensajes de texto, y están diseñadas para mejorar la comunicación con el usuario y facilitar una respuesta rápida a situaciones que afectan el manejo de los cultivos.
+</br>
+
+
++ **Sensor Data (Datos de Sensores):** Los datos de sensores son la información recolectada por dispositivos instalados en el campo que miden variables específicas relacionadas con el crecimiento de los cultivos y las condiciones del entorno. Estos datos pueden incluir niveles de humedad del suelo, temperatura del aire, niveles de nutrientes, y otros parámetros relevantes. Los sensores transmiten estos datos a la aplicación para su análisis y procesamiento. La información obtenida permite a los agricultores monitorear el estado de sus cultivos en tiempo real, hacer ajustes necesarios en el riego y la fertilización, y tomar decisiones basadas en datos precisos y actualizados.
+</br>
+
++ **Field Conditions (Condiciones del Terreno):** Las condiciones del terreno se refieren a las características físicas y ambientales del área donde se cultivan las plantas. Esto incluye aspectos como la textura del suelo (arenoso, arcilloso, limoso), la topografía (pendiente, planicie), la presencia de obstáculos (rocas, estructuras) y el estado general del suelo (compactado, suelto). Las condiciones del terreno pueden influir en la capacidad del suelo para retener agua, la facilidad de trabajo del suelo y la disposición de los cultivos. Evaluar las condiciones del terreno es crucial para planificar la siembra, el riego y otras prácticas agrícolas de manera efectiva.
+</br>
+
++ **Historical Data (Datos Históricos):** Los datos históricos son registros de eventos y condiciones pasadas que han sido recopilados a lo largo del tiempo. Esto puede incluir datos sobre análisis de suelo anteriores, registros de riego y fertilización, información climática histórica y rendimiento de cultivos. Los datos históricos permiten a los agricultores analizar tendencias y patrones a lo largo de varias temporadas, identificar cambios en el rendimiento de los cultivos y ajustar las prácticas agrícolas basadas en experiencias pasadas. También es útil para prever el impacto de condiciones futuras y mejorar la toma de decisiones a largo plazo.
+
+</div>
+
 
 # Capítulo III: Requirements Specification
 
