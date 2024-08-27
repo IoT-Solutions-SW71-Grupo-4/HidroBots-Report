@@ -316,11 +316,14 @@ Se han establecido algunas preguntas dirigidas a nuestro grupo objetivo con el f
 
 ### 2.3.1. User Personas
 
-- User persona medianos agricultores
+**Segmento 1: Medianos agricultores**
 
 ![User Persona: Medianos Agricultores](assets/ss_entrevistas/segmento1_userpersona.png)
 
 
+**- Segmento 2: Centros de Investigación Agrícola**
+
+![User Persona: Medianos Agricultores](assets/ss_entrevistas/segmento2_userpersona.png)
 
 ### 2.3.2. User Task Matrix
 
