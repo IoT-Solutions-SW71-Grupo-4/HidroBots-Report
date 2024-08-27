@@ -323,13 +323,18 @@ Se han establecido algunas preguntas dirigidas a nuestro grupo objetivo con el f
 
 **- Segmento 2: Centros de Investigación Agrícola**
 
-![User Persona: Medianos Agricultores](assets/ss_entrevistas/segmento2_userpersona.png)
+![User Persona: Centros de Investigación Agrícola](assets/ss_entrevistas/segmento2_userpersona.png)
 
 ### 2.3.2. User Task Matrix
 
 ### 2.3.3. User Journey Mapping
 
 ### 2.3.4. Empathy Mapping
+
+**Segmento 1: Medianos agricultores**
+![User Persona: Medianos Agricultores](assets/EmpathyMapping/segment1.png)
+
+**- Segmento 2: Centros de Investigación Agrícola**
 
 ### 2.3.5. As-Is Scenario Mapping
 
