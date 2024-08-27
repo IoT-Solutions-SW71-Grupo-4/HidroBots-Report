@@ -332,11 +332,14 @@ Se han establecido algunas preguntas dirigidas a nuestro grupo objetivo con el f
 ### 2.3.4. Empathy Mapping
 
 **Segmento 1: Medianos agricultores**
-![User Persona: Medianos Agricultores](assets/EmpathyMapping/segment1.png)
+![User Persona: EmpathyMapping](assets/EmpathyMapping/Segment1.png)
 
 **- Segmento 2: Centros de Investigación Agrícola**
 
+![User Persona: EmpathyMapping](assets/EmpathyMapping/Segment2.png)
+
 ### 2.3.5. As-Is Scenario Mapping
+
 
 ## 2.4. Ubiquitous Language
 
