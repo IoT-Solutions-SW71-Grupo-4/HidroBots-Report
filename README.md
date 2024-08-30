@@ -424,6 +424,38 @@ Se han establecido algunas preguntas dirigidas a nuestro grupo objetivo con el f
 
 ### 2.2.3. Análisis de entrevistas
 
+En base a las entrevistas realizadas, se ha realizado un profundo análisis por cada segmento objetivo.
+
+**Segmento 1: Medianos agricultores**
+
+Este segmento está compuesto por personas que gestionan cultivos de tamaño considerable y están involucradas activamente en la toma de decisiones diarias, especialmente en lo que respecta a la producción y calidad de sus productos. El interés en la tecnología de riego y el monitoreo del suelo varía según el nivel de experiencia y conocimiento técnico.
+
+- El 67% de los entrevistados se dedica al cultivo de tubérculos y cítricos (ej. papas, maíz, cítricos), mientras que el 33% apoya a familiares en cultivos variados (maíz, papa, legumbres).
+
+- El 33% de los entrevistados ya ha trabajado con tecnología de sensores para el riego automatizado, aunque ha enfrentado problemas con la señal en áreas remotas. El 67% restante realiza el riego de forma manual o está considerando la automatización.
+
+- El 67% de los agricultores realiza análisis del suelo, como pruebas psicoquímicas o análisis de calidad del suelo, antes de aplicar fertilizantes o comenzar la siembra.
+
+- El 67% mencionó problemas relacionados con fenómenos climáticos como El Niño o el cambio climático, que afectaron la calidad del suelo, disponibilidad de agua y productividad general.
+
+- El 100% de los entrevistados mostró interés en automatizar procesos como el riego, especialmente para mitigar el impacto de los cambios climáticos y mejorar la eficiencia del trabajo diario. Además, el 33% destacó la importancia de evaluar el costo-beneficio de implementar nuevas tecnologías, considerando tanto los beneficios de productividad como los posibles costos iniciales.
+
+**Segmento 2: Centros de Investigación Agrícola**
+
+Este segmento está compuesto por investigadores, estudiantes y profesionales del sector agrónomo que buscan optimizar y mejorar procesos agrícolas mediante la experimentación y el uso de tecnologías innovadoras. Están altamente enfocados en la precisión y la recolección de datos.
+
+- El 100% de los entrevistados utiliza métodos manuales para el riego y la recolección de datos, lo que incluye hojas de cálculo y fotos para el monitoreo de parámetros agrícolas. Además, el 67% mencionó que este método les ha causado errores y pérdida de tiempo.
+
+- El 100% manifestó la necesidad de obtener mediciones precisas sobre las condiciones del suelo (pH, nutrientes, etc.) y la humedad, así como la automatización de estos procesos.
+
+- El 67% mencionó la importancia de que las herramientas sean "amigables" y accesibles, especialmente para estudiantes o investigadores con conocimientos limitados en tecnología.
+
+- En cuanto a las recomendaciones, el 33% destacó la necesidad de adaptar las soluciones tecnológicas a cultivos específicos, como el cacao, así como el 33% sugirió funcionalidades adicionales como análisis de datos de la raíz de la planta para mejorar aún más la gestión de nutrientes.
+
+**Conclusión del análisis**
+
+Se concluye que ambos segmentos muestran interés en la automatización y optimización del riego y el control de las condiciones del suelo, aunque por diferentes razones: los agricultores buscan mejorar la productividad y reducir costos, mientras que los investigadores priorizan la precisión y la facilidad de uso en sus estudios. Los arquetipos deben reflejar estas diferencias clave en objetivos, habilidades tecnológicas y necesidades específicas para desarrollar soluciones efectivas y orientadas al usuario.
+
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
