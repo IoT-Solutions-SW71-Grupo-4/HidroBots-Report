@@ -236,15 +236,29 @@
 
 ## 2.4. Ubiquitous Language
 
+<div align="justify">
+
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
+
+En esta sección, exploraremos el estado futuro previsto del sistema mediante el mapeo de los escenarios deseados. Estos escenarios capturarán el comportamiento esperado y las interacciones de los componentes del sistema. Al definir los escenarios futuros, podemos identificar los cambios y mejoras necesarios para lograr el resultado deseado.
+
+**Segmento 1: Medianos agricultores**
+
+![Empathy Mapping: Medianos Agricultores](assets/To-Be_Mapping/segment1.jpg)
+
+**Segmento 2: Centros de Investigación Agrícola**
+
+![Empathy Mapping: Centros de Investigación Agrícola](assets/To-Be_Mapping/segment2.jpg)
 
 ## 3.2. User Stories
 
 ## 3.3. Impact mapping
 
 ## 3.4. Product Backlog
+
+</div>
 
 # Capítulo IV: Solution Software Design
 
