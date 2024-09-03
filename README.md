@@ -242,7 +242,7 @@
 
 ## 3.1. To-Be Scenario Mapping
 
-En esta sección, exploraremos el estado futuro previsto del sistema mediante el mapeo de los escenarios deseados. Estos escenarios capturarán el comportamiento esperado y las interacciones de los componentes del sistema. Al definir los escenarios futuros, podemos identificar los cambios y mejoras necesarios para lograr el resultado deseado.
+En esta sección, se visualiza el rendimiento esperado del sistema propuesto después de su implementación. Se describirán los flujos de trabajo, las interacciones y las mejoras respecto al estado actual, destacando cómo la solución propuesta resolverá problemas y optimizará los procesos existentes.
 
 **Segmento 1: Medianos agricultores**
 
@@ -255,6 +255,16 @@ En esta sección, exploraremos el estado futuro previsto del sistema mediante el
 ## 3.2. User Stories
 
 ## 3.3. Impact mapping
+
+En esta sección, se evidencia cómo el sistema se alinea perfectamente con los objetivos estratégicos del proyecto. Asimismo, se muestra cómo cada función del sistema contribuirá a lograr los resultados esperados.
+
+**Segmento 1: Medianos agricultores**
+
+![Impact Mapping: Medianos Agricultores](assets/Impact_Mapping/segment1.png)
+
+**Segmento 2: Centros de Investigación Agrícola**
+
+![Impact Mapping: Centros de Investigación Agrícola](assets/Impact_Mapping/segment2.png)
 
 ## 3.4. Product Backlog
 
