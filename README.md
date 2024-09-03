@@ -254,6 +254,8 @@ En esta sección, se visualiza el rendimiento esperado del sistema propuesto des
 
 ## 3.2. User Stories
 
+Aquí presentamos las User Stories que capturan las necesidades de los usuarios finales. Estas historias ayudan a definir y priorizar las funcionalidades clave para asegurar que la aplicación cumpla con las expectativas del usuario.
+
 ## 3.3. Impact mapping
 
 En esta sección, se evidencia cómo el sistema se alinea perfectamente con los objetivos estratégicos del proyecto. Asimismo, se muestra cómo cada función del sistema contribuirá a lograr los resultados esperados.
@@ -267,6 +269,192 @@ En esta sección, se evidencia cómo el sistema se alinea perfectamente con los 
 ![Impact Mapping: Centros de Investigación Agrícola](assets/Impact_Mapping/segment2.png)
 
 ## 3.4. Product Backlog
+
+En esta sección, listamos y priorizamos todas las tareas y funcionalidades necesarias para el desarrollo de la aplicación. El backlog guiará el desarrollo del proyecto y garantizará que se aborden todas las necesidades del usuario de manera eficiente.
+
+<table>
+  <thead>
+    <tr>
+      <th>Número de Orden</th>
+      <th>User Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Story Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>HU-12</td>
+      <td>Reconocer las ventajas de HidroBots a través del landing page</td>
+      <td>Como visitante del landing page quiero conocer las ventajas de la plataforma para saber si se ajusta a lo que necesito.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>HU-13</td>
+      <td>Redirección a la aplicación</td>
+      <td>Como visitante de la landing page, quiero acceder a la aplicación para comenzar a usarla</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>HU-06</td>
+      <td>Programación de riego automático</td>
+      <td>Como usuario, quiero configurar un sistema de riego automático, para que mis plantas reciban agua sin necesidad de intervención manual.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>HU-07</td>
+      <td>Control manual del riego</td>
+      <td>Como usuario, quiero activar y desactivar el riego manual desde la aplicación, para tener un control más preciso sobre el riego en situaciones específicas.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>TS-02</td>
+      <td>Registrar riegos</td>
+      <td>Como desarrollador, quiero contar con un endpoint para registrar los riegos que efectúa el dispositivo</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>HU-08</td>
+      <td>Registrar evento de riego</td>
+      <td>Como usuario, quiero que cada riego sea guardado en el sistema para poder ser accedido en un futuro</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>HU-10</td>
+      <td>Acceder el registro de riego</td>
+      <td>Como usuario, quiero tener un registro de los riegos que se han efectuado, para acceder desde la aplicación.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>HU-05</td>
+      <td>Aplicación de fertilizantes</td>
+      <td>Como agricultor, quiero que el sistema de fertilización aplique la cantidad adecuada de fertilizantes, para optimizar el uso de insumos.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>HU-04</td>
+      <td>Notificaciones de Análisis del suelo</td>
+      <td>Como agricultor, quiero recibir notificaciones sobre los resultados del análisis del suelo, para estar al tanto de las condiciones actuales del terreno.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>HU-09</td>
+      <td>Notificaciones de riego</td>
+      <td>Como usuario, quiero recibir notificaciones cuando mis cultivos hayan sido regados, para tener información a detalle</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>HU-18</td>
+      <td>Ver Historial Climático</td>
+      <td>Como agricultor, quiero ver el historial de las condiciones climáticas para entender mejor cómo afecta a mis cultivos.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>HU-11</td>
+      <td>Monitoreo en tiempo real de las plantas</td>
+      <td>Como usuario, quiero monitorear en tiempo real diferentes factores externos a mis plantas, para reconocer sus necesidades</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>TS-03</td>
+      <td>Registrar datos meteorológicos</td>
+      <td>Como desarrollador, quiero contar con un endpoint para registrar los datos meteorológicos que registra el dispositivo</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>HU-01</td>
+      <td>Visualizar nutrientes del suelo</td>
+      <td>Como agricultor, quiero obtener información sobre los niveles de nutrientes del suelo para ajustar el uso de fertilizantes.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>HU-03</td>
+      <td>Programación de Análisis del suelo</td>
+      <td>Como agricultor, quiero programar análisis de suelo mediante la aplicación, para monitorear la salud del terreno.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>TS-01</td>
+      <td>Registrar datos sobre los nutrientes del suelo</td>
+      <td>Como desarrollador, quiero contar con un endpoint para registrar los datos sobre los nutrientes del suelo</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>HU-02</td>
+      <td>Historial de nutrientes del suelo</td>
+      <td>Como agricultor, quiero obtener el historial de los niveles de nutrientes del suelo para comparar cambios a lo largo del tiempo.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>HU-14</td>
+      <td>Registrar cuenta</td>
+      <td>Como usuario quiero crear una cuenta para poder acceder a la aplicación.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>HU-15</td>
+      <td>Iniciar sesión</td>
+      <td>Como usuario quiero ingresar a mi cuenta para utilizar la aplicación</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>TS-06</td>
+      <td>Sistema de Autenticación y Registro</td>
+      <td>Como desarrollador, quiero implementar un sistema de autenticación y registro.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>TS-04</td>
+      <td>Diseñar la interfaz de Usuario</td>
+      <td>Como desarrollador, quiero diseñar una interfaz de usuario atractiva y fácil de usar para una experiencia agradable.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>HU-16</td>
+      <td>Cerrar sesión</td>
+      <td>Como usuario quiero cerrar mi sesión para mantener mis datos seguros.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>HU-19</td>
+      <td>Compartir Datos con la Cooperativa</td>
+      <td>Como agricultor, quiero compartir mis datos de riego y análisis de suelo con mi cooperativa para recibir recomendaciones.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>TS-05</td>
+      <td>Optimizar el Rendimiento de la Aplicación</td>
+      <td>Como desarrollador, quiero optimizar el rendimiento de la aplicación para una experiencia rápida y fluida.</td>
+      <td>8</td>
+    </tr>
+  </tbody>
+</table>
+
+
 
 </div>
 
