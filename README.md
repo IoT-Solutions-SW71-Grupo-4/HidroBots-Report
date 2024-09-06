@@ -425,7 +425,7 @@ En esta sección, se analizan las relaciones entre los bounded contexts identifi
 - El contexto "Notifications" utiliza un ACL para interactuar con "Crop". Esto asegura que cualquier cambio en el modelo de dominio de "Crop" no afecte directamente al modelo de "Notifications", manteniendo una separación clara entre los dos contextos.
 
 <p align="center">
-  <img src="assets/context_mapping/image.png" alt="Context Mapping">
+  <img src="assets/diagrams/context_mapping.png" alt="Context Mapping">
 
 </p>
 
@@ -450,6 +450,18 @@ Los Software Architecture Deployment Diagrams son representaciones visuales que 
  <img src="./assets/diagrams/hidrobots-deploy-diagram.png" alt="hidrobots deploy diagram">
    
 ## 4.2. Tactical-Level Domain-Driven Design
+
+### [4.2.1. Bounded Context: Security]()
+
+### [4.2.2. Bounded Context: Reading]()
+
+### [4.2.3. Bounded Context: Notification]()
+
+### [4.2.4. Bounded Context: Crop]()
+
+### [4.2.5. Bounded Context: Reporting](https://github.com/IoT-Solutions-SW71-Grupo-4/HidroBots-Report/blob/feature/chapter-4/assets/Bounded_Context/reporting/Reporting.md)
+
+
 
 ### 4.2.X. Bounded Context:
 
