@@ -246,6 +246,8 @@
 
 ## 3.4. Product Backlog
 
+
+<div align="justify">
 # Capítulo IV: Solution Software Design
 
 ## 4.1. Strategic-Level Domain-Driven Design
@@ -401,8 +403,37 @@ En este escenario, se describe el proceso de visualización de los reportes de a
 ![Visualize Report](assets/Domain%20Message%20Flows%20Modeling/messageFlow_verReporte_4.png)
 
 #### 4.1.1.3. Bounded Context Canvases
-
 ### 4.1.2 Context mapping
+
+En esta sección, se analizan las relaciones entre los bounded contexts identificados y se asignan patrones de context mapping adecuados para cada uno:
+
+##### Customer/Supplier
+
+**Descripción:** En esta relación, un contexto actúa como Cliente (Customer) y otro como Proveedor (Supplier). El contexto Cliente necesita servicios o datos del contexto Proveedor. Esta relación establece una dependencia directa donde el proveedor suministra información o servicios que el cliente necesita para funcionar adecuadamente.
+
+- "Crop" es Cliente de "Reading". En este caso, "Reading" proporciona datos en tiempo real o casi real a "Crop" para su procesamiento y análisis.
+- "Crop" es Proveedor para "Reporting" y "Notifications". Aquí, "Crop" proporciona datos sobre el estado del cultivo, que son consumidos por "Reporting" para generar informes y por "Notifications" para enviar alertas y notificaciones.
+
+##### Open/Host Service (OHS)
+**Descripción:** En este patrón, un contexto expone un servicio bien definido que otros contextos pueden consumir sin tener que conocer o interactuar con la lógica interna de ese contexto. Este patrón es útil para integrar sistemas o contextos que necesitan acceder a servicios comunes, como autenticación, permisos o servicios externos.
+
+- El contexto "Security" (Host) expone servicios de autenticación y autorización.
+
+##### **Anticorruption Layer (ACL)**
+**Descripción:** Este patrón se utiliza cuando un contexto necesita proteger su propio modelo de dominio de la influencia de otro contexto con el que interactúa. El contexto que usa un ACL implementa una capa de traducción que convierte las entradas o salidas del otro contexto a su propio modelo de dominio, evitando acoplarse directamente a los detalles internos del contexto con el que se comunica.
+
+- El contexto "Notifications" utiliza un ACL para interactuar con "Crop". Esto asegura que cualquier cambio en el modelo de dominio de "Crop" no afecte directamente al modelo de "Notifications", manteniendo una separación clara entre los dos contextos.
+
+<p align="center">
+  <img src="assets/context_mapping/image.png" alt="Context Mapping">
+
+</p>
+
+<p align="center">
+  <a href="https://miro.com/welcomeonboard/c0RJcmExaEhJNHlsVkZJbktFaFFJaVhnV3d3dmdtNFFIa0R1eTh3d3NXVlVUSkRwVU5TaXZNNTZPbDF1M2RBcnwzNDU4NzY0NTUxMjMyMTk0MjkwfDI=?share_link_id=537960621738">Context Mapping Diagram</a>
+</p>
+
+
 
 ### 4.1.3. Software Architecture
 
@@ -414,25 +445,67 @@ En este escenario, se describe el proceso de visualización de los reportes de a
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams
 
+Los Software Architecture Deployment Diagrams son representaciones visuales que muestran cómo los componentes de un sistema de software, como aplicaciones y bases de datos, se despliegan en diferentes entornos físicos o en la nube. Estos diagramas facilitan la comprensión de la infraestructura del sistema, las conexiones de red entre componentes, y cómo interactúan para soportar la funcionalidad del software.
+
+ <img src="./assets/diagrams/hidrobots-deploy-diagram.png" alt="hidrobots deploy diagram">
+   
 ## 4.2. Tactical-Level Domain-Driven Design
 
 ### 4.2.X. Bounded Context:
 
 #### 4.2.X.1. Domain Layer
+El Domain Layer representa el núcleo de la lógica de negocio de la aplicación. Aquí se encuentran las entidades, objetos de valor, servicios de dominio, y otras clases que encapsulan las reglas de negocio esenciales del sistema. Este nivel garantiza que la lógica del negocio esté correctamente definida y separada de los detalles de implementación técnica.
+
+*security*
+
+<img src="./assets/diagrams/domain-layer-security.png" alt="hidrobots domain layer">
 
 #### 4.2.X.2. Interface Context
+El Interface Context es responsable de la interacción entre el usuario y el sistema, proporcionando una capa de presentación que incluye controladores y consumidores. Su propósito es manejar las solicitudes entrantes, validar datos, y coordinar con el Application Context para ejecutar las operaciones necesarias.
+
+*security*
+
+<img src="./assets/diagrams/interface-context-security.png" alt="hidrobots interface context security">
 
 #### 4.2.X.3. Application Context
+El Application Context gestiona los flujos de procesos del negocio mediante clases como manejadores de comandos y eventos. Esta capa es responsable de coordinar la lógica de aplicación, orquestando los pasos necesarios para cumplir con los casos de uso de la aplicación y delegando la lógica de negocio al Domain Layer.
+
+*security*
+
+<img src="./assets/diagrams/application-context-security.png" alt="hidrobots application context security">
 
 #### 4.2.X.4. Infrastructure Context
+El Infrastructure Context se encarga de la comunicación con servicios externos, como bases de datos, sistemas de mensajería o servicios de correo electrónico. Aquí se implementan los repositorios para las interfaces definidas en el Domain Layer, proporcionando acceso a los datos y otros recursos externos necesarios.
+
+*security*
+
+<img src="./assets/diagrams/infraestructure-context-security.png" alt="hidrobots infraestructure context security">
 
 #### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
+Esta sección incluye diagramas de componentes del nivel de arquitectura de software, mostrando cómo cada contenedor está compuesto por diferentes componentes, sus responsabilidades, y las interacciones entre ellos. Estos diagramas ayudan a entender la estructura interna de los contenedores y cómo se integran para formar el sistema completo.
+
+<img src="./assets/diagrams/infraestructure-context-security.png" alt="hidrobots bounded-context-software-architecture-component-level-diagrams-security">
 
 #### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
+Los diagramas de nivel de código en esta sección presentan detalles más finos sobre la implementación de los componentes dentro del bounded context. Incluyen diagramas de clases y bases de datos, proporcionando una vista más granular de la arquitectura y cómo los diferentes componentes trabajan juntos a nivel de código.
+
+
 
 #### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
+Los diagramas de clases del Domain Layer detallan las relaciones entre clases, interfaces y objetos que componen la lógica de negocio. Incluyen detalles de atributos, métodos, visibilidad y relaciones, proporcionando una representación clara del diseño de clases en el Domain Layer.
+
+*security*
+
+<img src="./assets/diagrams/bounded-context-domain-layer-class-diagrams-security(1).png" alt="hidrobots bounded-context-domain-layer-class-diagrams-security.png">
 
 #### 4.2.X.6.2. Bounded Context Database Design Diagram
+El diagrama de diseño de bases de datos muestra cómo los objetos de base de datos están estructurados para la persistencia de datos. Incluye tablas, columnas, claves primarias y foráneas, y las relaciones entre tablas, proporcionando una representación clara del modelo de datos utilizado para respaldar el bounded context.
+
+*security*
+
+<img src="./assets/diagrams/bounded-context-database-design-diagram-security.png" alt="hidrobots bounded-context-database-design-diagram-security.png">
+
+</div>
 
 # Capítulo V: Solutions UI/UX Design
 
