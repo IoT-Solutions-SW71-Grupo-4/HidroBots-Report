@@ -552,6 +552,196 @@ El diagrama de diseño de bases de datos muestra cómo los objetos de base de da
 <img src="./assets/diagrams/bounded-context-database-design-diagram-security.png" alt="hidrobots bounded-context-database-design-diagram-security.png">
 
 
+### 4.2.2. Bounded Context: Crop
+
+El **Crop Context** se encarga de gestionar la información relacionada con los cultivos, incluyendo la creación, edición y eliminación de cultivos, así como la supervición de los sensores, dado que cada cultivo tiene asociado un conjunto de sensores IoT que monitorean su estado.
+
+#### 4.2.2.1. Domain Layer
+
+El **Domain Layer** del **Crop Context** encapsula la lógica de negocio y las reglas que rigen el funcionamiento de los cultivos.
+
+**Aggregate 1**
+
+| **Nombre**      | **Categoría**     | **Propósito** |
+|:---------------|:-----------------|:--------------|
+| Crop          | Entity/Aggregate  | Representa un cultivo con sus características y sensores asociados. |
+
+**Atributos**
+
+| **Nombre**        | **Tipo de dato**          | **Visibilidad** | **Descripción** |
+|:-----------------:|:------------------------:|:---------------:|:----------------|
+| id                | Long                     | Private         | Identificador único del cultivo |
+| name              | String                   | Private         | Nombre del cultivo |
+| type              | String                   | Private         | Tipo de cultivo (por ejemplo, maíz, trigo, tomate) |
+| cropImage         | String                   | Private         | URL de la imagen del cultivo |
+
+
+**Métodos**
+
+| **Nombre**       | **Tipo de retorno** | **Visibilidad** | **Descripción** |
+|:----------------:|:------------------:|:---------------:|:----------------|
+| updateCropImage  | Void               | Public          | Actualiza la imagen del cultivo. |
+
+**Aggregate 2**
+
+| **Nombre**      | **Categoría**     | **Propósito** |
+|:---------------|:-----------------|:--------------|
+| Sensor        | Entity/Aggregate  | Representa un sensor IoT asociado a un cultivo. |
+
+**Atributos**
+
+| **Nombre**        | **Tipo de dato**          | **Visibilidad** | **Descripción** |
+|:-----------------:|:------------------------:|:---------------:|:----------------|
+| id                | Long                     | Private         | Identificador único del sensor |
+| name              | String                   | Private         | Nombre del sensor |
+| type              | String                   | Private         | Tipo de sensor (por ejemplo, humedad, temperatura, luz) |
+| value             | Double                   | Private         | Valor actual del sensor |
+| unit              | String                   | Private         | Unidad de medida del sensor |
+
+**Métodos**
+
+| **Nombre**       | **Tipo de retorno** | **Visibilidad** | **Descripción** |
+|:----------------:|:------------------:|:---------------:|:----------------|
+| CreateSensor     | Sensor              | Public          | Crea un nuevo sensor y lo asocia al cultivo. |
+| updateSensorValue  | Void               | Public          | Actualiza el valor del sensor. |
+
+
+
+#### 4.2.2.2. Interface Layer
+
+La **Interface Layer** del **Crop Context** proporciona una API REST que permite a los usuarios gestionar los cultivos, incluyendo la creación, edición y eliminación de cultivos, así como la supervisión de los sensores asociados a cada cultivo.
+
+**Componentes clave:**
+
+- **Crop Controller**: Facilita la exposición de servicios a través de endpoints REST, permitiendo interacciones con el dominio de cultivos.
+
+  **Endpoints**:
+  - `GET /crops/{id}`: Recupera un cultivo específico basado en su ID.
+  - `POST /crops`: Crea un nuevo cultivo con las características especificadas.
+  - `PUT /crops/{id}`: Actualiza un cultivo existente con los nuevos datos proporcionados.
+  - `DELETE /crops/{id}`: Elimina un cultivo específico.
+  - `POST /crops/{cropId}/sensors/{sensorId}`: Añade un sensor al cultivo.
+  - `DELETE /crops/{cropId}/sensors/{sensorId}`: Elimina un sensor del cultivo.
+
+  **Atributos**:
+
+  | **Nombre**        | **Tipo de retorno** | **Visibilidad** | **Descripción** |
+  |:-----------------:|:------------------:|:---------------:|:----------------|
+  | cropService       | CropService        | Private         | Servicio que gestiona la lógica de negocio de los cultivos. |
+
+**Métodos del Controller**:
+
+| **Nombre**       | **Tipo de retorno** | **Descripción** |
+|:-----------------|:------------------:|:----------------|
+| getCropById      | CropResource            | Recupera los detalles de un cultivo específico. |
+| createCrop       | CropCreateResource            | Crea un nuevo cultivo y lo almacena. |
+| updateCrop       | CropResource            | Actualiza un cultivo existente con los nuevos datos. |
+| deleteCrop       | Void            | Elimina un cultivo específico. |
+| addSensorToCrop  | Void            | Añade un sensor al cultivo. |
+| removeSensorFromCrop | Void       | Elimina un sensor del cultivo. |
+
+#### 4.2.2.3. Application Layer
+
+La capa de Aplicación en el contexto de **Crop** gestiona la lógica empresarial y la funcionalidad de los cultivos.
+
+**Service**
+
+| **Nombre**          | **Categoría**     | **Propósito**                                  |
+|:--------------------|:-----------------|:-----------------------------------------------|
+| CropCommandService       | Service          | Provee métodos para los comandos relacionados con los cultivos como (POST, PUT, DELETE). |
+| CropQueryService         | Service          | Provee métodos para las consultas relacionadas con los cultivos como (GET, GET/{id}). |
+| SensorCommandService     | Service          | Provee métodos para los comandos relacionados con los sensores como (POST, DELETE). |
+| SensorQueryService       | Service          | Provee métodos para las consultas relacionadas con los sensores como (GET, GET/{id}). |
+
+**Atributos**
+
+| **Nombre**           | **Tipo de retorno**          | **Visibilidad** | **Descripción**                                  |
+|:---------------------|:-------------------------:|:---------------:|:-------------------------------------------------|
+| cropRepository       | CropRepository           | Private         | Repositorio de cultivos.                         |
+| sensorRepository     | SensorRepository         | Private         | Repositorio de sensores.                         |
+| validator            | Validator                | Private         | Validador de atributos del cultivo.              |
+
+**Métodos**
+
+| **Nombre**           | **Tipo de retorno** | **Visibilidad** | **Descripción**                                  |
+|:---------------------|:------------------:|:---------------:|:-------------------------------------------------|
+| createCrop           | Crop                 | Public          | Crea un nuevo cultivo con las características especificadas. |
+| updateCrop           | Crop                 | Public          | Actualiza un cultivo existente con los nuevos datos proporcionados. |
+| deleteCrop           | Void                 | Public          | Elimina un cultivo específico. |
+| getCropById          | Crop                 | Public          | Recupera un cultivo específico basado en su ID. |
+| getAllCrops          | List<Crop>           | Public          | Recupera todos los cultivos existentes. |
+| addSensorToCrop      | Void                 | Public          | Añade un nuevo sensor al cultivo. |
+| removeSensorFromCrop | Void                 | Public          | Elimina un sensor del cultivo. |
+| getSensorById        | Sensor               | Public          | Recupera un sensor específico basado en su ID. |
+
+#### 4.2.2.4. Infrastructure Layer
+
+La capa de Infraestructura en el contexto de **Crop** se encarga de la comunicación con la base de datos y otros servicios externos necesarios para el funcionamiento del sistema.
+
+**Repository 1**
+
+| **Nombre**          | **Categoría**     | **Propósito**                                  |
+|:--------------------|:-----------------|:-----------------------------------------------|
+| CropRepository      | Repository        | Provee métodos para acceder a los datos de los cultivos. |
+
+**Métodos**
+
+| **Nombre**           | **Tipo de retorno** | **Visibilidad** | **Descripción**                                  |
+|:---------------------|:------------------:|:---------------:|:-------------------------------------------------|
+| CreateCropCommand    | Crop                 | Public          | Crea un nuevo cultivo en la base de datos. |
+| UpdateCropCommand    | Crop                 | Public          | Actualiza un cultivo existente en la base de datos. |
+| DeleteCropCommand    | Void                 | Public          | Elimina un cultivo específico de la base de datos. |
+| FindCropByIdQuery    | Crop                 | Public          | Recupera un cultivo específico de la base de datos basado en su ID. |
+| FindAllCropsQuery    | List<Crop>           | Public          | Recupera todos los cultivos existentes de la base de datos. |
+
+**Repository 2**
+
+| **Nombre**          | **Categoría**     | **Propósito**                                  |
+|:--------------------|:-----------------|:-----------------------------------------------|
+| SensorRepository    | Repository        | Provee métodos para acceder a los datos de los sensores. |
+
+**Métodos**
+
+| **Nombre**           | **Tipo de retorno** | **Visibilidad** | **Descripción**                                  |
+|:---------------------|:------------------:|:---------------:|:-------------------------------------------------|
+| CreateSensorCommand  | Sensor               | Public          | Crea un nuevo sensor en la base de datos. |
+| DeleteSensorCommand  | Void                 | Public          | Elimina un sensor específico de la base de datos. |
+| FindSensorByIdQuery  | Sensor               | Public          | Recupera un sensor específico de la base de datos basado en su ID. |
+
+
+#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+Esta sección incluye diagramas de componentes del nivel de arquitectura de software, mostrando cómo cada contenedor está compuesto por diferentes componentes, sus responsabilidades, y las interacciones entre ellos. Estos diagramas ayudan a entender la estructura interna de los contenedores y cómo se integran para formar el sistema completo.
+
+![Bounded Context Software Architecture Component Level Diagrams Crop](assets/diagrams/Crop_Context.jpeg)
+
+
+#### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
+
+En esta sección, el equipo presenta los diagramas que detallan la implementación de los componentes dentro de cada bounded context.
+
+- **Domain Layer Class Diagrams:** Muestran las clases clave y relaciones en la capa de dominio.
+- **Database Diagram:** Presenta la estructura de la base de datos, con tablas y relaciones.
+
+Estos diagramas ofrecen una visión clara de cómo se implementan y gestionan los datos en cada contexto.
+
+##### 4.2.4.2.1. Bounded Context Domain Layer Class Diagrams
+
+Los diagramas de clases del Domain Layer detallan las relaciones entre clases, interfaces y objetos que componen la lógica de negocio. Incluyen detalles de atributos, métodos, visibilidad y relaciones, proporcionando una representación clara del diseño de clases en el Domain Layer.
+
+**Crop Domain Layer Class Diagram**
+
+El diagrama de clases del Domain Layer del **Crop Context** muestra las entidades y agregados clave, como `Crop` y `Sensor`, junto con sus atributos y métodos asociados.
+
+![Crop Domain Layer Class Diagram](assets/diagrams/Crop_ClassDiagram.png)
+
+
+##### 4.2.4.2.2. Bounded Context Database Design Diagram
+
+El diagrama de diseño de bases de datos muestra cómo los objetos de base de datos están estructurados para la persistencia de datos. Incluye tablas, columnas, claves primarias y foráneas, y las relaciones entre tablas, proporcionando una representación clara del modelo de datos utilizado para respaldar el bounded context.
+
+![Crop Database Design Diagram](assets/diagrams/Crop_DatabaseDiagram.png)
+
 ### 4.2.5. Bounded Context: Reporting
 
 El **Reporting Context** es responsable de recopilar y analizar los datos de los sensores IoT, como los niveles de humedad, minerales y temperatura, para generar reportes útiles para los agricultores e investigadores.
