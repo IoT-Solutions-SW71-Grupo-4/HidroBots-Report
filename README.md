@@ -248,6 +248,7 @@
 
 
 <div align="justify">
+
 # Capítulo IV: Solution Software Design
 
 ## 4.1. Strategic-Level Domain-Driven Design
