@@ -99,6 +99,39 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 
 ## Project Report Collaboration Insights
 
+Para la elaboracion del proyecto, se ha utilizado la herramienta Github para el control de versiones y colaboración en tiempo real. A continuación se comparte el link del repositorio del proyecto:
+
+| Repositorio del Proyecto | https://github.com/Veterinaria-OpenSource/TF-Report-Veterinaria.git |
+| :---: | :---: |
+
+**TB1:**
+
+Para la entrega del TB1 se designó tareas a cada integrente, el cual se podrá visualizar a continuación:
+
+| Miembro del Equipo | Tarea Asignada |
+| :---: | :---: |
+| Diego Defilippi | Implementación de diseño de entrevistas, desarrollar las entrevistas, el Impact Mapping, User Stories y Event Storming. |
+| Jose Ampudia | Implementación del Capítulo 1, entrevistas, desarrollo de Event Storming en colaboración con otros integrantes del equipo. |
+| Tatiana Paucar | Desarrollo de entrevistas, implementación del Needfinding, Event Storming, User Stories, documentar la capa de dominio de los bounded contexts. |
+| Leonardo Lopez | Desarrollo de entrevistas, implementación del Needfinding, desarrollo de Software Architecture, esto incluye el desarrollo del modelo C4. |
+| Fabio Horna | Desarrollo de entrevistas, y la investigación sobre los competidores y el análisis competitivo y las estrategias frente a los competidores, del mismo modo, apoyo en el desarrollo de Tactical-Level Domain-Driven Design. |
+
+Es importante mencionar que durante la elaboración del informe se realizaron commits respectivos a cada tarea asignada, con el fin de mantener un control de versiones y colaboración en tiempo real.
+
+Miembros
+
+- Diego Defilippi (DiegoDefSan)
+- Jose Ampudia (IsaacAmp24)
+- Tatiana Paucar (TMedalith)
+- Leonardo Lopez (leonardox-lh)
+- Fabio Horna (FabioHorna)
+
+Gracias a GitHub, se ha podido llevar un control de versiones y colaboración en tiempo real, permitiendo a los miembros del equipo trabajar de manera asincrónica y sincrónica en el proyecto. Además, gracias a Gitflow, se ha creado varias ramas para el desarrollo de las tareas asignadas, permitiendo a los miembros del equipo trabajar de manera independiente y colaborativa en el proyecto.
+
+La rama "develop" se ha utilizado para la integración de las tareas asignadas a cada miembro del equipo, permitiendo la integración de las tareas de manera ordenada y eficiente. La rama "main" sirvió para presentar la versión final del proyecto.
+
+- **TB1**:
+
 <br><br>
 
 # Contenido
