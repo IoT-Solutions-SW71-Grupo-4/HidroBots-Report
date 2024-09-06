@@ -458,6 +458,11 @@ Los Software Architecture Deployment Diagrams son representaciones visuales que 
    
 ## 4.2. Tactical-Level Domain-Driven Design
 
+
+
+
+
+
 ### [4.2.1. Bounded Context: Security]()
 
 ### [4.2.2. Bounded Context: Reading]()
@@ -523,6 +528,133 @@ El diagrama de diseño de bases de datos muestra cómo los objetos de base de da
 *security*
 
 <img src="./assets/diagrams/bounded-context-database-design-diagram-security.png" alt="hidrobots bounded-context-database-design-diagram-security.png">
+
+
+### 4.2.5. Bounded Context: Reporting
+
+El **Reporting Context** es responsable de recopilar y analizar los datos de los sensores IoT, como los niveles de humedad, minerales y temperatura, para generar reportes útiles para los agricultores e investigadores.
+
+#### 4.2.5.1. Domain Layer
+
+El **Domain Layer** encapsula la lógica de negocio y las reglas que rigen el funcionamiento del **Reporting Context**.
+
+**Aggregate**
+
+| **Nombre**      | **Categoría**     | **Propósito** |
+|:---------------|:-----------------|:--------------|
+| Report         | Entity/Aggregate  | Representa un análisis basado en los datos de los sensores, como niveles de humedad, temperatura y minerales del suelo. |
+
+**Atributos**
+
+| **Nombre**        | **Tipo de dato**          | **Visibilidad** | **Descripción** |
+|:-----------------:|:------------------------:|:---------------:|:----------------|
+| id                | Long                     | Private         | Identificador único del reporte |
+| reportDate        | Date                     | Private         | Fecha de generación del reporte |
+| humidityLevels    | Map<Date, Double>        | Private         | Niveles de humedad recopilados de los sensores IoT a lo largo del tiempo |
+| temperatureLevels | Map<Date, Double>        | Private         | Niveles de temperatura recogidos de los sensores |
+| mineralLevels     | Map<Date, Map<String, Double>> | Private  | Niveles de minerales (como nitrógeno, potasio, fósforo) por fecha y tipo |
+| summary           | String                   | Private         | Resumen del estado del cultivo basado en los datos de humedad, temperatura y minerales |
+| readingsList      | List<Reading>            | Private         | Lista de lecturas de sensores que incluyen datos como humedad, temperatura y minerales |
+
+**Métodos**
+
+| **Nombre**       | **Tipo de retorno** | **Visibilidad** | **Descripción** |
+|:----------------:|:------------------:|:---------------:|:----------------|
+| addReading       | Void               | Public          | Añadir una nueva lectura de sensores (humedad, temperatura, minerales) al reporte. |
+| generateSummary  | String             | Public          | Genera un resumen basado en las lecturas de humedad, temperatura y minerales. |
+| generateVisualization    | Object              | Public          | Genera un objeto que representa un gráfico de los datos del reporte. |
+
+#### 4.2.5.2. Interface Context
+
+La **Interface Layer** del **Reporting Context** proporciona una API REST que permite a los usuarios acceder y consultar los reportes generados a partir de los datos de los sensores.
+
+**Componentes clave:**
+
+- **Reporting Controller**: Facilita la exposición de servicios a través de endpoints REST, permitiendo interacciones con el dominio de reportes.
+
+  **Endpoints**:
+  - `GET /reports/{id}`: Recupera un reporte específico basado en su ID.
+  - `POST /reports`: Crea un nuevo reporte utilizando las lecturas más recientes de los sensores.
+  - `GET /reports/{id}/summary`: Devuelve un resumen del reporte solicitado.
+  - `GET /reports/{id}/visualization`: Devuelve un objeto que representa una visualización gráfica de los datos del reporte.
+
+**Métodos del Controller**:
+
+| **Nombre**       | **Tipo de retorno** | **Descripción** |
+|:-----------------|:------------------:|:----------------|
+| getReportById    | ReportDTO          | Recupera los detalles de un reporte específico. |
+| createReport     | ReportDTO          | Crea un nuevo reporte y lo almacena. |
+| getReportSummary | String             | Devuelve un resumen textual del estado del cultivo. |
+| getReportVisualization | Object        | Devuelve una visualización gráfica de los datos del reporte. |
+
+#### 4.2.5.3. Application Context
+
+La capa de Aplicación en el contexto de **Reporting** gestiona la lógica empresarial y la funcionalidad de generación de reportes.
+
+**Service**
+
+| **Nombre**          | **Categoría**     | **Propósito**                                  |
+|:--------------------|:-----------------|:-----------------------------------------------|
+| Reporting Services  | Service          | Provee métodos para los reportes. |
+
+**Atributos**
+
+| **Nombre**           | **Tipo de dato**          | **Visibilidad** | **Descripción**                                  |
+|:---------------------|:-------------------------:|:---------------:|:-------------------------------------------------|
+| mineralReportRepository | MineralReportRepository | Private         | Repositorio de reportes de minerales.            |
+| humidityReportRepository | HumidityReportRepository | Private      | Repositorio de reportes de humedad.              |
+| validator             | Validator                 | Private         | Validador de atributos del reporte.              |
+
+**Métodos**
+
+| **Nombre**           | **Tipo de retorno** | **Visibilidad** | **Descripción**                                  |
+|:---------------------|:------------------:|:---------------:|:-------------------------------------------------|
+| getAllReports        | Page/List          | Public          | Obtiene todos los reportes.                      |
+| getReportById        | Report             | Public          | Obtiene un reporte según su ID.                  |
+| createReport         | Report             | Public          | Crea un nuevo reporte.                           |
+| updateReport         | Report             | Public          | Actualiza los datos de un reporte.               |
+| deleteReport         | ResponseEntity     | Public          | Elimina un reporte.                              |
+| addReadingToReport   | Report             | Public          | Agrega una lectura a un reporte existente.       |
+
+
+#### 4.2.5.4. Infrastructure Context
+
+En la capa de Infraestructura se gestiona la persistencia de datos para el contexto de **Reporting**.
+
+**Repository**
+
+| **Nombre**           | **Categoría**     | **Propósito**                              |
+|:---------------------|:-----------------|:-------------------------------------------|
+| Mineral Report Repository | Repository  | Repositorio que almacena la información de minerales. |
+| Humidity Report Repository | Repository | Repositorio que almacena la información de humedad. |
+
+**Métodos**
+
+| **Nombre**           | **Tipo de retorno** | **Visibilidad** | **Descripción**                                 |
+|:---------------------|:------------------:|:---------------:|:-----------------------------------------------|
+| findById             | Report             | Public          | Devuelve un reporte según su ID.               |
+| findByDateRange      | List<Report>       | Public          | Devuelve todos los reportes en un rango de fechas. |
+
+#### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
+
+En esta sección, se presentan los diagramas a nivel de componentes que ilustran la arquitectura del **Reporting Context**. Estos diagramas muestran la estructura y las relaciones entre los componentes principales del sistema.
+
+<p align="center">
+  <img src="assets/diagrams/reporting_context.jpg" alt="Context Mapping">
+
+</p>
+
+
+#### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
+
+
+##### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
+
+
+
+##### 4.2.5.6.2. Bounded Context Database Design Diagram
+
+
 
 </div>
 
