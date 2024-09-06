@@ -385,6 +385,12 @@ En este escenario, se describe el proceso de creación de una cuenta de usuario 
 
 ![Create Account](assets/Domain%20Message%20Flows%20Modeling/messageFlow_createAccount_1.png)
 
+**Scenario: Login**
+
+En este escenario, se describe el proceso de inicio de sesión en el sistema. El usuario interactúa con el contexto de `Security` para autenticarse y acceder a las funcionalidades de la plataforma.
+
+![Login](assets/Domain%20Message%20Flows%20Modeling/messageFlow_IniciaSesion.png)
+
 **Scenario: Create Crop**
 
 En este escenario, se describe el proceso de creación de un cultivo en el sistema. El usuario interactúa con el contexto de `Crops` para definir las características del cultivo y recibir recomendaciones sobre su cuidado.
