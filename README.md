@@ -330,6 +330,48 @@ En este último paso, agrupamos los eventos y comandos que pertenecen a un agreg
 
 #### 4.1.1.1. Candidate Context Discovery
 
+Nuestro equipo decidió usar la técnica **start-with-value** ya que empezamos a identificar la esencia del negocio lo cual es importante para tener una mejor proyección a futuro del negocio.
+
+- **Identificación de Valores del Negocio:** <br>
+  Analizamos los valores clave del negocio relacionados con la **gestión automatizada del riego** y el **análisis de datos del suelo,** **creación del cultivo**. Estas áreas son fundamentales para mejorar la eficiencia operativa en la gestión de recursos (como el agua) y para garantizar que los usuarios tengan acceso a información útil y precisa sobre el estado del suelo y los cultivos. <br>
+
+- **Identificación de funcionalidades:**<br>
+  A partir de los valores identificados, nos enfocamos en las funcionalidades más críticas, esto implica la **gestion de cuenta del usuario**, **creación del cultivo**, **notificaciones** que recibirán los usuarios cuando surja una alerta sobre su respectivo cultivo, el **sistema de reporte** las cuales se encargan de recopilar la información sobre el análisis del suelo cuando el **riego** esté en funcionamiento. <br>
+
+- **Priorización de contextos:** <br>
+  Priorizar los bounded contexts, nos permite identificar situaciones primordiales que se deben lograr de manera pronta. Además, priorizar los bounded contexts, ayuda a priorizar el core del negocio los cuales son esenciales para el desarrollo de la solución. <br>
+
+Identificamos 5 Bounded Contexts:
+  - Account
+  - Crops
+  - Notifications
+  - Report
+  - Watering
+
+**Bounded Context Account:**
+
+![Bounded Context Account](assets/Event_Storming_Steps/10%20paso/paso_10_bc_account.png)
+
+**Bounded Context Crops:**
+
+![Bounded Context Crops](assets/Event_Storming_Steps/10%20paso/paso_10_bc_crop.png)
+
+**Bounded Context Notifications:**
+
+![Bounded Context Notifications](assets/Event_Storming_Steps/10%20paso/paso_10_bc_notifications.png)
+
+**Bounded Context Report:**
+
+![Bounded Context Report](assets/Event_Storming_Steps/10%20paso/paso_10_bc_report.png)
+
+**Bounded Context Watering:**
+
+![Bounded Context Watering](assets/Event_Storming_Steps/10%20paso/paso_10_bc_watering.png)
+
+**Visión General de los Bounded Contexts:**
+
+![Visión General de los Bounded Contexts](assets/Event_Storming_Steps/10%20paso/paso_10_bc_overview.png)
+
 #### 4.1.1.2. Domain Message Flows Modeling
 
 #### 4.1.1.3. Bounded Context Canvases
