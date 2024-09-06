@@ -246,6 +246,8 @@
 
 ## 3.4. Product Backlog
 
+
+<div align="justify">
 # Capítulo IV: Solution Software Design
 
 ## 4.1. Strategic-Level Domain-Driven Design
@@ -375,8 +377,37 @@ Identificamos 5 Bounded Contexts:
 #### 4.1.1.2. Domain Message Flows Modeling
 
 #### 4.1.1.3. Bounded Context Canvases
-
 ### 4.1.2 Context mapping
+
+En esta sección, se analizan las relaciones entre los bounded contexts identificados y se asignan patrones de context mapping adecuados para cada uno:
+
+##### Customer/Supplier
+
+**Descripción:** En esta relación, un contexto actúa como Cliente (Customer) y otro como Proveedor (Supplier). El contexto Cliente necesita servicios o datos del contexto Proveedor. Esta relación establece una dependencia directa donde el proveedor suministra información o servicios que el cliente necesita para funcionar adecuadamente.
+
+- "Crop" es Cliente de "Reading". En este caso, "Reading" proporciona datos en tiempo real o casi real a "Crop" para su procesamiento y análisis.
+- "Crop" es Proveedor para "Reporting" y "Notifications". Aquí, "Crop" proporciona datos sobre el estado del cultivo, que son consumidos por "Reporting" para generar informes y por "Notifications" para enviar alertas y notificaciones.
+
+##### Open/Host Service (OHS)
+**Descripción:** En este patrón, un contexto expone un servicio bien definido que otros contextos pueden consumir sin tener que conocer o interactuar con la lógica interna de ese contexto. Este patrón es útil para integrar sistemas o contextos que necesitan acceder a servicios comunes, como autenticación, permisos o servicios externos.
+
+- El contexto "Security" (Host) expone servicios de autenticación y autorización.
+
+##### **Anticorruption Layer (ACL)**
+**Descripción:** Este patrón se utiliza cuando un contexto necesita proteger su propio modelo de dominio de la influencia de otro contexto con el que interactúa. El contexto que usa un ACL implementa una capa de traducción que convierte las entradas o salidas del otro contexto a su propio modelo de dominio, evitando acoplarse directamente a los detalles internos del contexto con el que se comunica.
+
+- El contexto "Notifications" utiliza un ACL para interactuar con "Crop". Esto asegura que cualquier cambio en el modelo de dominio de "Crop" no afecte directamente al modelo de "Notifications", manteniendo una separación clara entre los dos contextos.
+
+<p align="center">
+  <img src="assets/context_mapping/image.png" alt="Context Mapping">
+
+</p>
+
+<p align="center">
+  <a href="https://miro.com/welcomeonboard/c0RJcmExaEhJNHlsVkZJbktFaFFJaVhnV3d3dmdtNFFIa0R1eTh3d3NXVlVUSkRwVU5TaXZNNTZPbDF1M2RBcnwzNDU4NzY0NTUxMjMyMTk0MjkwfDI=?share_link_id=537960621738">Context Mapping Diagram</a>
+</p>
+
+
 
 ### 4.1.3. Software Architecture
 
@@ -428,6 +459,8 @@ Los diagramas de clases del Domain Layer detallan las relaciones entre clases, i
 #### 4.2.X.6.2. Bounded Context Database Design Diagram
 El diagrama de diseño de bases de datos muestra cómo los objetos de base de datos están estructurados para la persistencia de datos. Incluye tablas, columnas, claves primarias y foráneas, y las relaciones entre tablas, proporcionando una representación clara del modelo de datos utilizado para respaldar el bounded context.
 <img src="./assets/diagrams/bounded-context-database-design-diagram-security.png" alt="hidrobots bounded-context-database-design-diagram-security.png">
+
+</div>
 
 # Capítulo V: Solutions UI/UX Design
 
