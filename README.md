@@ -39,6 +39,8 @@
 
 <br><br>
 
+<div align="justify">
+
 ## Registro de Versiones del Informe
 
 El objetivo de esta sección es resumir las modificaciones relevantes que se realizan al informe durante el ciclo de vida del proyecto. Esta sección inicia en una página nueva e incluye un cuadro con la siguiente estructura:
@@ -643,6 +645,8 @@ Nuestros principales segmentos objetivo son:
 
 - **Centros de Investigación Agrícola:** <br>
 Los centros de investigación agrícola son otro segmento objetivo importante, ya que son los encargados de realizar investigaciones y estudios sobre la agricultura en el Perú. Estos centros necesitan herramientas tecnológicas que les permitan recolectar datos en tiempo real, analizar la composición del suelo y realizar investigaciones mucho más precisas y eficientes.
+
+</div>
 
 # Capítulo II: Requirements Elicitation & Analysis
 
