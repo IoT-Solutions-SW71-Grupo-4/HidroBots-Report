@@ -344,15 +344,15 @@ Nuestro equipo decidió usar la técnica **start-with-value** ya que empezamos a
   Priorizar los bounded contexts, nos permite identificar situaciones primordiales que se deben lograr de manera pronta. Además, priorizar los bounded contexts, ayuda a priorizar el core del negocio los cuales son esenciales para el desarrollo de la solución. <br>
 
 Identificamos 5 Bounded Contexts:
-  - Account
+  - Security
   - Crops
   - Notifications
   - Report
   - Watering
 
-**Bounded Context Account:**
+**Bounded Context Security:**
 
-![Bounded Context Account](assets/Event_Storming_Steps/10%20paso/paso_10_bc_account.png)
+![Bounded Context Account](assets/Event_Storming_Steps/10%20paso/paso_10_bc_security.png)
 
 **Bounded Context Crops:**
 
@@ -419,6 +419,10 @@ En esta sección, se analizan las relaciones entre los bounded contexts identifi
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams
 
+Los Software Architecture Deployment Diagrams son representaciones visuales que muestran cómo los componentes de un sistema de software, como aplicaciones y bases de datos, se despliegan en diferentes entornos físicos o en la nube. Estos diagramas facilitan la comprensión de la infraestructura del sistema, las conexiones de red entre componentes, y cómo interactúan para soportar la funcionalidad del software.
+
+ <img src="./assets/diagrams/hidrobots-deploy-diagram.png" alt="hidrobots deploy diagram">
+   
 ## 4.2. Tactical-Level Domain-Driven Design
 
 ### 4.2.X. Bounded Context:
