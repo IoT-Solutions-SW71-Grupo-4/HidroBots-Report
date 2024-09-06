@@ -430,20 +430,28 @@ Los Software Architecture Deployment Diagrams son representaciones visuales que 
 #### 4.2.X.1. Domain Layer
 El Domain Layer representa el núcleo de la lógica de negocio de la aplicación. Aquí se encuentran las entidades, objetos de valor, servicios de dominio, y otras clases que encapsulan las reglas de negocio esenciales del sistema. Este nivel garantiza que la lógica del negocio esté correctamente definida y separada de los detalles de implementación técnica.
 
+*security*
+
 <img src="./assets/diagrams/domain-layer-security.png" alt="hidrobots domain layer">
 
 #### 4.2.X.2. Interface Context
 El Interface Context es responsable de la interacción entre el usuario y el sistema, proporcionando una capa de presentación que incluye controladores y consumidores. Su propósito es manejar las solicitudes entrantes, validar datos, y coordinar con el Application Context para ejecutar las operaciones necesarias.
+
+*security*
 
 <img src="./assets/diagrams/interface-context-security.png" alt="hidrobots interface context security">
 
 #### 4.2.X.3. Application Context
 El Application Context gestiona los flujos de procesos del negocio mediante clases como manejadores de comandos y eventos. Esta capa es responsable de coordinar la lógica de aplicación, orquestando los pasos necesarios para cumplir con los casos de uso de la aplicación y delegando la lógica de negocio al Domain Layer.
 
+*security*
+
 <img src="./assets/diagrams/application-context-security.png" alt="hidrobots application context security">
 
 #### 4.2.X.4. Infrastructure Context
 El Infrastructure Context se encarga de la comunicación con servicios externos, como bases de datos, sistemas de mensajería o servicios de correo electrónico. Aquí se implementan los repositorios para las interfaces definidas en el Domain Layer, proporcionando acceso a los datos y otros recursos externos necesarios.
+
+*security*
 
 <img src="./assets/diagrams/infraestructure-context-security.png" alt="hidrobots infraestructure context security">
 
@@ -460,10 +468,14 @@ Los diagramas de nivel de código en esta sección presentan detalles más finos
 #### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
 Los diagramas de clases del Domain Layer detallan las relaciones entre clases, interfaces y objetos que componen la lógica de negocio. Incluyen detalles de atributos, métodos, visibilidad y relaciones, proporcionando una representación clara del diseño de clases en el Domain Layer.
 
+*security*
+
 <img src="./assets/diagrams/bounded-context-domain-layer-class-diagrams-security(1).png" alt="hidrobots bounded-context-domain-layer-class-diagrams-security.png">
 
 #### 4.2.X.6.2. Bounded Context Database Design Diagram
 El diagrama de diseño de bases de datos muestra cómo los objetos de base de datos están estructurados para la persistencia de datos. Incluye tablas, columnas, claves primarias y foráneas, y las relaciones entre tablas, proporcionando una representación clara del modelo de datos utilizado para respaldar el bounded context.
+
+*security*
 
 <img src="./assets/diagrams/bounded-context-database-design-diagram-security.png" alt="hidrobots bounded-context-database-design-diagram-security.png">
 
