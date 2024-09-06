@@ -100,7 +100,7 @@
 ### [Capítulo IV: Solutions Software Design](#capítulo-iv-solution-software-design)
 
 - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
-  - [4.1.1. EventStorming](#411-eventstorming)
+  - [4.1.1. Event Storming](#411-event-storming)
     - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
     - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
     - [4.1.1.3. Bounded COntext Canvases](#4113-bounded-context-canvases)
@@ -250,7 +250,83 @@
 
 ## 4.1. Strategic-Level Domain-Driven Design
 
-### 4.1.1. EventStorming
+En nuestro equipo, abordamos las decisiones estratégicas utilizando Domain-Driven Design (DDD) para asegurarnos de que comprendemos a fondo el dominio y sus complejidades. Aplicamos Event Storming como primera herramienta, lo que nos permitió identificar juntos los eventos clave dentro del sistema y visualizar cómo fluye la información y las interacciones en el negocio.
+
+Después, utilizamos el Bounded Context Canvas para definir claramente los límites de cada contexto dentro del dominio. Esto nos ayudó a organizar las responsabilidades y asegurar que cada parte del sistema estuviera alineada tanto con la visión de negocio como con las capacidades técnicas. Gracias a estas herramientas, pudimos tomar decisiones estratégicas más informadas y coherentes, asegurando que el desarrollo estuviera bien fundamentado en las necesidades reales del negocio.
+
+### 4.1.1. Event Storming
+
+Event Storming es una herramienta que nos permite descubrir el comportamiento de un negocio, recopilando eventos importantes del negocio, los actores principales, servicios de terceros y otros. Para la implementación de esta sección se realizaron entrevistas correspondientes a los segmentos objetivos, de esta manera pudimos identificar los eventos principales y desarrollar un entendimiento común.
+
+Aquí mostramos los pasos respectivos para la elaboración correcta del Event Storming realizada en la herramienta de Miro.
+
+##### **Step 1: Unstructured Exploration**
+
+En esta sección se realizó una lluvia de ideas de los eventos del dominio
+relacionados con el dominio empresarial que se está explorando. Nos permitió identificar los eventos clave y las interacciones entre ellos.
+
+![Step_1_Unstructured_Exploration](assets/Event_Storming_Steps/1%20paso/paso_1_unstructured_exploration.jpg)
+
+
+##### **Step 2: Timelines**
+
+En esta sección, los eventos identificados previamente, son agrupados en subgrupos lo cual tiene como lider al evento principal (es quien encapsula la funcionalidad principal del grupo). Estos eventos comienzan con el flujo que describe el escenario empresarial exitoso (Happy path) y también escenarios alternativos.
+
+![Step_2_Timelines](assets/Event_Storming_Steps/2%20paso/paso_2_timelines.png)
+
+
+##### **Step 3: Paint Points**
+
+Durante esta fase, identificamos puntos problemáticos o (Pair Points) que son áreas donde los usuarios pueden obtener dificultades al momento de realizar una respectiva funcionalidad en la aplicación. Estos puntos son importantes para mejorar la experiencia de usuario e implementar una aplicación eficiente.
+
+![Step_3_Paint_Points](assets/Event_Storming_Steps/3%20paso/paso_3_pair_points_1.jpg)
+![Step_3_Paint_Points](assets/Event_Storming_Steps/3%20paso/paso_3_pair_points_2.jpg)
+
+##### **Step 4: Pivotal Points**
+
+En esta fase, nos enfocamos en identificar los puntos cruciales dentro del flujo del negocio, los cuales tienen un impacto significativo en la operatividad del sistema o el comportamiento del usuario. Estos puntos nos ayudan a priorizar qué áreas deben ser optimizadas o revisadas con mayor detalle, ya que pueden afectar el éxito de los procesos empresariales críticos.
+
+![Step_4_Pivotal_Process](assets/Event_Storming_Steps/4%20paso/paso_4_pivotal_points_1.jpg)
+![Step_4_Pivotal_Process](assets/Event_Storming_Steps/4%20paso/paso_4_pivotal_points_2.jpg)
+
+##### **Step 5: Commands**
+
+Los comandos representan acciones que los actores del sistema pueden ejecutar. Durante este paso, mapeamos qué acciones desencadenan los eventos clave dentro del sistema y qué actores son responsables de ejecutarlas. Esto nos ayuda a estructurar la lógica de negocio alrededor de acciones claras y específicas, facilitando la implementación de las reglas del negocio.
+
+![Step_5_Commands](assets/Event_Storming_Steps/5%20paso/paso_5_commands_1.jpg)
+![Step_5_Commands](assets/Event_Storming_Steps/5%20paso/paso_5_commands_2.png)
+![Step_5_Commands](assets/Event_Storming_Steps/5%20paso/paso_5_commands_3.jpg)
+
+##### **Step 6: Policies**
+
+En este paso, se identifican las políticas, que son reglas de negocio o condiciones que deben cumplirse para que un comando pueda ser ejecutado o un evento pueda suceder. Las políticas son esenciales para definir las restricciones del sistema y asegurar que el flujo de eventos sea coherente con las reglas del negocio.
+
+![Step_6_Policies](assets/Event_Storming_Steps/6%20paso/paso_6_policies_1.png)
+![Step_6_Policies](assets/Event_Storming_Steps/6%20paso/paso_6_policies_2.png)
+
+##### **Step 7: Read Models**
+
+Los Read Models son vistas del estado del sistema, generalmente optimizadas para la consulta por parte de los usuarios o procesos. Durante este paso, definimos qué información necesita ser accesible en ciertos momentos y cómo debería ser presentada, asegurando que los actores puedan visualizar el estado del sistema de manera eficiente.
+
+![Step_7_Read_Models](assets/Event_Storming_Steps/7%20paso/7_paso_read_models_1.png)
+![Step_7_Read_Models](assets/Event_Storming_Steps/7%20paso/7_paso_read_models_2.png)
+
+##### **Step 8: External Systems**
+
+En esta fase, identificamos los sistemas externos que interactúan con nuestro dominio. Aquí mapeamos las conexiones con servicios de terceros o sistemas independientes que influyen en los eventos del negocio. Es crucial entender cómo estos sistemas externos afectan los flujos y asegurar que las integraciones sean correctas.
+
+![Step_8_External_Systems](assets/Event_Storming_Steps/8%20paso/paso_8_external_systems_1.png)
+![Step_8_External_Systems](assets/Event_Storming_Steps/8%20paso/paso_8_external_systems_2.png)
+![Step_8_External_Systems](assets/Event_Storming_Steps/8%20paso/paso_8_external_systems_3.png)
+
+##### **Step 9: Aggregates**
+
+En este último paso, agrupamos los eventos y comandos que pertenecen a un agregado específico para garantizar que todas las operaciones dentro de un contexto estén alineadas y mantengan la consistencia del sistema.
+
+![Step_9_Aggregates](assets/Event_Storming_Steps/9%20paso/paso_9_aggregates_1.png)
+![Step_9_Aggregates](assets/Event_Storming_Steps/9%20paso/paso_9_aggregates_2.png)
+![Step_9_Aggregates](assets/Event_Storming_Steps/9%20paso/paso_9_aggregates_3.png)
+
 
 #### 4.1.1.1. Candidate Context Discovery
 
