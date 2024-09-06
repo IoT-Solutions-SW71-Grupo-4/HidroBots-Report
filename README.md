@@ -410,6 +410,43 @@ En este escenario, se describe el proceso de visualización de los reportes de a
 ![Visualize Report](assets/Domain%20Message%20Flows%20Modeling/messageFlow_verReporte_4.png)
 
 #### 4.1.1.3. Bounded Context Canvases
+
+En esta sección, se detallan los pasos seguidos por el equipo para diseñar los bounded contexts identificados durante el proceso. El diseño de los bounded contexts fue iterativo, asegurando que cada contexto refleje de manera precisa los criterios de diseño y el conocimiento del dominio. Para cada bounded context, se siguieron los siguientes pasos clave:
+
+- **Context Overview Definition:** Se definió el propósito y los límites de cada bounded context, alineándolos con el dominio del negocio.
+
+- **Business Rules Distillation & Ubiquitous Language Capture:** Se identificaron las reglas de negocio clave y se capturó el lenguaje ubicuo para una comunicación clara entre el equipo.
+
+- **Capability Analysis:** Se analizaron las capacidades que cada bounded context debe ofrecer.
+
+- **Capability Layering:** Se aplicó la separación en capas de capacidades cuando fue necesario.
+
+- **Dependencies Capture:** Se identificaron las dependencias con otros bounded contexts y sistemas externos.
+
+- **Design Critique:** Se revisó el diseño para asegurar un desacoplamiento adecuado y alineación con los objetivos del negocio.
+
+Con estos pasos, el equipo logró definir y diseñar los bounded contexts de manera efectiva, asegurando que cada uno cumpla con sus responsabilidades y contribuya al éxito del sistema en su conjunto.
+
+**Bounded Context Canvases Security:**
+
+![Bounded Context Canvas Security](assets/Bounded%20Context%20Canvases/bc_canvases_security_1.png)
+
+**Bounded Context Canvases Crops:**
+
+![Bounded Context Canvas Crops]()
+
+**Bounded Context Canvases Notifications:**
+
+![Bounded Context Canvas Notifications](assets/Bounded%20Context%20Canvases/bc_canvases_notifications_3.png)
+
+**Bounded Context Canvases Watering:**
+
+![Bounded Context Canvas Watering](assets/Bounded%20Context%20Canvases/bc_canvases_watering_2.png)
+
+**Bounded Context Canvases Report:**
+
+![Bounded Context Canvas Report]()
+
 ### 4.1.2 Context mapping
 
 En esta sección, se analizan las relaciones entre los bounded contexts identificados y se asignan patrones de context mapping adecuados para cada uno:
