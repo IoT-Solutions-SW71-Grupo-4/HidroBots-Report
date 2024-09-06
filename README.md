@@ -101,7 +101,7 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 
 Para la elaboracion del proyecto, se ha utilizado la herramienta Github para el control de versiones y colaboración en tiempo real. A continuación se comparte el link del repositorio del proyecto:
 
-| Repositorio del Proyecto | https://github.com/Veterinaria-OpenSource/TF-Report-Veterinaria.git |
+| Repositorio del Proyecto | https://github.com/IoT-Solutions-SW71-Grupo-4/HidroBots-Report.git |
 | :---: | :---: |
 
 **TB1:**
