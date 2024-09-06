@@ -374,6 +374,32 @@ Identificamos 5 Bounded Contexts:
 
 #### 4.1.1.2. Domain Message Flows Modeling
 
+En esta sección, se describe el proceso utilizado para visualizar la interacción entre los diferentes bounded contexts que conforman el sistema. El objetivo principal es entender cómo estos contextos colaboran para resolver los casos de uso del negocio y satisfacer las necesidades de los usuarios. Para lograr esto, se aplicó la técnica de Domain Storytelling, que facilita la representación gráfica de los flujos de mensajes entre actores, contextos y sistemas, permitiendo identificar claramente las responsabilidades y los puntos de comunicación entre cada componente del dominio.
+
+**Scenario: Create Account**
+
+En este escenario, se describe el proceso de creación de una cuenta de usuario en el sistema. El usuario interactúa con el contexto de `Security` para registrar sus credenciales y acceder a la plataforma.
+
+![Create Account](assets/Domain%20Message%20Flows%20Modeling/messageFlow_createAccount_1.png)
+
+**Scenario: Create Crop**
+
+En este escenario, se describe el proceso de creación de un cultivo en el sistema. El usuario interactúa con el contexto de `Crops` para definir las características del cultivo y recibir recomendaciones sobre su cuidado.
+
+![Create Crop](assets/Domain%20Message%20Flows%20Modeling/messageFlow_crearCultivo_2.png)
+
+**Scenario: Progam Watering**
+
+En este escenario, se describe el proceso de programación del riego automático o manual del cultivo. El usuario interactúa con el contexto de `Crop` y `Watering` para definir los horarios y la cantidad de agua necesaria para el cultivo.
+
+![Program Watering](assets/Domain%20Message%20Flows%20Modeling/messageFlow_ProgramaRiego3.png)
+
+**Scenario: Visualize Report**
+
+En este escenario, se describe el proceso de visualización de los reportes de análisis del suelo y el estado del cultivo. El usuario interactúa con el contexto de `Report` para acceder a la información detallada sobre el rendimiento del cultivo y las recomendaciones para mejorar su crecimiento.
+
+![Visualize Report](assets/Domain%20Message%20Flows%20Modeling/messageFlow_verReporte_4.png)
+
 #### 4.1.1.3. Bounded Context Canvases
 
 ### 4.1.2 Context mapping
