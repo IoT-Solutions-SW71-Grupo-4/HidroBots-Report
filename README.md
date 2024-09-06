@@ -39,11 +39,63 @@
 
 <br><br>
 
-# Registro de Versiones del Informe
+## Registro de Versiones del Informe
+
+El objetivo de esta sección es resumir las modificaciones relevantes que se realizan al informe durante el ciclo de vida del proyecto. Esta sección inicia en una página nueva e incluye un cuadro con la siguiente estructura:
+
+<table>
+  <thead>
+    <tr>
+      <th>Versión</th>
+      <th>Fecha</th>
+      <th>Autor</th>
+      <th>Descripción de modificación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0.1</td>
+      <td>27/08/2024</td>
+      <td>Diego Defilippi</td>
+      <td>Implementación de diseño de entrevistas, desarrollar las entrevistas, el Impact Mapping, User Stories y Event Storming.</td>
+    </tr>
+    <tr>
+      <td>0.2</td>
+      <td>27/08/2024</td>
+      <td>Jose Ampudia</td>
+      <td>Implementación del Capítulo 1, entrevistas, desarrollo de Event Storming en colaboración con otros integrantes del equipo.</td>
+    </tr>
+    <tr>
+      <td>0.3</td>
+      <td>01/09/2024</td>
+      <td>Tatiana Paucar</td>
+      <td>Desarrollo de entrevistas, implementación del Needfinding, Event Storming, User Stories, documentar la capa de dominio de los bounded contexts.</td>
+    </tr>
+    <tr>
+      <td>0.4</td>
+      <td>10/10/2024</td>
+      <td>Leonardo Lopez</td>
+      <td>Desarrollo de entrevistas, implementación del Needfinding, desarrollo de Software Architecture, esto incluye el desarrollo del modelo C4.</td>
+    </tr>
+    <tr>
+      <td>0.5</td>
+      <td>18/10/2024</td>
+      <td>Fabio Horna</td>
+      <td>Desarrollo de entrevistas, y la investigación sobre los competidores y el análisis competitivo y las estrategias frente a los competidores, del mismo modo, apoyo en el desarrollo de Tactical-Level Domain-Driven Design.</td>
+    </tr>
+    <tr>
+      <td>1.0</td>
+      <td>20/10/2024</td>
+      <td>Equipo HidroBots</td>
+      <td>Documentación de la solución versión 1.0.</td>
+    </tr>
+  </tbody>
+</table>
+
 
 <br><br>
 
-# Project Report Collaboration Insights
+## Project Report Collaboration Insights
 
 <br><br>
 
@@ -178,7 +230,65 @@
 
 # Student Outcome
 
-<b>ABET – EAC - Student Outcome 5:</b> La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
+<b>ABET – EAC - Student Outcome 5:</b> La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos. En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
+
+<table>
+  <thead>
+    <tr>
+      <th>Criterio específico</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Trabaja en equipo para proporcionar liderazgo en forma conjunta</strong></td>
+      <td>
+        <strong>Diego Defilippi</strong><br>
+        <strong>TB1:</strong><br>
+        Lideré la distribución de tareas, me aseguré de que cada miembro del equipo comprendiera sus responsabilidades. Organizamos reuniones periódicas para revisar avances y ajustar el plan según los resultados obtenidos. Mi función principal fue implementar los bounded context canvases y el apoyo continuo para el desarrollo del Event Storming.<br><br>
+        <strong>Jose Ampudia</strong><br>
+        <strong>TB1:</strong><br>
+        Propuse el avance conjunto para el desarrollo de los puntos críticos del desarrollo del informe, tales como el capítulo 4, el desarrollo del Event Storming, las cuales se desarrolló con éxito.<br><br>
+        <strong>Tatiana Paucar</strong><br>
+        <strong>TB1:</strong><br>
+        Fomenté la participación activa lo que ayudó en la toma de decisiones clave para el proyecto. Del mismo modo para el desarrollo óptimo de los bounded contexts, los cuales son fundamentales para dividir las funcionalidades principales de la aplicación por módulos.<br><br>
+        <strong>Leonardo Lopez</strong><br>
+        <strong>TB1:</strong><br>
+        Propuse un sistema de trabajo colaborativo basado en las fortalezas del equipo y medió en la resolución de conflictos. Además, me centré en implementar el modelo C4, lo cual es fundamental para tener una vista de alto nivel sobre el funcionamiento de la aplicación.<br><br>
+        <strong>Fabio Horna</strong><br>
+        <strong>TB1:</strong><br>
+        Coordiné el uso de herramientas colaborativas y promoví la comunicación constante en el equipo. Del mismo modo, me encargué de realizar el Tactical-Level Domain-Driven Design lo que nos permite tener una visión más clara de la estructura de la aplicación y de cómo se relacionan los diferentes módulos.<br>
+      </td>
+      <td>
+        El liderazgo conjunto permitió la distribución adecuada de tareas, facilitando la consecución de los objetivos del proyecto de manera efectiva. La correcta supervisión, mediación y comunicación aseguraron que todos los miembros estuvieran alineados y motivados.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</strong></td>
+      <td>
+        <strong>Diego Defilippi</strong><br>
+        <strong>TB1:</strong><br>
+        Establecí metas claras y coordiné la planificación de tareas, asegurando que cada fase del proyecto tuviera objetivos alcanzables. Es por ello que delegamos responsabilidades para la correcta implementación de la solución.<br><br>
+        <strong>Jose Ampudia</strong><br>
+        <strong>TB1:</strong><br>
+        Supervisé el cumplimiento de los plazos y fomentó un entorno inclusivo al involucrar a todos los miembros en la revisión de avances, lo que nos permitió corregir errores y mejorar características de nuestra solución.<br><br>
+        <strong>Tatiana Paucar</strong><br>
+        <strong>TB1:</strong><br>
+        Facilité el uso de herramientas colaborativas y organicé sesiones para revisar el progreso del equipo, tales como reuniones en Discord, además de diseñar modelos de dominio y de arquitectura que permitieron una mejor comprensión de la solución.<br><br>
+        <strong>Leonardo Lopez</strong><br>
+        <strong>TB1:</strong><br>
+        Me encargué de la gestión de recursos y del seguimiento de los avances de cada miembro del equipo, asegurando que se cumplieran los plazos. Es por ello, que para la implementación de modelo C4, se tuvo que coordinar con los miembros del equipo para establecer una visión clara de la arquitectura.<br><br>
+        <strong>Fabio Horna</strong><br>
+        <strong>TB1:</strong><br>
+        Promoví la cohesión del equipo y facilitó la toma de decisiones consensuada para cumplir con los objetivos establecidos. Del mismo modo, se realizaron entrevistas y se recopiló información para el desarrollo de la solución.<br>
+      </td>
+      <td>
+        El ambiente inclusivo, la colaboración y la correcta planificación permitieron al equipo cumplir con los objetivos del proyecto de manera efectiva, optimizando los recursos y maximizando la eficiencia del trabajo en equipo. La cohesión y la revisión constante aseguraron que todos los miembros estuvieran alineados con los objetivos finales.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 <br><br>
 
@@ -187,6 +297,8 @@
 ## 1.1. StartUp Profile
 
 ### 1.1.1. Descripción de la StartUp
+
+Hidrobots, fue creada con el principal objetivo de facilitar la vida de los agricultores peruanos, mediante la implementación de tecnologías de IoT para la automatización de procesos de riego en cultivos agrícolas. La solución propuesta por HidroBots, permitirá a los medianos agricultores y centros de investigación agrícola del Perú, tener acceso a una herramienta tecnológica que les permita controlar el riego de sus cultivos desde cualquier lugar y en tiempo real desde sus dispositivos móviles o computadoras. De esta manera, los usuarios podrán monitorear el estado de sus plantíos, recolectar información sobre la composición del suelo y tomar decisiones en tiempo real, mejorando la eficiencia el uso del agua y la productividad de los cultivos.
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
