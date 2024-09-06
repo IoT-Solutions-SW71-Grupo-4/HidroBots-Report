@@ -388,6 +388,10 @@ Identificamos 5 Bounded Contexts:
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams
 
+Los Software Architecture Deployment Diagrams son representaciones visuales que muestran cómo los componentes de un sistema de software, como aplicaciones y bases de datos, se despliegan en diferentes entornos físicos o en la nube. Estos diagramas facilitan la comprensión de la infraestructura del sistema, las conexiones de red entre componentes, y cómo interactúan para soportar la funcionalidad del software.
+
+ <img src="./assets/diagrams/hidrobots-deploy-diagram.png" alt="hidrobots deploy diagram">
+   
 ## 4.2. Tactical-Level Domain-Driven Design
 
 ### 4.2.X. Bounded Context:
