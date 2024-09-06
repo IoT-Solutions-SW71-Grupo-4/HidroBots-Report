@@ -483,9 +483,22 @@ En esta sección, se analizan las relaciones entre los bounded contexts identifi
 
 #### 4.1.3.1. Software Architecture System Landscape Diagram
 
+Nuestra Startup cuenta con un sistema de software TheBigFun (aplicación web y móvil), adicionalmente se cuenta con un sistema que maneja dispositivos IoT.
+
+<img src="./assets/C4/LandscapeDiagram.png" alt="hidrobots deploy diagram">
+
 #### 4.1.3.2. Software Architecture Context Level Diagrams
 
+Este diagrama de alto nivel permite definir las partes del sistema del software y su ambiente indicando todas las entidades que interactúan con dicho diagrama. Además, muestra la interacción de todas las entidades externas tales como una API o sistema IOT. Es por eso, que este diagrama se enfoca en los sucesos y restricciones que necesitaría el software.
+
+<img src="./assets/C4/ContextDiagram.png" alt="hidrobots deploy diagram">
+
 #### 4.1.3.3. Software Architecture Container Level Diagrams
+
+Este diagrama sirve para incrementar el sistema del software mostrando los contenedores (aplicaciones, microservicios, base de datos, entre otros) de los cuales está compuesto el sistema del software. Además, se puede visualizar todas las relaciones de las entidades externas con las entidades propias del software.
+
+<img src="./assets/C4/ConteinerDiagram.png" alt="hidrobots deploy diagram">
+
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams
 
