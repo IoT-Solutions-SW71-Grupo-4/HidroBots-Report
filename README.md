@@ -510,54 +510,310 @@ Los Software Architecture Deployment Diagrams son representaciones visuales que 
 
 
 
-### 4.2.X. Bounded Context:
+### 4.2.1. Bounded Context Security:
 
-#### 4.2.X.1. Domain Layer
-El Domain Layer representa el núcleo de la lógica de negocio de la aplicación. Aquí se encuentran las entidades, objetos de valor, servicios de dominio, y otras clases que encapsulan las reglas de negocio esenciales del sistema. Este nivel garantiza que la lógica del negocio esté correctamente definida y separada de los detalles de implementación técnica.
+#### 4.2.1.1. Domain Layer
+En la capa de dominio del contexto de seguridad para la aplicación de riego IoT, se encuentran los modelos de **Usuario** y **Permisos**. El **Usuario** representa a los diferentes usuarios que pueden acceder a la aplicación, y los **Permisos** definen los accesos y restricciones que tienen.
 
-*security*
+### Aggregate 1: Usuario
 
-<img src="./assets/diagrams/domain-layer-security.png" alt="hidrobots domain layer">
+| **Nombre** | **Categoría** | **Propósito** |
+|------------|---------------|---------------|
+| Usuario    | Entity        | Representa a un usuario del sistema de riego IoT, contiene información sobre el acceso y roles del usuario |
 
-#### 4.2.X.2. Interface Context
-El Interface Context es responsable de la interacción entre el usuario y el sistema, proporcionando una capa de presentación que incluye controladores y consumidores. Su propósito es manejar las solicitudes entrantes, validar datos, y coordinar con el Application Context para ejecutar las operaciones necesarias.
+**Atributos de Usuario**
 
-*security*
+| **Nombre**       | **Tipo de dato** | **Visibilidad** | **Descripción**                                      |
+|------------------|------------------|-----------------|------------------------------------------------------|
+| id               | UUID             | Private         | Identificador único del usuario                      |
+| nombre           | String           | Private         | Nombre del usuario                                   |
+| email            | String           | Private         | Correo electrónico del usuario                       |
+| contraseña       | String           | Private         | Contraseña para acceso al sistema                    |
+| fechaCreacion    | LocalDateTime    | Private         | Fecha de creación de la cuenta de usuario            |
 
-<img src="./assets/diagrams/interface-context-security.png" alt="hidrobots interface context security">
+**Métodos de Usuario**
 
-#### 4.2.X.3. Application Context
-El Application Context gestiona los flujos de procesos del negocio mediante clases como manejadores de comandos y eventos. Esta capa es responsable de coordinar la lógica de aplicación, orquestando los pasos necesarios para cumplir con los casos de uso de la aplicación y delegando la lógica de negocio al Domain Layer.
+| **Nombre**          | **Tipo de retorno** | **Visibilidad** | **Descripción**                                      |
+|---------------------|---------------------|-----------------|------------------------------------------------------|
+| Constructor         | Void                | Public          | Constructor de la entidad usuario                    |
+| autenticarUsuario   | Boolean             | Public          | Autentica al usuario basándose en el email y contraseña |
 
-*security*
+### Aggregate 2: Permiso
 
-<img src="./assets/diagrams/application-context-security.png" alt="hidrobots application context security">
+| **Nombre** | **Categoría** | **Propósito** |
+|------------|---------------|---------------|
+| Permiso    | Entity        | Define los permisos que puede tener un usuario dentro del sistema de riego IoT |
 
-#### 4.2.X.4. Infrastructure Context
-El Infrastructure Context se encarga de la comunicación con servicios externos, como bases de datos, sistemas de mensajería o servicios de correo electrónico. Aquí se implementan los repositorios para las interfaces definidas en el Domain Layer, proporcionando acceso a los datos y otros recursos externos necesarios.
+**Atributos de Permiso**
 
-*security*
+| **Nombre**       | **Tipo de dato** | **Visibilidad** | **Descripción**                                      |
+|------------------|------------------|-----------------|------------------------------------------------------|
+| id               | UUID             | Private         | Identificador único del permiso                      |
+| nombre           | String           | Private         | Nombre del permiso (e.g., "Ver Sensores", "Configurar Riego") |
 
-<img src="./assets/diagrams/infraestructure-context-security.png" alt="hidrobots infraestructure context security">
+**Métodos de Permiso**
 
-#### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
+| **Nombre**          | **Tipo de retorno** | **Visibilidad** | **Descripción**                                      |
+|---------------------|---------------------|-----------------|------------------------------------------------------|
+| Constructor         | Void                | Public          | Constructor de la entidad permiso                    |
+| definirPermiso      | Void                | Public          | Establece los permisos que pueden ser asignados a un usuario |
+
+### Aggregate 3: Sensor
+
+| **Nombre** | **Categoría** | **Propósito** |
+|------------|---------------|---------------|
+| Sensor     | Entity        | Representa un sensor en el sistema de riego IoT que proporciona datos como humedad y temperatura |
+
+**Atributos de Sensor**
+
+| **Nombre**       | **Tipo de dato** | **Visibilidad** | **Descripción**                                      |
+|------------------|------------------|-----------------|------------------------------------------------------|
+| id               | UUID             | Private         | Identificador único del sensor                       |
+| tipo             | String           | Private         | Tipo de sensor (e.g., Humedad, Temperatura)          |
+| ubicacion        | String           | Private         | Ubicación física del sensor                          |
+| valorActual      | Double           | Private         | Última lectura registrada por el sensor              |
+| fechaUltimaLectura| LocalDateTime   | Private         | Fecha y hora de la última lectura del sensor         |
+
+**Métodos de Sensor**
+
+| **Nombre**          | **Tipo de retorno** | **Visibilidad** | **Descripción**                                      |
+|---------------------|---------------------|-----------------|------------------------------------------------------|
+| actualizarLectura   | Void                | Public          | Actualiza la última lectura registrada por el sensor  |
+| obtenerLectura      | Double              | Public          | Retorna el valor actual del sensor                   |
+
+
+#### 4.2.1.2. Interface Layer
+
+
+En la capa de **Interface Layer** se modelan los controladores que se comunicarán con la interfaz de usuario para gestionar la seguridad y el manejo de sensores en el sistema de riego IoT.
+
+### Controller 1: UserController
+
+| **Name**             | **Category** | **Purpose**                                                |
+|----------------------|--------------|------------------------------------------------------------|
+| UserController       | Controller   | Controlador para los métodos CRUD relacionados con los usuarios. |
+
+**Attributes of UserController**
+
+| **Name**             | **Data Type**          | **Visibility** | **Description**                                                     |
+|----------------------|------------------------|----------------|---------------------------------------------------------------------|
+| userService          | UserService            | Private        | Servicio de usuarios para aplicar las reglas de negocio y lógica de autenticación. |
+| userMapper           | UserMapper             | Private        | Mapper para transformar entidades de usuario en DTOs y viceversa.   |
+
+**Methods of UserController**
+
+| **Name**                   | **Return Type** | **Visibility** | **Description**                                                   |
+|----------------------------|-----------------|----------------|-------------------------------------------------------------------|
+| authenticateUser           | ResponseEntity  | Public         | Método para el inicio de sesión de un usuario utilizando credenciales y JWT. |
+| registerUser               | ResponseEntity  | Public         | Método para el registro de un nuevo usuario en el sistema.        |
+| getAllUsers                | ResponseEntity  | Public         | Método para retornar la lista de usuarios registrados.            |
+| updateUser                 | ResponseEntity  | Public         | Método para actualizar la información de un usuario existente.    |
+| deleteUser                 | ResponseEntity  | Public         | Método para eliminar un usuario del sistema por su ID.            |
+
+### Controller 2: SensorController
+
+| **Name**             | **Category** | **Purpose**                                                |
+|----------------------|--------------|------------------------------------------------------------|
+| SensorController     | Controller   | Controlador para los métodos CRUD relacionados con los sensores de riego. |
+
+**Attributes of SensorController**
+
+| **Name**             | **Data Type**          | **Visibility** | **Description**                                                     |
+|----------------------|------------------------|----------------|---------------------------------------------------------------------|
+| sensorService        | SensorService          | Private        | Servicio de sensores para aplicar las reglas de negocio relacionadas con la gestión de sensores. |
+
+**Methods of SensorController**
+
+| **Name**                   | **Return Type** | **Visibility** | **Description**                                                   |
+|----------------------------|-----------------|----------------|-------------------------------------------------------------------|
+| getAllSensors              | ResponseEntity  | Public         | Método para retornar la lista de todos los sensores registrados.  |
+| addSensor                  | ResponseEntity  | Public         | Método para agregar un nuevo sensor al sistema de riego IoT.      |
+| updateSensor               | ResponseEntity  | Public         | Método para actualizar los datos de un sensor específico.         |
+| deleteSensor               | ResponseEntity  | Public         | Método para eliminar un sensor del sistema por su ID.             |
+
+### Controller 3: PermissionController
+
+| **Name**             | **Category** | **Purpose**                                                |
+|----------------------|--------------|------------------------------------------------------------|
+| PermissionController | Controller   | Controlador para la gestión de permisos de usuario en el sistema. |
+
+**Attributes of PermissionController**
+
+| **Name**             | **Data Type**          | **Visibility** | **Description**                                                     |
+|----------------------|------------------------|----------------|---------------------------------------------------------------------|
+| permissionService    | PermissionService      | Private        | Servicio de permisos para manejar las operaciones CRUD relacionadas. |
+
+**Methods of PermissionController**
+
+| **Name**                   | **Return Type** | **Visibility** | **Description**                                                   |
+|----------------------------|-----------------|----------------|-------------------------------------------------------------------|
+| getAllPermissions          | ResponseEntity  | Public         | Método para retornar la lista de todos los permisos en el sistema.|
+| assignPermissionToUser     | ResponseEntity  | Public         | Método para asignar un permiso a un usuario.                      |
+| removePermissionFromUser   | ResponseEntity  | Public         | Método para eliminar un permiso de un usuario.                    |
+
+
+
+
+
+#### 4.2.1.3. Application Layer
+
+
+En la capa de **Application Layer**, se han creado los servicios para cada entidad del contexto de seguridad del sistema de riego IoT. Esta capa gestiona la lógica empresarial y funcionalidad de la aplicación, brindando servicios como autenticación de usuarios, manejo de permisos, y gestión de sensores.
+
+### Service 1: UserService
+
+| **Name**             | **Category** | **Purpose**                                                |
+|----------------------|--------------|------------------------------------------------------------|
+| UserService          | Service      | Servicio con la lógica de negocio para la gestión de usuarios. |
+
+**Attributes of UserService**
+
+| **Name**             | **Data Type**          | **Visibility** | **Description**                                                     |
+|----------------------|------------------------|----------------|---------------------------------------------------------------------|
+| userRepository       | UserRepository         | Private        | Repositorio de usuarios para las operaciones CRUD.                  |
+| passwordEncoder      | PasswordEncoder        | Private        | Utilizado para codificar las contraseñas de los usuarios.           |
+| jwtHandler           | JwtHandler             | Private        | Manejador de JWT para la autenticación y autorización.              |
+
+**Methods of UserService**
+
+| **Name**                   | **Return Type** | **Visibility** | **Description**                                                   |
+|----------------------------|-----------------|----------------|-------------------------------------------------------------------|
+| authenticateUser           | ResponseEntity  | Public         | Autenticación de un usuario al iniciar sesión utilizando JWT.     |
+| registerUser               | ResponseEntity  | Public         | Registrar un nuevo usuario en el sistema y codificar la contraseña.|
+| getAllUsers                | List<User>      | Public         | Retornar lista de todos los usuarios registrados.                 |
+| updateUser                 | User            | Public         | Actualizar la información de un usuario existente.                |
+| deleteUser                 | ResponseEntity  | Public         | Eliminar un usuario del sistema por su ID.                        |
+| loadUserByUsername         | UserDetails     | Public         | Cargar un usuario del sistema basado en su nombre de usuario.     |
+
+### Service 2: PermissionService
+
+| **Name**             | **Category** | **Purpose**                                                |
+|----------------------|--------------|------------------------------------------------------------|
+| PermissionService    | Service      | Servicio con la lógica de negocio para la gestión de permisos. |
+
+**Attributes of PermissionService**
+
+| **Name**             | **Data Type**          | **Visibility** | **Description**                                                     |
+|----------------------|------------------------|----------------|---------------------------------------------------------------------|
+| permissionRepository | PermissionRepository   | Private        | Repositorio de permisos para las operaciones CRUD.                  |
+
+**Methods of PermissionService**
+
+| **Name**                   | **Return Type** | **Visibility** | **Description**                                                   |
+|----------------------------|-----------------|----------------|-------------------------------------------------------------------|
+| getAllPermissions          | List<Permission> | Public         | Retorna la lista de todos los permisos del sistema.               |
+| assignPermissionToUser     | ResponseEntity  | Public         | Asigna un permiso a un usuario específico.                        |
+| removePermissionFromUser   | ResponseEntity  | Public         | Elimina un permiso asignado a un usuario.                         |
+
+### Service 3: SensorService
+
+| **Name**             | **Category** | **Purpose**                                                |
+|----------------------|--------------|------------------------------------------------------------|
+| SensorService        | Service      | Servicio con la lógica de negocio para la gestión de sensores. |
+
+**Attributes of SensorService**
+
+| **Name**             | **Data Type**          | **Visibility** | **Description**                                                     |
+|----------------------|------------------------|----------------|---------------------------------------------------------------------|
+| sensorRepository     | SensorRepository       | Private        | Repositorio de sensores para las operaciones CRUD.                  |
+
+**Methods of SensorService**
+
+| **Name**                   | **Return Type** | **Visibility** | **Description**                                                   |
+|----------------------------|-----------------|----------------|-------------------------------------------------------------------|
+| getAllSensors              | List<Sensor>    | Public         | Retorna la lista de todos los sensores registrados en el sistema. |
+| updateSensorReading        | ResponseEntity  | Public         | Actualiza la última lectura de un sensor específico.              |
+| addSensor                  | ResponseEntity  | Public         | Agrega un nuevo sensor al sistema de riego IoT.                   |
+| deleteSensor               | ResponseEntity  | Public         | Elimina un sensor del sistema por su ID.                          |
+
+
+
+
+#### 4.2.1.4. Infrastructure layer
+
+En la capa de **Infrastructure Layer** de la aplicación de riego IoT para el contexto de seguridad, se encuentran los repositorios que gestionan la comunicación con la base de datos. Estos repositorios son responsables de la persistencia y consulta de entidades del dominio.
+
+### Repository 1: UserRepository
+
+| **Name**           | **Category** | **Purpose** |
+|--------------------|--------------|-------------|
+| UserRepository     | Repository   | Repositorio para la entidad User, gestiona la persistencia y recuperación de datos de usuarios en la base de datos. |
+
+**Methods of UserRepository**
+
+| **Name**            | **Return Type**   | **Visibility** | **Description**                                                              |
+|---------------------|-------------------|----------------|------------------------------------------------------------------------------|
+| findByUsername      | Optional<User>    | Public         | Encontrar usuario por su nombre de usuario.                                  |
+| existsByUsername    | Boolean           | Public         | Verificar si existe un usuario según su nombre de usuario.                   |
+| existsByEmail       | Boolean           | Public         | Verificar si existe un usuario según su correo electrónico.                  |
+| save                | User              | Public         | Guardar un nuevo usuario o actualizar uno existente en la base de datos.     |
+| deleteById          | Void              | Public         | Eliminar un usuario de la base de datos según su ID.                         |
+
+### Repository 2: RoleRepository
+
+| **Name**           | **Category** | **Purpose** |
+|--------------------|--------------|-------------|
+| RoleRepository     | Repository   | Repositorio para la entidad Role, gestiona la persistencia y consulta de roles en la base de datos. |
+
+**Methods of RoleRepository**
+
+| **Name**            | **Return Type**   | **Visibility** | **Description**                                                            |
+|---------------------|-------------------|----------------|----------------------------------------------------------------------------|
+| findByName          | Optional<Role>    | Public         | Retornar un rol según su nombre.                                           |
+| existsByName        | Boolean           | Public         | Verificar si existe un rol según su nombre.                                |
+| save                | Role              | Public         | Guardar un nuevo rol o actualizar uno existente en la base de datos.       |
+| deleteById          | Void              | Public         | Eliminar un rol de la base de datos según su ID.                           |
+
+### Repository 3: SensorRepository
+
+| **Name**           | **Category** | **Purpose** |
+|--------------------|--------------|-------------|
+| SensorRepository   | Repository   | Repositorio para la entidad Sensor, maneja la persistencia y consulta de los datos de sensores. |
+
+**Methods of SensorRepository**
+
+| **Name**            | **Return Type**   | **Visibility** | **Description**                                                              |
+|---------------------|-------------------|----------------|------------------------------------------------------------------------------|
+| findById            | Optional<Sensor>  | Public         | Retornar un sensor específico por su ID.                                     |
+| findByType          | List<Sensor>      | Public         | Buscar sensores según su tipo (humedad, temperatura, etc.).                  |
+| save                | Sensor            | Public         | Guardar un nuevo sensor o actualizar uno existente en la base de datos.      |
+| deleteById          | Void              | Public         | Eliminar un sensor de la base de datos según su ID.                          |
+
+### Repository 4: PermissionRepository
+
+| **Name**           | **Category** | **Purpose** |
+|--------------------|--------------|-------------|
+| PermissionRepository | Repository | Repositorio para la entidad Permission, gestiona la persistencia y consulta de permisos en la base de datos. |
+
+**Methods of PermissionRepository**
+
+| **Name**            | **Return Type**   | **Visibility** | **Description**                                                            |
+|---------------------|-------------------|----------------|----------------------------------------------------------------------------|
+| findByActionAndResource | Optional<Permission> | Public         | Retornar un permiso específico por su acción y recurso asociados.           |
+| existsByActionAndResource | Boolean      | Public         | Verificar si existe un permiso según su acción y recurso.                   |
+| save                | Permission        | Public         | Guardar un nuevo permiso o actualizar uno existente en la base de datos.    |
+| deleteById          | Void              | Public         | Eliminar un permiso de la base de datos según su ID.                        |
+
+
+
+#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 Esta sección incluye diagramas de componentes del nivel de arquitectura de software, mostrando cómo cada contenedor está compuesto por diferentes componentes, sus responsabilidades, y las interacciones entre ellos. Estos diagramas ayudan a entender la estructura interna de los contenedores y cómo se integran para formar el sistema completo.
 
 <img src="./assets/diagrams/infraestructure-context-security.png" alt="hidrobots bounded-context-software-architecture-component-level-diagrams-security">
 
-#### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
+#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 Los diagramas de nivel de código en esta sección presentan detalles más finos sobre la implementación de los componentes dentro del bounded context. Incluyen diagramas de clases y bases de datos, proporcionando una vista más granular de la arquitectura y cómo los diferentes componentes trabajan juntos a nivel de código.
 
 
 
-#### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
+#### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 Los diagramas de clases del Domain Layer detallan las relaciones entre clases, interfaces y objetos que componen la lógica de negocio. Incluyen detalles de atributos, métodos, visibilidad y relaciones, proporcionando una representación clara del diseño de clases en el Domain Layer.
 
 *security*
 
 <img src="./assets/diagrams/bounded-context-domain-layer-class-diagrams-security(1).png" alt="hidrobots bounded-context-domain-layer-class-diagrams-security.png">
 
-#### 4.2.X.6.2. Bounded Context Database Design Diagram
+#### 4.2.1.6.2. Bounded Context Database Design Diagram
 El diagrama de diseño de bases de datos muestra cómo los objetos de base de datos están estructurados para la persistencia de datos. Incluye tablas, columnas, claves primarias y foráneas, y las relaciones entre tablas, proporcionando una representación clara del modelo de datos utilizado para respaldar el bounded context.
 
 *security*
@@ -568,6 +824,18 @@ El diagrama de diseño de bases de datos muestra cómo los objetos de base de da
 ### 4.2.2. Bounded Context: Crop
 
 El **Crop Context** se encarga de gestionar la información relacionada con los cultivos, incluyendo la creación, edición y eliminación de cultivos, así como la supervición de los sensores, dado que cada cultivo tiene asociado un conjunto de sensores IoT que monitorean su estado.
+
+
+
+
+
+
+
+
+
+
+
+
 
 #### 4.2.2.1. Domain Layer
 
