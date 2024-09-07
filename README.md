@@ -1075,6 +1075,7 @@ Se concluye que ambos segmentos muestran interés en la automatización y optimi
 
 ## 2.4. Ubiquitous Language
 
+
 En esta sección, se definen términos clave para el dominio del negocio, basándose en el enfoque de Ubiquitous Language propuesto por Eric Evans en Domain-Driven Design. Estas definiciones buscan asegurar una comunicación clara y efectiva entre los miembros del equipo, alineando el vocabulario técnico con las necesidades del proyecto.
 
 - **Soil Analysis (Análisis del Suelo):** El análisis del suelo implica la recolección y evaluación de muestras de suelo para determinar su composición química y física. Este proceso incluye la medición de niveles de pH, nutrientes esenciales (como nitrógeno, fósforo y potasio), contenido de materia orgánica y estructura del suelo. Los resultados del análisis permiten a los agricultores ajustar la fertilización y las prácticas de cultivo, mejorando así la salud y el rendimiento de los cultivos.
@@ -1100,17 +1101,654 @@ En esta sección, se definen términos clave para el dominio del negocio, basán
 
 - **Historical Data (Datos Históricos):** Los datos históricos son registros de eventos y condiciones pasadas que han sido recopilados a lo largo del tiempo. Esto puede incluir datos sobre análisis de suelo anteriores, registros de riego y fertilización, información climática histórica y rendimiento de cultivos. Los datos históricos permiten a los agricultores analizar tendencias y patrones a lo largo de varias temporadas, identificar cambios en el rendimiento de los cultivos y ajustar las prácticas agrícolas basadas en experiencias pasadas. También es útil para prever el impacto de condiciones futuras y mejorar la toma de decisiones a largo plazo.
 
-</div>
 
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
 
+En esta sección, se visualiza el rendimiento esperado del sistema propuesto después de su implementación. Se describirán los flujos de trabajo, las interacciones y las mejoras respecto al estado actual, destacando cómo la solución propuesta resolverá problemas y optimizará los procesos existentes.
+
+**Segmento 1: Medianos agricultores**
+
+![Empathy Mapping: Medianos Agricultores](assets/To-Be_Mapping/segment1.jpg)
+
+**Segmento 2: Centros de Investigación Agrícola**
+
+![Empathy Mapping: Centros de Investigación Agrícola](assets/To-Be_Mapping/segment2.jpg)
+
 ## 3.2. User Stories
+
+En esta sección, se presenta las User Stories que capturan las necesidades de los usuarios finales, tanto medianos agricultores como centros de investigación agrícola. Estas historias ayudan a definir y priorizar las funcionalidades clave para asegurar que la aplicación cumpla con las expectativas del usuario.
+
+<table align="center">
+  <thead align="center">
+    <tr>
+      <th>Epic/User Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Criterios de Aceptación</th>
+      <th>Relación (EPIC ID)</th>
+    </tr>
+  </thead>
+  <tbody  align="center">
+   <tr>
+      <td>EP-01</td>
+      <td>Análisis del Suelo</td>
+      <td  align="justify">Como agricultor, quiero visualizar, analizar y programar el análisis del suelo para optimizar el uso de fertilizantes.</td>
+      <td  align="justify">
+        <strong>Escenario 1: Visualización de nutrientes</strong><br>
+        Dado que el agricultor desea analizar el suelo, cuando acceda a la sección de análisis, entonces podrá ver los niveles de nutrientes y realizar recomendaciones de fertilización.<br>
+        <strong>Escenario 2: Programación de análisis</strong><br>
+        Dado que el agricultor quiere programar análisis, cuando configure un nuevo análisis, entonces el sistema debe permitir seleccionar la fecha y frecuencia del análisis.
+      </td>
+      <td>
+         -
+      </td>
+    </tr>
+    <tr>
+      <td>EP-02</td>
+      <td>Gestión Integral del Riego</td>
+      <td  align="justify">Como agricultor, quiero configurar y controlar el riego automático y manual, así como aplicar fertilizantes y registrar eventos de riego, para mantener mis cultivos bien hidratados y nutridos.</td>
+      <td  align="justify">
+        <strong>Escenario 1: Configuración de riego automático</strong><br>
+        Dado que el agricultor desea configurar riego, cuando acceda a la configuración de riego, entonces podrá establecer horarios y frecuencia de riego automático.<br>
+        <strong>Escenario 2: Control manual del riego</strong><br>
+        Dado que el agricultor quiere un control preciso, cuando acceda al control manual, entonces podrá activar y desactivar el riego según sea necesario.
+      </td>
+      <td>
+        -
+      </td>
+    </tr>
+    <tr>
+      <td>EP-03</td>
+      <td>Monitoreo Climático y del Terreno</td>
+      <td  align="justify">Como agricultor, quiero monitorear en tiempo real las condiciones climáticas y del terreno para tomar decisiones informadas sobre el cuidado de mis cultivos.</td>
+      <td  align="justify">
+        <strong>Escenario 1: Monitoreo en tiempo real</strong><br>
+        Dado que el agricultor necesita información en tiempo real, cuando acceda a la sección de monitoreo, entonces podrá ver datos actualizados sobre clima y condiciones del terreno.<br>
+        <strong>Escenario 2: Alertas y recomendaciones</strong><br>
+        Dado que el agricultor requiere alertas, cuando los datos muestren condiciones críticas, entonces recibirá notificaciones para tomar medidas correctivas.
+      </td>
+      <td>
+         -
+      </td>
+    </tr>
+    <tr>
+      <td>EP-05</td>
+      <td>Gestión de cuenta</td>
+      <td  align="justify">Como usuario, quiero gestionar mi cuenta, incluyendo la creación de perfil y configuración de preferencias, para personalizar mi experiencia con la aplicación.</td>
+      <td  align="justify">
+        <strong>Escenario 1: Registro y configuración</strong><br>
+        Dado que el usuario quiere gestionar su cuenta, cuando complete el registro y configure preferencias, entonces el perfil deberá actualizarse y personalizarse.<br>
+        <strong>Escenario 2: Acceso y seguridad</strong><br>
+        Dado que el usuario desea proteger su cuenta, cuando inicie sesión, entonces el sistema debe validar sus credenciales y permitir acceso seguro.
+      </td>
+      <td>
+         -
+      </td>
+    </tr>
+    <tr>
+      <td>EP-06</td>
+      <td>Desarrollo de la Landing Page</td>
+      <td  align="justify">Como visitante, quiero acceder a una landing page que presente las características de la aplicación, un formulario de contacto y facilite la descarga de la aplicación, para obtener más información y acceder al servicio.</td>
+      <td  align="justify">
+        <strong>Escenario 1: Información y diseño</strong><br>
+        Dado que el visitante quiere información, cuando acceda a la landing page, entonces debe visualizar claramente las características de la aplicación y un formulario de contacto.<br>
+        <strong>Escenario 2: Acceso a la aplicación</strong><br>
+        Dado que el visitante desea descargar la aplicación, cuando seleccione la opción de descarga, entonces el enlace debe redirigir correctamente a la tienda de aplicaciones.
+      </td>
+      <td>
+         -
+      </td>
+    </tr>
+    <tr>
+      <td>EP-07</td>
+      <td>Desarrollo de la API</td>
+      <td  align="justify">Como desarrollador, quiero contar con una API robusta y ágil para integrar y comunicar la aplicación con los sistemas de backend, asegurando una sincronización eficiente de los datos.</td>
+      <td  align="justify">
+        <strong>Escenario 1: Funcionalidad y rendimiento</strong><br>
+        Dado que se necesita una API, cuando se realicen solicitudes, entonces la API debe responder eficientemente y manejar grandes volúmenes de datos.<br>
+        <strong>Escenario 2: Seguridad y errores</strong><br>
+        Dado que la API debe ser segura, cuando se detecten errores o intentos de acceso no autorizado, entonces la API debe manejar los errores adecuadamente y proteger los datos.
+      </td>
+      <td>
+         -
+      </td>
+    </tr>
+    <tr>
+  <td>EP-08</td>
+  <td>Desarrollo de la Aplicación Web y Móvil</td>
+  <td align="justify">Como desarrollador, quiero construir una aplicación web y móvil intuitiva y funcional que permita a los usuarios gestionar sus cultivos, configurar riegos y monitorear condiciones en tiempo real desde cualquier dispositivo.</td>
+  <td align="justify">
+    <strong>Escenario 1: Interfaz de Usuario y Experiencia de Usuario</strong><br>
+    Dado que se necesita una aplicación atractiva, cuando los usuarios interactúan con la aplicación web o móvil, entonces deben encontrar una interfaz intuitiva y una experiencia de usuario fluida que facilite la navegación y la gestión de cultivos.<br>
+    <strong>Escenario 2: Sincronización de Datos entre Aplicación Web y Móvil</strong><br>
+    Dado que los datos deben estar sincronizados, cuando los usuarios realicen cambios en la aplicación web o móvil, entonces estos cambios deben reflejarse en ambas plataformas en tiempo real, asegurando que la información esté actualizada y consistente.<br>
+    <strong>Escenario 3: Funcionalidades Específicas por Plataforma</strong><br>
+    Dado que cada plataforma tiene sus propias características, cuando los usuarios utilicen la aplicación móvil o web, entonces la aplicación debe ofrecer funcionalidades específicas optimizadas para la plataforma utilizada, como notificaciones push en la app móvil y vistas detalladas en la aplicación web.
+  </td>
+  <td>-</td>
+</tr>
+    <tr>
+      <td>HU-01</td>
+      <td>Visualizar nutrientes del suelo</td>
+      <td align="justify">Como agricultor, quiero obtener información sobre los niveles de nutrientes del suelo para ajustar el uso de fertilizantes.</td>
+      <td  align="justify">
+        <strong>Escenario 1: Consultar niveles actuales</strong><br>
+        Dado que el agricultor desea obtener información sobre los nutrientes del suelo, cuando acceda a la sección de nutrientes en la aplicación, entonces visualizará los niveles actuales de nutrientes.<br>
+        <strong>Escenario 2: Comparar con niveles ideales</strong><br>
+        Dado que el agricultor quiere comparar los nutrientes actuales con los ideales, cuando vea la información, entonces deberá comparar los niveles actuales con los niveles ideales recomendados.
+      </td>
+      <td>EP-01</td>
+    </tr>
+    <tr>
+      <td>HU-02</td>
+      <td>Historial de nutrientes del suelo</td>
+      <td align="justify">Como agricultor, quiero obtener el historial de los niveles de nutrientes del suelo para comparar cambios a lo largo del tiempo.</td>
+      <td  align="justify">
+        <strong>Escenario 1: Ver historial completo</strong><br>
+        Dado que el agricultor desea revisar el historial de nutrientes, cuando acceda a la sección de historial, entonces podrá ver un gráfico con los niveles de nutrientes a lo largo del tiempo.<br>
+        <strong>Escenario 2: Filtrar por fechas</strong><br>
+        Dado que el agricultor necesita comparar niveles en un rango específico, cuando seleccione un rango de fechas, entonces el gráfico debe actualizarse para mostrar los datos del rango seleccionado.
+      </td>
+      <td>EP-01</td>
+    </tr>
+    <tr>
+      <td>HU-03</td>
+      <td>Programación de Análisis del suelo</td>
+      <td align="justify">Como agricultor, quiero programar análisis de suelo mediante la aplicación, para monitorear la salud del terreno.</td>
+      <td  align="justify">
+        <strong>Escenario 1: Programar análisis</strong><br>
+        Dado que el agricultor desea programar un análisis de suelo, cuando acceda a la opción de programación en la aplicación, entonces podrá seleccionar la frecuencia y fecha para los análisis.<br>
+        <strong>Escenario 2: Confirmación de programación</strong><br>
+        Dado que el agricultor ha programado un análisis, cuando confirme la programación, entonces recibirá una notificación de confirmación y recordatorios antes de cada análisis.
+      </td>
+      <td>EP-01</td>
+    </tr>
+    <tr>
+      <td>HU-04</td>
+      <td>Notificaciones de Análisis del suelo</td>
+      <td align="justify">Como agricultor, quiero recibir notificaciones sobre los resultados del análisis del suelo, para estar al tanto de las condiciones actuales del terreno.</td>
+      <td  align="justify">
+        <strong>Escenario 1: Recibir notificación de resultados</strong><br>
+        Dado que el agricultor espera los resultados de un análisis, cuando los resultados estén disponibles, entonces recibirá una notificación con un resumen de los resultados.<br>
+        <strong>Escenario 2: Ver detalles de los resultados</strong><br>
+        Dado que el agricultor ha recibido una notificación, cuando acceda a los detalles de los resultados, entonces podrá visualizar un informe completo con recomendaciones para ajustar el uso de fertilizantes.
+      </td>
+      <td>EP-01</td>
+    </tr>
+    <tr>
+      <td>HU-05</td>
+      <td>Aplicación de fertilizantes</td>
+      <td align="justify">Como agricultor, quiero que el sistema de fertilización aplique la cantidad adecuada de fertilizantes, para optimizar el uso de insumos.</td>
+      <td  align="justify">
+        <strong>Escenario 1: Configurar cantidad de fertilizantes</strong><br>
+        Dado que el agricultor desea aplicar fertilizantes, cuando configure la cantidad en la aplicación, entonces el sistema deberá calcular la dosis adecuada basada en las necesidades del suelo.<br>
+        <strong>Escenario 2: Aplicación efectiva</strong><br>
+        Dado que el agricultor ha configurado la aplicación de fertilizantes, cuando el sistema ejecute la aplicación, entonces debe hacerlo de manera precisa y documentar la cantidad aplicada.
+      </td>
+      <td>EP-02</td>
+    </tr>
+    <tr>
+      <td>HU-06</td>
+      <td>Programación de riego automático</td>
+      <td align="justify">Como usuario, quiero configurar un sistema de riego automático, para que mis plantas reciban agua sin necesidad de intervención manual.</td>
+      <td  align="justify">
+        <strong>Escenario 1: Configurar horarios de riego</strong><br>
+        Dado que el usuario desea configurar el riego automático, cuando acceda a la opción de configuración en la aplicación, entonces podrá seleccionar horarios y frecuencias para el riego.<br>
+        <strong>Escenario 2: Confirmación y ajuste</strong><br>
+        Dado que el usuario ha configurado el riego automático, cuando la configuración se guarde, entonces recibirá una confirmación y podrá ajustar la configuración según sea necesario.
+      </td>
+      <td>EP-02</td>
+    </tr>
+    <tr>
+      <td>HU-07</td>
+      <td>Control manual del riego</td>
+      <td align="justify">Como usuario, quiero activar y desactivar el riego manual desde la aplicación, para tener un control más preciso sobre el riego en situaciones específicas.</td>
+      <td  align="justify">
+        <strong>Escenario 1: Activar/desactivar riego</strong><br>
+        Dado que el usuario desea controlar el riego manualmente, cuando acceda a la opción de riego manual en la aplicación, entonces podrá activar o desactivar el riego en cualquier momento.<br>
+        <strong>Escenario 2: Confirmar acción</strong><br>
+        Dado que el usuario ha cambiado el estado del riego, cuando la acción se confirme, entonces el sistema debe reflejar el cambio inmediatamente y proporcionar una notificación de la acción realizada.
+      </td>
+      <td>EP-02</td>
+    </tr>
+    <tr>
+      <td>HU-08</td>
+      <td>Registrar evento de riego</td>
+      <td align="justify">Como usuario, quiero que cada riego sea guardado en el sistema para poder ser accedido en un futuro.</td>
+      <td  align="justify">
+        <strong>Escenario 1: Registro automático</strong><br>
+        Dado que el usuario desea registrar los eventos de riego, cuando el sistema ejecute un riego, entonces el evento debe ser registrado automáticamente en el sistema.<br>
+        <strong>Escenario 2: Acceso al registro</strong><br>
+        Dado que el usuario quiere revisar el historial de riegos, cuando acceda a la sección de registros en la aplicación, entonces podrá ver todos los eventos de riego registrados.
+      </td>
+      <td>EP-02</td>
+    </tr>
+    <tr>
+      <td>HU-09</td>
+      <td>Notificaciones de riego</td>
+      <td align="justify">Como usuario, quiero recibir notificaciones cuando mis cultivos hayan sido regados, para tener información a detalle.</td>
+      <td  align="justify">
+        <strong>Escenario 1: Notificación de riego</strong><br>
+        Dado que el usuario desea recibir notificaciones de riego, cuando el sistema complete un riego, entonces enviará una notificación con detalles sobre el riego realizado.<br>
+        <strong>Escenario 2: Configuración de notificaciones</strong><br>
+        Dado que el usuario quiere personalizar las notificaciones, cuando configure sus preferencias en la aplicación, entonces recibirá notificaciones basadas en sus configuraciones.
+      </td>
+      <td>EP-02</td>
+    </tr>
+    <tr>
+      <td>HU-10</td>
+      <td>Acceder al registro de riego</td>
+      <td align="justify">Como usuario, quiero tener un registro de los riegos que se han efectuado, para acceder desde la aplicación.</td>
+      <td  align="justify">
+        <strong>Escenario 1: Ver historial de riegos</strong><br>
+        Dado que el usuario desea revisar el historial de riegos, cuando acceda a la sección de registros en la aplicación, entonces podrá ver una lista completa de todos los riegos realizados.<br>
+        <strong>Escenario 2: Filtrar registros</strong><br>
+        Dado que el usuario quiere buscar riegos específicos, cuando aplique filtros como fechas o tipos de riego, entonces los registros deben actualizarse para mostrar solo los datos que cumplen con los filtros aplicados.
+      </td>
+      <td>EP-02</td>
+    </tr>
+    <tr>
+      <td>HU-11</td>
+      <td>Monitoreo en tiempo real de las plantas</td>
+      <td align="justify">Como usuario, quiero monitorear en tiempo real diferentes factores externos a mis plantas, para reconocer sus necesidades.</td>
+      <td  align="justify">
+        <strong>Escenario 1: Monitoreo de factores externos</strong><br>
+        Dado que el usuario desea monitorear las plantas, cuando acceda a la sección de monitoreo en la aplicación, entonces podrá ver datos en tiempo real sobre factores como temperatura y humedad.<br>
+        <strong>Escenario 2: Alertas de condiciones</strong><br>
+        Dado que el usuario quiere estar informado sobre condiciones críticas, cuando los datos en tiempo real indiquen valores fuera de rango, entonces recibirá alertas para tomar medidas correctivas.
+      </td>
+      <td>EP-04</td>
+    </tr>
+     <tr>
+      <td>HU-12</td>
+      <td>Reconocer las ventajas de HidroBots a través del landing page</td>
+      <td align="justify">Como visitante del landing page quiero conocer las ventajas de la plataforma para saber si se ajusta a lo que necesito.</td>
+      <td align="justify">
+        <strong>Scenario 1: Visualizar ventajas para los medianos agricultores</strong><br>
+        Dado que: El usuario se encuentra en la landing page de HidroBots.<br>
+        Cuando: Presiona sobre "servicios para agricultores" (o "services for farmers").<br>
+        Entonces: Se envía al usuario a la sección "Agricultores" donde se muestran las ventajas para este segmento.<br><br>
+        <strong>Scenario 2: Visualizar ventajas para los Centros de Investigación Agrícola</strong><br>
+        Dado que: El usuario se encuentra en la landing page de HidroBots.<br>
+        Cuando: Presiona sobre "Services for research centers" (o "Servicios para centros de investigación").<br>
+        Entonces: Se envía al usuario a la sección "Centros de Investigación" donde se muestran las ventajas para los investigadores.
+      </td>
+      <td>EP-06</td>
+    </tr>
+    <tr>
+      <td>HU-13</td>
+      <td>Redirección a la aplicación</td>
+      <td align="justify">Como visitante de la landing page, quiero acceder a la aplicación para comenzar a usarla.</td>
+      <td align="justify">
+        <strong>Scenario 1: Acceso a la app web</strong><br>
+        Dado que el visitante se encuentra en la landing page<br>
+        Y quieren acceder a la aplicación desde la web<br>
+        Cuando seleccione el botón “Acceder”<br>
+        Entonces será redirigido a la aplicación web<br><br>
+        <strong>Scenario 2: Acceso a la app desde móvil</strong><br>
+        Dado que el visitante se encuentra en la landing page desde su móvil<br>
+        Y quiere acceder a la aplicación móvil<br>
+        Cuando seleccione el botón “Acceder”<br>
+        Entonces será redirigido a la aplicación móvil
+      </td>
+      <td>EP-06</td>
+    </tr>
+    <tr>
+      <td>HU-14</td>
+      <td>Registrar cuenta</td>
+      <td align="justify">Como usuario, quiero crear una cuenta para poder acceder a la aplicación.</td>
+      <td  align="justify">
+        <strong>Escenario 1: Proceso de registro</strong><br>
+        Dado que el usuario desea crear una cuenta, cuando complete el formulario de registro en la aplicación, entonces la cuenta deberá ser creada y el usuario recibirá una confirmación.<br>
+        <strong>Escenario 2: Verificación de cuenta</strong><br>
+        Dado que el usuario ha registrado una cuenta, cuando la cuenta se cree, entonces el usuario deberá verificar su correo electrónico para activar la cuenta y acceder a la aplicación.
+      </td>
+      <td>EP-05</td>
+    </tr>
+    <tr>
+      <td>HU-15</td>
+      <td>Iniciar sesión</td>
+      <td align="justify">Como usuario, quiero ingresar a mi cuenta para utilizar la aplicación.</td>
+      <td  align="justify">
+        <strong>Escenario 1: Acceso a la cuenta</strong><br>
+        Dado que el usuario desea ingresar a la aplicación, cuando ingrese sus credenciales correctas, entonces deberá tener acceso a su cuenta y a todas las funcionalidades.<br>
+        <strong>Escenario 2: Mensaje de error</strong><br>
+        Dado que el usuario ha ingresado credenciales incorrectas, cuando intente iniciar sesión, entonces deberá recibir un mensaje de error y la opción de intentar nuevamente.
+      </td>
+      <td>EP-05</td>
+    </tr>
+    <tr>
+      <td>HU-16</td>
+      <td>Cerrar sesión</td>
+      <td align="justify">Como usuario quiero cerrar mi sesión para mantener mis datos seguros.</td>
+      <td  align="justify">
+        <strong>Escenario 1: Cierre de sesión</strong><br>
+        Dado que el usuario desea cerrar su sesión, cuando seleccione la opción de cerrar sesión en la aplicación, entonces su sesión deberá finalizar y será redirigido a la pantalla de inicio.<br>
+        <strong>Escenario 2: Confirmación de cierre</strong><br>
+        Dado que el usuario ha cerrado su sesión, cuando el proceso se complete, entonces deberá recibir una confirmación de que ha cerrado sesión exitosamente.
+      </td>
+      <td>EP-05</td>
+    </tr>
+    <tr>
+  <td>HU-17</td>
+  <td>Recuperar contraseña</td>
+  <td align="justify">Como usuario, quiero recuperar mi contraseña en caso de olvidarla para poder acceder a mi cuenta.</td>
+  <td align="justify">
+    <strong>Escenario 1: Solicitar recuperación</strong><br>
+    Dado que el usuario ha olvidado su contraseña, cuando seleccione la opción de recuperación de contraseña y proporcione su dirección de correo electrónico, entonces recibirá un enlace para restablecer la contraseña.<br>
+    <strong>Escenario 2: Restablecer contraseña</strong><br>
+    Dado que el usuario ha recibido el enlace de recuperación, cuando siga el enlace y complete el formulario de restablecimiento de contraseña, entonces la contraseña deberá actualizarse y el usuario recibirá una confirmación de que la contraseña ha sido cambiada exitosamente.
+  </td>
+  <td>EP-05</td>
+</tr>
+<tr>
+      <td>HU-18</td>
+      <td>Ver Historial Climático</td>
+      <td align="justify">Como agricultor, quiero ver el historial de las condiciones climáticas para entender mejor cómo afecta a mis cultivos.</td>
+      <td  align="justify">
+        <strong>Escenario 1: Consultar historial</strong><br>
+        Dado que el agricultor desea revisar el historial climático, cuando acceda a la sección de historial en la aplicación, entonces visualizará un gráfico con las condiciones climáticas pasadas.<br>
+        <strong>Escenario 2: Filtrar datos climáticos</strong><br>
+        Dado que el agricultor quiere analizar datos en un rango específico, cuando seleccione un rango de fechas, entonces el gráfico debe actualizarse para mostrar solo los datos del rango seleccionado.
+      </td>
+      <td>EP-03</td>
+    </tr>
+    <tr>
+      <td>HU-19</td>
+      <td>Compartir Datos con la Cooperativa</td>
+      <td align="justify">Como agricultor, quiero compartir mis datos de riego y análisis de suelo con mi cooperativa para recibir recomendaciones.</td>
+      <td  align="justify">
+        <strong>Escenario 1: Enviar datos</strong><br>
+        Dado que el agricultor desea compartir datos, cuando seleccione la opción de compartir en la aplicación, entonces los datos de riego y análisis de suelo serán enviados a la cooperativa.<br>
+        <strong>Escenario 2: Confirmación de envío</strong><br>
+        Dado que el agricultor ha enviado los datos, cuando el proceso se complete, entonces recibirá una confirmación de que los datos han sido compartidos exitosamente.
+      </td>
+      <td>EP-04</td>
+    </tr>
+    <tr>
+      <td>TS-01</td>
+      <td>Registrar datos sobre los nutrientes del suelo</td>
+      <td align="justify">Como desarrollador, quiero contar con un endpoint para registrar los datos sobre los nutrientes del suelo.</td>
+      <td  align="justify">
+        <strong>Escenario 1: Endpoint funcional</strong><br>
+        Dado que se necesita registrar datos sobre nutrientes, cuando se llame al endpoint, entonces los datos deben ser registrados correctamente en la base de datos.<br>
+        <strong>Escenario 2: Manejo de errores</strong><br>
+        Dado que pueden ocurrir errores en la solicitud, cuando se detecte un error en el registro de datos, entonces el sistema debe manejar el error y devolver un mensaje adecuado.
+      </td>
+      <td>EP-07</td>
+    </tr>
+    <tr>
+      <td>TS-02</td>
+      <td>Registrar riegos</td>
+      <td align="justify">Como desarrollador, quiero contar con un endpoint para registrar los riegos que efectúa el dispositivo.</td>
+      <td  align="justify">
+        <strong>Escenario 1: Endpoint funcional</strong><br>
+        Dado que se necesita registrar los riegos, cuando se llame al endpoint, entonces los datos del riego deben ser registrados en el sistema.<br>
+        <strong>Escenario 2: Validación de datos</strong><br>
+        Dado que el endpoint debe manejar datos variados, cuando los datos sean enviados, entonces el sistema debe validar la integridad y formato de los datos antes de registrarlos.
+      </td>
+      <td>EP-07</td>
+    </tr>
+    <tr>
+      <td>TS-03</td>
+      <td>Registrar datos meteorológicos</td>
+      <td align="justify">Como desarrollador, quiero contar con un endpoint para registrar los datos meteorológicos que registra el dispositivo.</td>
+      <td  align="justify">
+        <strong>Escenario 1: Endpoint funcional</strong><br>
+        Dado que se necesita registrar datos meteorológicos, cuando se llame al endpoint, entonces los datos deben ser registrados adecuadamente en la base de datos.<br>
+        <strong>Escenario 2: Respuesta del sistema</strong><br>
+        Dado que el endpoint debe responder a solicitudes, cuando se registren los datos, entonces el sistema debe devolver una respuesta de éxito o un mensaje de error adecuado si algo sale mal.
+      </td>
+      <td>EP-07</td>
+    </tr>
+    <tr>
+      <td>TS-04</td>
+      <td>Diseñar la interfaz de Usuario</td>
+      <td align="justify">Como desarrollador, quiero diseñar una interfaz de usuario atractiva y fácil de usar para una experiencia agradable.</td>
+      <td  align="justify">
+        <strong>Escenario 1: Diseño atractivo</strong><br>
+        Dado que se necesita una interfaz atractiva, cuando se implemente el diseño, entonces los elementos visuales deberán ser coherentes con el estilo y agradable para el usuario.<br>
+        <strong>Escenario 2: Pruebas de usabilidad</strong><br>
+        Dado que la interfaz debe ser fácil de usar, cuando se realicen pruebas con usuarios, entonces el diseño deberá ajustarse según los comentarios recibidos para mejorar la usabilidad.
+      </td>
+      <td>EP-08</td>
+    </tr>
+    <tr>
+      <td>TS-05</td>
+      <td>Optimizar el Rendimiento de la Aplicación</td>
+      <td align="justify">Como desarrollador, quiero optimizar el rendimiento de la aplicación para una experiencia rápida y fluida.</td>
+      <td  align="justify">
+        <strong>Escenario 1: Mejora en tiempos de respuesta</strong><br>
+        Dado que se busca mejorar el rendimiento, cuando se optimicen los componentes de la aplicación, entonces los tiempos de respuesta deberán ser reducidos y más eficientes.<br>
+        <strong>Escenario 2: Reducción de carga</strong><br>
+        Dado que la aplicación debe ser fluida, cuando se realicen optimizaciones, entonces la carga en el servidor y la aplicación debe disminuir, mejorando la experiencia general.
+      </td>
+      <td>EP-08</td>
+    </tr>
+    <tr>
+      <td>TS-06</td>
+      <td>Sistema de Autenticación y Registro</td>
+      <td align="justify">Como desarrollador, quiero implementar un sistema de autenticación y registro.</td>
+      <td  align="justify">
+        <strong>Escenario 1: Proceso de autenticación</strong><br>
+        Dado que se necesita un sistema de autenticación, cuando el usuario intente iniciar sesión, entonces el sistema deberá validar las credenciales y permitir el acceso a la cuenta.<br>
+        <strong>Escenario 2: Gestión de registros</strong><br>
+        Dado que el sistema debe gestionar registros, cuando un nuevo usuario se registre, entonces el sistema deberá almacenar sus datos de manera segura y permitir la verificación de la cuenta.
+      </td>
+      <td>EP-08</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ## 3.3. Impact mapping
 
+En esta sección, se evidencia cómo el sistema se alinea perfectamente con los objetivos estratégicos del proyecto. Asimismo, se muestra cómo cada función del sistema contribuirá a lograr los resultados esperados.
+
+**Segmento 1: Medianos agricultores**
+
+![Impact Mapping: Medianos Agricultores](assets/Impact_Mapping/segment1.png)
+
+**Segmento 2: Centros de Investigación Agrícola**
+
+![Impact Mapping: Centros de Investigación Agrícola](assets/Impact_Mapping/segment2.png)
+
 ## 3.4. Product Backlog
+
+En esta sección, listamos y priorizamos todas las tareas y funcionalidades necesarias para el desarrollo de la aplicación. El backlog guiará el desarrollo del proyecto y garantizará que se aborden todas las necesidades del usuario de manera eficiente.
+
+<table>
+  <thead align="center">
+    <tr>
+      <th>Número de Orden</th>
+      <th>User Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Story Points</th>
+    </tr>
+  </thead>
+  <tbody align="center">
+    <tr>
+      <td>1</td>
+      <td>HU-01</td>
+      <td>Visualizar nutrientes del suelo</td>
+      <td align="justify">Como agricultor, quiero obtener información sobre los niveles de nutrientes del suelo para ajustar el uso de fertilizantes.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>HU-02</td>
+      <td>Historial de nutrientes del suelo</td>
+      <td align="justify">Como agricultor, quiero obtener el historial de los niveles de nutrientes del suelo para comparar cambios a lo largo del tiempo.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>HU-03</td>
+      <td>Programación de Análisis del suelo</td>
+      <td align="justify">Como agricultor, quiero programar análisis de suelo mediante la aplicación, para monitorear la salud del terreno.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>HU-04</td>
+      <td>Notificaciones de Análisis del suelo</td>
+      <td align="justify">Como agricultor, quiero recibir notificaciones sobre los resultados del análisis del suelo, para estar al tanto de las condiciones actuales del terreno.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>HU-05</td>
+      <td>Aplicación de fertilizantes</td>
+      <td align="justify">Como agricultor, quiero que el sistema de fertilización aplique la cantidad adecuada de fertilizantes, para optimizar el uso de insumos.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>HU-06</td>
+      <td>Programación de riego automático</td>
+      <td align="justify">Como usuario, quiero configurar un sistema de riego automático, para que mis plantas reciban agua sin necesidad de intervención manual.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>HU-07</td>
+      <td>Control manual del riego</td>
+      <td align="justify">Como usuario, quiero activar y desactivar el riego manual desde la aplicación, para tener un control más preciso sobre el riego en situaciones específicas.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>HU-08</td>
+      <td>Registrar evento de riego</td>
+      <td align="justify">Como usuario, quiero que cada riego sea guardado en el sistema para poder ser accedido en un futuro</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>HU-09</td>
+      <td>Notificaciones de riego</td>
+      <td align="justify">Como usuario, quiero recibir notificaciones cuando mis cultivos hayan sido regados, para tener información a detalle</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>HU-10</td>
+      <td>Acceder el registro de riego</td>
+      <td align="justify">Como usuario, quiero tener un registro de los riegos que se han efectuado, para acceder desde la aplicación.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>HU-11</td>
+      <td>Monitoreo en tiempo real de las plantas</td>
+      <td align="justify">Como usuario, quiero monitorear en tiempo real diferentes factores externos a mis plantas, para reconocer sus necesidades</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>HU-12</td>
+      <td>Reconocer las ventajas de HidroBots a través del landing page</td>
+      <td align="justify">Como visitante del landing page quiero conocer las ventajas de la plataforma para saber si se ajusta a lo que necesito.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>HU-13</td>
+      <td>Redirección a la aplicación</td>
+      <td align="justify">Como visitante de la landing page, quiero acceder a la aplicación para comenzar a usarla</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>HU-14</td>
+      <td>Registrar cuenta</td>
+      <td align="justify">Como usuario quiero crear una cuenta para poder acceder a la aplicación.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>HU-15</td>
+      <td>Iniciar sesión</td>
+      <td align="justify">Como usuario quiero ingresar a mi cuenta para utilizar la aplicación</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>HU-16</td>
+      <td>Cerrar sesión</td>
+      <td align="justify">Como usuario quiero cerrar mi sesión para mantener mis datos seguros.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>HU-17</td>
+      <td>Recuperar contraseña</td>
+      <td align="justify">Como usuario, quiero recuperar mi contraseña en caso de olvidarla para poder acceder a mi cuenta.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>HU-18</td>
+      <td>Ver Historial Climático</td>
+      <td align="justify">Como agricultor, quiero ver el historial de las condiciones climáticas para entender mejor cómo afecta a mis cultivos.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>HU-19</td>
+      <td>Compartir Datos con la Cooperativa</td>
+      <td align="justify">Como agricultor, quiero compartir mis datos de riego y análisis de suelo con mi cooperativa para recibir recomendaciones.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>TS-01</td>
+      <td>Registrar datos sobre los nutrientes del suelo</td>
+      <td align="justify">Como desarrollador, quiero contar con un endpoint para registrar los datos sobre los nutrientes del suelo</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>TS-02</td>
+      <td>Registrar riegos</td>
+      <td align="justify">Como desarrollador, quiero contar con un endpoint para registrar los riegos que efectúa el dispositivo</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>TS-03</td>
+      <td>Registrar datos meteorológicos</td>
+      <td align="justify">Como desarrollador, quiero contar con un endpoint para registrar los datos meteorológicos que registra el dispositivo</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>TS-04</td>
+      <td>Diseñar la interfaz de Usuario</td>
+      <td align="justify">Como desarrollador, quiero diseñar una interfaz de usuario atractiva y fácil de usar para una experiencia agradable.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>TS-05</td>
+      <td>Optimizar el Rendimiento de la Aplicación</td>
+      <td align="justify">Como desarrollador, quiero optimizar el rendimiento de la aplicación para una experiencia rápida y fluida.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>TS-06</td>
+      <td>Sistema de Autenticación y Registro</td>
+      <td align="justify">Como desarrollador, quiero implementar un sistema de autenticación y registro.</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
 
 # Capítulo IV: Solution Software Design
 
