@@ -433,7 +433,7 @@ Con estos pasos, el equipo logró definir y diseñar los bounded contexts de man
 
 **Bounded Context Canvases Crops:**
 
-![Bounded Context Canvas Crops]()
+![Bounded Context Canvas Crops](assets/Bounded%20Context%20Canvases/bc_canvases_crop.jpg)
 
 **Bounded Context Canvases Notifications:**
 
@@ -445,7 +445,7 @@ Con estos pasos, el equipo logró definir y diseñar los bounded contexts de man
 
 **Bounded Context Canvases Report:**
 
-![Bounded Context Canvas Report]()
+![Bounded Context Canvas Report](assets/Bounded%20Context%20Canvases/bc_canvases_report.jpg)
 
 ### 4.1.2 Context mapping
 
