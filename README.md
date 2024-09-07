@@ -433,7 +433,7 @@ Con estos pasos, el equipo logró definir y diseñar los bounded contexts de man
 
 **Bounded Context Canvases Crops:**
 
-![Bounded Context Canvas Crops]()
+![Bounded Context Canvas Crops](assets/Bounded%20Context%20Canvases/bc-crop-canvase.jpg)
 
 **Bounded Context Canvases Notifications:**
 
@@ -445,7 +445,7 @@ Con estos pasos, el equipo logró definir y diseñar los bounded contexts de man
 
 **Bounded Context Canvases Report:**
 
-![Bounded Context Canvas Report]()
+![Bounded Context Canvas Report](assets/Bounded%20Context%20Canvases/bc-report-canvase.jpg)
 
 ### 4.1.2 Context mapping
 
@@ -491,13 +491,13 @@ Nuestra Startup cuenta con un sistema de software TheBigFun (aplicación web y m
 
 Este diagrama de alto nivel permite definir las partes del sistema del software y su ambiente indicando todas las entidades que interactúan con dicho diagrama. Además, muestra la interacción de todas las entidades externas tales como una API o sistema IOT. Es por eso, que este diagrama se enfoca en los sucesos y restricciones que necesitaría el software.
 
-<img src="./assets/C4/ContextDiagram.png" alt="hidrobots deploy diagram">
+![Context Level Diagram](assets/DiagramaC4/Diagrama%20Contexto/context_diagram.png)
 
 #### 4.1.3.3. Software Architecture Container Level Diagrams
 
 Este diagrama sirve para incrementar el sistema del software mostrando los contenedores (aplicaciones, microservicios, base de datos, entre otros) de los cuales está compuesto el sistema del software. Además, se puede visualizar todas las relaciones de las entidades externas con las entidades propias del software.
 
-<img src="./assets/C4/ConteinerDiagram.png" alt="hidrobots deploy diagram">
+![Container Level Diagram](assets/DiagramaC4/Diagrama%20Contenedores/container_diagram.png)
 
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams
@@ -799,7 +799,7 @@ En la capa de **Infrastructure Layer** de la aplicación de riego IoT para el co
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 Esta sección incluye diagramas de componentes del nivel de arquitectura de software, mostrando cómo cada contenedor está compuesto por diferentes componentes, sus responsabilidades, y las interacciones entre ellos. Estos diagramas ayudan a entender la estructura interna de los contenedores y cómo se integran para formar el sistema completo.
 
-<img src="./assets/diagrams/infraestructure-context-security.png" alt="hidrobots bounded-context-software-architecture-component-level-diagrams-security">
+![hidrobots bounded-context-software-architecture-component-level-diagrams-security.png](assets/DiagramaC4/Diagram%20Components/SecurityDiagramComponent/security_diagram_component.png)
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 Los diagramas de nivel de código en esta sección presentan detalles más finos sobre la implementación de los componentes dentro del bounded context. Incluyen diagramas de clases y bases de datos, proporcionando una vista más granular de la arquitectura y cómo los diferentes componentes trabajan juntos a nivel de código.
@@ -994,7 +994,7 @@ La capa de Infraestructura en el contexto de **Crop** se encarga de la comunicac
 
 Esta sección incluye diagramas de componentes del nivel de arquitectura de software, mostrando cómo cada contenedor está compuesto por diferentes componentes, sus responsabilidades, y las interacciones entre ellos. Estos diagramas ayudan a entender la estructura interna de los contenedores y cómo se integran para formar el sistema completo.
 
-![Bounded Context Software Architecture Component Level Diagrams Crop](assets/diagrams/Crop_Context.jpeg)
+![Bounded Context Software Architecture Component Level Diagrams Crop](assets/DiagramaC4/Diagram%20Components/CropDiagramComponent/component_diagram_crop.png)
 
 
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
@@ -1022,6 +1022,146 @@ El diagrama de clases del Domain Layer del **Crop Context** muestra las entidade
 El diagrama de diseño de bases de datos muestra cómo los objetos de base de datos están estructurados para la persistencia de datos. Incluye tablas, columnas, claves primarias y foráneas, y las relaciones entre tablas, proporcionando una representación clara del modelo de datos utilizado para respaldar el bounded context.
 
 ![Crop Database Design Diagram](assets/diagrams/Crop_DatabaseDiagram.png)
+
+### 4.2.3. Bounded Context: Notifications
+
+EL **Notification Context** tiene la responsabilidad de crear notificaciones de los diferentes eventos, como es el riego y análisis del suelo, y enviarlas a los respectivos usuarios.
+
+#### 4.2.3.1. Domain Layer
+
+En la presente capa del dominio, se encapsulan los diferentes modelos del negocio pertenecientes a la capa.
+
+**Aggregate**
+
+| **Nombre**     | **Categoría**    | **Propósito** |
+|:---------------|:-----------------|:--------------|
+| Notification   | Entity/Aggregate | Es una clase que abstrae la notificación que recibe un usuario. |
+
+*Atributos*
+
+| **Nombre**        | **Tipo de dato**          | **Visibilidad** | **Descripción** |
+|:-----------------:|:------------------------:|:---------------:|:----------------|
+| id                | Long                     | Private         | Identificador único de la notificación |
+| notifiedAt        | DateTime                     | Private         | Fecha y hora de recepción de la notificación |
+| description    | String        | Private         | Mensaje con una breve descripción de la notificación. |
+| type | NotificationType        | Private         | Categoriza la notificación (Alert | Information) |
+| user     | User | Private  | Usuario a quien va dirigido la notificación. |
+| crop           | Crop                   | Private         | Cultivo del cual se generó la notificación |
+
+*Métodos*
+
+| **Nombre**       | **Tipo de retorno** | **Visibilidad** | **Descripción** |
+|:----------------:|:------------------:|:---------------:|:----------------|
+| calculateTimeFromNotification       | DateTime | Public          | Devuelve el tiempo que ha pasado desde recibir la notificación hasta ahora.  |
+| isAlert  | Boolean             | Public          | Devuelve un valor bool en función de si es Alert o no. |
+| isInformation | Boolean             | Public          | Devuelve un valor bool en función de si es Alert o no. |
+
+**Value objects**
+
+| **Nombre**     | **Categoría**    | **Propósito** |
+|:---------------|:-----------------|:--------------|
+| NotificationType   | Value object/Enum | Representa qué tipo es la notificación: ALERT o INFORMATION |
+
+#### 4.2.3.2. Interface Layer
+
+En la capa de interfaz, se crearon los controladores, que permiten la interacción entre la aplicación web y el sistema de notificaciones.
+
+*Controller*
+
+| **Nombre**     | **Categoría**    | **Propósito** |
+|:---------------|:-----------------|:--------------|
+| NotificationsController   | Controller | Controlador para notificaciones |
+
+*Atributos*
+
+| **Nombre**        | **Tipo de dato**          | **Visibilidad** | **Descripción** |
+|:-----------------:|:------------------------:|:---------------:|:----------------|
+| notificationCommandService | NotificationCommandService                  | Private         | Servicio de comandos para las notificaciones |
+| notificationQueryService| NotificationQueryService                  | Private         | Servicio de queries para las notificaciones |
+
+*Métodos*
+
+| **Nombre**       | **Tipo de retorno** | **Visibilidad** | **Descripción** |
+|:----------------:|:------------------:|:---------------:|:----------------|
+| Constructor       | void | Public  | Constructor del controlador  |
+| getNotificationsByUserId | List<ResponseEntity<Notification>> | Public  | Get notifications from a user |
+| getNotificationById | ResponseEntity<Notification> | Public  | Get notification by id |
+| postNotification | ResponseEntity<NotificationResponse> | Public  | Create notification |
+
+#### 4.2.3.3. Application Layer
+
+En esta capa, se definen las reglas del negocio, la lógica empresarial y la funcionalidad.
+
+*Service 1*
+
+| **Nombre**     | **Categoría**    | **Propósito** |
+|:---------------|:-----------------|:--------------|
+| NotificationCommandService | Service | Servicio de la lógica de los comandos |
+
+*Atributos*
+
+| **Nombre**        | **Tipo de dato**          | **Visibilidad** | **Descripción** |
+|:-----------------:|:------------------------:|:---------------:|:----------------|
+| notificationRepository | NotificationRepository                  | Private         | Repositorio de las notificaciones |
+| cropRepository | CropRepository | Private         | Repositorio de los cultivos |
+| userRepository | UserRepository | Private         | Repositorio de los user |
+
+*Métodos*
+
+| **Nombre**       | **Tipo de retorno** | **Visibilidad** | **Descripción** |
+|:----------------:|:------------------:|:---------------:|:----------------|
+| Constructor       | void | Public  | Constructor del servicio  |
+| handle | NotificationResponse | Public  | Crea una notificación en función de un CreateNotificationCommand  |
+
+*Service 2*
+
+| **Nombre**     | **Categoría**    | **Propósito** |
+|:---------------|:-----------------|:--------------|
+| NotificationQueryService | Service | Servicio de la lógica de los queries |
+
+*Atributos*
+
+| **Nombre**        | **Tipo de dato**          | **Visibilidad** | **Descripción** |
+|:-----------------:|:------------------------:|:---------------:|:----------------|
+| notificationRepository | NotificationRepository                  | Private         | Repositorio de las notificaciones |
+| userRepository | UserRepository | Private         | Repositorio de los user |
+
+*Métodos*
+
+| **Nombre**       | **Tipo de retorno** | **Visibilidad** | **Descripción** |
+|:----------------:|:------------------:|:---------------:|:----------------|
+| Constructor       | void | Public  | Constructor del servicio  |
+| handle | List<NotificationResponse> | Public  | Lista las notificaciones en función de un user Id  |
+| handle | NotificationResponse | Public  | Busca y retorna una notificación por su id  |
+
+
+#### 4.2.3.4. Infrastructure Layer
+
+En esta capa se define los repositorios del bounded context, que permitiráb el acceso a la base de datos.
+
+*Repository*
+
+| **Nombre**     | **Categoría**    | **Propósito** |
+|:---------------|:-----------------|:--------------|
+| NotificationRepository | Repository | Repositorio que almacena las notificaciones |
+
+#### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+![Bounded Context Software Architecture Component Level Diagrams Notifications](assets/DiagramaC4/Diagram%20Components/NotificationDiagramComponent/notification_diagram_component.png)
+
+#### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
+
+<p align="center">
+  <img src="assets/diagrams/notifications-database-model.png" alt="Notifications database model">
+</p>
+
+#### 4.2.3.6.2. Bounded Context Database Design Diagram. 
+
+<p align="center">
+  <img src="assets/diagrams/notifications-class-diagram.png" alt="Notifications class diagram">
+</p>
 
 ### 4.2.5. Bounded Context: Reporting
 
@@ -1132,10 +1272,7 @@ En la capa de Infraestructura se gestiona la persistencia de datos para el conte
 
 En esta sección, se presentan los diagramas a nivel de componentes que ilustran la arquitectura del **Reporting Context**. Estos diagramas muestran la estructura y las relaciones entre los componentes principales del sistema.
 
-<p align="center">
-  <img src="assets/diagrams/reporting_context.jpg" alt="Context Mapping">
-
-</p>
+![Reporting Component Level Diagram](assets/DiagramaC4/Diagram%20Components/ReportDiagramComponent/report_diagram_component.png)
 
 
 #### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
