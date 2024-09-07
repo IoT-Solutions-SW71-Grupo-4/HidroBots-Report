@@ -1266,7 +1266,7 @@ La capa de Infraestructura en el contexto de **Watering** se encarga de la comun
 
 Esta sección incluye diagramas de componentes del nivel de arquitectura de software, mostrando cómo cada contenedor está compuesto por diferentes componentes, sus responsabilidades, y las interacciones entre ellos. Estos diagramas ayudan a entender la estructura interna de los contenedores y cómo se integran para formar el sistema completo.
 
-![Reporting Component Level Diagram](assets/DiagramaC4/Diagram%20Components/ReportDiagramComponent/report_diagram_component.png)
+![Reporting Component Level Diagram](assets/DiagramaC4/Diagram%20Components/ReportDiagramComponent/watering_diagram_component.png)
 
 
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
