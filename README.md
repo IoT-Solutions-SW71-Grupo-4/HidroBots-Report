@@ -1143,9 +1143,16 @@ En esta sección, se presentan los diagramas a nivel de componentes que ilustran
 
 ##### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
 
+En esta sección, se ilustra las principales entidades, atributos y relaciones dentro del contexto, asegurando una comprensión clara de cómo se organizan y se comportan los objetos de negocio en el sistema.
+
 
 
 ##### 4.2.5.6.2. Bounded Context Database Design Diagram
+
+En esta sección, se detallan las tablas, columnas y las relaciones entre las entidades de la base de datos, reflejando la estructura lógica necesaria para soportar las funcionalidades del módulo.
+
+![Reporting Database Design Diagram](assets/diagrams/reporting_database.png)
+
 
 
 
