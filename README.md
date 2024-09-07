@@ -1145,6 +1145,9 @@ En esta sección, se presentan los diagramas a nivel de componentes que ilustran
 
 En esta sección, se ilustra las principales entidades, atributos y relaciones dentro del contexto, asegurando una comprensión clara de cómo se organizan y se comportan los objetos de negocio en el sistema.
 
+![Reporting Domain Layer Class Diagram](assets/diagrams/reporting_uml.png)
+
+
 
 
 ##### 4.2.5.6.2. Bounded Context Database Design Diagram
