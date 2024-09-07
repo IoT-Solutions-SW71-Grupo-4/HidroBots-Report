@@ -1163,6 +1163,121 @@ En esta capa se define los repositorios del bounded context, que permitiráb el 
   <img src="assets/diagrams/notifications-class-diagram.png" alt="Notifications class diagram">
 </p>
 
+### 4.2.4. Bounded Context: Watering
+
+El **Watering Context** se encarga de gestionar la información relacionada con los riegos, incluyendo la creación, automatización y eliminación de los riegos, así como la activación de los actuadores de manera automatica o manual.
+
+#### 4.2.4.1. Domain Layer
+
+El **Domain Layer** del **Watering Context** encapsula la lógica de negocio y las reglas que rigen el funcionamiento de los riegos.
+
+**Aggregate 1**
+
+| **Nombre**      | **Categoría**     | **Propósito** |
+|:---------------|:-----------------|:--------------|
+| Watering          | Aggregate  |Representa la información que hay en los riegos. |
+
+**Atributos**
+
+| **Nombre**        | **Tipo de dato**          | **Visibilidad** | **Descripción** |
+|:-----------------:|:------------------------:|:---------------:|:----------------|
+| id                | Long                     | Private         | Identificador único del regado |
+| name              | String                   | Private         | Nombre del regado |
+| type              | String                   | Private         | Tipo de regado (automatico, manual o goteo) |
+| actuators         | Actuators                   | Private         | dispositivos IOT que permiten el regado |
+| active              | Bool                   | Private         | Verifica el estado del regador |
+| register              | Register                   | Private         | Registro de la regadera |
+
+**Métodos**
+
+| **Nombre**       | **Tipo de retorno** | **Visibilidad** | **Descripción** |
+|:----------------:|:------------------:|:---------------:|:----------------|
+| deleteShower  | Void               | Public          | eliminar un regado |
+| activeShower  | Void               | Public          | activa la regadera |
+| deactivateShower  | Void               | Public          | desactivar la regadera |
+| showRegister  | Void               | Public          | Mostrar registro |
+
+#### 4.2.4.2. Interface Layer
+
+La **Interface Layer** del **Watering Context** proporciona una API REST que permite a los usuarios gestionar las regaderas, incluyendo la creación, automatización y eliminación de las regaderas, así como la supervisión de los sensores asociados a cada cultivo.
+
+**Componentes clave:**
+
+- **Watering Controller**: Facilita la exposición de servicios a través de endpoints REST, permitiendo interacciones con el dominio de las regaderas.
+
+  **Endpoints**:
+  - `GET /watering/{id}`: Recupera una regadera específico basado en su ID.
+  - `POST /watering`: Crea una nuevo regadera con las características especificadas.
+  - `DELETE /watering/{id}`: Elimina un cultivo específico.
+  - `POST /crops/{cropId}/actuators/{actuatorsId}`: Añade un actuators a la regadera.
+  - `DELETE /crops/{cropId}/actuators/{actuatorsId}`: Elimina un actuators a la regadera.
+
+  **Atributos**:
+
+  | **Nombre**        | **Tipo de retorno** | **Visibilidad** | **Descripción** |
+  |:-----------------:|:------------------:|:---------------:|:----------------|
+  | wateringService       | WateringService        | Private         | Servicio que gestiona la lógica de negocio de las regaderas. |
+
+#### 4.2.4.3. Application Layer
+
+La capa de Aplicación en el contexto de **Crop** gestiona la lógica empresarial y la funcionalidad de los cultivos.
+
+**Service**
+
+| **Nombre**          | **Categoría**     | **Propósito**                                  |
+|:--------------------|:-----------------|:-----------------------------------------------|
+| WateringCommandService       | Service          | Provee métodos para los comandos relacionados con las regaderas como (POST, PUT, DELETE). |
+| WateringQueryService         | Service          | Provee métodos para las consultas relacionadas con las regaderas como (GET, GET/{id}). |
+| ActuatorCommandService     | Service          | Provee métodos para los comandos relacionados con los actuators como (POST, DELETE). |
+| ActuatorQueryService       | Service          | Provee métodos para las consultas relacionadas con los actuators como (GET, GET/{id}). |
+
+**Atributos**
+
+| **Nombre**           | **Tipo de retorno**          | **Visibilidad** | **Descripción**                                  |
+|:---------------------|:-------------------------:|:---------------:|:-------------------------------------------------|
+| wateringRepository       | WateringRepository           | Private         | Repositorio de cultivos.                         |
+| actuatorRepository     | SensorRepository         | Private         | Repositorio de sensores.                         |
+| validator            | Validator                | Private         | Validador de atributos de las regaderas.              |
+
+
+#### 4.2.4.4. Infrastructure Layer
+
+La capa de Infraestructura en el contexto de **Watering** se encarga de la comunicación con la base de datos y otros servicios externos necesarios para el funcionamiento del sistema.
+
+**Repository 1**
+
+| **Nombre**          | **Categoría**     | **Propósito**                                  |
+|:--------------------|:-----------------|:-----------------------------------------------|
+| WateringRepository      | Repository        | Provee métodos para acceder a los datos de los riegos. |
+
+**Métodos**
+
+| **Nombre**           | **Tipo de retorno** | **Visibilidad** | **Descripción**                                  |
+|:---------------------|:------------------:|:---------------:|:-------------------------------------------------|
+| CreateWateringCommand    | Watering                 | Public          | Crea un nuevo riego en la base de datos. |
+| UpdateWateringCommand    | Watering                 | Public          | Actualiza un riego existente en la base de datos. |
+| DeleteWateringCommand    | Void                 | Public          | Elimina un riego específico de la base de datos. |
+| FindWateringByIdQuery    | Watering                 | Public          | Recupera un riego específico de la base de datos basado en su ID. |
+| FindAllWateringsQuery    | List<Watering>           | Public          | Recupera todos los riegos existentes de la base de datos. |
+
+
+
+#### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+Esta sección incluye diagramas de componentes del nivel de arquitectura de software, mostrando cómo cada contenedor está compuesto por diferentes componentes, sus responsabilidades, y las interacciones entre ellos. Estos diagramas ayudan a entender la estructura interna de los contenedores y cómo se integran para formar el sistema completo.
+
+![Bounded Context Software Architecture Component Level Diagrams Crop](assets/C4/Waterning.png)
+
+
+#### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
+
+En esta sección, el equipo presenta los diagramas que detallan la implementación de los componentes dentro de cada bounded context.
+
+- **Domain Layer Class Diagrams:** Muestran las clases clave y relaciones en la capa de dominio.
+- **Database Diagram:** Presenta la estructura de la base de datos, con tablas y relaciones.
+
+Estos diagramas ofrecen una visión clara de cómo se implementan y gestionan los datos en cada contexto.
+
 ### 4.2.5. Bounded Context: Reporting
 
 El **Reporting Context** es responsable de recopilar y analizar los datos de los sensores IoT, como los niveles de humedad, minerales y temperatura, para generar reportes útiles para los agricultores e investigadores.
