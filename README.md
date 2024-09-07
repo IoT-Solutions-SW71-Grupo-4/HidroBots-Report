@@ -1023,6 +1023,148 @@ El diagrama de diseño de bases de datos muestra cómo los objetos de base de da
 
 ![Crop Database Design Diagram](assets/diagrams/Crop_DatabaseDiagram.png)
 
+### 4.2.3. Bounded Context: Notifications
+
+EL **Notification Context** tiene la responsabilidad de crear notificaciones de los diferentes eventos, como es el riego y análisis del suelo, y enviarlas a los respectivos usuarios.
+
+#### 4.2.3.1. Domain Layer
+
+En la presente capa del dominio, se encapsulan los diferentes modelos del negocio pertenecientes a la capa.
+
+**Aggregate**
+
+| **Nombre**     | **Categoría**    | **Propósito** |
+|:---------------|:-----------------|:--------------|
+| Notification   | Entity/Aggregate | Es una clase que abstrae la notificación que recibe un usuario. |
+
+*Atributos*
+
+| **Nombre**        | **Tipo de dato**          | **Visibilidad** | **Descripción** |
+|:-----------------:|:------------------------:|:---------------:|:----------------|
+| id                | Long                     | Private         | Identificador único de la notificación |
+| notifiedAt        | DateTime                     | Private         | Fecha y hora de recepción de la notificación |
+| description    | String        | Private         | Mensaje con una breve descripción de la notificación. |
+| type | NotificationType        | Private         | Categoriza la notificación (Alert | Information) |
+| user     | User | Private  | Usuario a quien va dirigido la notificación. |
+| crop           | Crop                   | Private         | Cultivo del cual se generó la notificación |
+
+*Métodos*
+
+| **Nombre**       | **Tipo de retorno** | **Visibilidad** | **Descripción** |
+|:----------------:|:------------------:|:---------------:|:----------------|
+| calculateTimeFromNotification       | DateTime | Public          | Devuelve el tiempo que ha pasado desde recibir la notificación hasta ahora.  |
+| isAlert  | Boolean             | Public          | Devuelve un valor bool en función de si es Alert o no. |
+| isInformation | Boolean             | Public          | Devuelve un valor bool en función de si es Alert o no. |
+
+**Value objects**
+
+| **Nombre**     | **Categoría**    | **Propósito** |
+|:---------------|:-----------------|:--------------|
+| NotificationType   | Value object/Enum | Representa qué tipo es la notificación: ALERT o INFORMATION |
+
+#### 4.2.3.2. Interface Layer
+
+En la capa de interfaz, se crearon los controladores, que permiten la interacción entre la aplicación web y el sistema de notificaciones.
+
+*Controller*
+
+| **Nombre**     | **Categoría**    | **Propósito** |
+|:---------------|:-----------------|:--------------|
+| NotificationsController   | Controller | Controlador para notificaciones |
+
+*Atributos*
+
+| **Nombre**        | **Tipo de dato**          | **Visibilidad** | **Descripción** |
+|:-----------------:|:------------------------:|:---------------:|:----------------|
+| notificationCommandService | NotificationCommandService                  | Private         | Servicio de comandos para las notificaciones |
+| notificationQueryService| NotificationQueryService                  | Private         | Servicio de queries para las notificaciones |
+
+*Métodos*
+
+| **Nombre**       | **Tipo de retorno** | **Visibilidad** | **Descripción** |
+|:----------------:|:------------------:|:---------------:|:----------------|
+| Constructor       | void | Public  | Constructor del controlador  |
+| getNotificationsByUserId | List<ResponseEntity<Notification>> | Public  | Get notifications from a user |
+| getNotificationById | ResponseEntity<Notification> | Public  | Get notification by id |
+| postNotification | ResponseEntity<NotificationResponse> | Public  | Create notification |
+
+#### 4.2.3.3. Application Layer
+
+En esta capa, se definen las reglas del negocio, la lógica empresarial y la funcionalidad.
+
+*Service 1*
+
+| **Nombre**     | **Categoría**    | **Propósito** |
+|:---------------|:-----------------|:--------------|
+| NotificationCommandService | Service | Servicio de la lógica de los comandos |
+
+*Atributos*
+
+| **Nombre**        | **Tipo de dato**          | **Visibilidad** | **Descripción** |
+|:-----------------:|:------------------------:|:---------------:|:----------------|
+| notificationRepository | NotificationRepository                  | Private         | Repositorio de las notificaciones |
+| cropRepository | CropRepository | Private         | Repositorio de los cultivos |
+| userRepository | UserRepository | Private         | Repositorio de los user |
+
+*Métodos*
+
+| **Nombre**       | **Tipo de retorno** | **Visibilidad** | **Descripción** |
+|:----------------:|:------------------:|:---------------:|:----------------|
+| Constructor       | void | Public  | Constructor del servicio  |
+| handle | NotificationResponse | Public  | Crea una notificación en función de un CreateNotificationCommand  |
+
+*Service 2*
+
+| **Nombre**     | **Categoría**    | **Propósito** |
+|:---------------|:-----------------|:--------------|
+| NotificationQueryService | Service | Servicio de la lógica de los queries |
+
+*Atributos*
+
+| **Nombre**        | **Tipo de dato**          | **Visibilidad** | **Descripción** |
+|:-----------------:|:------------------------:|:---------------:|:----------------|
+| notificationRepository | NotificationRepository                  | Private         | Repositorio de las notificaciones |
+| userRepository | UserRepository | Private         | Repositorio de los user |
+
+*Métodos*
+
+| **Nombre**       | **Tipo de retorno** | **Visibilidad** | **Descripción** |
+|:----------------:|:------------------:|:---------------:|:----------------|
+| Constructor       | void | Public  | Constructor del servicio  |
+| handle | List<NotificationResponse> | Public  | Lista las notificaciones en función de un user Id  |
+| handle | NotificationResponse | Public  | Busca y retorna una notificación por su id  |
+
+
+#### 4.2.3.4. Infrastructure Layer
+
+En esta capa se define los repositorios del bounded context, que permitiráb el acceso a la base de datos.
+
+*Repository*
+
+| **Nombre**     | **Categoría**    | **Propósito** |
+|:---------------|:-----------------|:--------------|
+| NotificationRepository | Repository | Repositorio que almacena las notificaciones |
+
+#### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+<p align="center">
+  <img src="assets/diagrams/notifications_context.jpg" alt="Context Mapping">
+</p>
+
+#### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
+
+<p align="center">
+  <img src="assets/diagrams/notifications-database-model.png" alt="Notifications database model">
+</p>
+
+#### 4.2.3.6.2. Bounded Context Database Design Diagram. 
+
+<p align="center">
+  <img src="assets/diagrams/notifications-class-diagram.png" alt="Notifications class diagram">
+</p>
+
 ### 4.2.5. Bounded Context: Reporting
 
 El **Reporting Context** es responsable de recopilar y analizar los datos de los sensores IoT, como los niveles de humedad, minerales y temperatura, para generar reportes útiles para los agricultores e investigadores.
