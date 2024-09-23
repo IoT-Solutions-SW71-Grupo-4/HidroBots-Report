@@ -2977,6 +2977,25 @@ Para interfaces de IoT, los datos deben ser fáciles de leer de un vistazo, con 
 
 ### 5.2.1. Organization Systems
 
+
+En la aplicación Ayni, se aplican diferentes sistemas de organización de la información, tanto en la versión web como en la móvil, para facilitar la navegación y el acceso eficiente a las funcionalidades.
+
+#### Organización Visual del Contenido
+
+- **Jerárquica (Visual Hierarchy):** Utilizamos una organización visual jerárquica en el dashboard principal, donde las opciones más importantes, como *Dashboard*, *Devices*, *Irrigation*, *Soil Analysis* y *Reports*, están dispuestas en una barra lateral. Esta jerarquía permite a los agricultores acceder de manera rápida a las funciones clave de la aplicación.
+  
+- **Secuencial (Step-by-Step):** En secciones como *Irrigation* o *Soil Analysis*, se emplea una organización secuencial para guiar al usuario a través de pasos lógicos y consecutivos en la configuración o monitoreo de sus sistemas de riego y análisis de suelo.
+
+- **Matricial:** En el módulo de *Reports*, se utiliza una organización matricial para que los usuarios puedan visualizar gráficos y datos comparativos de manera eficiente, permitiendo que los agricultores realicen un análisis más detallado de los datos históricos y en tiempo real.
+
+#### Esquemas de Categorización
+
+- **Por tópicos:** Las opciones principales de la barra de navegación lateral están organizadas por categorías temáticas como *Irrigation* y *Soil Analysis*, agrupando las funcionalidades por el tipo de actividad que el agricultor desea realizar.
+
+- **Cronológico:** En el módulo de *Reports*, los datos de rendimiento de los cultivos, consumo de agua y condiciones del suelo se presentan en orden cronológico para facilitar el seguimiento y análisis histórico de la información.
+
+Con este enfoque, Ayni asegura que la información se presenta de manera clara, eficiente y alineada con las necesidades específicas de los agricultores.
+
 ### 5.2.2. Labeling Systems
 
 
