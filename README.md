@@ -2915,11 +2915,39 @@ En esta sección, se detallan las tablas, columnas y las relaciones entre las en
 
 </div>
 
+<div align="justify">
+
 # Capítulo V: Solutions UI/UX Design
 
 ## 5.1. Style Guidelines
 
 ### 5.1.1. General Style Guidelines
+
+En esta sección, estableceremos las directrices generales de estilo para nuestra plataforma. La aplicación busca proyectar innovación, sostenibilidad y simplicidad en la gestión agrícola. El objetivo es ser un aliado tecnológico confiable y accesible para medianos agricultores y centros de investigación agrícola. Queremos transmitir una imagen verde, conectada a la naturaleza y centrada en la eficiencia.
+
+
+#### Branding
+
+La identidad de marca refleja los valores de **innovación**, **sostenibilidad**, y **simplicidad**. Esto se logra mediante una paleta de colores naturales, tipografía moderna y amigable, y elementos visuales que combinan tecnología y naturaleza.
+
+- **Nombre de la marca**: Ayni
+- **Tagline**: "Automate your field, maximize your harvest"
+- **Elementos visuales**: Uso de íconos de hojas y circuitos para representar la unión de tecnología y naturaleza.
+  
+#### Comunicación Visual
+
+El tono de comunicación debe ser **serio pero amigable**, con un enfoque en proporcionar instrucciones claras para agricultores. Debe sentirse accesible y confiable, usando un lenguaje respetuoso y directo.
+
+- **Formalidad**: Formal pero accesible, dirigido a usuarios con conocimientos variados en tecnología.
+- **Estilo de Mensajes**: Directo, claro y empático, evitando tecnicismos innecesarios.
+- **Entusiasmo**: Sereno y alentador en momentos clave, como cuando se completan tareas exitosamente.
+
+![Colors](assets/Guidelines/Colors.png)
+![Colors](assets/Guidelines/Headings.png)
+![Colors](assets/Guidelines/Body.png)
+![Colors](assets/Guidelines/Iconography.png)
+![Colors](assets/Guidelines/Grid%20system.png)
+![Colors](assets/Guidelines/Spacing.png)
 
 ### 5.1.2. Web, Mobile and IoT Style Guidelines
 
@@ -2928,6 +2956,7 @@ En esta sección, se detallan las tablas, columnas y las relaciones entre las en
 ### 5.2.1. Organization Systems
 
 ### 5.2.2. Labeling Systems
+
 
 ### 5.2.3. SEO Tags and Meta Tags
 
@@ -2952,6 +2981,8 @@ En esta sección, se detallan las tablas, columnas y las relaciones entre las en
 ### 5.4.4. Applications User Flow Diagrams
 
 ## 5.5. Applications Prototyping
+
+</div>
 
 # Capítulo VI: Product Implementation, Validation & Deployment
 
