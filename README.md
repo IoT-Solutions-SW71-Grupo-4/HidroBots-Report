@@ -11,11 +11,11 @@
 
 <br>
 
-<h1 align="center"> TB1 Report </h1>
+<h1 align="center"> TP Report </h1>
 
 <h3 align="center"> Desarrollo de Soluciones IoT - SW53 </h3>
 
-<h3 align="center"> Docente:  </h3>
+<h3 align="center"> Docente: Marco Antonio León Baca </h3>
 
 <h3> Startup: HidroBots </h3>
 
@@ -2944,6 +2944,172 @@ En esta sección, se detallan las tablas, columnas y las relaciones entre las en
 ## 5.4. Application UX/UI Design
 
 ### 5.4.1. Applications Wireframes
+
+**Mobile wireframes**
+
+Autenticación de usuario
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Login.png" alt="Login mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Login mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Register.png" alt="Register mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Register mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Reset password.png" alt="Reset password mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Reset password mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Verification code.png" alt="Code verification mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Code verification mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Reset password-1.png" alt="Input new password mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Input new password mobile wireframe</em>
+  <br/><br/>
+</div>
+
+Pantalla de inicio de la aplicación
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - home.png" alt="Input new password mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Input new password mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Add new crop.png" alt="Add new crop mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Add new crop mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Cropp added.png" alt="new crop added crop mobile wireframe"/>
+</div>
+<div align="center">
+  <em>New crop added crop mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Error adding crop.png" alt="Error adding crop mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Error adding crop mobile wireframe</em>
+  <br/><br/>
+</div>
+
+Interfaces para el vínculo de dispositivos
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Crop details.png" alt="Devices mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Devices mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Add device.png" alt="Add device mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Add device mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Edit device.png" alt="edit device mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Edit device mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Delete device.png" alt="Delete device mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Delete device mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Edited device.png" alt="Edited device mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Edited device mobile wireframe</em>
+  <br/><br/>
+</div>
+
+Interfaces para el riego de cultivos
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Automatic irrigation.png" alt="Automatic irrigation mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Automatic irrigation mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Manual irrigation.png" alt="Manual irrigation mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Manual irrigation mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Irrihation history.png" alt="Manual irrigation mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Irrigation history mobile wireframe</em>
+  <br/><br/>
+</div>
+
+Interfaces para el análisis del suelo
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Soil analysis.png" alt="Soil analysis mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Soil analysis mobile wireframe</em>
+  <br/><br/>
+</div>
+
+Interfaces para visualizar el perfil
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Profile.png" alt="Profile mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Profile mobile wireframe</em>
+  <br/><br/>
+</div>
 
 ### 5.4.2. Applications Wireflow Diagrams
 
