@@ -2951,6 +2951,28 @@ El tono de comunicación debe ser **serio pero amigable**, con un enfoque en pro
 
 ### 5.1.2. Web, Mobile and IoT Style Guidelines
 
+Esta sección detalla los estándares visuales y de interacción específicos para la interfaz en dispositivos **web**, **móviles** y aplicaciones **IoT**. La experiencia del usuario debe ser coherente en todas las plataformas, optimizando el uso de los recursos visuales y de interacción según el tipo de dispositivo.
+
+#### Web Responsive Design
+La interfaz web debe ser totalmente **responsive**, adaptándose desde pantallas grandes de escritorio hasta dispositivos móviles. El **dashboard** es el componente principal, con una barra lateral de navegación y una barra superior para perfil y ajustes.
+- **Grid System**: Se utilizará un sistema de 12 columnas para el diseño responsivo.
+- **Breakpoints**:
+  - Móviles: 320px - 480px
+  - Tablets: 481px - 768px
+  - Escritorio: 769px en adelante
+
+#### Mobile Application Interface
+En la aplicación móvil, la experiencia debe ser simple y optimizada para la interacción táctil.
+- **Navegación**: Se prefiere una barra inferior de navegación para acceder a las opciones principales (Dashboard, Devices, Irrigation, Soil Analysis, Report).
+- **Interacción**: Los botones deben tener un tamaño adecuado para dedos (mínimo de 48x48px), y se debe usar retroalimentación visual al interactuar.
+- **Fuentes**: Escaladas a un tamaño mínimo de 16px para asegurar legibilidad en cualquier dispositivo móvil.
+
+#### IoT Application Interface
+Para interfaces de IoT, los datos deben ser fáciles de leer de un vistazo, con gráficos sencillos que resuman el estado de los dispositivos.
+- **Widgets**: Se usarán widgets visuales como gráficos de barras, líneas y medidores para presentar la información de manera clara.
+- **Alertas**: Las alertas deben destacar con colores como el rojo (#FF4B4B) para situaciones críticas, y verde (#6BBE44) para estados operativos normales.
+- **Control**: Debe permitir una navegación rápida entre dispositivos IoT, con opciones de control sencillas como interruptores y botones grandes.
+
 ## 5.2. Information Architecture
 
 ### 5.2.1. Organization Systems
