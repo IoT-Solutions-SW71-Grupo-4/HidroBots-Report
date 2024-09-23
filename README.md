@@ -3037,6 +3037,46 @@ En esta sección se especifican las etiquetas que se utilizarán para representa
 
 ### 5.2.3. SEO Tags and Meta Tags
 
+En esta sección, se detallan las etiquetas SEO y Meta Tags que se implementarán en la plataforma.
+
+#### 1. SEO Tags and Meta Tags for Landing Page
+
+```html
+<!-- Title -->
+<title>AYNI | Automated  Solutions for Smart Agriculture</title>
+
+<!-- Meta Tags -->
+<meta name="description" content="AYNI is an advanced  platform for agricultural automation, providing tools for irrigation control, soil analysis, and farm management to boost productivity.">
+<meta name="keywords" content="agricultural automation, IoT agriculture, smart farming, irrigation systems, soil analysis, farm management">
+<meta name="author" content="AYNI Team">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="AYNI | Automated Solutions for Smart Agriculture">
+<meta property="og:description" content="AYNI helps farmers optimize their production through advanced automation and technologies, offering solutions like irrigation control, soil analysis, and real-time reports.">
+<meta property="og:url" content="https://www.ayni.com">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://www.ayni.com/images/landing-page-preview.png">
+<meta name="robots" content="index, follow">
+```
+
+#### 2. **SEO Tags and Meta Tags for Web Application**
+
+```html
+<!-- Title -->
+<title>AYNI Dashboard | Manage Your Farm with Technology</title>
+
+<!-- Meta Tags -->
+<meta name="description" content="AYNI Web Dashboard provides real-time monitoring of devices for farm management, offering tools for irrigation control, soil analysis, and comprehensive reports.">
+<meta name="keywords" content="AYNI dashboard, farm automation, monitoring, irrigation control, soil analysis, agricultural reports">
+<meta name="author" content="AYNI Team">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="AYNI | Manage Your Farm with Technology">
+<meta property="og:description" content="AYNI Dashboard enables real-time monitoring and control of irrigation systems, soil analysis, and farm management through technologies.">
+<meta property="og:url" content="https://app.ayni.com/dashboard">
+<meta property="og:type" content="application">
+<meta property="og:image" content="https://www.ayni.com/images/dashboard-preview.png">
+<meta name="robots" content="noindex, nofollow">
+```
+
 ### 5.2.4. Searching Systems
 
 ### 5.2.5. Navigation Systems
