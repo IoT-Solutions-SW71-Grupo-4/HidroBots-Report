@@ -2998,6 +2998,42 @@ Con este enfoque, Ayni asegura que la información se presenta de manera clara, 
 
 ### 5.2.2. Labeling Systems
 
+En esta sección se especifican las etiquetas que se utilizarán para representar los datos en la plataforma **AYNI**, tanto en la versión web como en la aplicación móvil.
+
+#### Etiquetas Generales
+
+- **Dashboard:** Resumen principal de la actividad agrícola.
+- **Devices:** Visualización y gestión de los dispositivos IoT conectados.
+- **Irrigation:** Control y monitoreo de los sistemas de riego.
+- **Soil Analysis:** Visualización de los datos de análisis del suelo.
+- **Reports:** Generación y acceso a informes sobre el estado de la agricultura.
+- **Profile:** Acceso y gestión del perfil del usuario.
+- **Notifications:** Centro de notificaciones importantes relacionadas con la actividad agrícola.
+- **Settings:** Configuración y ajustes generales de la plataforma.
+
+#### Etiquetas en la Landing Page
+
+- **Inicio:** Acceso a la información básica sobre AYNI y sus funcionalidades.
+- **Características:** Detalle de las características y beneficios de la plataforma.
+- **Planes:** Información sobre los diferentes planes de suscripción.
+- **Contacto:** Formulario y detalles para contactar al soporte.
+
+#### Etiquetas en la Versión Web
+
+- **Dashboard:** Muestra una vista general de todos los módulos y su estado actual.
+- **Devices:** Permite el acceso a la lista de dispositivos conectados y su estado.
+- **Irrigation:** Gestiona los sistemas de riego programados o en tiempo real.
+- **Soil Analysis:** Muestra la información relevante sobre la calidad del suelo.
+- **Reports:** Acceso a los informes generados para análisis de rendimiento.
+- **Profile:** Sección para editar la información del perfil del usuario.
+- **Notifications:** Área de alertas y notificaciones del sistema.
+
+#### Etiquetas en la App Móvil
+
+- **Devices:** Permite el acceso a la lista de dispositivos conectados y su estado.
+- **Irrigation:** Control y monitoreo de los sistemas de riego.
+- **Soil Analysis:** Muestra la información relevante sobre la calidad del suelo.
+- **Home:** Muestra una vista general de todos los módulos y su estado actual.
 
 ### 5.2.3. SEO Tags and Meta Tags
 
