@@ -3115,6 +3115,172 @@ Interfaces para visualizar el perfil
 
 ### 5.4.3. Applications Mock-ups
 
+**Mobile wireframes**
+
+Autenticación de usuario
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Login.png" alt="Login mobile mockup"/>
+</div>
+<div align="center">
+  <em>Login mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Register.png" alt="Register mobile mockup"/>
+</div>
+<div align="center">
+  <em>Register mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Reset password.png" alt="Reset password mobile mockup"/>
+</div>
+<div align="center">
+  <em>Reset password mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Verification code.png" alt="Code verification mobile mockup"/>
+</div>
+<div align="center">
+  <em>Code verification mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Reset password-1.png" alt="Input new password mobile mockup"/>
+</div>
+<div align="center">
+  <em>Input new password mobile mockup</em>
+  <br/><br/>
+</div>
+
+Pantalla de inicio de la aplicación
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - home.png" alt="Input new password mobile mockup"/>
+</div>
+<div align="center">
+  <em>Input new password mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Add new crop.png" alt="Add new crop mobile mockup"/>
+</div>
+<div align="center">
+  <em>Add new crop mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Cropp added.png" alt="new crop added crop mobile mockup"/>
+</div>
+<div align="center">
+  <em>New crop added crop mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Error adding crop.png" alt="Error adding crop mobile mockup"/>
+</div>
+<div align="center">
+  <em>Error adding crop mobile mockup</em>
+  <br/><br/>
+</div>
+
+Interfaces para el vínculo de dispositivos
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Crop details.png" alt="Devices mobile mockup"/>
+</div>
+<div align="center">
+  <em>Devices mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Add device.png" alt="Add device mobile mockup"/>
+</div>
+<div align="center">
+  <em>Add device mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Edit device.png" alt="edit device mobile mockup"/>
+</div>
+<div align="center">
+  <em>Edit device mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Delete device.png" alt="Delete device mobile mockup"/>
+</div>
+<div align="center">
+  <em>Delete device mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Edited device.png" alt="Edited device mobile mockup"/>
+</div>
+<div align="center">
+  <em>Edited device mobile mockup</em>
+  <br/><br/>
+</div>
+
+Interfaces para el riego de cultivos
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Automatic irrigation.png" alt="Automatic irrigation mobile mockup"/>
+</div>
+<div align="center">
+  <em>Automatic irrigation mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Manual irrigation.png" alt="Manual irrigation mobile mockup"/>
+</div>
+<div align="center">
+  <em>Manual irrigation mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Irrihation history.png" alt="Manual irrigation mobile mockup"/>
+</div>
+<div align="center">
+  <em>Irrigation history mobile mockup</em>
+  <br/><br/>
+</div>
+
+Interfaces para el análisis del suelo
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Soil analysis.png" alt="Soil analysis mobile mockup"/>
+</div>
+<div align="center">
+  <em>Soil analysis mobile mockup</em>
+  <br/><br/>
+</div>
+
+Interfaces para visualizar el perfil
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Profile.png" alt="Profile mobile mockup"/>
+</div>
+<div align="center">
+  <em>Profile mobile mockup</em>
+  <br/><br/>
+</div>
+
 ### 5.4.4. Applications User Flow Diagrams
 
 ## 5.5. Applications Prototyping
