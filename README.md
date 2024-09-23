@@ -3129,6 +3129,49 @@ En esta sección se detallan los sistemas de búsqueda que estarán disponibles 
 
 ### 5.2.5. Navigation Systems
 
+En esta sección se detallan las acciones y técnicas de navegación que guiarán a los usuarios a través de las plataformas de AYNI. 
+
+#### Sistema de Navegación en la Landing Page
+
+- **Navegación Principal**:
+  - **Menú de Navegación**: Se encuentra en la parte superior, accesible en todas las secciones de la página. Incluye enlaces a las siguientes áreas:
+    - Inicio
+    - Características
+    - Testimonios
+    - Planes y Precios
+    - Contacto
+  - **Scroll Infinito**: La **Landing Page** sigue un diseño de desplazamiento continuo (scrolling) que permite que los usuarios se muevan hacia abajo para explorar el contenido principal.
+  - **Botones de Acción (CTAs)**: A lo largo de la página, se encuentran botones prominentes de llamada a la acción, como "Regístrate", o "Contáctanos", para facilitar la conversión del usuario.
+
+#### Sistema de Navegación en la Web Application
+
+- **Barra Lateral de Navegación**:
+    - **Dashboard**: Vista general de la granja con gráficos y datos en tiempo real.
+    - **Devices**: Listado y administración de dispositivos IoT.
+    - **Irrigation**: Configuración y monitoreo de los sistemas de riego.
+    - **Soil Analysis**: Resultados y reportes de análisis de suelo.
+    - **Reports**: Generación y descarga de informes personalizados.
+  </br>
+- **Barra Superior**:
+  - **Perfil de Usuario**: En la parte superior derecha, se muestra el perfil del usuario con accesos rápidos a opciones de cuenta, configuración y cerrar sesión.
+  - **Notificaciones**: Icono de notificaciones para alertas importantes como fallos en dispositivos o tareas pendientes.
+  </br>
+- **Navegación Contextual**:
+  - **Breadcrumbs**: Están disponibles en las vistas de detalle de dispositivos, reportes y análisis de suelo, proporcionando una navegación jerárquica y fácil retorno a la pantalla anterior.
+  - **Enlaces Internos**: Dentro de cada módulo, los usuarios pueden acceder a detalles específicos con enlaces que abren paneles de información o redirigen a pantallas de administración más detalladas.
+
+#### Sistema de Navegación en la Mobile Application
+
+- **Menú de Navegación Inferior**:
+    - **Dashboard**: Vista general de los datos agrícolas en tiempo real.
+    - **Devices**: Administración de interfaces conectadas.
+    - **Irrigation**: Configuración de los sistemas de riego.
+  </br>
+  
+- **Gestos y Navegación Deslizante**:
+  - **Gestos de Deslizamiento**: Los usuarios pueden deslizar hacia la izquierda o derecha para cambiar rápidamente entre secciones dentro del mismo módulo.
+  - **Desplazamiento Vertical**: El contenido dentro de cada sección es scrollable, permitiendo ver grandes cantidades de datos de manera fluida.
+
 ## 5.3. Landing Page UI Design
 
 ### 5.3.1. Landing Page Wireframe
