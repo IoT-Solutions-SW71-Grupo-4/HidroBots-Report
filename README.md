@@ -3079,6 +3079,54 @@ En esta sección, se detallan las etiquetas SEO y Meta Tags que se implementará
 
 ### 5.2.4. Searching Systems
 
+En esta sección se detallan los sistemas de búsqueda que estarán disponibles dentro de las aplicaciones de AYNI, con el fin de ayudar al usuario a encontrar fácilmente la información relevante.
+
+#### Opciones de Búsqueda
+
+- **Búsqueda Contextual**:
+ Los usuarios pueden realizar búsquedas limitadas al contexto del módulo en el que se encuentran, como buscar un dispositivo específico o un reporte generado en una fecha particular.
+
+#### Filtros Disponibles
+
+- **Filtros en el Módulo de Dispositivos**:
+  Filtro por estado del dispositivo (activo/inactivo).
+  Filtro por tipo de dispositivo (sensor de humedad, sensor de temperatura, control de riego, etc.).
+</br>
+- **Filtros en el Módulo de Irrigación**:
+  Filtro por cultivo.
+ Filtro por estado de irrigación (activo, inactivo).
+  Filtro por programación de riego (manual, automático).
+</br>
+- **Filtros en el Módulo de Análisis de Suelo**:
+ Filtro por tipo de análisis (pH, humedad, nutrientes).
+  Filtro por fecha del análisis.
+  Filtro por sector agrícola.
+</br>
+- **Filtros en el Módulo de Reportes**:
+  Filtro por rango de fechas.
+  Filtro por tipo de reporte (análisis de suelo, riego, rendimiento de dispositivos).
+  Filtro por cultivo.
+
+#### Visualización de Resultados
+
+- **Presentación de Resultados**:
+  Los resultados de búsqueda se mostrarán en un formato de lista organizada, con columnas personalizadas según el módulo.
+  Cada ítem en los resultados estará acompañado de información relevante como el nombre del dispositivo, su estado, la fecha del último análisis o la acción más reciente realizada.
+  </br>
+- **Interacción con los Resultados**:
+  Los usuarios podrán hacer clic en los resultados para abrir más detalles o acceder a acciones relacionadas (por ejemplo, editar un dispositivo, ver un reporte completo, ajustar parámetros de riego).
+  Los resultados estarán paginados o tendrán scroll infinito, dependiendo del volumen de datos encontrados.
+</br>
+- **Sugerencias de Búsqueda**:
+  A medida que el usuario escribe en el campo de búsqueda, se ofrecerán sugerencias basadas en términos frecuentes o búsquedas recientes.
+  Se implementarán mecanismos de autocompletado para agilizar la búsqueda.
+
+#### Sistema de Ayuda de Búsqueda
+
+- **Mensajes Informativos**:
+  Si una búsqueda no devuelve resultados, se mostrará un mensaje informativo con sugerencias para mejorar la búsqueda.
+  Se mostrará un botón de “Limpiar Filtros” para que el usuario pueda reiniciar la búsqueda rápidamente.
+
 ### 5.2.5. Navigation Systems
 
 ## 5.3. Landing Page UI Design
