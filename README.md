@@ -11,11 +11,11 @@
 
 <br>
 
-<h1 align="center"> TB1 Report </h1>
+<h1 align="center"> TP Report </h1>
 
 <h3 align="center"> Desarrollo de Soluciones IoT - SW53 </h3>
 
-<h3 align="center"> Docente:  </h3>
+<h3 align="center"> Docente: Marco Antonio León Baca </h3>
 
 <h3> Startup: HidroBots </h3>
 
@@ -3182,15 +3182,406 @@ En esta sección se detallan las acciones y técnicas de navegación que guiará
 
 ### 5.4.1. Applications Wireframes
 
+**Mobile wireframes**
+
+Autenticación de usuario
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Login.png" alt="Login mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Login mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Register.png" alt="Register mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Register mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Reset password.png" alt="Reset password mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Reset password mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Verification code.png" alt="Code verification mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Code verification mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Reset password-1.png" alt="Input new password mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Input new password mobile wireframe</em>
+  <br/><br/>
+</div>
+
+Pantalla de inicio de la aplicación
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - home.png" alt="Input new password mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Input new password mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Add new crop.png" alt="Add new crop mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Add new crop mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Cropp added.png" alt="new crop added crop mobile wireframe"/>
+</div>
+<div align="center">
+  <em>New crop added crop mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Error adding crop.png" alt="Error adding crop mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Error adding crop mobile wireframe</em>
+  <br/><br/>
+</div>
+
+Interfaces para el vínculo de dispositivos
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Crop details.png" alt="Devices mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Devices mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Add device.png" alt="Add device mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Add device mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Edit device.png" alt="edit device mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Edit device mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Delete device.png" alt="Delete device mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Delete device mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Edited device.png" alt="Edited device mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Edited device mobile wireframe</em>
+  <br/><br/>
+</div>
+
+Interfaces para el riego de cultivos
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Automatic irrigation.png" alt="Automatic irrigation mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Automatic irrigation mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Manual irrigation.png" alt="Manual irrigation mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Manual irrigation mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Irrihation history.png" alt="Manual irrigation mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Irrigation history mobile wireframe</em>
+  <br/><br/>
+</div>
+
+Interfaces para el análisis del suelo
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Soil analysis.png" alt="Soil analysis mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Soil analysis mobile wireframe</em>
+  <br/><br/>
+</div>
+
+Interfaces para visualizar el perfil
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Profile.png" alt="Profile mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Profile mobile wireframe</em>
+  <br/><br/>
+</div>
+
 ### 5.4.2. Applications Wireflow Diagrams
 
+**Mobile wireflow**
+
+Autenticación del usuario
+
+<div align="center">
+  <img width=800 src="./assets/designs/mobile/wireflow/Autenticacion.png"/>
+</div>
+<br/><br/>
+
+Registro de cultivos
+
+<div align="center">
+  <img width=800 src="./assets/designs/mobile/wireflow/Registro_cultivos.png"/>
+</div>
+<br/><br/>
+
+Conectar sensores
+
+<div align="center">
+  <img width=800 src="./assets/designs/mobile/wireflow/Conectar_sensores.png"/>
+</div>
+<br/><br/>
+
+Riego de cultivos
+
+<div align="center">
+  <img width=800 src="./assets/designs/mobile/wireflow/Riego_Cultivos.png"/>
+</div>
+<br/><br/>
+
+Reporte de suelos
+
+<div align="center">
+  <img width=800 src="./assets/designs/mobile/wireflow/Analisis_suelo.png"/>
+</div>
+<br/><br/>
+
 ### 5.4.3. Applications Mock-ups
+
+**Mobile wireframes**
+
+Autenticación de usuario
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Login.png" alt="Login mobile mockup"/>
+</div>
+<div align="center">
+  <em>Login mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Register.png" alt="Register mobile mockup"/>
+</div>
+<div align="center">
+  <em>Register mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Reset password.png" alt="Reset password mobile mockup"/>
+</div>
+<div align="center">
+  <em>Reset password mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Verification code.png" alt="Code verification mobile mockup"/>
+</div>
+<div align="center">
+  <em>Code verification mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Reset password-1.png" alt="Input new password mobile mockup"/>
+</div>
+<div align="center">
+  <em>Input new password mobile mockup</em>
+  <br/><br/>
+</div>
+
+Pantalla de inicio de la aplicación
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - home.png" alt="Input new password mobile mockup"/>
+</div>
+<div align="center">
+  <em>Input new password mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Add new crop.png" alt="Add new crop mobile mockup"/>
+</div>
+<div align="center">
+  <em>Add new crop mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Cropp added.png" alt="new crop added crop mobile mockup"/>
+</div>
+<div align="center">
+  <em>New crop added crop mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Error adding crop.png" alt="Error adding crop mobile mockup"/>
+</div>
+<div align="center">
+  <em>Error adding crop mobile mockup</em>
+  <br/><br/>
+</div>
+
+Interfaces para el vínculo de dispositivos
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Crop details.png" alt="Devices mobile mockup"/>
+</div>
+<div align="center">
+  <em>Devices mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Add device.png" alt="Add device mobile mockup"/>
+</div>
+<div align="center">
+  <em>Add device mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Edit device.png" alt="edit device mobile mockup"/>
+</div>
+<div align="center">
+  <em>Edit device mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Delete device.png" alt="Delete device mobile mockup"/>
+</div>
+<div align="center">
+  <em>Delete device mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Edited device.png" alt="Edited device mobile mockup"/>
+</div>
+<div align="center">
+  <em>Edited device mobile mockup</em>
+  <br/><br/>
+</div>
+
+Interfaces para el riego de cultivos
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Automatic irrigation.png" alt="Automatic irrigation mobile mockup"/>
+</div>
+<div align="center">
+  <em>Automatic irrigation mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Manual irrigation.png" alt="Manual irrigation mobile mockup"/>
+</div>
+<div align="center">
+  <em>Manual irrigation mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Irrihation history.png" alt="Manual irrigation mobile mockup"/>
+</div>
+<div align="center">
+  <em>Irrigation history mobile mockup</em>
+  <br/><br/>
+</div>
+
+Interfaces para el análisis del suelo
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Soil analysis.png" alt="Soil analysis mobile mockup"/>
+</div>
+<div align="center">
+  <em>Soil analysis mobile mockup</em>
+  <br/><br/>
+</div>
+
+Interfaces para visualizar el perfil
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Profile.png" alt="Profile mobile mockup"/>
+</div>
+<div align="center">
+  <em>Profile mobile mockup</em>
+  <br/><br/>
+</div>
 
 ### 5.4.4. Applications User Flow Diagrams
 
 ## 5.5. Applications Prototyping
 
+Esta sección incluye Prototipos de UI para Web Application y Mobile Web Application con simulación de interacción y navegación, acorde con la propuesta de paths de User Flow Diagrams.
+
+**Prototipo Web Application**
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/prototype/web_prototype.png" alt="Web prototype evidence"/>
 </div>
+<br/><br/>
+
+En el presente video, se muestra el prototitpo de la aplicación web así como los criterios de arquitectura y organización que se tomaron para el diseño.
+
+[Ver grabación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120448_upc_edu_pe/EfOjaeYmIHxBtszIzUIui6oBd3bEjBwJHKt9eANGNNd8fw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=xiAQG1)
+
+**Prototipo Mobile Application**
+
+<div align="center">
+  <img width=800 src="./assets/designs/mobile/prototype/mobile_prototype.png" alt="Mobile prototype evidence"/>
+</div>
+<br/><br/>
+
+En el presente video, se muestra el prototitpo de la aplicación móvil así como los criterios de arquitectura y organización que se tomaron para el diseño.
+
+[Ver grabación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120448_upc_edu_pe/EaCuWXADSe9KgH-ZbpXA-5oBLr1SurAjMV1iS0PEPsYlKQ?e=Zf6azb)
 
 # Capítulo VI: Product Implementation, Validation & Deployment
 
