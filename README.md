@@ -3113,7 +3113,7 @@ Interfaces para visualizar el perfil
 
 ### 5.4.2. Applications Wireflow Diagrams
 
-*Mobile wireflow*
+**Mobile wireflow**
 
 Autenticación del usuario
 
@@ -3321,6 +3321,30 @@ Interfaces para visualizar el perfil
 ### 5.4.4. Applications User Flow Diagrams
 
 ## 5.5. Applications Prototyping
+
+Esta sección incluye Prototipos de UI para Web Application y Mobile Web Application con simulación de interacción y navegación, acorde con la propuesta de paths de User Flow Diagrams.
+
+**Prototipo Web Application**
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/prototype/web_prototype.png" alt="Web prototype evidence"/>
+</div>
+<br/><br/>
+
+En el presente video, se muestra el prototitpo de la aplicación web así como los criterios de arquitectura y organización que se tomaron para el diseño.
+
+[Ver grabación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120448_upc_edu_pe/EfOjaeYmIHxBtszIzUIui6oBd3bEjBwJHKt9eANGNNd8fw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=xiAQG1)
+
+**Prototipo Mobile Application**
+
+<div align="center">
+  <img width=800 src="./assets/designs/mobile/prototype/mobile_prototype.png" alt="Mobile prototype evidence"/>
+</div>
+<br/><br/>
+
+En el presente video, se muestra el prototitpo de la aplicación móvil así como los criterios de arquitectura y organización que se tomaron para el diseño.
+
+[Ver grabación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120448_upc_edu_pe/EaCuWXADSe9KgH-ZbpXA-5oBLr1SurAjMV1iS0PEPsYlKQ?e=Zf6azb)
 
 # Capítulo VI: Product Implementation, Validation & Deployment
 
