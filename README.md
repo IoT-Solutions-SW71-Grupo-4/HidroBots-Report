@@ -2959,6 +2959,94 @@ En esta sección, se detallan las tablas, columnas y las relaciones entre las en
 
 ### 6.1.1. Software Development Environment Configuration
 
+**Project management**
+
+Discord (https://discord.com/)
+
+Servicio de mensajería instantánea y chat de voz VolP. En esta plataforma, los usuarios tienen la capacidad de comunicarse por llamadas de voz, videollamadas, mensajes de texto, o con archivos y contenido multimedia en conversaciones privadas o como parte de comunidades
+La plataforma de Discord se empleó para realizar las reuniones virtuales del grupo y distribuir las tareas de los sprints.
+
+Microsoft 365 (https://www.office.com/)
+
+Línea de servicios por suscripción ofrecidos por Microsoft. Se empleó la Plataforma de Microsoft 365 para gestionar los documentos del trabajo, como es el reporte y las actas de reuniones.
+
+**Requires management**
+
+Trello (https://trello.com/es)
+
+Trello es un software de administración de proyectos con interfaz web y con cliente para iOS y Android para organizar proyectos. Se empleó la plataforma de Trello para la gestión de user stories y drivers en base a sprints.
+
+UXPressia (https://uxpressia.com/)
+
+Una plataforma en línea para crear una experiencia de usuario sobresaliente mediante el mapeo del viaje del cliente, las personas y las técnicas de mapeo de impacto. Se empleó la plataforma de UXPressia para la creación de User Personas, Empathy Maps e Impact Maps en base a plantillas proporcionadas por la misma aplicación.
+
+LucidChart (https://www.lucidchart.com/)
+
+Lucidchart es una herramienta de diagramación basada en la web, que permite a los usuarios colaborar y trabajar juntos en tiempo real, creando diagramas de flujo, organigramas, esquemas de sitios web, diseños UML, mapas mentales, prototipos de software y muchos otros tipos de diagrama. Herramienta de diagramación utilizada para crear diagramas de flujo y visualizar ideas y procesos.
+
+Miro (https://miro.com/)
+
+Es una plataforma de colaboración digital diseñada para facilitar la comunicación en equipo remota y distribuida y la gestión de proyectos. Miro permitió realizar los escenarios As-Is y To-Be para cada segmento objetivo.
+
+Structurizr (https://www.structurizr.com/)
+
+Structurizr DSL es un proyecto de código abierto que te permite crear un modelo único de nuestra arquitectura de software, y luego visualizarlo desde diferentes ángulos y profundidades, siguiendo el modelo de C4. Esta herramienta permitió la creación de diagramas C4 (contexto, contenedor y componentes).
+
+**Product design**
+
+Figma (https://www.figma.com/)
+
+Figma es un editor de gráficos vectorial y una herramienta de generación de prototipos, principalmente basada en la web, con características off-line adicionales habilitadas por aplicaciones de escritorio en macOS y Windows. Se empleó la herramienta de Figma para desarrollar los wireframes, mockups y los prototipos.
+
+**Software development**
+
+Visual Studio Code (https://code.visualstudio.com/) 
+
+Entorno de Desarrollo integrado empleado para la programación del frontend con Angular
+
+IntellijIdea (https://www.jetbrains.com/idea/)
+
+Entorno de Desarrollo Integrado empleado para la programación del backend con Java.
+
+Git (https://git-scm.com/)
+
+Software de control de versiones empleado para mantener el correcto flujo de desarrollo.
+
+**Software testing**
+
+Junit5 (https://junit.org/junit5/) 
+
+JUnit es un conjunto de bibliotecas creadas por Erich Gamma y Kent Beck que son utilizadas en programación para hacer pruebas unitarias de aplicaciones Java.
+
+Mockito (https://site.mockito.org/)
+
+Mockito es un framework de código abierto para crear pruebas unitarias en Java publicado bajo la licencia MIT​​ El framework permite la creación de objetos dobles de prueba en pruebas de unidad automatizada para el desarrollo guiado por pruebas o desarrollo dirigido por el comportamiento.
+
+**Software deployment**
+
+Netlify (https://www.netlify.com/)
+
+Netlify es una empresa de computación en la nube remota que ofrece una plataforma de desarrollo que incluye servicios backend de creación, implementación y sin servidor para aplicaciones web y sitios web dinámicos. Esta plataforma permitirá el correcto despliegue de la aplicación web. 
+
+GitHub Pages (https://pages.github.com/)
+
+GitHub Pages es un servicio de alojamiento de sitio estático que toma archivos HTML, CSS y JavaScript directamente desde un repositorio en GitHub, opcionalmente ejecuta los archivos a través de un proceso de complilación y publica un sitio web. Esta plataforma permitirá el correcto despliegue de la Landing page 
+
+Render (https://render.com/) 
+
+Esta Plataforma permitirá el correcto despliegue de la API.
+
+
+**Software documentation**
+
+GitHub (https://github.com/)
+
+Plataforma empleada para publicar los principales servicios de la aplicación y documentar el código de los mismos.
+
+Swagger (https://swagger.io/)
+
+Swagger es un conjunto de herramientas de software de código abierto para diseñar, construir, documentar, y utilizar servicios web RESTful. Servicio que permite la documentación de la Api en base a código.
+
 ### 6.1.2. Source Code Management
 
 ### 6.1.3. Source Code Style Guide & Conventions
