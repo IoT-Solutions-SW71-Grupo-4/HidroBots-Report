@@ -3100,8 +3100,259 @@ Donde:
 
 - descripción: Ofrece un resumen conciso de los cambios implementados.
 
+### 6.1.3. Source Code Style Guide & Conventions
 
 ### 6.1.3. Source Code Style Guide & Conventions
+
+**Angular**
+
+Para mantener consistencia y claridad en los nombres de los archivos en un proyecto Angular, se siguen las siguientes convenciones:
+
+- **HTML**: Los archivos de plantilla HTML de un componente siguen la convención:
+  ```html
+  <nombre>-content.component.html
+  ```
+
+- **CSS**: Los archivos de estilo asociados a un componente siguen la convención.
+
+  ```css 
+  <name>-content.component.css
+  ```
+
+- TypeScript: Los archivos TypeScript que contienen la lógica del componente siguen la convención:
+
+  ```typescript
+  <name>-content.component.ts
+  ```
+
+*File structure conventions*
+
+Cada componente en Angular suele tener un conjunto de archivos relacionados (TypeScript, HTML, CSS, y pruebas unitarias). La organización de los archivos sigue un patrón consistente, agrupando los archivos complementarios por funcionalidad en una misma carpeta. Por ejemplo, para el componente HeroComponent, los archivos podrían organizarse de la siguiente manera:
+
+```
+hero/
+  ├── hero.component.ts
+  ├── hero.component.html
+  ├── hero.component.css
+  ├── hero.component.spec.ts
+```
+
+**HTML**
+
+*Usar nombres de elementos en minúsculas*
+
+Es recomendable que los nombres de los elementos HTML se escriban en minúsculas para mantener una sintaxis uniforme y estándar:
+
+    <body>
+        <p>This is a paragraph.</p>
+    </body>
+
+*Cerrar todos los elementos HTML*
+
+Es importante que todos los elementos HTML se cierren correctamente, asegurando que el documento sea válido y funcione correctamente en todos los navegadores:
+
+    <section>
+      <p>Este es un párrafo.</p>
+      <p>Este es otro párrafo.</p>
+    </section>
+
+*Usar nombres de atributos en minúsculas*
+
+Del mismo modo que con los elementos, los nombres de los atributos HTML deben estar en minúsculas para mantener consistencia:
+
+    <a href="https://www.ejemplo.com">Visita nuestro tutorial de HTML</a>
+
+*Especificar siempre los atributos alt, width y height en imágenes*
+
+Para mejorar la accesibilidad y garantizar que el contenido sea claro incluso si la imagen no se carga, es necesario especificar el texto alternativo y las dimensiones de la imagen:
+
+    <img src="imagen.jpg" alt="Descripción de la imagen" style="width:128px;height:128px">
+
+*Espacios y signos de igualdad*
+
+No debe haber espacios adicionales alrededor de los signos de igualdad entre atributos y valores en las etiquetas HTML. Esto mejora la legibilidad y la coherencia del código:
+
+    <link rel="stylesheet" href="styles.css">
+
+**CSS**
+
+*Nombres de clases e IDs descriptivos*
+
+Las clases e IDs deben tener nombres que reflejen claramente el propósito de los elementos que representan:
+
+    .gallery {}
+
+    .login {}
+
+    .video {}
+
+*Estilo de nombres de clases*
+
+Es recomendable usar nombres cortos pero suficientemente descriptivos para clases e IDs. Los nombres deben expresar claramente la funcionalidad del elemento sin ser demasiado largos:
+
+    .nav {}
+
+    .author {}
+
+*Uso de propiedades abreviadas*
+
+Se sugiere emplear propiedades abreviadas en CSS cuando sea posible, para hacer que el código sea más conciso y fácil de leer:
+
+    border-top: 0;
+
+    font: 100%/1.6 palatino, georgia, serif;
+
+    padding: 0 1em 2em;
+
+*Delimitadores en nombres de clases*
+
+Para separar palabras en los nombres de clases e IDs, se recomienda utilizar guiones en lugar de otros delimitadores:
+
+    #video-id {}
+
+    .ads-sample {}
+
+*Valores cero sin unidades*
+
+Cuando se utilice un valor de 0, no es necesario especificar una unidad como px o em:
+
+    margin: 0;
+
+    padding: 0;
+
+**TypeScript**
+
+*Visibilidad*
+
+No es necesario usar el modificador `public` cuando se declaran atributos, funciones o métodos públicos, ya que es el valor predeterminado:
+
+    class Foo {
+        bar = new Bar();
+    }
+
+*Constructores*
+
+Siempre se deben usar paréntesis al llamar a constructores, incluso si no reciben parámetros:
+
+    const x = new Foo();
+
+*Getters y Setters (Accesores)*
+
+Es posible utilizar getters y setters para los miembros de una clase. Estos métodos son útiles para controlar la visibilidad de los detalles internos de implementación:
+
+````
+class Foo {
+
+    constructor(private readonly someService: SomeService) {}
+
+    get someMember(): string {
+
+        return this.someService.someVariable;
+
+    }
+
+    set someMember(newValue: string) {
+
+        this.someService.someVariable = newValue;
+
+    }
+
+};
+````
+
+**Constructor de Arrays**
+
+Evitar el uso de Array(). En su lugar, se recomienda utilizar corchetes [] o Array.from() para inicializar arrays:
+
+````
+const a = [2];
+
+const b = [2, 3];
+
+// Equivalent to Array(2):
+
+const c = [];
+
+c.length = 2;
+
+// [0, 0, 0, 0, 0]
+
+Array.from<number>({length: 5}).fill(0);
+````
+*Variables*
+
+Siempre usar const y let para declarar variables. Nunca usar var:
+
+    const foo = otherValue;
+
+    let bar = someValue;
+
+*Declaración de funciones*
+
+Para declarar funciones, es preferible utilizar la palabra clave function, en lugar de asignar una expresión de función a una variable:
+
+    function foo() { ... }
+
+Para más información sobre las convenciones de JavaScript se usará como referencia: <https://google.github.io/styleguide/tsguide.html#visibility>
+
+**JAVA**
+
+*Nombres de interfaces*
+
+Los nombres de interfaces utilizarán el sufijo Interface y estarán compuestos por palabras con la primera letra en mayúscula (CamelCase). Se debe evitar el uso de abreviaciones que dificulten la comprensión del código.
+
+Example: `ConexionInterface, ComponenteTablaInterface`
+
+*Nombres de clases*
+
+Los nombres de clases deben ser con CamelCase. Cada sustantivo debe empezar con mayúscula. Debemos intentar mantener los nombres de clases simples y descriptivos. Debemos usar palabras completas y evitar acrónimos y abreviaturas (se permiten DAO, DTO, URL, HTML, etc.). Si la clase cumpliese algún patrón determinado o tuviese una funcionalidad específica es recomendable definirlo en el nombre.
+
+*Variables*
+
+Los nombres de las variables tanto de instancia como estáticas reciben el mismo tratamiento que para los métodos, con la salvedad de que aquí sí importa más la relación entre la regla mnemónica y la longitud del nombre.
+
+Ejemplo:
+
+Correctos: `diaCalculo, fechaIncoporacion`
+
+Incorrectos: `dC, DCal, fI, FI¿`
+
+Se evitará en la medida de lo posible la utilización de caracteres especiales, así como nombre sin ningún tipo de significado funcional.
+
+Las excepciones son las variables utilizadas en bucles `for`, para esos casos se permite utilizar `i, j, k, l` y siempre en ese orden de anidamiento.
+
+El primer bucle siempre será el que tenga la variable `i` como iterador. (Esta variable se definirá para el bucle en cuestión).
+
+*Constantes*
+
+Los nombres de constantes de clases deberían escribirse todo en mayúsculas con las palabras separadas por subrayados ("_"). Todas serán declaradas como `public static final`.
+
+    public static final String PROPERTY\_URL\_SERVICIO = "urlServicio";
+
+*Uso de llaves opcionales*
+
+Las llaves se usan con declaraciones `if, else, for, do` y `while`, incluso cuando el cuerpo está vacío o contiene una sola declaración.
+
+Otras llaves opcionales, como las de una expresión lambda, siguen siendo opcionales.
+
+*Package names*
+
+Los nombres de los paquetes usan solo letras minúsculas y dígitos (sin guiones bajos). Las palabras consecutivas simplemente se concatenan juntas. Por ejemplo:
+
+`com.example.deepspace`, not `com.example.deepSpace` or `com.example.deep_space`. 
+
+**Gherking**
+
+|      Sintaxis      |                                                                                                                                                 Propósito                                                                                                                                                  |
+|:------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|      FEATURE       |                                                                               El propósito del FEATURE es proporcionar una descripción de alto nivel de una de las funciones de software y agrupar SCENARIOs22 relacionados.                                                                               |
+| SCENARIO O EXAMPLE |                                                                                Un SCENARIO es un ejemplo concreto que contiene una regla de negocio. Consiste básicamente en una definición en el patrón ‘Given-When-Then’.                                                                                |
+|       GIVEN        | GIVEN es una parte del patrón ‘Given-When-Then’. Se utiliza para describir la escena del escenario. Su propósito es poner el sistema en un estado concreto antes de que el usuario (o sistema externo) comience a interactuar con el sistema. No se habla sobre la interacción del usuario en este patrón. |
+|        WHEN        |                                           WHEN es el segundo requisito del patrón ‘Given-When-Then’. Se utiliza para describir un evento o una acción. Puede ser una persona que interactúa con el sistema o puede ser un evento desencadenado por otro sistema.                                           |
+|        THEN        |                 THEN, el lo ultimo del patron ‘Given-When-Then’. Permite describir el resultado esperado. La definición de un THEN debe usar una aserción para comparar el resultado real (lo que el sistema hace) con el resultado esperado (lo que se supone que debe hacer el sistema)                  |
+|        AND         |                                                                                                            AND se utiliza para añadir condiciones en alguno de los patrones ‘Given-When-Then’.                                                                                                             |
+|        BUT         |                                                                                                                    Se utiliza como condición extra para los patrones ‘Given-When-Then’.                                                                                                                    |
+|     BACKGROUND     |                   Ocurre que se repiten muchos GIVEN en muchos SCENARIO de una FEATURE. De ser el caso, esto es una indicación de que los patrones no son esenciales para describir los escenarios; son detalles generales. Literalmente, puede moverlos agrupándoles en un BACKGROUND.                    |
 
 ### 6.1.4. Software Deployment Configuration
 
