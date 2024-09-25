@@ -3175,9 +3175,21 @@ En esta sección se detallan las acciones y técnicas de navegación que guiará
 ## 5.3. Landing Page UI Design
 
 ### 5.3.1. Landing Page Wireframe
-
+<div align="center">
+  <img width=200 src="./assets/designs/LandingPage/Landing Page Wireframe.png" alt="Landing Page Wireframe"/>
+</div>
+<div align="center">
+  <em>LandingPage wireframe</em>
+  <br/><br/>
+</div>
 ### 5.3.2. Landing Page Mock-up
-
+<div align="center">
+  <img width=200 src="./assets/designs/LandingPage/Landing Page Mockup.png" alt="Landing Page Mockup"/>
+</div>
+<div align="center">
+  <em>LandingPage wireframe</em>
+  <br/><br/>
+</div>
 ## 5.4. Application UX/UI Design
 
 ### 5.4.1. Applications Wireframes
