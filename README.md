@@ -3116,6 +3116,52 @@ En esta sección se especifican los detalles del Sprint Backlog, que es una list
 
 #### 6.2.1.3. Development Evidence for Sprint Review
 
+Se presentan los commits realizados en el repositorio de GitHub, en el cual se puede observar el trabajo realizado por cada integrante del equipo.
+
+<table  align="left" border="1" width="100%">
+    <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit ID</th>
+        <th>Author</th>
+        <th>Message</th>
+        <th>Time ago</th>
+    </tr>
+    <tr>
+        <td rowspan=4>Landing Page</td>
+        <td>Master</td>
+        <td>5299850</td>
+        <td>Fabio Horna</td>
+        <td>Subiendo HidroBots Landing Page</td>
+        <td>24/09/24</td>
+    </tr>
+    <tr>
+        <td>Master</td>
+        <td>49da84b</td>
+        <td>Fabio Horna</td>
+        <td>Update CSS and HTML: changed font to Nunito and updated colors</td>
+        <td>24/09/24</td>
+    </tr>
+    <tr>
+        <td>Master</td>
+        <td>0486e66</td>
+        <td>Fabio Horna</td>
+        <td>Change Title</td>
+        <td>24/09/24</td>
+    </tr>
+    <tr>
+        <td>Master</td>
+        <td>0e2860b</td>
+        <td>Fabio Horna</td>
+        <td>Actualización del CSS, cambio de fuente a Nunito, y ajuste de colores</td>
+        <td>24/09/24</td>
+    </tr>
+    
+</table>
+
+<br><br>
+
+
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review.
 
 #### 6.2.1.5. Execution Evidence for Sprint Review.
