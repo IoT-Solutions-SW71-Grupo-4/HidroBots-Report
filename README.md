@@ -3461,43 +3461,6 @@ Interfaces para visualizar el perfil
 
 ### 5.4.2. Applications Wireflow Diagrams
 
-**Mobile wireflow**
-
-Autenticación del usuario
-
-<div align="center">
-  <img width=800 src="./assets/designs/mobile/wireflow/Autenticacion.png"/>
-</div>
-<br/><br/>
-
-Registro de cultivos
-
-<div align="center">
-  <img width=800 src="./assets/designs/mobile/wireflow/Registro_cultivos.png"/>
-</div>
-<br/><br/>
-
-Conectar sensores
-
-<div align="center">
-  <img width=800 src="./assets/designs/mobile/wireflow/Conectar_sensores.png"/>
-</div>
-<br/><br/>
-
-Riego de cultivos
-
-<div align="center">
-  <img width=800 src="./assets/designs/mobile/wireflow/Riego_Cultivos.png"/>
-</div>
-<br/><br/>
-
-Reporte de suelos
-
-<div align="center">
-  <img width=800 src="./assets/designs/mobile/wireflow/Analisis_suelo.png"/>
-</div>
-<br/><br/>
-
 ### 5.4.3. Applications Mock-ups
 
 **Web application mockups**
@@ -3763,6 +3726,44 @@ Interfaces para visualizar el perfil
 </div>
 
 ### 5.4.4. Applications User Flow Diagrams
+
+**Mobile wireflow**
+
+Autenticación del usuario
+
+<div align="center">
+  <img width=800 src="./assets/designs/mobile/wireflow/Autenticacion.png"/>
+</div>
+<br/><br/>
+
+Registro de cultivos
+
+<div align="center">
+  <img width=800 src="./assets/designs/mobile/wireflow/Registro_cultivos.png"/>
+</div>
+<br/><br/>
+
+Conectar sensores
+
+<div align="center">
+  <img width=800 src="./assets/designs/mobile/wireflow/Conectar_sensores.png"/>
+</div>
+<br/><br/>
+
+Riego de cultivos
+
+<div align="center">
+  <img width=800 src="./assets/designs/mobile/wireflow/Riego_Cultivos.png"/>
+</div>
+<br/><br/>
+
+Reporte de suelos
+
+<div align="center">
+  <img width=800 src="./assets/designs/mobile/wireflow/Analisis_suelo.png"/>
+</div>
+<br/><br/>
+
 
 ## 5.5. Applications Prototyping
 
