@@ -3182,7 +3182,9 @@ En esta sección se detallan las acciones y técnicas de navegación que guiará
   <em>LandingPage wireframe</em>
   <br/><br/>
 </div>
+
 ### 5.3.2. Landing Page Mock-up
+
 <div align="center">
   <img width=200 src="./assets/designs/LandingPage/Landing Page Mockup.png" alt="Landing Page Mockup"/>
 </div>
@@ -3190,9 +3192,106 @@ En esta sección se detallan las acciones y técnicas de navegación que guiará
   <em>LandingPage wireframe</em>
   <br/><br/>
 </div>
+
 ## 5.4. Application UX/UI Design
 
 ### 5.4.1. Applications Wireframes
+
+**Web application wireframes**
+
+Autenticación de usuario
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/wireframes/Login.png" alt="Login web wireframe"/>
+</div>
+<div align="center">
+  <em>Login web wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/wireframes/Register.png" alt="register web wireframe"/>
+</div>
+<div align="center">
+  <em>Register web wireframe</em>
+  <br/><br/>
+</div>
+
+Dashboard
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/wireframes/Dashboard.png" alt="dashboard web wireframe"/>
+</div>
+<div align="center">
+  <em>Dashboard web wireframe</em>
+  <br/><br/>
+</div>
+
+Devices
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/wireframes/Devices.png" alt="devices web wireframe"/>
+</div>
+<div align="center">
+  <em>Devices web wireframe</em>
+  <br/><br/>
+</div>
+
+Irrigation
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/wireframes/Irrigation.png" alt="Automatic irrigation web wireframe"/>
+</div>
+<div align="center">
+  <em>Automatic irrigation web wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/wireframes/Irrigation-1.png" alt="Manual irrigation web wireframe"/>
+</div>
+<div align="center">
+  <em>Manual irrigation web wireframe</em>
+  <br/><br/>
+</div>
+
+Report
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/wireframes/Report.png" alt="Report web wireframe"/>
+</div>
+<div align="center">
+  <em>Report web wireframe</em>
+  <br/><br/>
+</div>
+
+Soil analysis
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/wireframes/Soil Analysis.png" alt="Soil analysis web wireframe"/>
+</div>
+<div align="center">
+  <em>Soil analysis web wireframe</em>
+  <br/><br/>
+</div>
+
+Profile
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/wireframes/Profile.png" alt="Soil analysis web wireframe"/>
+</div>
+<div align="center">
+  <em>Profile web wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/wireframes/Notifications.png" alt="Notifications web wireframe"/>
+</div>
+<div align="center">
+  <em>Notifications web wireframe</em>
+  <br/><br/>
+</div>
 
 **Mobile wireframes**
 
