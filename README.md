@@ -3500,7 +3500,103 @@ Reporte de suelos
 
 ### 5.4.3. Applications Mock-ups
 
-**Mobile wireframes**
+**Web application mockups**
+
+Autenticación de usuario
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/mockups/Login.png" alt="Login web mockup"/>
+</div>
+<div align="center">
+  <em>Login web mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/mockups/Register.png" alt="register web mockup"/>
+</div>
+<div align="center">
+  <em>Register web mockup</em>
+  <br/><br/>
+</div>
+
+Dashboard
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/mockups/Dashboard.png" alt="dashboard web mockup"/>
+</div>
+<div align="center">
+  <em>Dashboard web mockup</em>
+  <br/><br/>
+</div>
+
+Devices
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/mockups/Devices.png" alt="devices web mockup"/>
+</div>
+<div align="center">
+  <em>Devices web mockup</em>
+  <br/><br/>
+</div>
+
+Irrigation
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/mockups/Irrigation.png" alt="Automatic irrigation web mockup"/>
+</div>
+<div align="center">
+  <em>Automatic irrigation web mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/mockups/Irrigation-1.png" alt="Manual irrigation web mockup"/>
+</div>
+<div align="center">
+  <em>Manual irrigation web mockup</em>
+  <br/><br/>
+</div>
+
+Report
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/mockups/Report.svg" alt="Report web mockup"/>
+</div>
+<div align="center">
+  <em>Report web mockup</em>
+  <br/><br/>
+</div>
+
+Soil analysis
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/mockups/Soil Analysis.png" alt="Soil analysis web mockup"/>
+</div>
+<div align="center">
+  <em>Soil analysis web mockup</em>
+  <br/><br/>
+</div>
+
+Profile
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/mockups/Profile.png" alt="Soil analysis web mockup"/>
+</div>
+<div align="center">
+  <em>Profile web mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/mockups/Notifications.png" alt="Soil analysis web mockup"/>
+</div>
+<div align="center">
+  <em>Notifications web mockup</em>
+  <br/><br/>
+</div>
+
+**Mobile mockups**
 
 Autenticación de usuario
 
