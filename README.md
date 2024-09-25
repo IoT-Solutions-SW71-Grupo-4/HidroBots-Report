@@ -3293,8 +3293,6 @@ Para declarar funciones, es preferible utilizar la palabra clave function, en lu
 
     function foo() { ... }
 
-Para más información sobre las convenciones de JavaScript se usará como referencia: <https://google.github.io/styleguide/tsguide.html#visibility>
-
 **JAVA**
 
 *Nombres de interfaces*
