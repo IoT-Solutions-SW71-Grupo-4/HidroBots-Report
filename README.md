@@ -3049,6 +3049,44 @@ Swagger es un conjunto de herramientas de software de código abierto para dise�
 
 ### 6.1.2. Source Code Management
 
+Para la administración y gestión de las múltiples modificaciones, se creó una organización en GitHub, donde se crearán los repositorios para los diferentes servicios.
+
+Enlace de la organización en GitHub:  
+
+Los diferentes repositorios serán trabajados bajo la metodología de GitFlow, la cual permitirá colaborar de manera eficiente y organizada, siempre trabajando con las convenciones y buenas prácticas para un trabajo ágile.
+
+De esta manera, se estableció las siguientes nomenclaturas para las ramas de desarrollo:
+- Main: Presenta una versión estable de la aplicación; por ende, es la rama desplegada en producción y con la que interactuarán usuarios finales.
+- Develop: Rama de integración de las demás ramas desarrolladas en el transcurso del sprint.
+- Release: Rama previa a la integración con main. En esta versión, las funcionalidades se ejecutan sin problema. Sin embargo, aún debe pasar por diferentes pruebas para validar el funcionamiento al 100%
+- Feature: Rama para agregar nuevas funcionalidades a la aplicación
+- Hotfix: Rama para la corrección de bugs inesperadosSource
+
+Para el correcto desarrollo del proyecto, se ha optado por un stack tecnológico de conocimiento del equipo y convenciones internacionalmente empleadas: “Conventional commits” en la versión 1.0.0.
+
+**Stack tecnológico:**
+- Landing page: HTML, CSS & JavaScript
+- Aplicación web: Angular y TypeScript
+- API: Java SpringBoot
+
+**Convenciones de idioma:**
+
+El inglés será empleado para el desarrollo del código, como es la Landing Page, Front-end y Back-end. De igual manera, el título de las ramas y los commits también serán redactados en inglés. El español solo será empleado para el reporte del proyecto y al momento de exponerlo a los Stakeholders.
+
+**Convenciones de Commits:**
+
+Nuestro equipo de desarrollo sigue las Convenciones de Commits, adoptando el formato de los “Conventional Commits” en su versión 1.0.0 (disponible en https://www.conventionalcommits.org/en/v1.0.0/) para garantizar una fácil comprensión de nuestros registros. Por lo tanto, nos regimos por la siguiente estructura:
+
+Donde:
+<p align="center">&lttype&gt[scope opcional]: &ltdescription&gt </p>
+
+- type: Indica el tipo de modificación realizada, limitado a opciones como feat, fix, docs, etc.
+
+- scope: Define el alcance del cambio realizado en nuestro código.
+
+- descripción: Ofrece un resumen conciso de los cambios implementados.
+
+
 ### 6.1.3. Source Code Style Guide & Conventions
 
 ### 6.1.4. Software Deployment Configuration
