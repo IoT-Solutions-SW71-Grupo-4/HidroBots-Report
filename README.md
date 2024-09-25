@@ -237,15 +237,15 @@ La rama "develop" se ha utilizado para la integración de las tareas asignadas a
   - [6.1.3. Source Code Style Guide \& Conventions](#613-source-code-style-guide--conventions)
   - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
 - [6.2. Landing Page, Services \& Applications Implementation](#62-landing-page-services--applications-implementation)
-  - [6.2.X. Sprint X](#62x-sprint-n)
-    - [6.2.X.1. Sprint Planning 1](#62x1-sprint-planning-n)
-    - [6.2.X.2. Sprint Backlog 1](#62x2-sprint-backlog-n)
-    - [6.2.X.3. Development Evidence for Sprint Review](#62x3-development-evidence-for-sprint-review)
-    - [6.2.X.4. Testing Suite Evidence for Sprint Review](#62x4-testing-suite-evidence-for-sprint-review)
-    - [6.2.X.5. Execution Evidence for Sprint Review](#62x5-execution-evidence-for-sprint-review)
-    - [6.2.X.6. Services Documentation Evidence for Sprint Review](#62x6-services-documentation-evidence-for-sprint-review)
-    - [6.2.X.7. Software Deployment Evidence for Sprint Review](#62x7-software-deployment-evidence-for-sprint-review)
-    - [6.2.X.8. Team Collaboration Insights during Sprint](#62x8-team-collaboration-insights-during-sprint)
+  - [6.2.1. Sprint 1](#621-sprint-1)
+    - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
+    - [6.2.1.2. Sprint Backlog 1](#6212-sprint-backlog-1)
+    - [6.2.1.3. Development Evidence for Sprint Review](#6213-development-evidence-for-sprint-review)
+    - [6.2.1.4. Testing Suite Evidence for Sprint Review](#6214-testing-suite-evidence-for-sprint-review)
+    - [6.2.1.5. Execution Evidence for Sprint Review](#6215-execution-evidence-for-sprint-review)
+    - [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
+    - [6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
+    - [6.2.1.8. Team Collaboration Insights during Sprint](#6218-team-collaboration-insights-during-sprint)
 - [6.3. Validation Interviews](#63-validation-interviews)
   - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
   - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
@@ -2967,23 +2967,130 @@ En esta sección, se detallan las tablas, columnas y las relaciones entre las en
 
 ## 6.2. Landing Page, Services & Applications Implementation
 
-### 6.2.X. Sprint n
+### 6.2.1. Sprint 1
 
-#### 6.2.X.1. Sprint Planning n.
+#### 6.2.1.1. Sprint Planning 1.
 
-#### 6.2.X.2. Sprint Backlog n.
+<table align="center"  border="1" width="90%" style="text-align:center;">
+    <tr align="left">
+        <td>
+            <b>Sprint #</b>
+        </td>
+        <td>
+            <b>Sprint 1</b>           
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan="2">
+            <b>Sprint Planning Background</b>
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Date</b>
+        </td>
+        <td>
+            25/09/24         
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Time</b>
+        </td>
+        <td>
+            16:00         
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Location</b>
+        </td>
+        <td>
+            Modalidad remota por Discord      
+        </td>
+    </tr>
+     </tr>
+       <tr align="left">
+        <td>
+            <b>Prepared By</b>
+        </td>
+        <td>
+            Integrantes de Hidrobots     
+        </td>
+    </tr>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Attendess (to planning meeting)</b>
+        </td>
+        <td>
+            - Ampudia Flores, José Carlos Isaac <br/>
+            - Defilippi Santillán, Diego <br/>
+            - Horna Silva, Fabio Ernesto <br/>
+            - Lopez Huarcaya, Leonardo Paul <br/>
+            - Paucar De La Cruz, Tatiana Medalith<br/>
+        </td>
+    </tr>
+      </tr>
+       <tr align="left">
+        <td>
+            <b>Sprint n - 1</b>
+            <b>Review Summary</b>
+        </td>
+        <td>
+            Para el primer Sprint, se tuvo como objetivo el desarrollo y el despliegue de la Landing Page; el desarrollo y el despliegue de la primera versión de la aplicación web y el desarrollo de un avance del Api REST.
+            <br/><br/>
+            En síntesis, se lograron los objetivos propuestos.
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Sprint n - 1</b>
+            <b>Retrospective Summary</b>
+        </td>
+        <td>
+        Se logró mantener una comunicación excelentes entre los integrantes del equipo, gracias al uso de plataformas como Discord, lo que conllevó a entregar el trabajo a tiempo. Sin embargo, se debe mejorar el aspecto de la organización, para terminar las próximas enteras sin estar al límite del deathline.
+</br></br>
+Para asegurar un avance constante en el proyecto, se considera crucial perfeccionar la estimación del desarrollo de user stories. Esto permitirá evitar desajustes en el calendario y garantizará un flujo de trabajo más estable. 
+        </td>
+    </tr>
+     <tr align="left">
+        <td colspan="2">
+            <b>Sprint Goal & User Stories</b>
+        </td>
+    </tr>
+      <tr align="left">
+        <td>
+            <b>Sprint 1 Velocity</b>
+        </td>
+        <td>
+            #
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Sum of Story Points</b>
+        </td>
+        <td>
+            #
+        </td>
+    </tr>
+</table>
+</br>
 
-#### 6.2.X.3. Development Evidence for Sprint Review
+#### 6.2.1.2. Sprint Backlog 1.
 
-#### 6.2.X.4. Testing Suite Evidence for Sprint Review.
+#### 6.2.1.3. Development Evidence for Sprint Review
 
-#### 6.2.X.5. Execution Evidence for Sprint Review.
+#### 6.2.1.4. Testing Suite Evidence for Sprint Review.
 
-#### 6.2.X.6. Services Documentation Evidence for Sprint Review.
+#### 6.2.1.5. Execution Evidence for Sprint Review.
 
-#### 6.2.X.7. Software Deployment Evidence for Sprint Review.
+#### 6.2.1.6. Services Documentation Evidence for Sprint Review.
 
-#### 6.2.X.8. Team Collaboration Insights during Sprint.
+#### 6.2.1.7. Software Deployment Evidence for Sprint Review.
+
+#### 6.2.1.8. Team Collaboration Insights during Sprint.
 
 ## 6.3. Validation Interviews.
 
