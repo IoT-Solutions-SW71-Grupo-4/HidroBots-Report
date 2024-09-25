@@ -3080,6 +3080,40 @@ Para asegurar un avance constante en el proyecto, se considera crucial perfeccio
 
 #### 6.2.1.2. Sprint Backlog 1.
 
+En esta sección se especifican los detalles del Sprint Backlog, que es una lista de tareas que se han realizado para completar el Sprint.
+
+<table align="center" border="1" width="90%" style="text-align:center">
+    <tr>
+       <td colspan="1"><b>Sprint #</b></td>
+       <td colspan="7"><b>Sprint 1</b></td>
+     </tr>
+     <tr>
+       <td colspan="2"><b>User Story</b></td>
+       <td colspan="6"><b>Work-Item / Task</b></td>
+     </tr>
+     <tr>
+       <td><b>Id</b></td>
+       <td><b>Title</b></td>
+       <td><b>Id</b></td>
+       <td><b>Title</b></td>
+       <td><b>Description</b></td>
+       <td><b>Estimation(Hours)</b></td>
+       <td><b>Assigned To</b></td>
+       <td><b>Status(To-do/ In-Process/ To-Review/ Done)</b></td>
+     </tr>
+     <tr>
+       <td rowspan="1">US01</td>
+       <td rowspan="1">Nombre de la user story</td>
+       <td>T01</td>
+       <td>Nombre del task</td>
+       <td>Descripción</td>
+       <td>#</td>
+       <td>Nombre de quien lo hizo</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+</table>
+
 #### 6.2.1.3. Development Evidence for Sprint Review
 
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review.
