@@ -3073,6 +3073,20 @@ Para el correcto desarrollo del proyecto, se ha optado por un stack tecnológico
 
 El inglés será empleado para el desarrollo del código, como es la Landing Page, Front-end y Back-end. De igual manera, el título de las ramas y los commits también serán redactados en inglés. El español solo será empleado para el reporte del proyecto y al momento de exponerlo a los Stakeholders.
 
+**Convenciones de versionamiento**
+
+Para la redacción de las siguientes convenciones del nombramiento de versiones se utilizó de referencia el artículo Semantic Versioning 2.0.0.
+
+Cada número de versión debe tener la forma X.Y.Z conformado solo por números enteros no negativos. Donde X esla versión principal, Y la versión secundaria y Z la versión de parche.
+
+La versión inicial tendrá la forma 0.X.Y.
+
+La versión de parche Z debe incrementarse solo si se corrigen errores compatibles con versiones anteriores.
+
+La versión secundaria Y debe incrementarse si introduce una nueva funcionalidad compatible con versiones anteriores. Puede incrementar si se introducen mejoras en el código privado. Puede incluir cambios en el parche. Cada vez que aumenta la versión secundaria, la versión del parche debe restablecerse a 0.
+
+La versión principal X debe incrementarse cuando se introducen funcionalidades incompatibles con versiones anteriores. También pueden introducirse algunos cambios y correcciones en el nivel de parche. El parche y la versión secundaria deben restablecerse a 0.
+
 **Convenciones de Commits:**
 
 Nuestro equipo de desarrollo sigue las Convenciones de Commits, adoptando el formato de los “Conventional Commits” en su versión 1.0.0 (disponible en https://www.conventionalcommits.org/en/v1.0.0/) para garantizar una fácil comprensión de nuestros registros. Por lo tanto, nos regimos por la siguiente estructura:
