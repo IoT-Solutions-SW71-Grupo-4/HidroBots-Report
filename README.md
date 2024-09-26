@@ -3807,6 +3807,40 @@ Para el Sprint 1, se ha desarrollado tanto la Landing Page, la primera versión 
 
 **2. Para Frontend**
 
+Reportes y Dashboard
+
+![Web Application](assets/WebApplication/dashboard.png)
+![Web Application](assets/WebApplication/dashboard2.png)
+
+Visualizar nutrientes del suelo
+
+![Web Application](assets/WebApplication/soil_analysis.png)
+
+
+Programación de riego automático
+
+![Web Application](assets/WebApplication/automatic_irrigation.png)
+
+Control manual del riego
+
+![Web Application](assets/WebApplication/manual_irrigation.png)
+
+Gestion de interfaces
+
+![Web Application](assets/WebApplication/devices2.png)
+
+![Web Application](assets/WebApplication/edit_device.png)
+
+
+
+
+
+
+
+
+
+
+
 **3. Para Backend**
 
 ![Backend](assets/Backend/1-backend.png)
