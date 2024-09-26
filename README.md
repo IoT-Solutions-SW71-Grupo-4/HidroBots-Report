@@ -3776,6 +3776,21 @@ Evidencia de las pruebas realizadas para el bounded context Iam: <br>
 
 #### 6.2.1.5. Execution Evidence for Sprint Review.
 
+Para el Sprint 1, se ha desarrollado tanto la Landing Page, la primera versión del Frontend de la aplicación y el avance del Backend, por lo que se puede ver a continuación las evidencias:
+
+**1. Para Landing Page**
+
+![Landing Page](assets/LandingPage/1-lp-home.png)
+![Landing Page](assets/LandingPage/2-lp-services.png)
+![Landing Page](assets/LandingPage/3-lp-mobile.png)
+![Landing Page](assets/LandingPage/4-lp-team.png)
+![Landing Page](assets/LandingPage/5-lp-team2.png)
+![Landing Page](assets/LandingPage/6-lp-contact.png)
+
+**2. Para Frontend**
+
+**3. Para Backend**
+
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review.
 
 #### 6.2.1.7. Software Deployment Evidence for Sprint Review.
