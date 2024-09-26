@@ -3794,7 +3794,26 @@ Para el Sprint 1, se ha desarrollado tanto la Landing Page, la primera versión 
 ![Backend](assets/Backend/1-backend.png)
 ![Backend](assets/Backend/2-backend.png)
 
+- TS06 Sistema de autenticación y registro: <br>
+  - Sign up
+  ![TS06](assets/Backend/3-backend.png)
+  ![TS06](assets/Backend/4-backend.png)
+
+  - Sign in
+  ![TS06](assets/Backend/5-backend.png)
+  ![TS06](assets/Backend/6-backend.png)
+
+  - Usuario autenticado
+  ![TS06](assets/Backend/7-backend.png)
+
+
+
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review.
+
+A continuación, se muestra la documentación de los servicios de la aplicación Ayni, el cual se ha desarrollado para este Sprint 1, para documentar usamos Swagger. A continuación se muestran evidencias.
+
+![Backend](assets/Backend/1-backend.png)
+![Backend](assets/Backend/2-backend.png)
 
 #### 6.2.1.7. Software Deployment Evidence for Sprint Review.
 
