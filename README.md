@@ -335,6 +335,12 @@ La rama "develop" se ha utilizado para la integración de las tareas asignadas a
 
 Hidrobots, fue creada con el principal objetivo de facilitar la vida de los agricultores peruanos, mediante la implementación de tecnologías de IoT para la automatización de procesos de riego en cultivos agrícolas. La solución propuesta por HidroBots, permitirá a los medianos agricultores y centros de investigación agrícola del Perú, tener acceso a una herramienta tecnológica que les permita controlar el riego de sus cultivos desde cualquier lugar y en tiempo real desde sus dispositivos móviles o computadoras. De esta manera, los usuarios podrán monitorear el estado de sus plantíos, recolectar información sobre la composición del suelo y tomar decisiones en tiempo real, mejorando la eficiencia el uso del agua y la productividad de los cultivos.
 
+**Mision:**<br>
+Optimizar el uso del agua y aumentar la productividad agrícola mediante herramientas avanzadas de automatización y monitoreo. De esta manera, contribuir al desarrollo sostenible de la agricultura en el Perú.
+
+**Visión:**<br>
+Ser la plataforma más utilizada en el sector agrícola en Perú, promoviendo la innovación y sostenibilidad a través de la automatización. Además, ser reconocidos por la calidad de nuestros servicios y el impacto positivo en la productividad de los cultivos.
+
 ### 1.1.2. Perfiles de integrantes del equipo
 
 <table>
