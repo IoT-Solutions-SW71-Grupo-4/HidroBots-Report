@@ -237,15 +237,15 @@ La rama "develop" se ha utilizado para la integración de las tareas asignadas a
   - [6.1.3. Source Code Style Guide \& Conventions](#613-source-code-style-guide--conventions)
   - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
 - [6.2. Landing Page, Services \& Applications Implementation](#62-landing-page-services--applications-implementation)
-  - [6.2.X. Sprint X](#62x-sprint-n)
-    - [6.2.X.1. Sprint Planning 1](#62x1-sprint-planning-n)
-    - [6.2.X.2. Sprint Backlog 1](#62x2-sprint-backlog-n)
-    - [6.2.X.3. Development Evidence for Sprint Review](#62x3-development-evidence-for-sprint-review)
-    - [6.2.X.4. Testing Suite Evidence for Sprint Review](#62x4-testing-suite-evidence-for-sprint-review)
-    - [6.2.X.5. Execution Evidence for Sprint Review](#62x5-execution-evidence-for-sprint-review)
-    - [6.2.X.6. Services Documentation Evidence for Sprint Review](#62x6-services-documentation-evidence-for-sprint-review)
-    - [6.2.X.7. Software Deployment Evidence for Sprint Review](#62x7-software-deployment-evidence-for-sprint-review)
-    - [6.2.X.8. Team Collaboration Insights during Sprint](#62x8-team-collaboration-insights-during-sprint)
+  - [6.2.1. Sprint 1](#621-sprint-1)
+    - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
+    - [6.2.1.2. Sprint Backlog 1](#6212-sprint-backlog-1)
+    - [6.2.1.3. Development Evidence for Sprint Review](#6213-development-evidence-for-sprint-review)
+    - [6.2.1.4. Testing Suite Evidence for Sprint Review](#6214-testing-suite-evidence-for-sprint-review)
+    - [6.2.1.5. Execution Evidence for Sprint Review](#6215-execution-evidence-for-sprint-review)
+    - [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
+    - [6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
+    - [6.2.1.8. Team Collaboration Insights during Sprint](#6218-team-collaboration-insights-during-sprint)
 - [6.3. Validation Interviews](#63-validation-interviews)
   - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
   - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
@@ -2953,37 +2953,1108 @@ En esta sección, se detallan las tablas, columnas y las relaciones entre las en
 
 ## 5.5. Applications Prototyping
 
+<div align="justify">
+
 # Capítulo VI: Product Implementation, Validation & Deployment
 
 ## 6.1. Software Configuration Management
 
 ### 6.1.1. Software Development Environment Configuration
 
+**Project management**
+
+Discord (https://discord.com/)
+
+Servicio de mensajería instantánea y chat de voz VolP. En esta plataforma, los usuarios tienen la capacidad de comunicarse por llamadas de voz, videollamadas, mensajes de texto, o con archivos y contenido multimedia en conversaciones privadas o como parte de comunidades
+La plataforma de Discord se empleó para realizar las reuniones virtuales del grupo y distribuir las tareas de los sprints.
+
+Microsoft 365 (https://www.office.com/)
+
+Línea de servicios por suscripción ofrecidos por Microsoft. Se empleó la Plataforma de Microsoft 365 para gestionar los documentos del trabajo, como es el reporte y las actas de reuniones.
+
+**Requires management**
+
+Trello (https://trello.com/es)
+
+Trello es un software de administración de proyectos con interfaz web y con cliente para iOS y Android para organizar proyectos. Se empleó la plataforma de Trello para la gestión de user stories y drivers en base a sprints.
+
+UXPressia (https://uxpressia.com/)
+
+Una plataforma en línea para crear una experiencia de usuario sobresaliente mediante el mapeo del viaje del cliente, las personas y las técnicas de mapeo de impacto. Se empleó la plataforma de UXPressia para la creación de User Personas, Empathy Maps e Impact Maps en base a plantillas proporcionadas por la misma aplicación.
+
+LucidChart (https://www.lucidchart.com/)
+
+Lucidchart es una herramienta de diagramación basada en la web, que permite a los usuarios colaborar y trabajar juntos en tiempo real, creando diagramas de flujo, organigramas, esquemas de sitios web, diseños UML, mapas mentales, prototipos de software y muchos otros tipos de diagrama. Herramienta de diagramación utilizada para crear diagramas de flujo y visualizar ideas y procesos.
+
+Miro (https://miro.com/)
+
+Es una plataforma de colaboración digital diseñada para facilitar la comunicación en equipo remota y distribuida y la gestión de proyectos. Miro permitió realizar los escenarios As-Is y To-Be para cada segmento objetivo.
+
+Structurizr (https://www.structurizr.com/)
+
+Structurizr DSL es un proyecto de código abierto que te permite crear un modelo único de nuestra arquitectura de software, y luego visualizarlo desde diferentes ángulos y profundidades, siguiendo el modelo de C4. Esta herramienta permitió la creación de diagramas C4 (contexto, contenedor y componentes).
+
+**Product design**
+
+Figma (https://www.figma.com/)
+
+Figma es un editor de gráficos vectorial y una herramienta de generación de prototipos, principalmente basada en la web, con características off-line adicionales habilitadas por aplicaciones de escritorio en macOS y Windows. Se empleó la herramienta de Figma para desarrollar los wireframes, mockups y los prototipos.
+
+**Software development**
+
+Visual Studio Code (https://code.visualstudio.com/) 
+
+Entorno de Desarrollo integrado empleado para la programación del frontend con Angular
+
+IntellijIdea (https://www.jetbrains.com/idea/)
+
+Entorno de Desarrollo Integrado empleado para la programación del backend con Java.
+
+Git (https://git-scm.com/)
+
+Software de control de versiones empleado para mantener el correcto flujo de desarrollo.
+
+**Software testing**
+
+Junit5 (https://junit.org/junit5/) 
+
+JUnit es un conjunto de bibliotecas creadas por Erich Gamma y Kent Beck que son utilizadas en programación para hacer pruebas unitarias de aplicaciones Java.
+
+Mockito (https://site.mockito.org/)
+
+Mockito es un framework de código abierto para crear pruebas unitarias en Java publicado bajo la licencia MIT​​ El framework permite la creación de objetos dobles de prueba en pruebas de unidad automatizada para el desarrollo guiado por pruebas o desarrollo dirigido por el comportamiento.
+
+**Software deployment**
+
+Vercel (https://vercel.com/)
+
+Vercel es una empresa de computación en la nube remota que ofrece una plataforma de desarrollo que incluye servicios backend de creación, implementación y sin servidor para aplicaciones web y sitios web dinámicos. Esta plataforma permitirá el correcto despliegue de la aplicación web.
+
+GitHub Pages (https://pages.github.com/)
+
+GitHub Pages es un servicio de alojamiento de sitio estático que toma archivos HTML, CSS y JavaScript directamente desde un repositorio en GitHub, opcionalmente ejecuta los archivos a través de un proceso de complilación y publica un sitio web. Esta plataforma permitirá el correcto despliegue de la Landing page 
+
+Render (https://render.com/) 
+
+Esta Plataforma permitirá el correcto despliegue de la API.
+
+
+**Software documentation**
+
+GitHub (https://github.com/)
+
+Plataforma empleada para publicar los principales servicios de la aplicación y documentar el código de los mismos.
+
+Swagger (https://swagger.io/)
+
+Swagger es un conjunto de herramientas de software de código abierto para diseñar, construir, documentar, y utilizar servicios web RESTful. Servicio que permite la documentación de la Api en base a código.
+
 ### 6.1.2. Source Code Management
+
+Para la administración y gestión de las múltiples modificaciones, se creó una organización en GitHub, donde se crearán los repositorios para los diferentes servicios.
+
+Enlace de la organización en GitHub:  
+
+Los diferentes repositorios serán trabajados bajo la metodología de GitFlow, la cual permitirá colaborar de manera eficiente y organizada, siempre trabajando con las convenciones y buenas prácticas para un trabajo ágile.
+
+De esta manera, se estableció las siguientes nomenclaturas para las ramas de desarrollo:
+- Main: Presenta una versión estable de la aplicación; por ende, es la rama desplegada en producción y con la que interactuarán usuarios finales.
+- Develop: Rama de integración de las demás ramas desarrolladas en el transcurso del sprint.
+- Release: Rama previa a la integración con main. En esta versión, las funcionalidades se ejecutan sin problema. Sin embargo, aún debe pasar por diferentes pruebas para validar el funcionamiento al 100%
+- Feature: Rama para agregar nuevas funcionalidades a la aplicación
+- Hotfix: Rama para la corrección de bugs inesperadosSource
+
+Para el correcto desarrollo del proyecto, se ha optado por un stack tecnológico de conocimiento del equipo y convenciones internacionalmente empleadas: “Conventional commits” en la versión 1.0.0.
+
+**Stack tecnológico:**
+- Landing page: HTML, CSS & JavaScript
+- Aplicación web: Angular y TypeScript
+- API: Java SpringBoot
+
+**Convenciones de idioma:**
+
+El inglés será empleado para el desarrollo del código, como es la Landing Page, Front-end y Back-end. De igual manera, el título de las ramas y los commits también serán redactados en inglés. El español solo será empleado para el reporte del proyecto y al momento de exponerlo a los Stakeholders.
+
+**Convenciones de versionamiento**
+
+Para la redacción de las siguientes convenciones del nombramiento de versiones se utilizó de referencia el artículo Semantic Versioning 2.0.0.
+
+Cada número de versión debe tener la forma X.Y.Z conformado solo por números enteros no negativos. Donde X esla versión principal, Y la versión secundaria y Z la versión de parche.
+
+La versión inicial tendrá la forma 0.X.Y.
+
+La versión de parche Z debe incrementarse solo si se corrigen errores compatibles con versiones anteriores.
+
+La versión secundaria Y debe incrementarse si introduce una nueva funcionalidad compatible con versiones anteriores. Puede incrementar si se introducen mejoras en el código privado. Puede incluir cambios en el parche. Cada vez que aumenta la versión secundaria, la versión del parche debe restablecerse a 0.
+
+La versión principal X debe incrementarse cuando se introducen funcionalidades incompatibles con versiones anteriores. También pueden introducirse algunos cambios y correcciones en el nivel de parche. El parche y la versión secundaria deben restablecerse a 0.
+
+**Convenciones de Commits:**
+
+Nuestro equipo de desarrollo sigue las Convenciones de Commits, adoptando el formato de los “Conventional Commits” en su versión 1.0.0 (disponible en https://www.conventionalcommits.org/en/v1.0.0/) para garantizar una fácil comprensión de nuestros registros. Por lo tanto, nos regimos por la siguiente estructura:
+
+Donde:
+<p align="center">&lttype&gt[scope opcional]: &ltdescription&gt </p>
+
+- type: Indica el tipo de modificación realizada, limitado a opciones como feat, fix, docs, etc.
+
+- scope: Define el alcance del cambio realizado en nuestro código.
+
+- descripción: Ofrece un resumen conciso de los cambios implementados.
 
 ### 6.1.3. Source Code Style Guide & Conventions
 
+### 6.1.3. Source Code Style Guide & Conventions
+
+**Angular**
+
+Para mantener consistencia y claridad en los nombres de los archivos en un proyecto Angular, se siguen las siguientes convenciones:
+
+- **HTML**: Los archivos de plantilla HTML de un componente siguen la convención:
+  ```html
+  <nombre>-content.component.html
+  ```
+
+- **CSS**: Los archivos de estilo asociados a un componente siguen la convención.
+
+  ```css 
+  <name>-content.component.css
+  ```
+
+- TypeScript: Los archivos TypeScript que contienen la lógica del componente siguen la convención:
+
+  ```typescript
+  <name>-content.component.ts
+  ```
+
+*File structure conventions*
+
+Cada componente en Angular suele tener un conjunto de archivos relacionados (TypeScript, HTML, CSS, y pruebas unitarias). La organización de los archivos sigue un patrón consistente, agrupando los archivos complementarios por funcionalidad en una misma carpeta. Por ejemplo, para el componente HeroComponent, los archivos podrían organizarse de la siguiente manera:
+
+```
+hero/
+  ├── hero.component.ts
+  ├── hero.component.html
+  ├── hero.component.css
+  ├── hero.component.spec.ts
+```
+
+**HTML**
+
+*Usar nombres de elementos en minúsculas*
+
+Es recomendable que los nombres de los elementos HTML se escriban en minúsculas para mantener una sintaxis uniforme y estándar:
+
+    <body>
+        <p>This is a paragraph.</p>
+    </body>
+
+*Cerrar todos los elementos HTML*
+
+Es importante que todos los elementos HTML se cierren correctamente, asegurando que el documento sea válido y funcione correctamente en todos los navegadores:
+
+    <section>
+      <p>Este es un párrafo.</p>
+      <p>Este es otro párrafo.</p>
+    </section>
+
+*Usar nombres de atributos en minúsculas*
+
+Del mismo modo que con los elementos, los nombres de los atributos HTML deben estar en minúsculas para mantener consistencia:
+
+    <a href="https://www.ejemplo.com">Visita nuestro tutorial de HTML</a>
+
+*Especificar siempre los atributos alt, width y height en imágenes*
+
+Para mejorar la accesibilidad y garantizar que el contenido sea claro incluso si la imagen no se carga, es necesario especificar el texto alternativo y las dimensiones de la imagen:
+
+    <img src="imagen.jpg" alt="Descripción de la imagen" style="width:128px;height:128px">
+
+*Espacios y signos de igualdad*
+
+No debe haber espacios adicionales alrededor de los signos de igualdad entre atributos y valores en las etiquetas HTML. Esto mejora la legibilidad y la coherencia del código:
+
+    <link rel="stylesheet" href="styles.css">
+
+**CSS**
+
+*Nombres de clases e IDs descriptivos*
+
+Las clases e IDs deben tener nombres que reflejen claramente el propósito de los elementos que representan:
+
+    .gallery {}
+
+    .login {}
+
+    .video {}
+
+*Estilo de nombres de clases*
+
+Es recomendable usar nombres cortos pero suficientemente descriptivos para clases e IDs. Los nombres deben expresar claramente la funcionalidad del elemento sin ser demasiado largos:
+
+    .nav {}
+
+    .author {}
+
+*Uso de propiedades abreviadas*
+
+Se sugiere emplear propiedades abreviadas en CSS cuando sea posible, para hacer que el código sea más conciso y fácil de leer:
+
+    border-top: 0;
+
+    font: 100%/1.6 palatino, georgia, serif;
+
+    padding: 0 1em 2em;
+
+*Delimitadores en nombres de clases*
+
+Para separar palabras en los nombres de clases e IDs, se recomienda utilizar guiones en lugar de otros delimitadores:
+
+    #video-id {}
+
+    .ads-sample {}
+
+*Valores cero sin unidades*
+
+Cuando se utilice un valor de 0, no es necesario especificar una unidad como px o em:
+
+    margin: 0;
+
+    padding: 0;
+
+**TypeScript**
+
+*Visibilidad*
+
+No es necesario usar el modificador `public` cuando se declaran atributos, funciones o métodos públicos, ya que es el valor predeterminado:
+
+    class Foo {
+        bar = new Bar();
+    }
+
+*Constructores*
+
+Siempre se deben usar paréntesis al llamar a constructores, incluso si no reciben parámetros:
+
+    const x = new Foo();
+
+*Getters y Setters (Accesores)*
+
+Es posible utilizar getters y setters para los miembros de una clase. Estos métodos son útiles para controlar la visibilidad de los detalles internos de implementación:
+
+````
+class Foo {
+
+    constructor(private readonly someService: SomeService) {}
+
+    get someMember(): string {
+
+        return this.someService.someVariable;
+
+    }
+
+    set someMember(newValue: string) {
+
+        this.someService.someVariable = newValue;
+
+    }
+
+};
+````
+
+**Constructor de Arrays**
+
+Evitar el uso de Array(). En su lugar, se recomienda utilizar corchetes [] o Array.from() para inicializar arrays:
+
+````
+const a = [2];
+
+const b = [2, 3];
+
+// Equivalent to Array(2):
+
+const c = [];
+
+c.length = 2;
+
+// [0, 0, 0, 0, 0]
+
+Array.from<number>({length: 5}).fill(0);
+````
+*Variables*
+
+Siempre usar const y let para declarar variables. Nunca usar var:
+
+    const foo = otherValue;
+
+    let bar = someValue;
+
+*Declaración de funciones*
+
+Para declarar funciones, es preferible utilizar la palabra clave function, en lugar de asignar una expresión de función a una variable:
+
+    function foo() { ... }
+
+**JAVA**
+
+*Nombres de interfaces*
+
+Los nombres de interfaces utilizarán el sufijo Interface y estarán compuestos por palabras con la primera letra en mayúscula (CamelCase). Se debe evitar el uso de abreviaciones que dificulten la comprensión del código.
+
+Example: `ConexionInterface, ComponenteTablaInterface`
+
+*Nombres de clases*
+
+Los nombres de clases deben ser con CamelCase. Cada sustantivo debe empezar con mayúscula. Debemos intentar mantener los nombres de clases simples y descriptivos. Debemos usar palabras completas y evitar acrónimos y abreviaturas (se permiten DAO, DTO, URL, HTML, etc.). Si la clase cumpliese algún patrón determinado o tuviese una funcionalidad específica es recomendable definirlo en el nombre.
+
+*Variables*
+
+Los nombres de las variables tanto de instancia como estáticas reciben el mismo tratamiento que para los métodos, con la salvedad de que aquí sí importa más la relación entre la regla mnemónica y la longitud del nombre.
+
+Ejemplo:
+
+Correctos: `diaCalculo, fechaIncoporacion`
+
+Incorrectos: `dC, DCal, fI, FI¿`
+
+Se evitará en la medida de lo posible la utilización de caracteres especiales, así como nombre sin ningún tipo de significado funcional.
+
+Las excepciones son las variables utilizadas en bucles `for`, para esos casos se permite utilizar `i, j, k, l` y siempre en ese orden de anidamiento.
+
+El primer bucle siempre será el que tenga la variable `i` como iterador. (Esta variable se definirá para el bucle en cuestión).
+
+*Constantes*
+
+Los nombres de constantes de clases deberían escribirse todo en mayúsculas con las palabras separadas por subrayados ("_"). Todas serán declaradas como `public static final`.
+
+    public static final String PROPERTY\_URL\_SERVICIO = "urlServicio";
+
+*Uso de llaves opcionales*
+
+Las llaves se usan con declaraciones `if, else, for, do` y `while`, incluso cuando el cuerpo está vacío o contiene una sola declaración.
+
+Otras llaves opcionales, como las de una expresión lambda, siguen siendo opcionales.
+
+*Package names*
+
+Los nombres de los paquetes usan solo letras minúsculas y dígitos (sin guiones bajos). Las palabras consecutivas simplemente se concatenan juntas. Por ejemplo:
+
+`com.example.deepspace`, not `com.example.deepSpace` or `com.example.deep_space`. 
+
+**Gherking**
+
+|      Sintaxis      |                                                                                                                                                 Propósito                                                                                                                                                  |
+|:------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|      FEATURE       |                                                                               El propósito del FEATURE es proporcionar una descripción de alto nivel de una de las funciones de software y agrupar SCENARIOs22 relacionados.                                                                               |
+| SCENARIO O EXAMPLE |                                                                                Un SCENARIO es un ejemplo concreto que contiene una regla de negocio. Consiste básicamente en una definición en el patrón ‘Given-When-Then’.                                                                                |
+|       GIVEN        | GIVEN es una parte del patrón ‘Given-When-Then’. Se utiliza para describir la escena del escenario. Su propósito es poner el sistema en un estado concreto antes de que el usuario (o sistema externo) comience a interactuar con el sistema. No se habla sobre la interacción del usuario en este patrón. |
+|        WHEN        |                                           WHEN es el segundo requisito del patrón ‘Given-When-Then’. Se utiliza para describir un evento o una acción. Puede ser una persona que interactúa con el sistema o puede ser un evento desencadenado por otro sistema.                                           |
+|        THEN        |                 THEN, el lo ultimo del patron ‘Given-When-Then’. Permite describir el resultado esperado. La definición de un THEN debe usar una aserción para comparar el resultado real (lo que el sistema hace) con el resultado esperado (lo que se supone que debe hacer el sistema)                  |
+|        AND         |                                                                                                            AND se utiliza para añadir condiciones en alguno de los patrones ‘Given-When-Then’.                                                                                                             |
+|        BUT         |                                                                                                                    Se utiliza como condición extra para los patrones ‘Given-When-Then’.                                                                                                                    |
+|     BACKGROUND     |                   Ocurre que se repiten muchos GIVEN en muchos SCENARIO de una FEATURE. De ser el caso, esto es una indicación de que los patrones no son esenciales para describir los escenarios; son detalles generales. Literalmente, puede moverlos agrupándoles en un BACKGROUND.                    |
+
 ### 6.1.4. Software Deployment Configuration
+
+**Landing Page Deployment Configuration**
+
+Para el despliegue de la Landing Page de Ayni, se utilizará GitHub Pages, un servicio de alojamiento web estático que permite a los desarrolladores alojar sitios web estáticos de forma gratuita. Los pasos son muy sencillos:
+
+1. Crear un repositorio en GitHub con el código fuente de la Landing Page. Normalmente se recomienda que el repositorio contenga el archivo index.html en la raíz del proyecto.
+
+2. Habilitar GitHub Pages en la configuración del repositorio, seleccionando la rama y la carpeta de despliegue.
+
+3. Seleccionar la rama y la carpeta de despliegue. Normalmente se recomienda seleccionar la rama master y la carpeta raíz del proyecto.
+
+4. Acceder a la URL proporcionada por GitHub Pages para visualizar la Landing Page. Normalmente la URL tiene el siguiente formato: "https://username.github.io/repository"
+
+![GitHub Pages Deployment](assets/LandingPage/lp-deployment-configuration.png)
+
+Accede al Landing Page de Ayni: https://iot-solutions-sw71-grupo-4.github.io/HidroBots-LandingPage/
+
+**Web Application Deployment Configuration**
+
+Para desplegar el frontend de la aplicación web, se utilizó **Vercel**, una plataforma que facilita el despliegue de aplicaciones front-end. Los pasos para el despliegue en Vercel son:
+
+1. **Crear una cuenta en Vercel** si aún no se tiene una.
+
+2. **Conectar el repositorio de GitHub** donde se encuentra el código del frontend. Vercel permite la integración directa con GitHub.
+
+3. **Seleccionar el repositorio** correspondiente y configurar el proyecto según las necesidades.
+
+4. **Configurar las variables de entorno** necesarias para la aplicación, si corresponde.
+
+5. **Desplegar la aplicación** haciendo clic en el botón de despliegue. Vercel generará una URL única donde la aplicación será accesible.
+
+6. **Acceder a la URL proporcionada por Vercel** para visualizar la aplicación web.
+
+![GitHub Pages Deployment](assets/WebApplication/deployment.png)
+
+Accede a la Aplicacion Web de Ayni: https://ayni-eight.vercel.app/dashboard
+
 
 ## 6.2. Landing Page, Services & Applications Implementation
 
-### 6.2.X. Sprint n
+### 6.2.1. Sprint 1
 
-#### 6.2.X.1. Sprint Planning n.
+#### 6.2.1.1. Sprint Planning 1.
 
-#### 6.2.X.2. Sprint Backlog n.
+<table align="center"  border="1" width="90%" style="text-align:center;">
+    <tr align="left">
+        <td>
+            <b>Sprint #</b>
+        </td>
+        <td>
+            <b>Sprint 1</b>           
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan="2">
+            <b>Sprint Planning Background</b>
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Date</b>
+        </td>
+        <td>
+            25/09/24         
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Time</b>
+        </td>
+        <td>
+            16:00         
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Location</b>
+        </td>
+        <td>
+            Modalidad remota por Discord      
+        </td>
+    </tr>
+     </tr>
+       <tr align="left">
+        <td>
+            <b>Prepared By</b>
+        </td>
+        <td>
+            Integrantes de Hidrobots     
+        </td>
+    </tr>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Attendess (to planning meeting)</b>
+        </td>
+        <td>
+            - Ampudia Flores, José Carlos Isaac <br/>
+            - Defilippi Santillán, Diego <br/>
+            - Horna Silva, Fabio Ernesto <br/>
+            - Lopez Huarcaya, Leonardo Paul <br/>
+            - Paucar De La Cruz, Tatiana Medalith<br/>
+        </td>
+    </tr>
+      </tr>
+       <tr align="left">
+        <td>
+            <b>Sprint n - 1</b>
+            <b>Review Summary</b>
+        </td>
+        <td>
+            Para el primer Sprint, se tuvo como objetivo el desarrollo y el despliegue de la Landing Page; el desarrollo y el despliegue de la primera versión de la aplicación web y el desarrollo de un avance del Api REST.
+            <br/><br/>
+            En síntesis, se lograron los objetivos propuestos.
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Sprint n - 1</b>
+            <b>Retrospective Summary</b>
+        </td>
+        <td>
+        Se logró mantener una comunicación excelentes entre los integrantes del equipo, gracias al uso de plataformas como Discord, lo que conllevó a entregar el trabajo a tiempo. Sin embargo, se debe mejorar el aspecto de la organización, para terminar las próximas enteras sin estar al límite del deathline.
+</br></br>
+Para asegurar un avance constante en el proyecto, se considera crucial perfeccionar la estimación del desarrollo de user stories. Esto permitirá evitar desajustes en el calendario y garantizará un flujo de trabajo más estable. 
+        </td>
+    </tr>
+     <tr align="left">
+        <td colspan="2">
+            <b>Sprint Goal & User Stories</b>
+        </td>
+    </tr>
+      <tr align="left">
+        <td>
+            <b>Sprint 1 Velocity</b>
+        </td>
+        <td>
+            21
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Sum of Story Points</b>
+        </td>
+        <td>
+            21
+        </td>
+    </tr>
+</table>
+</br>
 
-#### 6.2.X.3. Development Evidence for Sprint Review
+#### 6.2.1.2. Sprint Backlog 1.
 
-#### 6.2.X.4. Testing Suite Evidence for Sprint Review.
+En esta sección se especifican los detalles del Sprint Backlog, que es una lista de tareas que se han realizado para completar el Sprint.
 
-#### 6.2.X.5. Execution Evidence for Sprint Review.
+<table align="center" border="1" width="90%" style="text-align:center">
+    <tr>
+       <td colspan="1"><b>Sprint #</b></td>
+       <td colspan="7"><b>Sprint 1</b></td>
+     </tr>
+     <tr>
+       <td colspan="2"><b>User Story</b></td>
+       <td colspan="6"><b>Work-Item / Task</b></td>
+     </tr>
+     <tr>
+       <td><b>Id</b></td>
+       <td><b>Title</b></td>
+       <td><b>Id</b></td>
+       <td><b>Title</b></td>
+       <td><b>Description</b></td>
+       <td><b>Estimation(Hours)</b></td>
+       <td><b>Assigned To</b></td>
+       <td><b>Status(To-do/ In-Process/ To-Review/ Done)</b></td>
+     </tr>
+     <tr>
+       <td rowspan="1">US12</td>
+       <td rowspan="1">Reconocer las ventajas de Ayni a través del landing page</td>
+       <td>T12</td>
+       <td>Colocar información relevante de nuestra StartUp</td>
+       <td>Permitir al usuario que pueda visualizar de manera clara el objetivo de nuestros objetivos y beneficios que ofrecemos</td>
+       <td>1hr</td>
+       <td>Fabio Horna</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td rowspan="1">US-13</td>
+       <td rowspan="1">Redirección a la aplicación</td>
+       <td>T13</td>
+       <td>Colocar un CTA que permita redirigir a la aplicación</td>
+       <td>Permitir al usuario que al hacer click en un botón, sea redirigido a nuestra aplicación</td>
+       <td>1hr</td>
+       <td>Fabio Horna</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td rowspan="1">US-20</td>
+       <td rowspan="1">Informacion del Team en el landing page</td>
+       <td>T20</td>
+       <td>Colocar nuestro Team para que el usuario conozca sobre nosotros</td>
+       <td>Permitir al usuario que pueda visualizar el Team de desarrolladores que está implementando la aplicación de Ayni</td>
+       <td>1hr</td>
+       <td>Fabio Horna</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td rowspan="1">US-21</td>
+       <td rowspan="1">Planes de suscripción</td>
+       <td>T21</td>
+       <td>Colocar planes de suscripción en el landing page</td>
+       <td>Permitir al usuario que visualice los planes que ofrecemos para el uso satisfactorio de nuestra aplicación.</td>
+       <td>1hr</td>
+       <td>Fabio Horna</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td rowspan="1">US-22</td>
+       <td rowspan="1">Footer de Landing Page</td>
+       <td>T22</td>
+       <td>Colocar barra del footer enlazadas a las secciones y más información</td>
+       <td>Permitir al usuario al hacer click en las secciones de contactanos en el footer, tenga la posibilidad de contactarnos.</td>
+       <td>1hr</td>
+       <td>Fabio Horna</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td rowspan="1">US-23</td>
+       <td rowspan="1">Dashboard de la aplicación</td>
+       <td>T23</td>
+       <td>Colocar los respectivos cultivos que creo el usuario</td>
+       <td>Mostrar al usuario los cultivos que ha creado con sus detalles.</td>
+       <td>1hr</td>
+       <td>Leonardo</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td rowspan="1">US-23</td>
+       <td rowspan="1">Dashboard de la aplicación</td>
+       <td>T24</td>
+       <td>Colocar los analisis de los cultivos</td>
+       <td>Mostrar al usuario los análisis que se han registrado en sus cultivos.</td>
+       <td>1hr</td>
+       <td>Tatiana</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td rowspan="1">US-24</td>
+       <td rowspan="1">Seccion Devices</td>
+       <td>T24</td>
+       <td>Colocar los cards que muestren los dispositivos que poseen los usuarios</td>
+       <td>Permitir al usuario visualizar la lista de sensores que posee e irá añadiendo..</td>
+       <td>1hr</td>
+       <td>Leonardo</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td rowspan="1">US-25</td>
+       <td rowspan="1">Seccion Soil Analysis</td>
+       <td>T25</td>
+       <td>Colocar cards y gráficos que muestren los análisis de los suelos a los usuarios.</td>
+       <td>Permite a los usuarios la facilidad de analizar el suelo de sus cultivos, permitiendole elegir entre qué cultivo desea ver el analisis</td>
+       <td>1hr</td>
+       <td>Tatiana</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td rowspan="1">US-26</td>
+       <td rowspan="1">Seccion Report</td>
+       <td>T26</td>
+       <td>Colocar cards y gráficos que muestren los reportes de sus cultivos a los usuarios.</td>
+       <td>Permite a los usuarios la facilidad de visualizar y analizar el estado de sus cultivos.</td>
+       <td>1hr</td>
+       <td>Tatiana</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+</table>
 
-#### 6.2.X.6. Services Documentation Evidence for Sprint Review.
+#### 6.2.1.3. Development Evidence for Sprint Review
 
-#### 6.2.X.7. Software Deployment Evidence for Sprint Review.
+Se presentan los commits realizados en el repositorio de GitHub, en el cual se puede observar el trabajo realizado por cada integrante del equipo.
 
-#### 6.2.X.8. Team Collaboration Insights during Sprint.
+- Repositorio Landing Page:
+  https://github.com/IoT-Solutions-SW71-Grupo-4/HidroBots-LandingPage.git
+
+<br>
+
+- Repositorio Frontend:
+  https://github.com/IoT-Solutions-SW71-Grupo-4/AyniFronted.git
+
+<br>
+
+- Repositorio Backend:
+  https://github.com/IoT-Solutions-SW71-Grupo-4/HidroBots-Backend.git
+
+<table  align="left" border="1" width="100%">
+    <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit ID</th>
+        <th>Author</th>
+        <th>Message</th>
+        <th>Time ago</th>
+    </tr>
+    <tr>
+        <td rowspan=4>Landing Page</td>
+        <td>Master</td>
+        <td>5299850</td>
+        <td>Fabio Horna</td>
+        <td>Subiendo HidroBots Landing Page</td>
+        <td>24/09/24</td>
+    </tr>
+    <tr>
+        <td>Master</td>
+        <td>49da84b</td>
+        <td>Fabio Horna</td>
+        <td>Update CSS and HTML: changed font to Nunito and updated colors</td>
+        <td>24/09/24</td>
+    </tr>
+    <tr>
+        <td>Master</td>
+        <td>0486e66</td>
+        <td>Fabio Horna</td>
+        <td>Change Title</td>
+        <td>24/09/24</td>
+    </tr>
+    <tr>
+        <td>Master</td>
+        <td>0e2860b</td>
+        <td>Fabio Horna</td>
+        <td>Actualización del CSS, cambio de fuente a Nunito, y ajuste de colores</td>
+        <td>24/09/24</td>
+    </tr>
+    <tr>
+        <td rowspan=6>Web App</td>
+        <td>feat/dashboard</td>
+        <td>3299fsd2</td>
+        <td>Leonardo</td>
+        <td>feat:Add section dashboard</td>
+        <td>24/09/24</td>
+    </tr>
+    <tr>
+        <td>feat/devices</td>
+        <td>12ddsf4b</td>
+        <td>Tatiana</td>
+        <td>feat: Add section devices.</td>
+        <td>24/09/24</td>
+    </tr>
+    <tr>
+        <td>feat/irrigation</td>
+        <td>765df666</td>
+        <td>Leonardo</td>
+        <td>feat: Add section irrigation</td>
+        <td>24/09/24</td>
+    </tr>
+    <tr>
+        <td>feat/soil-analysis</td>
+        <td>8e2ad32</td>
+        <td>Tatiana</td>
+        <td>feat: Add section Soil Analysis</td>
+        <td>24/09/24</td>
+    <tr>
+    <tr>
+        <td>feat/report</td>
+        <td>564sdfds</td>
+        <td>Leonardo</td>
+        <td>feat: Add section Report</td>
+        <td>24/09/24</td>
+    <tr>
+        <td rowspan=50>Web Services</td>
+        <td>Master</td>
+        <td>148beba</td>
+        <td>Jose Ampudia</td>
+        <td>Initial Commit</td>
+        <td>18/09/24</td>
+    </tr>
+    <tr>
+        <td>develop</td>
+        <td>275a1045</td>
+        <td>Jose Ampudia</td>
+        <td>This is develop</td>
+        <td>18/09/24</td>
+    </tr>
+    <tr>
+        <td>feature/bc-shared</td>
+        <td>6b2a0ad2</td>
+        <td>Jose Ampudia</td>
+        <td>feat: add Bounded Context shared.</td>
+        <td>18/09/24</td>
+    </tr>
+    <tr>
+        <td>feature-bc-shared</td>
+        <td>148beba5</td>
+        <td>Jose Ampudia</td>
+        <td>feat: add readme.md</td>
+        <td>18/09/24</td>
+    </tr>
+    <tr>
+        <td>feature/bc-crops</td>
+        <td>77c8d2ec8ba4</td>
+        <td>Jose Ampudia</td>
+        <td>feat(Crop): add methods (Post, Get, Patch) for crops.</td>
+        <td>20/09/24</td>
+    </tr>
+    <tr>
+        <td>feature/bc-crops</td>
+        <td>49395ceb9bf3</td>
+        <td>Jose Ampudia</td>
+        <td>feat(Crop): add other attributes and fixed errors.</td>
+        <td>24/09/24</td>
+    </tr>
+    <tr>
+        <td>feature/bc-iam</td>
+        <td>b46328c8d338</td>
+        <td>Jose Ampudia</td>
+        <td>feat(Iam): add bounded context iam.</td>
+        <td>24/09/24</td>
+    </tr>
+    <tr>
+        <td>feature/bc-iam</td>
+        <td>a641440</td>
+        <td>Jose Ampudia</td>
+        <td>feat(bc-iam): add test BDD for Sign-Up.</td>
+        <td>25/09/24</td>
+    </tr>
+    <tr>
+        <td>feature/bc-iam</td>
+        <td>73e541e</td>
+        <td>Jose Ampudia</td>
+        <td>feat(bc-iam): add test BDD for Sign-In.</td>
+        <td>25/09/24</td>
+    </tr>
+    <tr>
+        <td>feature/bc-crops</td>
+        <td>a8e9cd7</td>
+        <td>Jose Ampudia</td>
+        <td>feat(Crop): add class for configuration test</td>
+        <td>25/09/24</td>
+    </tr>
+    <tr>
+        <td>feature/bc-crops</td>
+        <td>73e541e</td>
+        <td>Jose Ampudia</td>
+        <td>feat(Crop): add dependencies for testing</td>
+        <td>25/09/24</td>
+    </tr>
+    <tr>
+        <td>feature/bc-crops</td>
+        <td>a646e0f</td>
+        <td>Jose Ampudia</td>
+        <td>feat(Crop): add test BDD for createCrop</td>
+        <td>25/09/24</td>
+    </tr>
+    <tr>
+        <td>feature/bc-crops</td>
+        <td>129850f</td>
+        <td>Jose Ampudia</td>
+        <td>feat(Crop): add test BDD for getAllCrops</td>
+        <td>25/09/24</td>
+    </tr>
+    <tr>
+        <td>feature/bc-crops</td>
+        <td>27cd8c7</td>
+        <td>Jose Ampudia</td>
+        <td>feat(Crop): add test BDD for getCropById</td>
+        <td>25/09/24</td>
+    </tr>
+    <tr>
+        <td>feature/bc-crops</td>
+        <td>b767e52</td>
+        <td>Jose Ampudia</td>
+        <td>feat(Crop): add test BDD for deleteCrop</td>
+        <td>25/09/24</td>
+    </tr>
+</table>
+
+<br><br>
+
+
+#### 6.2.1.4. Testing Suite Evidence for Sprint Review.
+
+Para el Sprint 1, se ha realizado algunas pruebas usando BDD (Behavior Driven Development) con Cucumber, para ello se ha creado un archivo de características en el cual se especifican los escenarios de prueba.
+
+**1. Para bounded context Crop**
+
+- Crear un cultivo.
+  ```gherkin
+  Feature: Create Crop
+
+    Scenario: Successfully create a new crop
+      Given a crop with name "Tomato" and irrigation type "Manual"
+      When the crop is created
+      Then the crop should be saved in the repository
+      And the crop id should be returned
+  ```
+
+- Obtener todos los cultivos.
+  ```gherkin
+  Feature: Get All Crops
+
+    Scenario: Successfully retrieve all crops
+      Given there are crops in the repository
+      When all crops are requested
+      Then all crops should be returned
+  ```
+
+- Obtener un cultivo por id.
+  ```gherkin
+  Feature: Get Crop By ID
+
+    Scenario: Retrieve a crop by its ID
+      Given a crop is saved in the repository with id 1
+      When the crop is requested by id
+      Then the crop should be returned
+  ```
+- Eliminar un cultivo
+  ```gherkin
+  Feature: Delete Crop
+
+    Scenario: Delete a crop by its ID
+      Given a crop is saved in the repository with id 1
+      When the crop is deleted by id
+      Then the crop should no longer exist in the repository
+  ```
+
+  Evidencia de las pruebas realizadas para el bounded context Crop: <br>
+
+  ![Crop BDD](assets/Test/BDD/Crop/evidence-create-crop.png)
+
+**2. Para bounded context Iam**
+
+  - Sign-up
+  ```gherkin
+  Feature: User Sign-Up
+
+  Scenario: Successful user sign-up
+    Given a new user with fullName "New User", email "new_user@example.com" and password "password123"
+    When the user attempts to sign up
+    Then the sign-up should be successful
+  ```
+
+  - Sign-in
+  ```gherkin
+  Feature: User Sign-Up
+
+  Scenario: Successful user sign-up
+    Given a new user with fullName "New User", email "new_user@example.com" and password "password123"
+    When the user attempts to sign up
+    Then the sign-up should be successful
+  ```
+
+Evidencia de las pruebas realizadas para el bounded context Iam: <br>
+
+![Iam BDD](assets/Test/BDD/Iam/evidence-signup-sign-in.png)
+
+
+#### 6.2.1.5. Execution Evidence for Sprint Review.
+
+Para el Sprint 1, se ha desarrollado tanto la Landing Page, la primera versión del Frontend de la aplicación y el avance del Backend, por lo que se puede ver a continuación las evidencias:
+
+**1. Para Landing Page**
+
+![Landing Page](assets/LandingPage/1-lp-home.png)
+![Landing Page](assets/LandingPage/2-lp-services.png)
+![Landing Page](assets/LandingPage/3-lp-mobile.png)
+![Landing Page](assets/LandingPage/4-lp-team.png)
+![Landing Page](assets/LandingPage/5-lp-team2.png)
+![Landing Page](assets/LandingPage/6-lp-contact.png)
+
+**2. Para Frontend**
+
+Url de el frontend:  https://ayni-eight.vercel.app/dashboard
+
+Reportes y Dashboard
+
+![Web Application](assets/WebApplication/dashboard.png)
+![Web Application](assets/WebApplication/dashboard2.png)
+
+Visualizar nutrientes del suelo
+
+![Web Application](assets/WebApplication/soil_analysis.png)
+
+
+Programación de riego automático
+
+![Web Application](assets/WebApplication/automatic_irrigation.png)
+
+Control manual del riego
+
+![Web Application](assets/WebApplication/manual_irrigation.png)
+
+Gestion de interfaces
+
+![Web Application](assets/WebApplication/devices2.png)
+
+![Web Application](assets/WebApplication/edit_device.png)
+
+
+
+
+
+
+
+
+
+
+
+**3. Para Backend**
+
+![Backend](assets/Backend/1-backend.png)
+![Backend](assets/Backend/2-backend.png)
+
+- TS06 - Sistema de autenticación y registro: <br>
+  - Sign up
+  ![TS06](assets/Backend/3-backend.png)
+  ![TS06](assets/Backend/4-backend.png)
+
+  - Sign in
+  ![TS06](assets/Backend/5-backend.png)
+  ![TS06](assets/Backend/6-backend.png)
+
+  - Usuario autenticado
+  ![TS06](assets/Backend/7-backend.png)
+
+- TS07 - Agregar un nuevo cultivo: <br>
+  - Crear cultivo
+  ![TS07](assets/Backend/8-backend.png)
+  ![TS07](assets/Backend/8.1-backend.png)
+
+  - Obtener todos los cultivos
+  ![TS07](assets/Backend/9-backend.png)
+
+  - Obtener un cultivo por id
+  ![TS07](assets/Backend/10-backend.png)
+
+  - Actualizar tipo de riego
+  ![TS07](assets/Backend/11-backend.png)
+  ![TS07](assets/Backend/12-backend.png)
+
+  - Actualizar nombre del cultivo
+  ![TS07](assets/Backend/13-backend.png)
+  ![TS07](assets/Backend/14-backend.png)
+  
+  - Eliminar cultivo
+  ![TS07](assets/Backend/15-backend.png)
+
+#### 6.2.1.6. Services Documentation Evidence for Sprint Review.
+
+A continuación, se muestra la documentación de los servicios de la aplicación Ayni, el cual se ha desarrollado para este Sprint 1, para documentar usamos Swagger. A continuación se muestran evidencias.
+
+![Backend](assets/Backend/1-backend.png)
+![Backend](assets/Backend/2-backend.png)
+
+| Service | Evidence | Description |
+|---------|----------|-------------|
+| Authentication | ![TS06](assets/Backend/1-backend-documentation.png) | Este endpoint permite gestionar el registro y autenticación de los usuarios de acuerdo al tipo de rol que elijan. |
+| Crop | ![TS07](assets/Backend/2-backend-documentation.png) | Este endpoint permite gestionar los cultivos, pudiendo crear, obtener, actualizar y eliminar un cultivo. |
+| Roles | ![TS07](assets/Backend/3-backend-documentation.png) | Este endpoint permite gestionar los roles de los usuarios, obtiene todos los roles que los usuarios pueden elegir.|
+| Users | ![TS07](assets/Backend/4-backend-documentation.png) | Este endpoint obtiene todos los usuarios que se han registrado en la aplicación, también obtiene por id. |
+
+| Endpoint | Method | Parameters | Description |
+|----------|--------|------------|-------------|
+| /auth/sign-up | POST | {fullName, email, password, role} | Permite registrar un nuevo usuario en la aplicación. |
+| /auth/sign-in | POST | {email, password} | Permite autenticar a un usuario en la aplicación. |
+| /crops | POST | {name, irrigationType, area, plantingDate} | Permite crear un nuevo cultivo. |
+| /crops | GET | - | Permite obtener todos los cultivos registrados en la aplicación. |
+| /crops/{id} | GET | {id} | Permite obtener un cultivo por su id. |
+| /crops/{id} | PATCH | {irrigationType} | Permite actualizar el tipo de riego de un cultivo. |
+| /crops/{id} | PATCH | {name} | Permite actualizar el nombre de un cultivo. |
+| /crops/{id} | DELETE | {id} | Permite eliminar un cultivo por su id. |
+| /roles | GET | - | Permite obtener todos los roles que los usuarios pueden elegir. |
+| /users | GET | - | Permite obtener todos los usuarios registrados en la aplicación. |
+| /users/{id} | GET | {id} | Permite obtener un usuario por su id. |
+
+
+#### 6.2.1.7. Software Deployment Evidence for Sprint Review.
+
+
+A continuación, se mostrarán los links de los productos desplegados:
+
+Url de el frontend:  https://ayni-eight.vercel.app/dashboard
+
+Accede al Landing Page de Ayni: https://iot-solutions-sw71-grupo-4.github.io/HidroBots-LandingPage/
+
+
+
+#### 6.2.1.8. Team Collaboration Insights during Sprint.
+
+#### sprint 1:
+##### -report: Evidencias de los insights del reporte
+ ![TS07](assets/Insights/sprint1.png)
+ ![TS07](assets/Insights/sprint1.1.png)
+
+##### -frontend: Evidencias de los insights del frontend
+  ![TS07](assets/Insights/sprint1.2.png)
+  ![TS07](assets/Insights/sprint1.2.2.png)
+
+  ##### -backend: Evidencias de los insights del backend
+   ![TS07](assets/Backend/i_backend.jpg)
+  ![TS07](assets/Backend/i_.jpg)
+ 
 
 ## 6.3. Validation Interviews.
 
@@ -2995,6 +4066,8 @@ En esta sección, se detallan las tablas, columnas y las relaciones entre las en
 
 ## 6.4. Video About-the-Product.
 
+</div>
+
 # Conclusiones
 
 ## Conclusiones y recomendaciones
@@ -3003,4 +4076,13 @@ En esta sección, se detallan las tablas, columnas y las relaciones entre las en
 
 # Bibliografía
 
+- Smith, J., & Brown, A. (2020). The impact of climate change on smallholder farmers: A case study in sub-Saharan Africa. Journal of Agricultural Research and Development, 45(2), 123-145.<br><br>
+
+- Johnson, L. (2019). Sustainable farming systems for small-scale farmers. Cambridge University Press.<br><br>
+
+- Lopez, P., & García, R. (2021). Precision agriculture and its role in food security. En A. Martin & J. Torres (Eds.), Innovations in agricultural practices (pp. 85-102). Springer. https://doi.org/10.1007/978-3-030-56767-9_5
+
 # Anexos
+
+Repositorio del proyecto: https://github.com/IoT-Solutions-SW71-Grupo-4
+Url de el frontend:  https://ayni-eight.vercel.app/dashboard
