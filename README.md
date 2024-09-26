@@ -3794,7 +3794,7 @@ Para el Sprint 1, se ha desarrollado tanto la Landing Page, la primera versión 
 ![Backend](assets/Backend/1-backend.png)
 ![Backend](assets/Backend/2-backend.png)
 
-- TS06 Sistema de autenticación y registro: <br>
+- TS06 - Sistema de autenticación y registro: <br>
   - Sign up
   ![TS06](assets/Backend/3-backend.png)
   ![TS06](assets/Backend/4-backend.png)
@@ -3806,7 +3806,27 @@ Para el Sprint 1, se ha desarrollado tanto la Landing Page, la primera versión 
   - Usuario autenticado
   ![TS06](assets/Backend/7-backend.png)
 
+- TS07 - Agregar un nuevo cultivo: <br>
+  - Crear cultivo
+  ![TS07](assets/Backend/8-backend.png)
+  ![TS07](assets/Backend/8.1-backend.png)
 
+  - Obtener todos los cultivos
+  ![TS07](assets/Backend/9-backend.png)
+
+  - Obtener un cultivo por id
+  ![TS07](assets/Backend/10-backend.png)
+
+  - Actualizar tipo de riego
+  ![TS07](assets/Backend/11-backend.png)
+  ![TS07](assets/Backend/12-backend.png)
+
+  - Actualizar nombre del cultivo
+  ![TS07](assets/Backend/13-backend.png)
+  ![TS07](assets/Backend/14-backend.png)
+  
+  - Eliminar cultivo
+  ![TS07](assets/Backend/15-backend.png)
 
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review.
 
@@ -3814,6 +3834,28 @@ A continuación, se muestra la documentación de los servicios de la aplicación
 
 ![Backend](assets/Backend/1-backend.png)
 ![Backend](assets/Backend/2-backend.png)
+
+| Service | Evidence | Description |
+|---------|----------|-------------|
+| Authentication | ![TS06](assets/Backend/1-backend-documentation.png) | Este endpoint permite gestionar el registro y autenticación de los usuarios de acuerdo al tipo de rol que elijan. |
+| Crop | ![TS07](assets/Backend/2-backend-documentation.png) | Este endpoint permite gestionar los cultivos, pudiendo crear, obtener, actualizar y eliminar un cultivo. |
+| Roles | ![TS07](assets/Backend/3-backend-documentation.png) | Este endpoint permite gestionar los roles de los usuarios, obtiene todos los roles que los usuarios pueden elegir.|
+| Users | ![TS07](assets/Backend/4-backend-documentation.png) | Este endpoint obtiene todos los usuarios que se han registrado en la aplicación, también obtiene por id. |
+
+| Endpoint | Method | Parameters | Description |
+|----------|--------|------------|-------------|
+| /auth/sign-up | POST | {fullName, email, password, role} | Permite registrar un nuevo usuario en la aplicación. |
+| /auth/sign-in | POST | {email, password} | Permite autenticar a un usuario en la aplicación. |
+| /crops | POST | {name, irrigationType, area, plantingDate} | Permite crear un nuevo cultivo. |
+| /crops | GET | - | Permite obtener todos los cultivos registrados en la aplicación. |
+| /crops/{id} | GET | {id} | Permite obtener un cultivo por su id. |
+| /crops/{id} | PATCH | {irrigationType} | Permite actualizar el tipo de riego de un cultivo. |
+| /crops/{id} | PATCH | {name} | Permite actualizar el nombre de un cultivo. |
+| /crops/{id} | DELETE | {id} | Permite eliminar un cultivo por su id. |
+| /roles | GET | - | Permite obtener todos los roles que los usuarios pueden elegir. |
+| /users | GET | - | Permite obtener todos los usuarios registrados en la aplicación. |
+| /users/{id} | GET | {id} | Permite obtener un usuario por su id. |
+
 
 #### 6.2.1.7. Software Deployment Evidence for Sprint Review.
 
