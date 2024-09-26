@@ -2953,6 +2953,8 @@ En esta sección, se detallan las tablas, columnas y las relaciones entre las en
 
 ## 5.5. Applications Prototyping
 
+<div align="justify">
+
 # Capítulo VI: Product Implementation, Validation & Deployment
 
 ## 6.1. Software Configuration Management
@@ -3024,9 +3026,9 @@ Mockito es un framework de código abierto para crear pruebas unitarias en Java 
 
 **Software deployment**
 
-Netlify (https://www.netlify.com/)
+Vercel (https://vercel.com/)
 
-Netlify es una empresa de computación en la nube remota que ofrece una plataforma de desarrollo que incluye servicios backend de creación, implementación y sin servidor para aplicaciones web y sitios web dinámicos. Esta plataforma permitirá el correcto despliegue de la aplicación web. 
+Vercel es una empresa de computación en la nube remota que ofrece una plataforma de desarrollo que incluye servicios backend de creación, implementación y sin servidor para aplicaciones web y sitios web dinámicos. Esta plataforma permitirá el correcto despliegue de la aplicación web.
 
 GitHub Pages (https://pages.github.com/)
 
@@ -3370,6 +3372,25 @@ Para el despliegue de la Landing Page de Ayni, se utilizará GitHub Pages, un se
 
 Accede al Landing Page de Ayni: https://iot-solutions-sw71-grupo-4.github.io/HidroBots-LandingPage/
 
+**Web Application Deployment Configuration**
+
+Para desplegar el frontend de la aplicación web, se utilizó **Vercel**, una plataforma que facilita el despliegue de aplicaciones front-end. Los pasos para el despliegue en Vercel son:
+
+1. **Crear una cuenta en Vercel** si aún no se tiene una.
+
+2. **Conectar el repositorio de GitHub** donde se encuentra el código del frontend. Vercel permite la integración directa con GitHub.
+
+3. **Seleccionar el repositorio** correspondiente y configurar el proyecto según las necesidades.
+
+4. **Configurar las variables de entorno** necesarias para la aplicación, si corresponde.
+
+5. **Desplegar la aplicación** haciendo clic en el botón de despliegue. Vercel generará una URL única donde la aplicación será accesible.
+
+6. **Acceder a la URL proporcionada por Vercel** para visualizar la aplicación web.
+
+![GitHub Pages Deployment](assets/WebApplication/deployment.png)
+
+Accede a la Aplicacion Web de Ayni: https://ayni-eight.vercel.app/dashboard
 
 
 ## 6.2. Landing Page, Services & Applications Implementation
@@ -3471,7 +3492,7 @@ Para asegurar un avance constante en el proyecto, se considera crucial perfeccio
             <b>Sprint 1 Velocity</b>
         </td>
         <td>
-            #
+            21
         </td>
     </tr>
        <tr align="left">
@@ -3479,7 +3500,7 @@ Para asegurar un avance constante en el proyecto, se considera crucial perfeccio
             <b>Sum of Story Points</b>
         </td>
         <td>
-            #
+            21
         </td>
     </tr>
 </table>
@@ -3904,6 +3925,8 @@ Para el Sprint 1, se ha desarrollado tanto la Landing Page, la primera versión 
 
 **2. Para Frontend**
 
+Url de el frontend:  https://ayni-eight.vercel.app/dashboard
+
 Reportes y Dashboard
 
 ![Web Application](assets/WebApplication/dashboard.png)
@@ -4030,6 +4053,8 @@ A continuación, se muestra la documentación de los servicios de la aplicación
 ### 6.3.3. Evaluaciones según heurísticas.
 
 ## 6.4. Video About-the-Product.
+
+</div>
 
 # Conclusiones
 
