@@ -3509,13 +3509,103 @@ En esta sección se especifican los detalles del Sprint Backlog, que es una list
        <td><b>Status(To-do/ In-Process/ To-Review/ Done)</b></td>
      </tr>
      <tr>
-       <td rowspan="1">US01</td>
-       <td rowspan="1">Nombre de la user story</td>
-       <td>T01</td>
-       <td>Nombre del task</td>
-       <td>Descripción</td>
-       <td>#</td>
-       <td>Nombre de quien lo hizo</td>
+       <td rowspan="1">US12</td>
+       <td rowspan="1">Reconocer las ventajas de Ayni a través del landing page</td>
+       <td>T12</td>
+       <td>Colocar información relevante de nuestra StartUp</td>
+       <td>Permitir al usuario que pueda visualizar de manera clara el objetivo de nuestros objetivos y beneficios que ofrecemos</td>
+       <td>1hr</td>
+       <td>Fabio Horna</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td rowspan="1">US-13</td>
+       <td rowspan="1">Redirección a la aplicación</td>
+       <td>T13</td>
+       <td>Colocar un CTA que permita redirigir a la aplicación</td>
+       <td>Permitir al usuario que al hacer click en un botón, sea redirigido a nuestra aplicación</td>
+       <td>1hr</td>
+       <td>Fabio Horna</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td rowspan="1">US-20</td>
+       <td rowspan="1">Informacion del Team en el landing page</td>
+       <td>T20</td>
+       <td>Colocar nuestro Team para que el usuario conozca sobre nosotros</td>
+       <td>Permitir al usuario que pueda visualizar el Team de desarrolladores que está implementando la aplicación de Ayni</td>
+       <td>1hr</td>
+       <td>Fabio Horna</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td rowspan="1">US-21</td>
+       <td rowspan="1">Planes de suscripción</td>
+       <td>T21</td>
+       <td>Colocar planes de suscripción en el landing page</td>
+       <td>Permitir al usuario que visualice los planes que ofrecemos para el uso satisfactorio de nuestra aplicación.</td>
+       <td>1hr</td>
+       <td>Fabio Horna</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td rowspan="1">US-22</td>
+       <td rowspan="1">Footer de Landing Page</td>
+       <td>T22</td>
+       <td>Colocar barra del footer enlazadas a las secciones y más información</td>
+       <td>Permitir al usuario al hacer click en las secciones de contactanos en el footer, tenga la posibilidad de contactarnos.</td>
+       <td>1hr</td>
+       <td>Fabio Horna</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td rowspan="1">US-23</td>
+       <td rowspan="1">Dashboard de la aplicación</td>
+       <td>T23</td>
+       <td>Colocar los respectivos cultivos que creo el usuario</td>
+       <td>Mostrar al usuario los cultivos que ha creado con sus detalles.</td>
+       <td>1hr</td>
+       <td>Leonardo</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td rowspan="1">US-23</td>
+       <td rowspan="1">Dashboard de la aplicación</td>
+       <td>T24</td>
+       <td>Colocar los analisis de los cultivos</td>
+       <td>Mostrar al usuario los análisis que se han registrado en sus cultivos.</td>
+       <td>1hr</td>
+       <td>Tatiana</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td rowspan="1">US-24</td>
+       <td rowspan="1">Seccion Devices</td>
+       <td>T24</td>
+       <td>Colocar los cards que muestren los dispositivos que poseen los usuarios</td>
+       <td>Permitir al usuario visualizar la lista de sensores que posee e irá añadiendo..</td>
+       <td>1hr</td>
+       <td>Leonardo</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td rowspan="1">US-25</td>
+       <td rowspan="1">Seccion Soil Analysis</td>
+       <td>T25</td>
+       <td>Colocar cards y gráficos que muestren los análisis de los suelos a los usuarios.</td>
+       <td>Permite a los usuarios la facilidad de analizar el suelo de sus cultivos, permitiendole elegir entre qué cultivo desea ver el analisis</td>
+       <td>1hr</td>
+       <td>Tatiana</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td rowspan="1">US-26</td>
+       <td rowspan="1">Seccion Report</td>
+       <td>T26</td>
+       <td>Colocar cards y gráficos que muestren los reportes de sus cultivos a los usuarios.</td>
+       <td>Permite a los usuarios la facilidad de visualizar y analizar el estado de sus cultivos.</td>
+       <td>1hr</td>
+       <td>Tatiana</td>
        <td>Done</td>
     </tr>
     <tr>
@@ -3577,32 +3667,39 @@ Se presentan los commits realizados en el repositorio de GitHub, en el cual se p
         <td>24/09/24</td>
     </tr>
     <tr>
-        <td rowspan=4>Web App</td>
-        <td>Master</td>
-        <td>5299850</td>
-        <td>Fabio Horna</td>
-        <td>Subiendo HidroBots Landing Page</td>
+        <td rowspan=6>Web App</td>
+        <td>feat/dashboard</td>
+        <td>3299fsd2</td>
+        <td>Leonardo</td>
+        <td>feat:Add section dashboard</td>
         <td>24/09/24</td>
     </tr>
     <tr>
-        <td>Master</td>
-        <td>49da84b</td>
-        <td>Fabio Horna</td>
-        <td>Update CSS and HTML: changed font to Nunito and updated colors</td>
+        <td>feat/devices</td>
+        <td>12ddsf4b</td>
+        <td>Tatiana</td>
+        <td>feat: Add section devices.</td>
         <td>24/09/24</td>
     </tr>
     <tr>
-        <td>Master</td>
-        <td>0486e66</td>
-        <td>Fabio Horna</td>
-        <td>Change Title</td>
+        <td>feat/irrigation</td>
+        <td>765df666</td>
+        <td>Leonardo</td>
+        <td>feat: Add section irrigation</td>
         <td>24/09/24</td>
     </tr>
     <tr>
-        <td>Master</td>
-        <td>0e2860b</td>
-        <td>Fabio Horna</td>
-        <td>Actualización del CSS, cambio de fuente a Nunito, y ajuste de colores</td>
+        <td>feat/soil-analysis</td>
+        <td>8e2ad32</td>
+        <td>Tatiana</td>
+        <td>feat: Add section Soil Analysis</td>
+        <td>24/09/24</td>
+    <tr>
+    <tr>
+        <td>feat/report</td>
+        <td>564sdfds</td>
+        <td>Leonardo</td>
+        <td>feat: Add section Report</td>
         <td>24/09/24</td>
     <tr>
         <td rowspan=50>Web Services</td>
