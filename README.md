@@ -11,11 +11,11 @@
 
 <br>
 
-<h1 align="center"> TB1 Report </h1>
+<h1 align="center"> TP Report </h1>
 
 <h3 align="center"> Desarrollo de Soluciones IoT - SW53 </h3>
 
-<h3 align="center"> Docente:  </h3>
+<h3 align="center"> Docente: Marco Antonio León Baca </h3>
 
 <h3> Startup: HidroBots </h3>
 
@@ -2921,45 +2921,918 @@ En esta sección, se detallan las tablas, columnas y las relaciones entre las en
 
 </div>
 
+<div align="justify">
+
 # Capítulo V: Solutions UI/UX Design
 
 ## 5.1. Style Guidelines
 
 ### 5.1.1. General Style Guidelines
 
+En esta sección, estableceremos las directrices generales de estilo para nuestra plataforma. La aplicación busca proyectar innovación, sostenibilidad y simplicidad en la gestión agrícola. El objetivo es ser un aliado tecnológico confiable y accesible para medianos agricultores y centros de investigación agrícola. Queremos transmitir una imagen verde, conectada a la naturaleza y centrada en la eficiencia.
+
+
+#### Branding
+
+La identidad de marca refleja los valores de **innovación**, **sostenibilidad**, y **simplicidad**. Esto se logra mediante una paleta de colores naturales, tipografía moderna y amigable, y elementos visuales que combinan tecnología y naturaleza.
+
+- **Nombre de la marca**: Ayni
+- **Tagline**: "Automate your field, maximize your harvest"
+- **Elementos visuales**: Uso de íconos de hojas y circuitos para representar la unión de tecnología y naturaleza.
+  
+#### Comunicación Visual
+
+El tono de comunicación debe ser **serio pero amigable**, con un enfoque en proporcionar instrucciones claras para agricultores. Debe sentirse accesible y confiable, usando un lenguaje respetuoso y directo.
+
+- **Formalidad**: Formal pero accesible, dirigido a usuarios con conocimientos variados en tecnología.
+- **Estilo de Mensajes**: Directo, claro y empático, evitando tecnicismos innecesarios.
+- **Entusiasmo**: Sereno y alentador en momentos clave, como cuando se completan tareas exitosamente.
+
+![Colors](assets/Guidelines/Colors.png)
+![Colors](assets/Guidelines/Headings.png)
+![Colors](assets/Guidelines/Body.png)
+![Colors](assets/Guidelines/Iconography.png)
+![Colors](assets/Guidelines/Grid%20system.png)
+![Colors](assets/Guidelines/Spacing.png)
+
 ### 5.1.2. Web, Mobile and IoT Style Guidelines
+
+Esta sección detalla los estándares visuales y de interacción específicos para la interfaz en dispositivos **web**, **móviles** y aplicaciones **IoT**. La experiencia del usuario debe ser coherente en todas las plataformas, optimizando el uso de los recursos visuales y de interacción según el tipo de dispositivo.
+
+#### Web Responsive Design
+La interfaz web debe ser totalmente **responsive**, adaptándose desde pantallas grandes de escritorio hasta dispositivos móviles. El **dashboard** es el componente principal, con una barra lateral de navegación y una barra superior para perfil y ajustes.
+- **Grid System**: Se utilizará un sistema de 12 columnas para el diseño responsivo.
+- **Breakpoints**:
+  - Móviles: 320px - 480px
+  - Tablets: 481px - 768px
+  - Escritorio: 769px en adelante
+
+#### Mobile Application Interface
+En la aplicación móvil, la experiencia debe ser simple y optimizada para la interacción táctil.
+- **Navegación**: Se prefiere una barra inferior de navegación para acceder a las opciones principales (Dashboard, Devices, Irrigation, Soil Analysis, Report).
+- **Interacción**: Los botones deben tener un tamaño adecuado para dedos (mínimo de 48x48px), y se debe usar retroalimentación visual al interactuar.
+- **Fuentes**: Escaladas a un tamaño mínimo de 16px para asegurar legibilidad en cualquier dispositivo móvil.
+
+#### IoT Application Interface
+Para interfaces de IoT, los datos deben ser fáciles de leer de un vistazo, con gráficos sencillos que resuman el estado de los dispositivos.
+- **Widgets**: Se usarán widgets visuales como gráficos de barras, líneas y medidores para presentar la información de manera clara.
+- **Alertas**: Las alertas deben destacar con colores como el rojo (#FF4B4B) para situaciones críticas, y verde (#6BBE44) para estados operativos normales.
+- **Control**: Debe permitir una navegación rápida entre dispositivos IoT, con opciones de control sencillas como interruptores y botones grandes.
 
 ## 5.2. Information Architecture
 
 ### 5.2.1. Organization Systems
 
+
+En la aplicación Ayni, se aplican diferentes sistemas de organización de la información, tanto en la versión web como en la móvil, para facilitar la navegación y el acceso eficiente a las funcionalidades.
+
+#### Organización Visual del Contenido
+
+- **Jerárquica (Visual Hierarchy):** Utilizamos una organización visual jerárquica en el dashboard principal, donde las opciones más importantes, como *Dashboard*, *Devices*, *Irrigation*, *Soil Analysis* y *Reports*, están dispuestas en una barra lateral. Esta jerarquía permite a los agricultores acceder de manera rápida a las funciones clave de la aplicación.
+  
+- **Secuencial (Step-by-Step):** En secciones como *Irrigation* o *Soil Analysis*, se emplea una organización secuencial para guiar al usuario a través de pasos lógicos y consecutivos en la configuración o monitoreo de sus sistemas de riego y análisis de suelo.
+
+- **Matricial:** En el módulo de *Reports*, se utiliza una organización matricial para que los usuarios puedan visualizar gráficos y datos comparativos de manera eficiente, permitiendo que los agricultores realicen un análisis más detallado de los datos históricos y en tiempo real.
+
+#### Esquemas de Categorización
+
+- **Por tópicos:** Las opciones principales de la barra de navegación lateral están organizadas por categorías temáticas como *Irrigation* y *Soil Analysis*, agrupando las funcionalidades por el tipo de actividad que el agricultor desea realizar.
+
+- **Cronológico:** En el módulo de *Reports*, los datos de rendimiento de los cultivos, consumo de agua y condiciones del suelo se presentan en orden cronológico para facilitar el seguimiento y análisis histórico de la información.
+
+Con este enfoque, Ayni asegura que la información se presenta de manera clara, eficiente y alineada con las necesidades específicas de los agricultores.
+
 ### 5.2.2. Labeling Systems
+
+En esta sección se especifican las etiquetas que se utilizarán para representar los datos en la plataforma **AYNI**, tanto en la versión web como en la aplicación móvil.
+
+#### Etiquetas Generales
+
+- **Dashboard:** Resumen principal de la actividad agrícola.
+- **Devices:** Visualización y gestión de los dispositivos IoT conectados.
+- **Irrigation:** Control y monitoreo de los sistemas de riego.
+- **Soil Analysis:** Visualización de los datos de análisis del suelo.
+- **Reports:** Generación y acceso a informes sobre el estado de la agricultura.
+- **Profile:** Acceso y gestión del perfil del usuario.
+- **Notifications:** Centro de notificaciones importantes relacionadas con la actividad agrícola.
+- **Settings:** Configuración y ajustes generales de la plataforma.
+
+#### Etiquetas en la Landing Page
+
+- **Inicio:** Acceso a la información básica sobre AYNI y sus funcionalidades.
+- **Características:** Detalle de las características y beneficios de la plataforma.
+- **Planes:** Información sobre los diferentes planes de suscripción.
+- **Contacto:** Formulario y detalles para contactar al soporte.
+
+#### Etiquetas en la Versión Web
+
+- **Dashboard:** Muestra una vista general de todos los módulos y su estado actual.
+- **Devices:** Permite el acceso a la lista de dispositivos conectados y su estado.
+- **Irrigation:** Gestiona los sistemas de riego programados o en tiempo real.
+- **Soil Analysis:** Muestra la información relevante sobre la calidad del suelo.
+- **Reports:** Acceso a los informes generados para análisis de rendimiento.
+- **Profile:** Sección para editar la información del perfil del usuario.
+- **Notifications:** Área de alertas y notificaciones del sistema.
+
+#### Etiquetas en la App Móvil
+
+- **Devices:** Permite el acceso a la lista de dispositivos conectados y su estado.
+- **Irrigation:** Control y monitoreo de los sistemas de riego.
+- **Soil Analysis:** Muestra la información relevante sobre la calidad del suelo.
+- **Home:** Muestra una vista general de todos los módulos y su estado actual.
 
 ### 5.2.3. SEO Tags and Meta Tags
 
+En esta sección, se detallan las etiquetas SEO y Meta Tags que se implementarán en la plataforma.
+
+#### 1. SEO Tags and Meta Tags for Landing Page
+
+```html
+<!-- Title -->
+<title>AYNI | Automated  Solutions for Smart Agriculture</title>
+
+<!-- Meta Tags -->
+<meta name="description" content="AYNI is an advanced  platform for agricultural automation, providing tools for irrigation control, soil analysis, and farm management to boost productivity.">
+<meta name="keywords" content="agricultural automation, IoT agriculture, smart farming, irrigation systems, soil analysis, farm management">
+<meta name="author" content="AYNI Team">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="AYNI | Automated Solutions for Smart Agriculture">
+<meta property="og:description" content="AYNI helps farmers optimize their production through advanced automation and technologies, offering solutions like irrigation control, soil analysis, and real-time reports.">
+<meta property="og:url" content="https://www.ayni.com">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://www.ayni.com/images/landing-page-preview.png">
+<meta name="robots" content="index, follow">
+```
+
+#### 2. **SEO Tags and Meta Tags for Web Application**
+
+```html
+<!-- Title -->
+<title>AYNI Dashboard | Manage Your Farm with Technology</title>
+
+<!-- Meta Tags -->
+<meta name="description" content="AYNI Web Dashboard provides real-time monitoring of devices for farm management, offering tools for irrigation control, soil analysis, and comprehensive reports.">
+<meta name="keywords" content="AYNI dashboard, farm automation, monitoring, irrigation control, soil analysis, agricultural reports">
+<meta name="author" content="AYNI Team">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="AYNI | Manage Your Farm with Technology">
+<meta property="og:description" content="AYNI Dashboard enables real-time monitoring and control of irrigation systems, soil analysis, and farm management through technologies.">
+<meta property="og:url" content="https://app.ayni.com/dashboard">
+<meta property="og:type" content="application">
+<meta property="og:image" content="https://www.ayni.com/images/dashboard-preview.png">
+<meta name="robots" content="noindex, nofollow">
+```
+
 ### 5.2.4. Searching Systems
 
+En esta sección se detallan los sistemas de búsqueda que estarán disponibles dentro de las aplicaciones de AYNI, con el fin de ayudar al usuario a encontrar fácilmente la información relevante.
+
+#### Opciones de Búsqueda
+
+- **Búsqueda Contextual**:
+ Los usuarios pueden realizar búsquedas limitadas al contexto del módulo en el que se encuentran, como buscar un dispositivo específico o un reporte generado en una fecha particular.
+
+#### Filtros Disponibles
+
+- **Filtros en el Módulo de Dispositivos**:
+  Filtro por estado del dispositivo (activo/inactivo).
+  Filtro por tipo de dispositivo (sensor de humedad, sensor de temperatura, control de riego, etc.).
+</br>
+- **Filtros en el Módulo de Irrigación**:
+  Filtro por cultivo.
+ Filtro por estado de irrigación (activo, inactivo).
+  Filtro por programación de riego (manual, automático).
+</br>
+- **Filtros en el Módulo de Análisis de Suelo**:
+ Filtro por tipo de análisis (pH, humedad, nutrientes).
+  Filtro por fecha del análisis.
+  Filtro por sector agrícola.
+</br>
+- **Filtros en el Módulo de Reportes**:
+  Filtro por rango de fechas.
+  Filtro por tipo de reporte (análisis de suelo, riego, rendimiento de dispositivos).
+  Filtro por cultivo.
+
+#### Visualización de Resultados
+
+- **Presentación de Resultados**:
+  Los resultados de búsqueda se mostrarán en un formato de lista organizada, con columnas personalizadas según el módulo.
+  Cada ítem en los resultados estará acompañado de información relevante como el nombre del dispositivo, su estado, la fecha del último análisis o la acción más reciente realizada.
+  </br>
+- **Interacción con los Resultados**:
+  Los usuarios podrán hacer clic en los resultados para abrir más detalles o acceder a acciones relacionadas (por ejemplo, editar un dispositivo, ver un reporte completo, ajustar parámetros de riego).
+  Los resultados estarán paginados o tendrán scroll infinito, dependiendo del volumen de datos encontrados.
+</br>
+- **Sugerencias de Búsqueda**:
+  A medida que el usuario escribe en el campo de búsqueda, se ofrecerán sugerencias basadas en términos frecuentes o búsquedas recientes.
+  Se implementarán mecanismos de autocompletado para agilizar la búsqueda.
+
+#### Sistema de Ayuda de Búsqueda
+
+- **Mensajes Informativos**:
+  Si una búsqueda no devuelve resultados, se mostrará un mensaje informativo con sugerencias para mejorar la búsqueda.
+  Se mostrará un botón de “Limpiar Filtros” para que el usuario pueda reiniciar la búsqueda rápidamente.
+
 ### 5.2.5. Navigation Systems
+
+En esta sección se detallan las acciones y técnicas de navegación que guiarán a los usuarios a través de las plataformas de AYNI. 
+
+#### Sistema de Navegación en la Landing Page
+
+- **Navegación Principal**:
+  - **Menú de Navegación**: Se encuentra en la parte superior, accesible en todas las secciones de la página. Incluye enlaces a las siguientes áreas:
+    - Inicio
+    - Características
+    - Testimonios
+    - Planes y Precios
+    - Contacto
+  - **Scroll Infinito**: La **Landing Page** sigue un diseño de desplazamiento continuo (scrolling) que permite que los usuarios se muevan hacia abajo para explorar el contenido principal.
+  - **Botones de Acción (CTAs)**: A lo largo de la página, se encuentran botones prominentes de llamada a la acción, como "Regístrate", o "Contáctanos", para facilitar la conversión del usuario.
+
+#### Sistema de Navegación en la Web Application
+
+- **Barra Lateral de Navegación**:
+    - **Dashboard**: Vista general de la granja con gráficos y datos en tiempo real.
+    - **Devices**: Listado y administración de dispositivos IoT.
+    - **Irrigation**: Configuración y monitoreo de los sistemas de riego.
+    - **Soil Analysis**: Resultados y reportes de análisis de suelo.
+    - **Reports**: Generación y descarga de informes personalizados.
+  </br>
+- **Barra Superior**:
+  - **Perfil de Usuario**: En la parte superior derecha, se muestra el perfil del usuario con accesos rápidos a opciones de cuenta, configuración y cerrar sesión.
+  - **Notificaciones**: Icono de notificaciones para alertas importantes como fallos en dispositivos o tareas pendientes.
+  </br>
+- **Navegación Contextual**:
+  - **Breadcrumbs**: Están disponibles en las vistas de detalle de dispositivos, reportes y análisis de suelo, proporcionando una navegación jerárquica y fácil retorno a la pantalla anterior.
+  - **Enlaces Internos**: Dentro de cada módulo, los usuarios pueden acceder a detalles específicos con enlaces que abren paneles de información o redirigen a pantallas de administración más detalladas.
+
+#### Sistema de Navegación en la Mobile Application
+
+- **Menú de Navegación Inferior**:
+    - **Dashboard**: Vista general de los datos agrícolas en tiempo real.
+    - **Devices**: Administración de interfaces conectadas.
+    - **Irrigation**: Configuración de los sistemas de riego.
+  </br>
+  
+- **Gestos y Navegación Deslizante**:
+  - **Gestos de Deslizamiento**: Los usuarios pueden deslizar hacia la izquierda o derecha para cambiar rápidamente entre secciones dentro del mismo módulo.
+  - **Desplazamiento Vertical**: El contenido dentro de cada sección es scrollable, permitiendo ver grandes cantidades de datos de manera fluida.
 
 ## 5.3. Landing Page UI Design
 
 ### 5.3.1. Landing Page Wireframe
+<div align="center">
+  <img width=200 src="./assets/designs/LandingPage/Landing Page Wireframe.png" alt="Landing Page Wireframe"/>
+</div>
+<div align="center">
+  <em>LandingPage wireframe</em>
+  <br/><br/>
+</div>
 
 ### 5.3.2. Landing Page Mock-up
+
+<div align="center">
+  <img width=200 src="./assets/designs/LandingPage/Landing Page Mockup.png" alt="Landing Page Mockup"/>
+</div>
+<div align="center">
+  <em>LandingPage wireframe</em>
+  <br/><br/>
+</div>
 
 ## 5.4. Application UX/UI Design
 
 ### 5.4.1. Applications Wireframes
 
+**Web application wireframes**
+
+Autenticación de usuario
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/wireframes/Login.png" alt="Login web wireframe"/>
+</div>
+<div align="center">
+  <em>Login web wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/wireframes/Register.png" alt="register web wireframe"/>
+</div>
+<div align="center">
+  <em>Register web wireframe</em>
+  <br/><br/>
+</div>
+
+Dashboard
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/wireframes/Dashboard.png" alt="dashboard web wireframe"/>
+</div>
+<div align="center">
+  <em>Dashboard web wireframe</em>
+  <br/><br/>
+</div>
+
+Devices
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/wireframes/Devices.png" alt="devices web wireframe"/>
+</div>
+<div align="center">
+  <em>Devices web wireframe</em>
+  <br/><br/>
+</div>
+
+Irrigation
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/wireframes/Irrigation.png" alt="Automatic irrigation web wireframe"/>
+</div>
+<div align="center">
+  <em>Automatic irrigation web wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/wireframes/Irrigation-1.png" alt="Manual irrigation web wireframe"/>
+</div>
+<div align="center">
+  <em>Manual irrigation web wireframe</em>
+  <br/><br/>
+</div>
+
+Report
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/wireframes/Report.png" alt="Report web wireframe"/>
+</div>
+<div align="center">
+  <em>Report web wireframe</em>
+  <br/><br/>
+</div>
+
+Soil analysis
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/wireframes/Soil Analysis.png" alt="Soil analysis web wireframe"/>
+</div>
+<div align="center">
+  <em>Soil analysis web wireframe</em>
+  <br/><br/>
+</div>
+
+Profile
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/wireframes/Profile.png" alt="Soil analysis web wireframe"/>
+</div>
+<div align="center">
+  <em>Profile web wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/wireframes/Notifications.png" alt="Notifications web wireframe"/>
+</div>
+<div align="center">
+  <em>Notifications web wireframe</em>
+  <br/><br/>
+</div>
+
+**Mobile wireframes**
+
+Autenticación de usuario
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Login.png" alt="Login mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Login mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Register.png" alt="Register mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Register mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Reset password.png" alt="Reset password mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Reset password mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Verification code.png" alt="Code verification mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Code verification mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Reset password-1.png" alt="Input new password mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Input new password mobile wireframe</em>
+  <br/><br/>
+</div>
+
+Pantalla de inicio de la aplicación
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - home.png" alt="Input new password mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Input new password mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Add new crop.png" alt="Add new crop mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Add new crop mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Cropp added.png" alt="new crop added crop mobile wireframe"/>
+</div>
+<div align="center">
+  <em>New crop added crop mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Error adding crop.png" alt="Error adding crop mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Error adding crop mobile wireframe</em>
+  <br/><br/>
+</div>
+
+Interfaces para el vínculo de dispositivos
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Crop details.png" alt="Devices mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Devices mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Add device.png" alt="Add device mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Add device mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Edit device.png" alt="edit device mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Edit device mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Delete device.png" alt="Delete device mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Delete device mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Edited device.png" alt="Edited device mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Edited device mobile wireframe</em>
+  <br/><br/>
+</div>
+
+Interfaces para el riego de cultivos
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Automatic irrigation.png" alt="Automatic irrigation mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Automatic irrigation mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Manual irrigation.png" alt="Manual irrigation mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Manual irrigation mobile wireframe</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Irrihation history.png" alt="Manual irrigation mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Irrigation history mobile wireframe</em>
+  <br/><br/>
+</div>
+
+Interfaces para el análisis del suelo
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Soil analysis.png" alt="Soil analysis mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Soil analysis mobile wireframe</em>
+  <br/><br/>
+</div>
+
+Interfaces para visualizar el perfil
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/wireframes/Mobile - Profile.png" alt="Profile mobile wireframe"/>
+</div>
+<div align="center">
+  <em>Profile mobile wireframe</em>
+  <br/><br/>
+</div>
+
 ### 5.4.2. Applications Wireflow Diagrams
+
+**Mobile wireflow**
+
+Autenticación del usuario
+
+<div align="center">
+  <img width=800 src="./assets/designs/mobile/wireflow_1/wf1.png"/>
+</div>
+<br/><br/>
+
+Registro de cultivos
+
+<div align="center">
+  <img width=800 src="./assets/designs/mobile/wireflow_1/wf2.png"/>
+</div>
+<br/><br/>
+
+Conectar sensores
+
+<div align="center">
+  <img width=800 src="./assets/designs/mobile/wireflow_1/wf3.png"/>
+</div>
+<br/><br/>
+
+Riego de cultivos
+
+<div align="center">
+  <img width=800 src="./assets/designs/mobile/wireflow_1/wf4.png"/>
+</div>
+<br/><br/>
+
+Reporte de suelos
+
+<div align="center">
+  <img width=800 src="./assets/designs/mobile/wireflow_1/wf5.png"/>
+</div>
+<br/><br/>
 
 ### 5.4.3. Applications Mock-ups
 
+**Web application mockups**
+
+Autenticación de usuario
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/mockups/Login.png" alt="Login web mockup"/>
+</div>
+<div align="center">
+  <em>Login web mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/mockups/Register.png" alt="register web mockup"/>
+</div>
+<div align="center">
+  <em>Register web mockup</em>
+  <br/><br/>
+</div>
+
+Dashboard
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/mockups/Dashboard.png" alt="dashboard web mockup"/>
+</div>
+<div align="center">
+  <em>Dashboard web mockup</em>
+  <br/><br/>
+</div>
+
+Devices
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/mockups/Devices.png" alt="devices web mockup"/>
+</div>
+<div align="center">
+  <em>Devices web mockup</em>
+  <br/><br/>
+</div>
+
+Irrigation
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/mockups/Irrigation.png" alt="Automatic irrigation web mockup"/>
+</div>
+<div align="center">
+  <em>Automatic irrigation web mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/mockups/Irrigation-1.png" alt="Manual irrigation web mockup"/>
+</div>
+<div align="center">
+  <em>Manual irrigation web mockup</em>
+  <br/><br/>
+</div>
+
+Report
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/mockups/Report.svg" alt="Report web mockup"/>
+</div>
+<div align="center">
+  <em>Report web mockup</em>
+  <br/><br/>
+</div>
+
+Soil analysis
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/mockups/Soil Analysis.png" alt="Soil analysis web mockup"/>
+</div>
+<div align="center">
+  <em>Soil analysis web mockup</em>
+  <br/><br/>
+</div>
+
+Profile
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/mockups/Profile.png" alt="Soil analysis web mockup"/>
+</div>
+<div align="center">
+  <em>Profile web mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/mockups/Notifications.png" alt="Soil analysis web mockup"/>
+</div>
+<div align="center">
+  <em>Notifications web mockup</em>
+  <br/><br/>
+</div>
+
+**Mobile mockups**
+
+Autenticación de usuario
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Login.png" alt="Login mobile mockup"/>
+</div>
+<div align="center">
+  <em>Login mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Register.png" alt="Register mobile mockup"/>
+</div>
+<div align="center">
+  <em>Register mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Reset password.png" alt="Reset password mobile mockup"/>
+</div>
+<div align="center">
+  <em>Reset password mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Verification code.png" alt="Code verification mobile mockup"/>
+</div>
+<div align="center">
+  <em>Code verification mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Reset password-1.png" alt="Input new password mobile mockup"/>
+</div>
+<div align="center">
+  <em>Input new password mobile mockup</em>
+  <br/><br/>
+</div>
+
+Pantalla de inicio de la aplicación
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - home.png" alt="Input new password mobile mockup"/>
+</div>
+<div align="center">
+  <em>Input new password mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Add new crop.png" alt="Add new crop mobile mockup"/>
+</div>
+<div align="center">
+  <em>Add new crop mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Cropp added.png" alt="new crop added crop mobile mockup"/>
+</div>
+<div align="center">
+  <em>New crop added crop mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Error adding crop.png" alt="Error adding crop mobile mockup"/>
+</div>
+<div align="center">
+  <em>Error adding crop mobile mockup</em>
+  <br/><br/>
+</div>
+
+Interfaces para el vínculo de dispositivos
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Crop details.png" alt="Devices mobile mockup"/>
+</div>
+<div align="center">
+  <em>Devices mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Add device.png" alt="Add device mobile mockup"/>
+</div>
+<div align="center">
+  <em>Add device mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Edit device.png" alt="edit device mobile mockup"/>
+</div>
+<div align="center">
+  <em>Edit device mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Delete device.png" alt="Delete device mobile mockup"/>
+</div>
+<div align="center">
+  <em>Delete device mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Edited device.png" alt="Edited device mobile mockup"/>
+</div>
+<div align="center">
+  <em>Edited device mobile mockup</em>
+  <br/><br/>
+</div>
+
+Interfaces para el riego de cultivos
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Automatic irrigation.png" alt="Automatic irrigation mobile mockup"/>
+</div>
+<div align="center">
+  <em>Automatic irrigation mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Manual irrigation.png" alt="Manual irrigation mobile mockup"/>
+</div>
+<div align="center">
+  <em>Manual irrigation mobile mockup</em>
+  <br/><br/>
+</div>
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Irrihation history.png" alt="Manual irrigation mobile mockup"/>
+</div>
+<div align="center">
+  <em>Irrigation history mobile mockup</em>
+  <br/><br/>
+</div>
+
+Interfaces para el análisis del suelo
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Soil analysis.png" alt="Soil analysis mobile mockup"/>
+</div>
+<div align="center">
+  <em>Soil analysis mobile mockup</em>
+  <br/><br/>
+</div>
+
+Interfaces para visualizar el perfil
+
+<div align="center">
+  <img width=200 src="./assets/designs/mobile/mockups/Mobile - Profile.png" alt="Profile mobile mockup"/>
+</div>
+<div align="center">
+  <em>Profile mobile mockup</em>
+  <br/><br/>
+</div>
+
 ### 5.4.4. Applications User Flow Diagrams
+
+**Mobile wireflow**
+
+Autenticación del usuario
+
+<div align="center">
+  <img width=800 src="./assets/designs/mobile/wireflow/Autenticacion.png"/>
+</div>
+<br/><br/>
+
+Registro de cultivos
+
+<div align="center">
+  <img width=800 src="./assets/designs/mobile/wireflow/Registro_cultivos.png"/>
+</div>
+<br/><br/>
+
+Conectar sensores
+
+<div align="center">
+  <img width=800 src="./assets/designs/mobile/wireflow/Conectar_sensores.png"/>
+</div>
+<br/><br/>
+
+Riego de cultivos
+
+<div align="center">
+  <img width=800 src="./assets/designs/mobile/wireflow/Riego_Cultivos.png"/>
+</div>
+<br/><br/>
+
+Reporte de suelos
+
+<div align="center">
+  <img width=800 src="./assets/designs/mobile/wireflow/Analisis_suelo.png"/>
+</div>
+<br/><br/>
+
 
 ## 5.5. Applications Prototyping
 
-<div align="justify">
+Esta sección incluye Prototipos de UI para Web Application y Mobile Web Application con simulación de interacción y navegación, acorde con la propuesta de paths de User Flow Diagrams.
+
+**Prototipo Web Application**
+
+<div align="center">
+  <img width=800 src="./assets/designs/web/prototype/web_prototype.png" alt="Web prototype evidence"/>
+</div>
+<br/><br/>
+
+En el presente video, se muestra el prototitpo de la aplicación web así como los criterios de arquitectura y organización que se tomaron para el diseño.
+
+[Ver grabación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120448_upc_edu_pe/EfOjaeYmIHxBtszIzUIui6oBd3bEjBwJHKt9eANGNNd8fw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=xiAQG1)
+
+**Prototipo Mobile Application**
+
+<div align="center">
+  <img width=800 src="./assets/designs/mobile/prototype/mobile_prototype.png" alt="Mobile prototype evidence"/>
+</div>
+<br/><br/>
+
+En el presente video, se muestra el prototitpo de la aplicación móvil así como los criterios de arquitectura y organización que se tomaron para el diseño.
+
+[Ver grabación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120448_upc_edu_pe/EaCuWXADSe9KgH-ZbpXA-5oBLr1SurAjMV1iS0PEPsYlKQ?e=Zf6azb)
 
 # Capítulo VI: Product Implementation, Validation & Deployment
 
