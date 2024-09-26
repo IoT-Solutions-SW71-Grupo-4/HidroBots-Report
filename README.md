@@ -3530,7 +3530,7 @@ Se presentan los commits realizados en el repositorio de GitHub, en el cual se p
         <th>Time ago</th>
     </tr>
     <tr>
-        <td rowspan=4>Landing Page</td>
+        <td rowspan=50>Landing Page</td>
         <td>Master</td>
         <td>5299850</td>
         <td>Fabio Horna</td>
@@ -3559,7 +3559,7 @@ Se presentan los commits realizados en el repositorio de GitHub, en el cual se p
         <td>24/09/24</td>
     </tr>
     <tr>
-        <td rowspan=4>Web App</td>
+        <td rowspan=50>Web App</td>
         <td>Master</td>
         <td>5299850</td>
         <td>Fabio Horna</td>
@@ -3587,7 +3587,7 @@ Se presentan los commits realizados en el repositorio de GitHub, en el cual se p
         <td>Actualización del CSS, cambio de fuente a Nunito, y ajuste de colores</td>
         <td>24/09/24</td>
     <tr>
-        <td rowspan=10>Web Services</td>
+        <td rowspan=50>Web Services</td>
         <td>Master</td>
         <td>148beba</td>
         <td>Jose Ampudia</td>
