@@ -3636,6 +3636,62 @@ Se presentan los commits realizados en el repositorio de GitHub, en el cual se p
         <td>feat(Iam): add bounded context iam.</td>
         <td>24/09/24</td>
     </tr>
+    <tr>
+        <td>feature/bc-iam</td>
+        <td>a641440</td>
+        <td>Jose Ampudia</td>
+        <td>feat(bc-iam): add test BDD for Sign-Up.</td>
+        <td>25/09/24</td>
+    </tr>
+    <tr>
+        <td>feature/bc-iam</td>
+        <td>73e541e</td>
+        <td>Jose Ampudia</td>
+        <td>feat(bc-iam): add test BDD for Sign-In.</td>
+        <td>25/09/24</td>
+    </tr>
+    <tr>
+        <td>feature/bc-crops</td>
+        <td>a8e9cd7</td>
+        <td>Jose Ampudia</td>
+        <td>feat(Crop): add class for configuration test</td>
+        <td>25/09/24</td>
+    </tr>
+    <tr>
+        <td>feature/bc-crops</td>
+        <td>73e541e</td>
+        <td>Jose Ampudia</td>
+        <td>feat(Crop): add dependencies for testing</td>
+        <td>25/09/24</td>
+    </tr>
+    <tr>
+        <td>feature/bc-crops</td>
+        <td>a646e0f</td>
+        <td>Jose Ampudia</td>
+        <td>feat(Crop): add test BDD for createCrop</td>
+        <td>25/09/24</td>
+    </tr>
+    <tr>
+        <td>feature/bc-crops</td>
+        <td>129850f</td>
+        <td>Jose Ampudia</td>
+        <td>feat(Crop): add test BDD for getAllCrops</td>
+        <td>25/09/24</td>
+    </tr>
+    <tr>
+        <td>feature/bc-crops</td>
+        <td>27cd8c7</td>
+        <td>Jose Ampudia</td>
+        <td>feat(Crop): add test BDD for getCropById</td>
+        <td>25/09/24</td>
+    </tr>
+    <tr>
+        <td>feature/bc-crops</td>
+        <td>b767e52</td>
+        <td>Jose Ampudia</td>
+        <td>feat(Crop): add test BDD for deleteCrop</td>
+        <td>25/09/24</td>
+    </tr>
 </table>
 
 <br><br>
