@@ -3879,6 +3879,15 @@ A continuación, se muestra la documentación de los servicios de la aplicación
 
 #### 6.2.1.8. Team Collaboration Insights during Sprint.
 
+#### sprint 1:
+##### -report: Evidencias de los insights del reporte
+ ![TS07](assets/Insights/sprint1.png)
+ ![TS07](assets/Insights/sprint1.1.png)
+
+##### -frontend: Evidencias de los insights del frontend
+  ![TS07](assets/Insights/sprint1.2.png)
+  ![TS07](assets/Insights/sprint1.2.2.png)
+
 ## 6.3. Validation Interviews.
 
 ### 6.3.1. Diseño de Entrevistas.
