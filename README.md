@@ -4032,6 +4032,13 @@ A continuación, se muestra la documentación de los servicios de la aplicación
 #### 6.2.1.7. Software Deployment Evidence for Sprint Review.
 
 
+A continuación, se mostrarán los links de los productos desplegados:
+
+Url de el frontend:  https://ayni-eight.vercel.app/dashboard
+
+Accede al Landing Page de Ayni: https://iot-solutions-sw71-grupo-4.github.io/HidroBots-LandingPage/
+
+
 
 #### 6.2.1.8. Team Collaboration Insights during Sprint.
 
