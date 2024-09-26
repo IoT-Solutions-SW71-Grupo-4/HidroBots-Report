@@ -3791,6 +3791,9 @@ Para el Sprint 1, se ha desarrollado tanto la Landing Page, la primera versión 
 
 **3. Para Backend**
 
+![Backend](assets/Backend/1-backend.png)
+![Backend](assets/Backend/2-backend.png)
+
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review.
 
 #### 6.2.1.7. Software Deployment Evidence for Sprint Review.
