@@ -3518,7 +3518,7 @@ Se presentan los commits realizados en el repositorio de GitHub, en el cual se p
     </tr>
     <tr>
         <td rowspan=4>
-          <a href="https://github.com/IoT-Solutions-SW71-Grupo-4/HidroBots-LandingPage.git">Landing Page</a><br>
+          <a href="https://github.com/IoT-Solutions-SW71-Grupo-4/HidroBots-LandingPage.git">Landing Page</a>
         </td>
         <td>Master</td>
         <td>5299850</td>
@@ -3549,7 +3549,7 @@ Se presentan los commits realizados en el repositorio de GitHub, en el cual se p
     </tr>
     <tr>
         <td rowspan=4>
-          <a href="https://github.com/IoT-Solutions-SW71-Grupo-4/AyniFronted.git">Web App</a><br>
+          <a href="https://github.com/IoT-Solutions-SW71-Grupo-4/AyniFronted.git">Web App</a>
         </td>
         <td>Master</td>
         <td>5299850</td>
@@ -3579,7 +3579,7 @@ Se presentan los commits realizados en el repositorio de GitHub, en el cual se p
         <td>24/09/24</td>
     <tr>
         <td rowspan=10>
-          <a href="https://github.com/IoT-Solutions-SW71-Grupo-4/HidroBots-Backend.git">Web Services</a><br>
+          <a href="https://github.com/IoT-Solutions-SW71-Grupo-4/HidroBots-Backend.git">Web Services</a>
         </td>
         <td>Master</td>
         <td>148beba</td>
