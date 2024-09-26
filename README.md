@@ -3354,6 +3354,24 @@ Los nombres de los paquetes usan solo letras minúsculas y dígitos (sin guiones
 
 ### 6.1.4. Software Deployment Configuration
 
+**Landing Page Deployment Configuration**
+
+Para el despliegue de la Landing Page de Ayni, se utilizará GitHub Pages, un servicio de alojamiento web estático que permite a los desarrolladores alojar sitios web estáticos de forma gratuita. Los pasos son muy sencillos:
+
+1. Crear un repositorio en GitHub con el código fuente de la Landing Page. Normalmente se recomienda que el repositorio contenga el archivo index.html en la raíz del proyecto.
+
+2. Habilitar GitHub Pages en la configuración del repositorio, seleccionando la rama y la carpeta de despliegue.
+
+3. Seleccionar la rama y la carpeta de despliegue. Normalmente se recomienda seleccionar la rama master y la carpeta raíz del proyecto.
+
+4. Acceder a la URL proporcionada por GitHub Pages para visualizar la Landing Page. Normalmente la URL tiene el siguiente formato: "https://username.github.io/repository"
+
+![GitHub Pages Deployment](assets/LandingPage/lp-deployment-configuration.png)
+
+Accede al Landing Page de Ayni: https://iot-solutions-sw71-grupo-4.github.io/HidroBots-LandingPage/
+
+
+
 ## 6.2. Landing Page, Services & Applications Implementation
 
 ### 6.2.1. Sprint 1
