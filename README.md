@@ -3877,6 +3877,8 @@ A continuación, se muestra la documentación de los servicios de la aplicación
 
 #### 6.2.1.7. Software Deployment Evidence for Sprint Review.
 
+
+
 #### 6.2.1.8. Team Collaboration Insights during Sprint.
 
 #### sprint 1:
@@ -3906,4 +3908,13 @@ A continuación, se muestra la documentación de los servicios de la aplicación
 
 # Bibliografía
 
+- Smith, J., & Brown, A. (2020). The impact of climate change on smallholder farmers: A case study in sub-Saharan Africa. Journal of Agricultural Research and Development, 45(2), 123-145.<br><br>
+
+- Johnson, L. (2019). Sustainable farming systems for small-scale farmers. Cambridge University Press.<br><br>
+
+- Lopez, P., & García, R. (2021). Precision agriculture and its role in food security. En A. Martin & J. Torres (Eds.), Innovations in agricultural practices (pp. 85-102). Springer. https://doi.org/10.1007/978-3-030-56767-9_5
+
 # Anexos
+
+Repositorio del proyecto: https://github.com/IoT-Solutions-SW71-Grupo-4
+Url de el frontend:  https://ayni-eight.vercel.app/dashboard
