@@ -3545,13 +3545,165 @@ Se presentan los commits realizados en el repositorio de GitHub, en el cual se p
         <td>Actualización del CSS, cambio de fuente a Nunito, y ajuste de colores</td>
         <td>24/09/24</td>
     </tr>
-    
+    <tr>
+        <td rowspan=4>Web App</td>
+        <td>Master</td>
+        <td>5299850</td>
+        <td>Fabio Horna</td>
+        <td>Subiendo HidroBots Landing Page</td>
+        <td>24/09/24</td>
+    </tr>
+    <tr>
+        <td>Master</td>
+        <td>49da84b</td>
+        <td>Fabio Horna</td>
+        <td>Update CSS and HTML: changed font to Nunito and updated colors</td>
+        <td>24/09/24</td>
+    </tr>
+    <tr>
+        <td>Master</td>
+        <td>0486e66</td>
+        <td>Fabio Horna</td>
+        <td>Change Title</td>
+        <td>24/09/24</td>
+    </tr>
+    <tr>
+        <td>Master</td>
+        <td>0e2860b</td>
+        <td>Fabio Horna</td>
+        <td>Actualización del CSS, cambio de fuente a Nunito, y ajuste de colores</td>
+        <td>24/09/24</td>
+    <tr>
+        <td rowspan=10>Web Services</td>
+        <td>Master</td>
+        <td>148beba</td>
+        <td>Jose Ampudia</td>
+        <td>Initial Commit</td>
+        <td>18/09/24</td>
+    </tr>
+    <tr>
+        <td>develop</td>
+        <td>275a1045</td>
+        <td>Jose Ampudia</td>
+        <td>This is develop</td>
+        <td>18/09/24</td>
+    </tr>
+    <tr>
+        <td>feature/bc-shared</td>
+        <td>6b2a0ad2</td>
+        <td>Jose Ampudia</td>
+        <td>feat: add Bounded Context shared.</td>
+        <td>18/09/24</td>
+    </tr>
+    <tr>
+        <td>feature-bc-shared</td>
+        <td>148beba5</td>
+        <td>Jose Ampudia</td>
+        <td>feat: add readme.md</td>
+        <td>18/09/24</td>
+    </tr>
+    <tr>
+        <td>feature/bc-crops</td>
+        <td>77c8d2ec8ba4</td>
+        <td>Jose Ampudia</td>
+        <td>feat(Crop): add methods (Post, Get, Patch) for crops.</td>
+        <td>20/09/24</td>
+    </tr>
+    <tr>
+        <td>feature/bc-crops</td>
+        <td>49395ceb9bf3</td>
+        <td>Jose Ampudia</td>
+        <td>feat(Crop): add other attributes and fixed errors.</td>
+        <td>24/09/24</td>
+    </tr>
+    <tr>
+        <td>feature/bc-iam</td>
+        <td>b46328c8d338</td>
+        <td>Jose Ampudia</td>
+        <td>feat(Iam): add bounded context iam.</td>
+        <td>24/09/24</td>
+    </tr>
 </table>
 
 <br><br>
 
 
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review.
+
+Para el Sprint 1, se ha realizado algunas pruebas usando BDD (Behavior Driven Development) con Cucumber, para ello se ha creado un archivo de características en el cual se especifican los escenarios de prueba.
+
+**1. Para bounded context Crop**
+
+- Crear un cultivo.
+  ```gherkin
+  Feature: Create Crop
+
+    Scenario: Successfully create a new crop
+      Given a crop with name "Tomato" and irrigation type "Manual"
+      When the crop is created
+      Then the crop should be saved in the repository
+      And the crop id should be returned
+  ```
+
+- Obtener todos los cultivos.
+  ```gherkin
+  Feature: Get All Crops
+
+    Scenario: Successfully retrieve all crops
+      Given there are crops in the repository
+      When all crops are requested
+      Then all crops should be returned
+  ```
+
+- Obtener un cultivo por id.
+  ```gherkin
+  Feature: Get Crop By ID
+
+    Scenario: Retrieve a crop by its ID
+      Given a crop is saved in the repository with id 1
+      When the crop is requested by id
+      Then the crop should be returned
+  ```
+- Eliminar un cultivo
+  ```gherkin
+  Feature: Delete Crop
+
+    Scenario: Delete a crop by its ID
+      Given a crop is saved in the repository with id 1
+      When the crop is deleted by id
+      Then the crop should no longer exist in the repository
+  ```
+
+  Evidencia de las pruebas realizadas para el bounded context Crop: <br>
+
+  ![Crop BDD](assets/Test/BDD/Crop/evidence-create-crop.png)
+
+**2. Para bounded context Iam**
+
+  - Sign-up
+  ```gherkin
+  Feature: User Sign-Up
+
+  Scenario: Successful user sign-up
+    Given a new user with fullName "New User", email "new_user@example.com" and password "password123"
+    When the user attempts to sign up
+    Then the sign-up should be successful
+  ```
+
+  - Sign-in
+  ```gherkin
+  Feature: User Sign-Up
+
+  Scenario: Successful user sign-up
+    Given a new user with fullName "New User", email "new_user@example.com" and password "password123"
+    When the user attempts to sign up
+    Then the sign-up should be successful
+  ```
+
+Evidencia de las pruebas realizadas para el bounded context Iam: <br>
+
+![Iam BDD](assets/Test/BDD/Iam/evidence-signup-sign-in.png)
+
 
 #### 6.2.1.5. Execution Evidence for Sprint Review.
 
