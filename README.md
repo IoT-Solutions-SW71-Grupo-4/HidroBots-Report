@@ -4051,6 +4051,11 @@ Accede al Landing Page de Ayni: https://iot-solutions-sw71-grupo-4.github.io/Hid
   ![TS07](assets/Insights/sprint1.2.png)
   ![TS07](assets/Insights/sprint1.2.2.png)
 
+  ##### -backend: Evidencias de los insights del backend
+   ![TS07](assets/Backend/i_backend.jpg)
+  ![TS07](assets/Backend/i_.jpg)
+ 
+
 ## 6.3. Validation Interviews.
 
 ### 6.3.1. Diseño de Entrevistas.
