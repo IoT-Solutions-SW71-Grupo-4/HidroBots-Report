@@ -3507,6 +3507,19 @@ En esta sección se especifican los detalles del Sprint Backlog, que es una list
 
 Se presentan los commits realizados en el repositorio de GitHub, en el cual se puede observar el trabajo realizado por cada integrante del equipo.
 
+- Repositorio Landing Page:
+  https://github.com/IoT-Solutions-SW71-Grupo-4/HidroBots-LandingPage.git
+
+<br>
+
+- Repositorio Frontend:
+  https://github.com/IoT-Solutions-SW71-Grupo-4/AyniFronted.git
+
+<br>
+
+- Repositorio Backend:
+  https://github.com/IoT-Solutions-SW71-Grupo-4/HidroBots-Backend.git
+
 <table  align="left" border="1" width="100%">
     <tr>
         <th>Repository</th>
@@ -3517,9 +3530,7 @@ Se presentan los commits realizados en el repositorio de GitHub, en el cual se p
         <th>Time ago</th>
     </tr>
     <tr>
-        <td rowspan=4>
-          <a href="https://github.com/IoT-Solutions-SW71-Grupo-4/HidroBots-LandingPage.git">Landing Page</a>
-        </td>
+        <td rowspan=4>Landing Page</td>
         <td>Master</td>
         <td>5299850</td>
         <td>Fabio Horna</td>
@@ -3548,9 +3559,7 @@ Se presentan los commits realizados en el repositorio de GitHub, en el cual se p
         <td>24/09/24</td>
     </tr>
     <tr>
-        <td rowspan=4>
-          <a href="https://github.com/IoT-Solutions-SW71-Grupo-4/AyniFronted.git">Web App</a>
-        </td>
+        <td rowspan=4>Web App</td>
         <td>Master</td>
         <td>5299850</td>
         <td>Fabio Horna</td>
@@ -3578,9 +3587,7 @@ Se presentan los commits realizados en el repositorio de GitHub, en el cual se p
         <td>Actualización del CSS, cambio de fuente a Nunito, y ajuste de colores</td>
         <td>24/09/24</td>
     <tr>
-        <td rowspan=10>
-          <a href="https://github.com/IoT-Solutions-SW71-Grupo-4/HidroBots-Backend.git">Web Services</a>
-        </td>
+        <td rowspan=10>Web Services</td>
         <td>Master</td>
         <td>148beba</td>
         <td>Jose Ampudia</td>
