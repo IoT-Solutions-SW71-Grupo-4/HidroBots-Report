@@ -4947,6 +4947,278 @@ Accede al Landing Page de Ayni: https://iot-solutions-sw71-grupo-4.github.io/Hid
 #### 6.2.2.1. Sprint Plannning 2
 #### 6.2.2.2. Sprint Backlog 2
 #### 6.2.2.3. Development Evidence for Sprint Review
+
+Se presentan los commits realizados en el repositorio de GitHub, en el cual se puede observar el trabajo realizado por cada integrante del equipo.
+
+- Repositorio Landing Page:
+  https://github.com/IoT-Solutions-SW71-Grupo-4/HidroBots-LandingPage.git
+
+
+- Repositorio Frontend:
+  https://github.com/IoT-Solutions-SW71-Grupo-4/AyniFronted.git
+
+- Repositorio Backend:
+  https://github.com/IoT-Solutions-SW71-Grupo-4/HidroBots-Backend.git
+
+- Repositorio Mobile:
+  https://github.com/IoT-Solutions-SW71-Grupo-4/Ayni-MobileApplication
+
+</br>
+
+<table  align="left" border="1" width="100%">
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit ID</th>
+    <th>Author</th>
+    <th>Message</th>
+    <th>Time ago</th>
+  </tr>
+  <tr>
+    <td rowspan=40>Ayni-MobileApplication</td>
+    <td>Main</td>
+    <td>67ff2b5</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add app structure</td>
+    <td>08/10/24</td>
+  </tr>
+  <tr>
+    <td rowspan=11>feature/user-Authentication</td>
+    <td>5c1ee4c</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add google fonts and assets</td>
+    <td>11/10/24</td>
+  </tr>
+  <tr>
+    <td>bb099dd</td>
+    <td>Diego Defilippi</td>
+    <td>fix: fix assets route in conf</td>
+    <td>11/10/24</td>
+  </tr>
+  <tr>
+    <td>8eb8b31</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add colors constants</td>
+    <td>11/10/24</td>
+  </tr>
+  <tr>
+    <td>3ab603c</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add login view</td>
+    <td>11/10/24</td>
+  </tr>
+  <tr>
+    <td>06da9d6</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add padding to icon</td>
+    <td>11/10/24</td>
+  </tr>
+  <tr>
+    <td>695262b</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add register view</td>
+    <td>11/10/24</td>
+  </tr>
+  <tr>
+    <td>baa900e</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add GoRoute packages</td>
+    <td>12/10/24</td>
+  </tr>
+  <tr>
+    <td>a96c972</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add routing in authentication</td>
+    <td>12/10/24</td>
+  </tr>
+  <tr>
+    <td>a32b938</td>
+    <td>Diego Defilippi</td>
+    <td>styles(iam): Add styles and colors to text fields</td>
+    <td>22/10/24</td>
+  </tr>
+  <tr>
+    <td>9451ff5</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add checkbox widget</td>
+    <td>22/10/24</td>
+  </tr>
+  <tr>
+    <td>d844062</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add input validation in auth</td>
+    <td>22/10/24</td>
+  </tr>
+  <tr>
+    <td rowspan=12>feature/home-view-implementation</td>
+    <td>8b8f6b9</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add weather icons</td>
+    <td>23/10/24</td>
+  </tr>
+  <tr>
+    <td>c5d0893</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add crop icon</td>
+    <td>23/10/24</td>
+  </tr>
+  <tr>
+    <td>a0b1389</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add import assets in pubspec</td>
+    <td>23/10/24</td>
+  </tr>
+  <tr>
+    <td>161b5c4</td>
+    <td>Diego Defilippi</td>
+    <td>feat(home): Add wweather widget</td>
+    <td>23/10/24</td>
+  </tr>
+  <tr>
+    <td>1f6a56b</td>
+    <td>Diego Defilippi</td>
+    <td>feat(home): Add crops list widget</td>
+    <td>23/10/24</td>
+  </tr>
+  <tr>
+    <td>0cbc276</td>
+    <td>Diego Defilippi</td>
+    <td>feat(home): Add home view</td>
+    <td>23/10/24</td>
+  </tr>
+  <tr>
+    <td>0973baa</td>
+    <td>Diego Defilippi</td>
+    <td>ref(shared): Refactor input decoration</td>
+    <td>24/10/24</td>
+  </tr>
+  <tr>
+    <td>eb7f2d6</td>
+    <td>Diego Defilippi</td>
+    <td>feat(shared): Add generic input fields</td>
+    <td>24/10/24</td>
+  </tr>
+  <tr>
+    <td>2c4227f</td>
+    <td>Diego Defilippi</td>
+    <td>feat(home): Add modal to add crop</td>
+    <td>24/10/24</td>
+  </tr>
+  <tr>
+    <td>1de1e06</td>
+    <td>Diego Defilippi</td>
+    <td>styles(home): Added border radius to modal</td>
+    <td>24/10/24</td>
+  </tr>
+  <tr>
+    <td>7509af2</td>
+    <td>Diego Defilippi</td>
+    <td>ref(home): Refactor home widgets</td>
+    <td>24/10/24</td>
+  </tr>
+  <tr>
+    <td>a1f3454</td>
+    <td>Diego Defilippi</td>
+    <td>feat(shared): Add const to TextInputType</td>
+    <td>24/10/24</td>
+  </tr>
+  <tr>
+    <td rowspan=2>feature/profile-view-implementation</td>
+    <td>50a61e6</td>
+    <td>Diego Defilippi</td>
+    <td>feat(profile): Add profile view</td>
+    <td>24/10/24</td>
+  </tr>
+  <tr>
+    <td>2bc9e2d</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add routing between home and profile</td>
+    <td>24/10/24</td>
+  </tr>
+  <tr>
+    <td rowspan=5>feature/irrigation-view-implementation</td>
+    <td>7e14166</td>
+    <td>Diego Defilippi</td>
+    <td>feat(irrigation): Add automatic irrigation widget</td>
+    <td>28/10/24</td>
+  </tr>
+  <tr>
+    <td>d3ef65f</td>
+    <td>Diego Defilippi</td>
+    <td>feat(irrigation): Add manual irrigation widget</td>
+    <td>28/10/24</td>
+  </tr>
+  <tr>
+    <td>9cdb544</td>
+    <td>Diego Defilippi</td>
+    <td>feat(irrigation): Add irrigation history modal</td>
+    <td>28/10/24</td>
+  </tr>
+  <tr>
+    <td>377ce5d</td>
+    <td>Diego Defilippi</td>
+    <td>feat(irrigation): Add irrigation view</td>
+    <td>28/10/24</td>
+  </tr>
+  <tr>
+    <td>a4169ce</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add routing home - irrigation</td>
+    <td>28/10/24</td>
+  </tr>
+    <td rowspan=1>develop</td>
+    <td>2d7d891</td>
+    <td>Diego Defilippi</td>
+    <td>Merge pull request #1</td>
+    <td>28/10/24</td>
+  </tr>
+  </tr>
+    <td rowspan=4>feature/irrigation-routing</td>
+    <td>ee35c56</td>
+    <td>Diego Defilippi</td>
+    <td>feat(home): Add crop model</td>
+    <td>28/10/24</td>
+  </tr>
+  </tr>
+    <td>91a54e3</td>
+    <td>Diego Defilippi</td>
+    <td>feat(home): Add future component</td>
+    <td>28/10/24</td>
+  </tr>
+  </tr>
+    <td>31637a2</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Modify widgets for Crop model</td>
+    <td>28/10/24</td>
+  </tr>
+  </tr>
+    <td>81ea37b</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Modify irrigation rout for cropId</td>
+    <td>28/10/24</td>
+  </tr>
+  </tr>
+    <td rowspan=3>develop</td>
+    <td>4b4c7e0</td>
+    <td>Diego Defilippi</td>
+    <td>Merge pull request #2</td>
+    <td>28/10/24</td>
+  </tr>
+  </tr>
+    <td>31ab4c2</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add login and loguot routing</td>
+    <td>29/10/24</td>
+  </tr>
+  </tr>
+    <td>66edb5b</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Modify initLocation</td>
+    <td>29/10/24</td>
+  </tr>
+</table>
+
+
 #### 6.2.2.4. Testing Suite for Sprint Review
 #### 6.2.2.5. Execution Evidence for Sprint Review
 #### 6.2.2.6. Services Documentation for Sprint Review
