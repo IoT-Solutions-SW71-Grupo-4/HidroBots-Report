@@ -35,7 +35,7 @@
 
 </div>
 
-<h3 align="center">Septiembre, 2024</h3>
+<h3 align="center">Noviembre, 2024</h3>
 
 <br><br>
 
@@ -246,6 +246,15 @@ La rama "develop" se ha utilizado para la integración de las tareas asignadas a
     - [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
     - [6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
     - [6.2.1.8. Team Collaboration Insights during Sprint](#6218-team-collaboration-insights-during-sprint)
+  - [6.2.2. Sprint 2](#622-sprint-2)
+    - [6.2.2.1. Sprint Planning 2](#6221-sprint-plannning-2)
+    - [6.2.2.2. Sprint Backlog 2](#6222-sprint-backlog-2)
+    - [6.2.2.3. Development Evidence for Sprint Review](#6223-development-evidence-for-sprint-review)
+    - [6.2.2.4. Testing Suite Evidence for Sprint Review](#6224-testing-suite-for-sprint-review)
+    - [6.2.2.5. Execution Evidence for Sprint Review](#6225-execution-evidence-for-sprint-review)
+    - [6.2.2.6. Services Documentation Evidence for Sprint Review](#6226-services-documentation-for-sprint-review)
+    - [6.2.2.7. Software Deployment Evidence for Sprint Review](#6227-software-deployment-evidence-for-sprint-review)
+    - [6.2.2.8. Team Collaboration Insights during Sprint](#6228-team-collaboration-insights-during-sprint)
 - [6.3. Validation Interviews](#63-validation-interviews)
   - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
   - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
@@ -4921,19 +4930,29 @@ Accede al Landing Page de Ayni: https://iot-solutions-sw71-grupo-4.github.io/Hid
 
 #### 6.2.1.8. Team Collaboration Insights during Sprint.
 
-#### sprint 1:
-##### -report: Evidencias de los insights del reporte
+##### Evidencias de los insights del reporte
  ![TS07](assets/Insights/sprint1.png)
  ![TS07](assets/Insights/sprint1.1.png)
 
-##### -frontend: Evidencias de los insights del frontend
+##### Evidencias de los insights del frontend
   ![TS07](assets/Insights/sprint1.2.png)
   ![TS07](assets/Insights/sprint1.2.2.png)
 
-  ##### -backend: Evidencias de los insights del backend
-   ![TS07](assets/Backend/i_backend.jpg)
+##### Evidencias de los insights del backend
+  ![TS07](assets/Backend/i_backend.jpg)
   ![TS07](assets/Backend/i_.jpg)
  
+### 6.2.2. Sprint 2
+
+#### 6.2.2.1. Sprint Plannning 2
+#### 6.2.2.2. Sprint Backlog 2
+#### 6.2.2.3. Development Evidence for Sprint Review
+#### 6.2.2.4. Testing Suite for Sprint Review
+#### 6.2.2.5. Execution Evidence for Sprint Review
+#### 6.2.2.6. Services Documentation for Sprint Review
+#### 6.2.2.7. Software Deployment Evidence for Sprint Review
+#### 6.2.2.8. Team Collaboration Insights during Sprint
+
 
 ## 6.3. Validation Interviews.
 
