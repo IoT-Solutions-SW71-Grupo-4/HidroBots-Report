@@ -5216,6 +5216,13 @@ Se presentan los commits realizados en el repositorio de GitHub, en el cual se p
     <td>feat: Modify initLocation</td>
     <td>29/10/24</td>
   </tr>
+  </tr>
+    <td rowspan=1>main</td>
+    <td>4b4c7e0</td>
+    <td>Diego Defilippi</td>
+    <td>Release Ayni v0.1.0</td>
+    <td>30/10/24</td>
+  </tr>
 </table>
 
 
