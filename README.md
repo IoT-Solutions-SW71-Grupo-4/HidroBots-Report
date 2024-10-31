@@ -4056,6 +4056,195 @@ Accede al Landing Page de Ayni: https://iot-solutions-sw71-grupo-4.github.io/Hid
   ![TS07](assets/Backend/i_.jpg)
  
 
+### 6.2.2. Sprint 2
+
+#### 6.2.2.1. Sprint Planning 2.
+
+#### 6.2.2.2. Sprint 2.
+
+#### 6.2.2.3. Development Evidence for Sprint Review
+
+Se presentan los commits realizados en el repositorio de GitHub, en el cual se puede observar el trabajo realizado por cada integrante del equipo.
+
+
+- Repositorio Frontend:
+  https://github.com/IoT-Solutions-SW71-Grupo-4/AyniFronted.git
+
+<table align="left" border="1" width="100%">
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit ID</th>
+    <th>Author</th>
+    <th>Message</th>
+    <th>Time ago</th>
+  </tr>
+  <tr>
+    <td rowspan="20">Frontend</td>
+    <td>feat/auth</td>
+    <td>9d083fa8b8b7fa56be3e9c9ecfff2022acb11cdb</td>
+    <td>TMedalith</td>
+    <td>feat: Add authentication section component</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>111b85c15a0a590ff02442a265b20d2a7f2f6008</td>
+    <td>TMedalith</td>
+    <td>feat: Add sign-in and sign-up model classes</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>997237c03d201303acd5fb7958e42e3948299c4f</td>
+    <td>TMedalith</td>
+    <td>feat: Add sign-in component</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>7faf9d68be391f5581c7244d27392181d3847e5f</td>
+    <td>TMedalith</td>
+    <td>feat: Add sign-up component</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>b302f226f216c0017c47903ffee2dd35ae00f9b5</td>
+    <td>TMedalith</td>
+    <td>feat: Add authentication guard and interceptor</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>6616117f5c1d72bae2af3c6edb8222d2165e17ee</td>
+    <td>TMedalith</td>
+    <td>feat: Add base service for HTTP requests</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>5c6bcfa5378a7c66ebbbbb174f18718acf6b932f</td>
+    <td>TMedalith</td>
+    <td>feat: Add environment files for development and production</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>eb9daba5c3eab407edcff2136380e9c184a1a4af</td>
+    <td>TMedalith</td>
+    <td>fix: Improve design for login and register</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>ab66ba7b44157c6ed243b0dd2d128053d212baff</td>
+    <td>TMedalith</td>
+    <td>feat: Add sidebar component</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>bc8d9ef6a88e04c1839b8d003743807cce86801d</td>
+    <td>TMedalith</td>
+    <td>feat: Add dashboard component</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>d701a9cd271dbfad223e5966b8f0d4e03c34bbd6</td>
+    <td>TMedalith</td>
+    <td>feat: Add header component</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>9a07dcce792716fe7c4816fc87c4cb78b60cda93</td>
+    <td>TMedalith</td>
+    <td>feat: Add layout component</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>62e1f4278e7ae40385eed372aa64b10bc87c5228</td>
+    <td>TMedalith</td>
+    <td>feat: Add device-related components and models</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>bedc9290eda4fbd76f0c6019507ba3332d733283</td>
+    <td>TMedalith</td>
+    <td>refactor: Update app.config.ts and app.routes.ts</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>4eac5903315729c532bb59580f4521cea205928d</td>
+    <td>TMedalith</td>
+    <td>refactor: Update dependencies in package.json</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+  <td>feat/crops</td>
+  <td>07c5e21e718148a38073646fdea73addff902023</td>
+  <td>TMedalith</td>
+  <td>feat: Add crop card component and styles</td>
+  <td>26/10/2024</td>
+</tr>
+<tr>
+  <td>feat/crops</td>
+  <td>6e1ea13aeed9af9adc0f99c67e3b43e73c6f2966</td>
+  <td>TMedalith</td>
+  <td>feat: Add crop service and tests</td>
+  <td>26/10/2024</td>
+</tr>
+<tr>
+  <td>feat/crops</td>
+  <td>745dd5d676b09c996d792d526454742d32974e72</td>
+  <td>TMedalith</td>
+  <td>feat: Add Crop model</td>
+  <td>26/10/2024</td>
+</tr>
+<tr>
+  <td>feat/crops</td>
+  <td>72d39cb9c2a16acd78895182c78907ec7223930a</td>
+  <td>TMedalith</td>
+  <td>refactor: Update dashboard component styles</td>
+  <td>26/10/2024</td>
+</tr>
+<tr>
+  <td>feat/crops</td>
+  <td>c7a1108c8d1bddec73c71bb78b70bc7320a5bb67</td>
+  <td>TMedalith</td>
+  <td>feat: Generate components for routes</td>
+  <td>26/10/2024</td>
+</tr>
+
+</table>
+
+- Repositorio Backend:
+  https://github.com/IoT-Solutions-SW71-Grupo-4/HidroBots-Backend.git
+
+
+
+#### 6.2.2.4. Testing Suite Evidence for Sprint Review.
+
+
+#### 6.2.2.5. Execution Evidence for Sprint Review.
+
+
+
+#### 6.2.2.6. Services Documentation Evidence for Sprint Review.
+
+
+#### 6.2.2.7. Software Deployment Evidence for Sprint Review.
+
+
+
+#### 6.2.2.8. Team Collaboration Insights during Sprint.
+
+
 ## 6.3. Validation Interviews.
 
 ### 6.3.1. Diseño de Entrevistas.
