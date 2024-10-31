@@ -4060,7 +4060,266 @@ Accede al Landing Page de Ayni: https://iot-solutions-sw71-grupo-4.github.io/Hid
 
 #### 6.2.2.1. Sprint Planning 2.
 
-#### 6.2.2.2. Sprint 2.
+#### 6.2.2.2. Sprint Backlog 2.
+
+En esta sección se especifican los detalles del Sprint Backlog, que es una lista de tareas que se han realizado para completar el Sprint.
+
+<table align="center" border="1" width="90%" style="text-align:center">
+  <tr>
+    <td colspan="1"><b>Sprint #</b></td>
+    <td colspan="7"><b>Sprint 2</b></td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>User Story</b></td>
+    <td colspan="6"><b>Work-Item / Task</b></td>
+  </tr>
+  <tr>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Description</b></td>
+    <td><b>Estimation (Hours)</b></td>
+    <td><b>Assigned To</b></td>
+    <td><b>Status (To-do / In-Process / To-Review / Done)</b></td>
+  </tr>
+
+<tr>
+  <td rowspan="3">US1</td>
+  <td rowspan="3">Registro de Usuario</td>
+  <td>T1</td>
+  <td>Diseño de Interfaz de Registro (App Móvil)</td>
+  <td>Desarrollo de la interfaz de usuario para la pantalla de registro en la aplicación móvil.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>T2</td>
+  <td>Desarrollo de Interfaz de Registro (App Web)</td>
+  <td>Creación de la interfaz de usuario para el formulario de registro en la aplicación web.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>T3</td>
+  <td>Integración de Registro con Backend (App Web)</td>
+  <td>Integración del formulario de registro de la aplicación web con el backend.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td rowspan="3">US2</td>
+  <td rowspan="3">Inicio de Sesión</td>
+  <td>T4</td>
+  <td>Diseño de Interfaz de Inicio de Sesión (App Móvil)</td>
+  <td>Desarrollo de la interfaz de usuario para la pantalla de inicio de sesión en la aplicación móvil.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T5</td>
+  <td>Desarrollo de Interfaz de Inicio de Sesión (App Web)</td>
+  <td>Creación de la interfaz de usuario para el formulario de inicio de sesión en la aplicación web.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T6</td>
+  <td>Integración de Inicio de Sesión con Backend (App Web)</td>
+  <td>Integración del formulario de inicio de sesión de la aplicación web con el backend.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td rowspan="4">US6</td>
+  <td rowspan="4">Visualización de Perfil</td>
+  <td>T7</td>
+  <td>Creación de Endpoint para Visualización de Perfil</td>
+  <td>Implementación del endpoint en el backend para obtener los datos del perfil de usuario.</td>
+  <td>2hr</td>
+  <td>José Ampudia</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T8</td>
+  <td>Diseño de Interfaz para Visualización de Perfil (App Móvil)</td>
+  <td>Desarrollo de la pantalla de visualización del perfil en la aplicación móvil.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T9</td>
+  <td>Diseño de Interfaz para Visualización de Perfil (App Web)</td>
+  <td>Desarrollo de la pantalla de visualización de perfil en la aplicación web.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T10</td>
+  <td>Integración de Visualización de Perfil con Backend (App Web)</td>
+  <td>Integración de la pantalla de visualización de perfil en la aplicación web con el backend.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td rowspan="4">US7</td>
+  <td rowspan="4">Edición de Información de Perfil</td>
+  <td>T11</td>
+  <td>Creación de Endpoint para Edición de Perfil</td>
+  <td>Implementación del endpoint en el backend para editar la información del perfil de usuario.</td>
+  <td>2hr</td>
+  <td>José Ampudia</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T12</td>
+  <td>Diseño de Interfaz para Edición de Perfil (App Móvil)</td>
+  <td>Desarrollo de la pantalla para la edición de información del perfil en la aplicación móvil.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T13</td>
+  <td>Diseño de Interfaz para Edición de Perfil (App Web)</td>
+  <td>Desarrollo de la pantalla de edición de perfil en la aplicación web.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T14</td>
+  <td>Integración de Edición de Perfil con Backend (App Web)</td>
+  <td>Integración de la pantalla de edición de perfil en la aplicación web con el backend.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td rowspan="4">US8</td>
+  <td rowspan="4">Actualización de Imagen de Perfil</td>
+  <td>T15</td>
+  <td>Creación de Endpoint para Actualización de Imagen de Perfil</td>
+  <td>Implementación del endpoint en el backend para actualizar la imagen de perfil de usuario.</td>
+  <td>2hr</td>
+  <td>José Ampudia</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T16</td>
+  <td>Diseño de Interfaz para Actualización de Imagen de Perfil (App Móvil)</td>
+  <td>Desarrollo de la pantalla para actualizar la imagen de perfil en la aplicación móvil.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T17</td>
+  <td>Diseño de Interfaz para Actualización de Imagen de Perfil (App Web)</td>
+  <td>Desarrollo de la pantalla para actualizar la imagen de perfil en la aplicación web.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T18</td>
+  <td>Integración de Actualización de Imagen de Perfil con Backend (App Web)</td>
+  <td>Integración de la pantalla para actualizar la imagen de perfil en la aplicación web con el backend.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td rowspan="1">US21</td>
+  <td rowspan="1">Visualización del Resumen en el Dashboard</td>
+  <td>T19</td>
+  <td>Diseño de Interfaz de Dashboard (App Móvil)</td>
+  <td>Desarrollo de la interfaz de usuario para visualizar el resumen en el dashboard de la aplicación móvil.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td rowspan="2">US22</td>
+  <td rowspan="2">Gestión de Cultivos</td>
+  <td>T20</td>
+  <td>Diseño de Interfaz para Gestión de Cultivos (App Móvil)</td>
+  <td>Desarrollo de la interfaz en la aplicación móvil para permitir la creación, edición y eliminación de cultivos.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T21</td>
+  <td>Integración de Gestión de Cultivos con Backend (App Web)</td>
+  <td>Integración de la funcionalidad de gestión de cultivos (creación, edición y eliminación) con el backend en la aplicación web.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td rowspan="1">US13</td>
+  <td rowspan="1">Control de Riego Automático</td>
+  <td>T22</td>
+  <td>Diseño de Interfaz para Control de Riego Automático (App Móvil)</td>
+  <td>Desarrollo de la pantalla para el control automático de riego en la aplicación móvil.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+  </tr>
+
+<tr>
+  <td rowspan="1">US14</td>
+  <td rowspan="1">Control de Riego Manual</td>
+  <td>T23</td>
+  <td>Diseño de Interfaz para Control de Riego Manual (App Móvil)</td>
+  <td>Desarrollo de la pantalla para el control manual de riego en la aplicación móvil.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td rowspan="1">US15</td>
+  <td rowspan="1">Consulta del Historial de Riego</td>
+  <td>T24</td>
+  <td>Diseño de Interfaz para Consulta del Historial de Riego (App Móvil)</td>
+  <td>Desarrollo de la pantalla para la consulta del historial de riego en la aplicación móvil.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td rowspan="1">US16</td>
+  <td rowspan="1">Configuración de Wokwi para Dispositivos y Sensores</td>
+  <td>T25</td>
+  <td>Configuración de Sensores en Wokwi</td>
+  <td>Configuración de sensores en Wokwi para monitoreo de parámetros de cultivo.</td>
+  <td>3hr</td>
+  <td>Fabio Horna</td>
+  <td>Done</td>
+</tr>
+
+</table>
 
 #### 6.2.2.3. Development Evidence for Sprint Review
 
