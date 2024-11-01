@@ -5699,6 +5699,17 @@ Profile interface
 #### 6.2.2.7. Software Deployment Evidence for Sprint Review
 #### 6.2.2.8. Team Collaboration Insights during Sprint
 
+**Evidencias de los insights del Mobile**
+</br>
+<div align="center">
+  <img width=800 src="./assets/Insights/sprint2_mobile_pulse.png" alt="Insights mobile"/>
+</div>
+</br>
+<div align="center">
+  <img width=800 src="./assets/Insights/sprint2_mobile_branch.png" alt="Insights mobile"/>
+</div>
+</br>
+
 
 ## 6.3. Validation Interviews.
 
