@@ -5225,9 +5225,67 @@ Se presentan los commits realizados en el repositorio de GitHub, en el cual se p
   </tr>
 </table>
 
-
 #### 6.2.2.4. Testing Suite for Sprint Review
 #### 6.2.2.5. Execution Evidence for Sprint Review
+
+En el presente Sprint 2, se continuó con el desarrollo de la aplicación web y la Api. Asimismo, se comenzó con el desarrollo de la aplicación móvil y de culminó la primera versión del mismo.
+
+**Aplicación móvil**
+
+Login interface
+</br>
+<div align="center">
+  <img width=200 src="./assets/MobileApplication/mobile-login.jpeg" alt="Mobile login"/>
+</div>
+</br>
+
+Register interface
+</br>
+<div align="center">
+  <img width=200 src="./assets/MobileApplication/mobile-register.jpeg" alt="Mobile register"/>
+</div>
+</br>
+
+Home interface
+</br>
+<div align="center">
+  <img width=200 src="./assets/MobileApplication/mobile-home.jpeg" alt="Mobile home"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/MobileApplication/mobile-newcrop-modal.jpeg" alt="Add new crop mobile"/>
+</div>
+</br>
+
+
+Irrigation interface
+</br>
+<div align="center">
+  <img width=200 src="./assets/MobileApplication/mobile-automatic-irrigation.jpeg" alt="Automatic irrigation interface"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/MobileApplication/mobile-manual-irrigation.jpeg" alt="Manual irrigation interface"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/MobileApplication/mobile-irrigation-history.jpeg" alt="History irrigation interface"/>
+</div>
+</br>
+
+Profile interface
+</br>
+<div align="center">
+  <img width=200 src="./assets/MobileApplication/mobile-profile.jpeg" alt="Profile interface"/>
+</div>
+</br>
+
 #### 6.2.2.6. Services Documentation for Sprint Review
 #### 6.2.2.7. Software Deployment Evidence for Sprint Review
 #### 6.2.2.8. Team Collaboration Insights during Sprint
