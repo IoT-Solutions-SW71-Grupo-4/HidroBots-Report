@@ -4945,6 +4945,147 @@ Accede al Landing Page de Ayni: https://iot-solutions-sw71-grupo-4.github.io/Hid
 ### 6.2.2. Sprint 2
 
 #### 6.2.2.1. Sprint Plannning 2
+
+<table align="center"  border="1" width="90%" style="text-align:center;">
+  <tr align="left">
+    <td>
+      <b>Sprint #</b>
+    </td>
+    <td>
+      <b>Sprint 2</b>           
+    </td>
+  </tr>
+  <tr align="left">
+    <td colspan="2">
+      <b>Sprint Planning Background</b>
+    </td>
+  </tr>
+  <tr align="left">
+    <td>
+      <b>Date</b>
+    </td>
+    <td>
+        07/10/24         
+    </td>
+  </tr>
+      <tr align="left">
+      <td>
+          <b>Time</b>
+      </td>
+      <td>
+          16:00         
+      </td>
+  </tr>
+      <tr align="left">
+      <td>
+          <b>Location</b>
+      </td>
+      <td>
+          Modalidad remota por Discord      
+      </td>
+  </tr>
+    </tr>
+      <tr align="left">
+      <td>
+          <b>Prepared By</b>
+      </td>
+      <td>
+          Integrantes de Hidrobots     
+      </td>
+  </tr>
+  </tr>
+      <tr align="left">
+      <td>
+          <b>Attendess (to planning meeting)</b>
+      </td>
+      <td>
+          - Ampudia Flores, José Carlos Isaac <br/>
+          - Defilippi Santillán, Diego <br/>
+          - Horna Silva, Fabio Ernesto <br/>
+          - Lopez Huarcaya, Leonardo Paul <br/>
+          - Paucar De La Cruz, Tatiana Medalith<br/>
+      </td>
+  </tr>
+    </tr>
+      <tr align="left">
+      <td>
+          <b>Sprint n - 2</b>
+          <b>Review Summary</b>
+      </td>
+      <td>
+          Durante el Sprint 2, el equipo completó con éxito todas las tareas planificadas. Las principales funcionalidades implementadas incluyen el registro e inicio de sesión de usuarios, visualización y edición de perfil, y la gestión de cultivos en la aplicación móvil y web.
+          </br>
+          Logros del sprint:
+          <ul>
+            <li>Desarrollar pantallas de Registro y Login en web y móvil</li>
+            <li>Implementar interfaces de visualización y edición de perfil, incluyendo actualización de imagen.</li>
+            <li>Desarrollar funcionalidades de gestión de cultivos.</li>
+            <li>Implementar control de riego (manual y automático) en la aplicación móvil.</li>
+            <li>Configurar sensores en Wokwi para monitoreo de parámetros de cultivo.</li>
+          </ul>
+      </td>
+  </tr>
+  <tr align="left">
+      <td>
+          <b>Sprint n - 2</b>
+          <b>Retrospective Summary</b>
+      </td>
+      <td>
+        Aspectos positivos
+        <ul>
+          <li>
+            El equipo logró completar todas las tareas en los tiempos estimados.
+          </li>
+          <li>
+            La planificación de tareas en este sprint se organizó de forma eficiente, lo que contribuyó al flujo de trabajo constante.
+          </li>
+        </ul>
+        Áreas de mejora
+        <ul>
+          <li>
+            Se observó que la integración con el backend podría beneficiarse de una mayor automatización en las pruebas, para reducir tiempo y errores en futuras implementaciones.
+          </li>
+        </ul>
+        Acciones a implementar
+        <ul>
+          <li>
+            Mejorar la estimación de tareas de diseño, destinando tiempo adicional para revisiones de usabilidad y aspectos visuales.
+          </li>
+          <li>
+            Continuar fomentando la comunicación constante, aprovechando las herramientas de seguimiento y notificación que permitieron la gestión exitosa del sprint.
+          </li>
+        </ul>
+      </td>
+  </tr>
+  <tr align="left">
+    <td colspan="1">
+      <b>Sprint Goals & User Stories</b>
+    </td>
+    <td>
+      Nuestro objetivo es implementar el registro y login de usuarios tanto en web como en móvil. Creemos que esto facilitará el acceso y personalización de la cuenta para los agricultores e investigadores que gestionan sus cultivos en la plataforma. Esto se confirmará cuando los usuarios puedan iniciar sesión con sus credenciales y editar su perfil. 
+      </br>
+      Nuestro objetivo es implementar el control de riego automático y manual. Creemos que esto mejorará la eficiencia en la gestión del agua para los agricultores que usan nuestra aplicación para sus cultivos. Esto se confirmará cuando los usuarios puedan activar el riego desde la app y monitorizar su funcionamiento.
+    </td>
+  </tr>
+  <tr align="left">
+    <td>
+      <b>Sprint 2 Velocity</b>
+    </td>
+    <td>
+      24
+    </td>
+  </tr>
+  <tr align="left">
+    <td>
+      <b>Sum of Story Points</b>
+    </td>
+    <td>
+      24
+    </td>
+  </tr>
+</table>
+</br>
+
 #### 6.2.2.2. Sprint Backlog 2
 
 En esta sección se especifican los detalles del Sprint Backlog, que es una lista de tareas que se han realizado para completar el Sprint.
