@@ -5837,6 +5837,25 @@ Se presentan los commits realizados en el repositorio de GitHub, en el cual se p
 
 
 #### 6.2.2.4. Testing Suite for Sprint Review
+
+Para el Sprint 2, se ha decidido realizar las pruebas con Postman, una herramienta muy robusta y completa que nos permite hacer pruebas de solicitudes HTTP. A continuación, se presentan las pruebas realizadas para el Sprint 2.
+
+ - Sign In (Inicio de sesión): <br>
+
+![sprint2-test-suite-evidence-sign-in](./assets/Backend/sprint-2/testing-suite-evidence/sprint2-test-sign-in.png)
+
+ - Crops (Cultivos): <br>
+
+ ![sprint2-test-suite-evidence-crops](./assets/Backend/sprint-2/testing-suite-evidence/sprint2-test-crops.png)
+
+ ![sprint2-test-suite-evidence-crops-2](./assets/Backend/sprint-2/testing-suite-evidence/sprint2-test-crops-evidence.png)
+
+ - Profiles (Actualizar foto de perfil): <br>
+
+ ![sprint2-test-suite-evidence-profile](./assets/Backend/sprint-2/testing-suite-evidence/sprint2-test-profiles-farmer.png)
+
+  ![sprint2-test-suite-evidence-profile-2](./assets/Backend/sprint-2/testing-suite-evidence/sprint2-test-profiles-farmer-evidence.png)
+
 #### 6.2.2.5. Execution Evidence for Sprint Review
 
 En el presente Sprint 2, se continuó con el desarrollo de la aplicación web y la Api. Asimismo, se comenzó con el desarrollo de la aplicación móvil y de culminó la primera versión del mismo.
@@ -5896,26 +5915,6 @@ Profile interface
   <img width=200 src="./assets/MobileApplication/mobile-profile.jpeg" alt="Profile interface"/>
 </div>
 </br>
-
-**Web Services**
-
-Para esta sección, se ha decidido realizar las pruebas con Postman, una herramienta muy robusta y completa que nos permite hacer pruebas de solicitudes HTTP. A continuación, se presentan las pruebas realizadas para el Sprint 2.
-
- - Sign In (Inicio de sesión): <br>
-
-![sprint2-test-suite-evidence-sign-in](./assets/Backend/sprint-2/testing-suite-evidence/sprint2-test-sign-in.png)
-
- - Crops (Cultivos): <br>
-
- ![sprint2-test-suite-evidence-crops](./assets/Backend/sprint-2/testing-suite-evidence/sprint2-test-crops.png)
-
- ![sprint2-test-suite-evidence-crops-2](./assets/Backend/sprint-2/testing-suite-evidence/sprint2-test-crops-evidence.png)
-
- - Profiles (Actualizar foto de perfil): <br>
-
- ![sprint2-test-suite-evidence-profile](./assets/Backend/sprint-2/testing-suite-evidence/sprint2-test-profiles-farmer.png)
-
-  ![sprint2-test-suite-evidence-profile-2](./assets/Backend/sprint-2/testing-suite-evidence/sprint2-test-profiles-farmer-evidence.png)
 
 
 #### 6.2.2.6. Services Documentation for Sprint Review
