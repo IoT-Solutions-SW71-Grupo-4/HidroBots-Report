@@ -5795,6 +5795,8 @@ Se presentan los commits realizados en el repositorio de GitHub, en el cual se p
 - Repositorio Backend:
   https://github.com/IoT-Solutions-SW71-Grupo-4/HidroBots-Backend.git
 
+  <br>
+
 <table align="left" border="1" width="100%">
   <tr>
     <th>Repository</th>
@@ -5805,6 +5807,7 @@ Se presentan los commits realizados en el repositorio de GitHub, en el cual se p
     <th>Time ago</th>
   </tr>
   <tr>
+    <td rowspan="4">Backend</td>
     <td>feature/bc-crops</td>
     <td>1ebbe5cce54b0c2c94e941c97f9b94f6b659adc8</td>
     <td>IsaacAmp24</td>
@@ -5832,7 +5835,6 @@ Se presentan los commits realizados en el repositorio de GitHub, en el cual se p
     <td>feat(bc-profiles): add methods to upload and delete imageProfile</td>
     <td>24/10/2024</td>
   </tr>
-
 </table>
 
 
