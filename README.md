@@ -5866,6 +5866,454 @@ Profile interface
 </br>
 
 
+### 6.2.2. Sprint 2
+
+#### 6.2.2.1. Sprint Planning 2.
+
+#### 6.2.2.2. Sprint Backlog 2.
+
+En esta sección se especifican los detalles del Sprint Backlog, que es una lista de tareas que se han realizado para completar el Sprint.
+
+<table align="center" border="1" width="90%" style="text-align:center">
+  <tr>
+    <td colspan="1"><b>Sprint #</b></td>
+    <td colspan="7"><b>Sprint 2</b></td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>User Story</b></td>
+    <td colspan="6"><b>Work-Item / Task</b></td>
+  </tr>
+  <tr>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Description</b></td>
+    <td><b>Estimation (Hours)</b></td>
+    <td><b>Assigned To</b></td>
+    <td><b>Status (To-do / In-Process / To-Review / Done)</b></td>
+  </tr>
+
+<tr>
+  <td rowspan="3">US1</td>
+  <td rowspan="3">Registro de Usuario</td>
+  <td>T1</td>
+  <td>Diseño de Interfaz de Registro (App Móvil)</td>
+  <td>Desarrollo de la interfaz de usuario para la pantalla de registro en la aplicación móvil.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>T2</td>
+  <td>Desarrollo de Interfaz de Registro (App Web)</td>
+  <td>Creación de la interfaz de usuario para el formulario de registro en la aplicación web.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>T3</td>
+  <td>Integración de Registro con Backend (App Web)</td>
+  <td>Integración del formulario de registro de la aplicación web con el backend.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td rowspan="3">US2</td>
+  <td rowspan="3">Inicio de Sesión</td>
+  <td>T4</td>
+  <td>Diseño de Interfaz de Inicio de Sesión (App Móvil)</td>
+  <td>Desarrollo de la interfaz de usuario para la pantalla de inicio de sesión en la aplicación móvil.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T5</td>
+  <td>Desarrollo de Interfaz de Inicio de Sesión (App Web)</td>
+  <td>Creación de la interfaz de usuario para el formulario de inicio de sesión en la aplicación web.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T6</td>
+  <td>Integración de Inicio de Sesión con Backend (App Web)</td>
+  <td>Integración del formulario de inicio de sesión de la aplicación web con el backend.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td rowspan="4">US6</td>
+  <td rowspan="4">Visualización de Perfil</td>
+  <td>T7</td>
+  <td>Creación de Endpoint para Visualización de Perfil</td>
+  <td>Implementación del endpoint en el backend para obtener los datos del perfil de usuario.</td>
+  <td>2hr</td>
+  <td>José Ampudia</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T8</td>
+  <td>Diseño de Interfaz para Visualización de Perfil (App Móvil)</td>
+  <td>Desarrollo de la pantalla de visualización del perfil en la aplicación móvil.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T9</td>
+  <td>Diseño de Interfaz para Visualización de Perfil (App Web)</td>
+  <td>Desarrollo de la pantalla de visualización de perfil en la aplicación web.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T10</td>
+  <td>Integración de Visualización de Perfil con Backend (App Web)</td>
+  <td>Integración de la pantalla de visualización de perfil en la aplicación web con el backend.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td rowspan="4">US7</td>
+  <td rowspan="4">Edición de Información de Perfil</td>
+  <td>T11</td>
+  <td>Creación de Endpoint para Edición de Perfil</td>
+  <td>Implementación del endpoint en el backend para editar la información del perfil de usuario.</td>
+  <td>2hr</td>
+  <td>José Ampudia</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T12</td>
+  <td>Diseño de Interfaz para Edición de Perfil (App Móvil)</td>
+  <td>Desarrollo de la pantalla para la edición de información del perfil en la aplicación móvil.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T13</td>
+  <td>Diseño de Interfaz para Edición de Perfil (App Web)</td>
+  <td>Desarrollo de la pantalla de edición de perfil en la aplicación web.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T14</td>
+  <td>Integración de Edición de Perfil con Backend (App Web)</td>
+  <td>Integración de la pantalla de edición de perfil en la aplicación web con el backend.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td rowspan="4">US8</td>
+  <td rowspan="4">Actualización de Imagen de Perfil</td>
+  <td>T15</td>
+  <td>Creación de Endpoint para Actualización de Imagen de Perfil</td>
+  <td>Implementación del endpoint en el backend para actualizar la imagen de perfil de usuario.</td>
+  <td>2hr</td>
+  <td>José Ampudia</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T16</td>
+  <td>Diseño de Interfaz para Actualización de Imagen de Perfil (App Móvil)</td>
+  <td>Desarrollo de la pantalla para actualizar la imagen de perfil en la aplicación móvil.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T17</td>
+  <td>Diseño de Interfaz para Actualización de Imagen de Perfil (App Web)</td>
+  <td>Desarrollo de la pantalla para actualizar la imagen de perfil en la aplicación web.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T18</td>
+  <td>Integración de Actualización de Imagen de Perfil con Backend (App Web)</td>
+  <td>Integración de la pantalla para actualizar la imagen de perfil en la aplicación web con el backend.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td rowspan="1">US21</td>
+  <td rowspan="1">Visualización del Resumen en el Dashboard</td>
+  <td>T19</td>
+  <td>Diseño de Interfaz de Dashboard (App Móvil)</td>
+  <td>Desarrollo de la interfaz de usuario para visualizar el resumen en el dashboard de la aplicación móvil.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td rowspan="2">US22</td>
+  <td rowspan="2">Gestión de Cultivos</td>
+  <td>T20</td>
+  <td>Diseño de Interfaz para Gestión de Cultivos (App Móvil)</td>
+  <td>Desarrollo de la interfaz en la aplicación móvil para permitir la creación, edición y eliminación de cultivos.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T21</td>
+  <td>Integración de Gestión de Cultivos con Backend (App Web)</td>
+  <td>Integración de la funcionalidad de gestión de cultivos (creación, edición y eliminación) con el backend en la aplicación web.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td rowspan="1">US13</td>
+  <td rowspan="1">Control de Riego Automático</td>
+  <td>T22</td>
+  <td>Diseño de Interfaz para Control de Riego Automático (App Móvil)</td>
+  <td>Desarrollo de la pantalla para el control automático de riego en la aplicación móvil.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+  </tr>
+
+<tr>
+  <td rowspan="1">US14</td>
+  <td rowspan="1">Control de Riego Manual</td>
+  <td>T23</td>
+  <td>Diseño de Interfaz para Control de Riego Manual (App Móvil)</td>
+  <td>Desarrollo de la pantalla para el control manual de riego en la aplicación móvil.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td rowspan="1">US15</td>
+  <td rowspan="1">Consulta del Historial de Riego</td>
+  <td>T24</td>
+  <td>Diseño de Interfaz para Consulta del Historial de Riego (App Móvil)</td>
+  <td>Desarrollo de la pantalla para la consulta del historial de riego en la aplicación móvil.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td rowspan="1">US16</td>
+  <td rowspan="1">Configuración de Wokwi para Dispositivos y Sensores</td>
+  <td>T25</td>
+  <td>Configuración de Sensores en Wokwi</td>
+  <td>Configuración de sensores en Wokwi para monitoreo de parámetros de cultivo.</td>
+  <td>3hr</td>
+  <td>Fabio Horna</td>
+  <td>Done</td>
+</tr>
+
+</table>
+
+#### 6.2.2.3. Development Evidence for Sprint Review
+
+Se presentan los commits realizados en el repositorio de GitHub, en el cual se puede observar el trabajo realizado por cada integrante del equipo.
+
+
+- Repositorio Frontend:
+  https://github.com/IoT-Solutions-SW71-Grupo-4/AyniFronted.git
+
+<table align="left" border="1" width="100%">
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit ID</th>
+    <th>Author</th>
+    <th>Message</th>
+    <th>Time ago</th>
+  </tr>
+  <tr>
+    <td rowspan="20">Frontend</td>
+    <td>feat/auth</td>
+    <td>9d083fa8b8b7fa56be3e9c9ecfff2022acb11cdb</td>
+    <td>TMedalith</td>
+    <td>feat: Add authentication section component</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>111b85c15a0a590ff02442a265b20d2a7f2f6008</td>
+    <td>TMedalith</td>
+    <td>feat: Add sign-in and sign-up model classes</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>997237c03d201303acd5fb7958e42e3948299c4f</td>
+    <td>TMedalith</td>
+    <td>feat: Add sign-in component</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>7faf9d68be391f5581c7244d27392181d3847e5f</td>
+    <td>TMedalith</td>
+    <td>feat: Add sign-up component</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>b302f226f216c0017c47903ffee2dd35ae00f9b5</td>
+    <td>TMedalith</td>
+    <td>feat: Add authentication guard and interceptor</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>6616117f5c1d72bae2af3c6edb8222d2165e17ee</td>
+    <td>TMedalith</td>
+    <td>feat: Add base service for HTTP requests</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>5c6bcfa5378a7c66ebbbbb174f18718acf6b932f</td>
+    <td>TMedalith</td>
+    <td>feat: Add environment files for development and production</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>eb9daba5c3eab407edcff2136380e9c184a1a4af</td>
+    <td>TMedalith</td>
+    <td>fix: Improve design for login and register</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>ab66ba7b44157c6ed243b0dd2d128053d212baff</td>
+    <td>TMedalith</td>
+    <td>feat: Add sidebar component</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>bc8d9ef6a88e04c1839b8d003743807cce86801d</td>
+    <td>TMedalith</td>
+    <td>feat: Add dashboard component</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>d701a9cd271dbfad223e5966b8f0d4e03c34bbd6</td>
+    <td>TMedalith</td>
+    <td>feat: Add header component</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>9a07dcce792716fe7c4816fc87c4cb78b60cda93</td>
+    <td>TMedalith</td>
+    <td>feat: Add layout component</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>62e1f4278e7ae40385eed372aa64b10bc87c5228</td>
+    <td>TMedalith</td>
+    <td>feat: Add device-related components and models</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>bedc9290eda4fbd76f0c6019507ba3332d733283</td>
+    <td>TMedalith</td>
+    <td>refactor: Update app.config.ts and app.routes.ts</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>4eac5903315729c532bb59580f4521cea205928d</td>
+    <td>TMedalith</td>
+    <td>refactor: Update dependencies in package.json</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+  <td>feat/crops</td>
+  <td>07c5e21e718148a38073646fdea73addff902023</td>
+  <td>TMedalith</td>
+  <td>feat: Add crop card component and styles</td>
+  <td>26/10/2024</td>
+</tr>
+<tr>
+  <td>feat/crops</td>
+  <td>6e1ea13aeed9af9adc0f99c67e3b43e73c6f2966</td>
+  <td>TMedalith</td>
+  <td>feat: Add crop service and tests</td>
+  <td>26/10/2024</td>
+</tr>
+<tr>
+  <td>feat/crops</td>
+  <td>745dd5d676b09c996d792d526454742d32974e72</td>
+  <td>TMedalith</td>
+  <td>feat: Add Crop model</td>
+  <td>26/10/2024</td>
+</tr>
+<tr>
+  <td>feat/crops</td>
+  <td>72d39cb9c2a16acd78895182c78907ec7223930a</td>
+  <td>TMedalith</td>
+  <td>refactor: Update dashboard component styles</td>
+  <td>26/10/2024</td>
+</tr>
+<tr>
+  <td>feat/crops</td>
+  <td>c7a1108c8d1bddec73c71bb78b70bc7320a5bb67</td>
+  <td>TMedalith</td>
+  <td>feat: Generate components for routes</td>
+  <td>26/10/2024</td>
+</tr>
+
+</table>
+
+- Repositorio Backend:
+  https://github.com/IoT-Solutions-SW71-Grupo-4/HidroBots-Backend.git
+
+
+
+#### 6.2.2.4. Testing Suite Evidence for Sprint Review.
+
+
+#### 6.2.2.5. Execution Evidence for Sprint Review.
+
+
+
+#### 6.2.2.6. Services Documentation Evidence for Sprint Review.
+
+
+#### 6.2.2.7. Software Deployment Evidence for Sprint Review.
+
+
+
+#### 6.2.2.8. Team Collaboration Insights during Sprint.
+
+
 ## 6.3. Validation Interviews.
 
 ### 6.3.1. Diseño de Entrevistas.
