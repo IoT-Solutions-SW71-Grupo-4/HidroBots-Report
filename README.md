@@ -5790,12 +5790,8 @@ Se presentan los commits realizados en el repositorio de GitHub, en el cual se p
 </table>
 
 
-<br>
-
 - Repositorio Backend:
   https://github.com/IoT-Solutions-SW71-Grupo-4/HidroBots-Backend.git
-
-  <br>
 
 <table align="left" border="1" width="100%">
   <tr>
