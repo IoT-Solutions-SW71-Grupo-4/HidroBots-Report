@@ -5793,45 +5793,47 @@ Se presentan los commits realizados en el repositorio de GitHub, en el cual se p
 - Repositorio Backend:
   https://github.com/IoT-Solutions-SW71-Grupo-4/HidroBots-Backend.git
 
-<table align="left" border="1" width="100%">
-  <tr>
-    <th>Repository</th>
-    <th>Branch</th>
-    <th>Commit ID</th>
-    <th>Author</th>
-    <th>Message</th>
-    <th>Time ago</th>
-  </tr>
-  <tr>
-    <td rowspan="4">Backend</td>
-    <td>feature/bc-crops</td>
-    <td>1ebbe5cce54b0c2c94e941c97f9b94f6b659adc8</td>
-    <td>IsaacAmp24</td>
-    <td>feat(bc-crops): add method to upload imageCrops by cloudinary.</td>
-    <td>24/10/2024</td>
-  </tr>
-  <tr>
-    <td>feature/bc-crops</td>
-    <td>0d134e3e1781b5a805fbc7e2722f29f77bb094b6</td>
-    <td>IsaacAmp24</td>
-    <td>feat(bc-crops): add method to get crops from a farmer.</td>
-    <td>24/10/2024</td>
-  </tr>
-  <tr>
-    <td>feature/bc-crops</td>
-    <td>aafc2cd14cb0c16559e14b8efdc9c1277b5298d3</td>
-    <td>IsaacAmp24</td>
-    <td>feat(bc-crops): add method to delete crop with imageCrop of cloudinary.</td>
-    <td>24/10/2024</td>
-  </tr>
-  <tr>
-    <td>feature/bc-profiles</td>
-    <td>816d4165f12fcd7454dd1d79de6e3b9e579beef5</td>
-    <td>IsaacAmp24</td>
-    <td>feat(bc-profiles): add methods to upload and delete imageProfile</td>
-    <td>24/10/2024</td>
-  </tr>
-</table>
+<div style="overflow-x:auto;">
+  <table width="100%">
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit ID</th>
+      <th>Author</th>
+      <th>Message</th>
+      <th>Time ago</th>
+    </tr>
+    <tr>
+      <td rowspan="4">Backend</td>
+      <td>feature/bc-crops</td>
+      <td>1ebbe5c</td>
+      <td>IsaacAmp24</td>
+      <td>feat(bc-crops): add method to upload imageCrops by cloudinary.</td>
+      <td align="right">24/10/2024</td>
+    </tr>
+    <tr>
+      <td>feature/bc-crops</td>
+      <td>0d134e3</td>
+      <td>IsaacAmp24</td>
+      <td>feat(bc-crops): add method to get crops from a farmer.</td>
+      <td align="right">24/10/2024</td>
+    </tr>
+    <tr>
+      <td>feature/bc-crops</td>
+      <td>aafc2cd</td>
+      <td>IsaacAmp24</td>
+      <td>feat(bc-crops): add method to delete crop with imageCrop of cloudinary.</td>
+      <td align="right">24/10/2024</td>
+    </tr>
+    <tr>
+      <td>feature/bc-profiles</td>
+      <td>816d416</td>
+      <td>IsaacAmp24</td>
+      <td>feat(bc-profiles): add methods to upload and delete imageProfile</td>
+      <td align="right">24/10/2024</td>
+    </tr>
+  </table>
+</div>
 
 
 #### 6.2.2.4. Testing Suite for Sprint Review
