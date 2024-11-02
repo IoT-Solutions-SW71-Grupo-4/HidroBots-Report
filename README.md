@@ -5918,6 +5918,41 @@ Profile interface
 
 
 #### 6.2.2.6. Services Documentation for Sprint Review
+
+A continuación, se muestra la documentación de los servicios de la aplicación Ayni, el cual se ha desarrollado para este Sprint 2, para documentar usamos Swagger. A continuación se muestran evidencias.
+
+**Web Services**
+
+![sprint2-web-services](./assets/Backend/sprint-2/execution-backend/sprint2-back-execution-1.png)
+
+![sprint2-web-services](./assets/Backend/sprint-2/execution-backend/sprint2-back-execution-2.png)
+
+![sprint2-web-services](./assets/Backend/sprint-2/execution-backend/sprint2-back-execution-3.png)
+
+| Service | Evidence | Description |
+| --- | --- | --- |
+| Authentication | ![sprint2-web-services](./assets/Backend/sprint-2/web-services-documentation/sprint2-documentation-back-auth.png) | Endpoint que permite autenticar a un usuario. |
+| Crops | ![sprint2-web-services](./assets/Backend/sprint-2/web-services-documentation/sprint2-documentation-back-crops.png) | Endpoint que gestiona los cultivos |
+| Profiles | ![sprint2-web-services](./assets/Backend/sprint-2/web-services-documentation/sprint2-documentation-back-farmers.png) | Endpoint que gestiona los perfiles de los usuarios. |
+| Roles | ![sprint2-web-services](./assets/Backend/sprint-2/web-services-documentation/sprint2-documentation-back-roles.png) | Endpoint que gestiona los roles de los usuarios. |
+| Users | ![sprint2-web-services](./assets/Backend/sprint-2/web-services-documentation/sprint2-documentation-back-users.png) | Endpoint que gestiona todos los usuarios. |
+
+| Endpoint | Method | Parameters | Description |
+| --- | --- | --- | --- |
+| /api/v1/auth/sign-up | POST | { fullName, email, password, role } | Permite registrar un nuevo usuario. |
+| /api/v1/auth/sign-in | POST | { email, password } | Permite autenticar a un usuario. |
+| /api/v1/crops/farmer/{farmerId}/crops | GET | - | Obtiene todos los cultivos de un agricultor. |
+| /api/v1/farmers | GET | - | Obtiene todos los agricultores. |
+| /api/v1/farmers/{farmerId} | GET | - | Obtiene un agricultor por su id. |
+| /api/v1/farmers/{farmerId} | PUT | { fullName, email, password, role } | Actualiza un agricultor por su id. |
+| /api/v1/farmers/{farmerId} | DELETE | - | Elimina un agricultor por su id. |
+| /api/v1/farmers/{farmerId}/farmerImage | PUT | { farnerId, file } | Actualiza la imagen de perfil de un agricultor. |
+| /api/v1/farmers/{farmerId}/farmerImage | DELETE | { farnerId } | Elimina la imagen de perfil de un agricultor. |
+| /api/v1/roles | GET | - | Obtiene todos los roles. |
+| /api/v1/users | GET | - | Obtiene todos los usuarios. |
+| /api/v1/users/{userId} | GET | - | Obtiene un usuario por su id. |
+
+
 #### 6.2.2.7. Software Deployment Evidence for Sprint Review
 #### 6.2.2.8. Team Collaboration Insights during Sprint
 
