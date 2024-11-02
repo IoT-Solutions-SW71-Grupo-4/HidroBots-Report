@@ -4375,6 +4375,14 @@ Para asegurar un avance constante en el proyecto, se considera crucial perfeccio
             <b>Sprint Goal & User Stories</b>
         </td>
     </tr>
+    <tr align="left">
+      <td>
+        Sprint 1 goal
+      </td>
+      <td>
+        Nuestro objetivo es consolidar la funcionalidad inicial de la plataforma. Creemos que esto proporcionará una experiencia de usuario básica pero funcional para los clientes y servirá de base para el desarrollo futuro de características. Esto se confirmará cuando la Landing Page esté completamente operativa, la aplicación web sea accesible con funcionalidad básica y el API REST permita las primeras integraciones clave.
+      </td>
+    </tr>
       <tr align="left">
         <td>
             <b>Sprint 1 Velocity</b>
@@ -5058,14 +5066,20 @@ Accede al Landing Page de Ayni: https://iot-solutions-sw71-grupo-4.github.io/Hid
       </td>
   </tr>
   <tr align="left">
-    <td colspan="1">
+    <td colspan="2">
       <b>Sprint Goals & User Stories</b>
     </td>
-    <td>
-      Nuestro objetivo es implementar el registro y login de usuarios tanto en web como en móvil. Creemos que esto facilitará el acceso y personalización de la cuenta para los agricultores e investigadores que gestionan sus cultivos en la plataforma. Esto se confirmará cuando los usuarios puedan iniciar sesión con sus credenciales y editar su perfil. 
-      </br>
-      Nuestro objetivo es implementar el control de riego automático y manual. Creemos que esto mejorará la eficiencia en la gestión del agua para los agricultores que usan nuestra aplicación para sus cultivos. Esto se confirmará cuando los usuarios puedan activar el riego desde la app y monitorizar su funcionamiento.
-    </td>
+    <tr align="left">
+      <td>
+        Sprint 2 goal
+      </td>
+      <td>
+        Nuestro objetivo es implementar el registro y login de usuarios tanto en web como en móvil. Creemos que esto facilitará el acceso y personalización de la cuenta para los agricultores e investigadores que gestionan sus cultivos en la plataforma. Esto se confirmará cuando los usuarios puedan iniciar sesión con sus credenciales y editar su perfil. 
+        </br>
+        Nuestro objetivo es implementar el control de riego automático y manual. Creemos que esto mejorará la eficiencia en la gestión del agua para los agricultores que usan nuestra aplicación para sus cultivos. Esto se confirmará cuando los usuarios puedan activar el riego desde la app y monitorizar su funcionamiento.
+      </td>
+    </tr>
+    
   </tr>
   <tr align="left">
     <td>
