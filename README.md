@@ -11,7 +11,7 @@
 
 <br>
 
-<h1 align="center"> TP Report </h1>
+<h1 align="center"> TB2 Report </h1>
 
 <h3 align="center"> Desarrollo de Soluciones IoT - SW53 </h3>
 
@@ -19,7 +19,7 @@
 
 <h3> Startup: HidroBots </h3>
 
-<h3> Product: </h3>
+<h3> Product: Ayni</h3>
 
 <h3> Team Members: </h3>
 
@@ -35,7 +35,7 @@
 
 </div>
 
-<h3 align="center">Septiembre, 2024</h3>
+<h3 align="center">Noviembre, 2024</h3>
 
 <br><br>
 
@@ -45,7 +45,7 @@
 
 El objetivo de esta sección es resumir las modificaciones relevantes que se realizan al informe durante el ciclo de vida del proyecto. Esta sección inicia en una página nueva e incluye un cuadro con la siguiente estructura:
 
-<table>
+<table width="800px" align="center">
   <thead>
     <tr>
       <th>Versión</th>
@@ -75,21 +75,93 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
     </tr>
     <tr>
       <td>0.4</td>
-      <td>10/10/2024</td>
+      <td>02/09/2024</td>
       <td>Leonardo Lopez</td>
       <td>Desarrollo de entrevistas, implementación del Needfinding, desarrollo de Software Architecture, esto incluye el desarrollo del modelo C4.</td>
     </tr>
     <tr>
       <td>0.5</td>
-      <td>18/10/2024</td>
+      <td>04/09/2024</td>
       <td>Fabio Horna</td>
       <td>Desarrollo de entrevistas, y la investigación sobre los competidores y el análisis competitivo y las estrategias frente a los competidores, del mismo modo, apoyo en el desarrollo de Tactical-Level Domain-Driven Design.</td>
     </tr>
     <tr>
       <td>1.0</td>
-      <td>20/10/2024</td>
+      <td>06/09/2024</td>
       <td>Equipo HidroBots</td>
-      <td>Documentación de la solución versión 1.0.</td>
+      <td>Documentación de la solución versión 1.0</td>
+    </tr>
+    <tr>
+      <td>1.1</td>
+      <td>10/09/2024</td>
+      <td>Leonardo Lopez</td>
+      <td>Corrección de TB1</td>
+    </tr>
+    <tr>
+      <td>1.2</td>
+      <td>14/09/2024</td>
+      <td>Diego Defilippi</td>
+      <td>Desarrollo de wireframes y mockups de la aplicación móvil y redacción de reporte</td>
+    </tr>
+    <tr>
+      <td>1.3</td>
+      <td>16/09/2024</td>
+      <td>Fabio Horna</td>
+      <td>Desarrollo de la landing page</td>
+    </tr>
+    <tr>
+      <td>1.4</td>
+      <td>20/09/2024</td>
+      <td>José Ampudia</td>
+      <td>Desarrollo de la primera versión del backend</td>
+    </tr>
+    <tr>
+      <td>1.5</td>
+      <td>24/09/2024</td>
+      <td>Tatiana Paucar</td>
+      <td>Desarrollo de wireframes y mockups de la aplicación web y desarrollo de la primera versión de la aplicación web</td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>25/09/2024</td>
+      <td>Equipo HidroBots</td>
+      <td>Documentación de la solución versión 2.0</td>
+    </tr>
+    <tr>
+      <td>2.1</td>
+      <td>12/10/2024</td>
+      <td>Tatiana Paucar</td>
+      <td>Desarrollo de funcionalidades faltantes de la aplicación web</td>
+    </tr>
+    <tr>
+      <td>2.2</td>
+      <td>16/10/2024</td>
+      <td>Fabiano Horna</td>
+      <td>Configuración inicial del simulador de ESP32 en Wokwi</td>
+    </tr>
+    <tr>
+      <td>2.3</td>
+      <td>26/10/2024</td>
+      <td>Diego Defilippi</td>
+      <td>Desarrollo de la primera versión de la aplicación móvil</td>
+    </tr>
+    <tr>
+      <td>2.4</td>
+      <td>30/10/2024</td>
+      <td>José Ampudia</td>
+      <td>Desarrollo de nuevas funcionalidades del backend</td>
+    </tr>
+    <tr>
+      <td>2.5</td>
+      <td>30/10/2024</td>
+      <td>Leonardo Lopez</td>
+      <td>Desarrollo de nuevas funcionalidades del backend</td>
+    </tr>
+    <tr>
+      <td>3.0</td>
+      <td>02/11/2024</td>
+      <td>Equipo HidroBots</td>
+      <td>Documentación de la solución versión 3.0.</td>
     </tr>
   </tbody>
 </table>
@@ -130,7 +202,7 @@ Gracias a GitHub, se ha podido llevar un control de versiones y colaboración en
 
 La rama "develop" se ha utilizado para la integración de las tareas asignadas a cada miembro del equipo, permitiendo la integración de las tareas de manera ordenada y eficiente. La rama "main" sirvió para presentar la versión final del proyecto.
 
-- **TB1**:
+- **TB2**:
 
 <br><br>
 
