@@ -5850,6 +5850,27 @@ Profile interface
 </div>
 </br>
 
+**Web Services**
+
+Para esta sección, se ha decidido realizar las pruebas con Postman, una herramienta muy robusta y completa que nos permite hacer pruebas de solicitudes HTTP. A continuación, se presentan las pruebas realizadas para el Sprint 2.
+
+ - Sign In (Inicio de sesión): <br>
+
+![sprint2-test-suite-evidence-sign-in](./assets/Backend/sprint-2/testing-suite-evidence/sprint2-test-sign-in.png)
+
+ - Crops (Cultivos): <br>
+
+ ![sprint2-test-suite-evidence-crops](./assets/Backend/sprint-2/testing-suite-evidence/sprint2-test-crops.png)
+
+ ![sprint2-test-suite-evidence-crops-2](./assets/Backend/sprint-2/testing-suite-evidence/sprint2-test-crops-evidence.png)
+
+ - Profiles (Actualizar foto de perfil): <br>
+
+ ![sprint2-test-suite-evidence-profile](./assets/Backend/sprint-2/testing-suite-evidence/sprint2-test-profiles-farmer.png)
+
+  ![sprint2-test-suite-evidence-profile-2](./assets/Backend/sprint-2/testing-suite-evidence/sprint2-test-profiles-farmer-evidence.png)
+
+
 #### 6.2.2.6. Services Documentation for Sprint Review
 #### 6.2.2.7. Software Deployment Evidence for Sprint Review
 #### 6.2.2.8. Team Collaboration Insights during Sprint
