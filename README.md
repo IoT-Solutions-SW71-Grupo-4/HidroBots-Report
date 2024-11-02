@@ -5967,6 +5967,27 @@ A continuación, se muestra la documentación de los servicios de la aplicación
 </div>
 </br>
 
+**Evidencias de los insights del Front**
+</br>
+<div align="center">
+  <img width=800 src="./assets/Insights/sprint2.1_web.png" alt="Insights mobile"/>
+</div>
+</br>
+<div align="center">
+  <img width=800 src="./assets/Insights/sprint2.2_web.png" alt="Insights mobile"/>
+</div>
+</br>
+
+**Evidencias de los insights del Backend**
+</br>
+<div align="center">
+  <img width=800 src="./assets/Insights/sprint2.1_back.png" alt="Insights mobile"/>
+</div>
+</br>
+<div align="center">
+  <img width=800 src="./assets/Insights/sprint2.2_back.png" alt="Insights mobile"/>
+</div>
+</br>
 
 ## 6.3. Validation Interviews.
 
