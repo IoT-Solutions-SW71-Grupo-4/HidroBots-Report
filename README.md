@@ -11,7 +11,7 @@
 
 <br>
 
-<h1 align="center"> TP Report </h1>
+<h1 align="center"> TB2 Report </h1>
 
 <h3 align="center"> Desarrollo de Soluciones IoT - SW53 </h3>
 
@@ -19,7 +19,7 @@
 
 <h3> Startup: HidroBots </h3>
 
-<h3> Product: </h3>
+<h3> Product: Ayni</h3>
 
 <h3> Team Members: </h3>
 
@@ -45,7 +45,7 @@
 
 El objetivo de esta sección es resumir las modificaciones relevantes que se realizan al informe durante el ciclo de vida del proyecto. Esta sección inicia en una página nueva e incluye un cuadro con la siguiente estructura:
 
-<table>
+<table width="800px" align="center">
   <thead>
     <tr>
       <th>Versión</th>
@@ -75,21 +75,93 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
     </tr>
     <tr>
       <td>0.4</td>
-      <td>10/10/2024</td>
+      <td>02/09/2024</td>
       <td>Leonardo Lopez</td>
       <td>Desarrollo de entrevistas, implementación del Needfinding, desarrollo de Software Architecture, esto incluye el desarrollo del modelo C4.</td>
     </tr>
     <tr>
       <td>0.5</td>
-      <td>18/10/2024</td>
+      <td>04/09/2024</td>
       <td>Fabio Horna</td>
       <td>Desarrollo de entrevistas, y la investigación sobre los competidores y el análisis competitivo y las estrategias frente a los competidores, del mismo modo, apoyo en el desarrollo de Tactical-Level Domain-Driven Design.</td>
     </tr>
     <tr>
       <td>1.0</td>
-      <td>20/10/2024</td>
+      <td>06/09/2024</td>
       <td>Equipo HidroBots</td>
-      <td>Documentación de la solución versión 1.0.</td>
+      <td>Documentación de la solución versión 1.0</td>
+    </tr>
+    <tr>
+      <td>1.1</td>
+      <td>10/09/2024</td>
+      <td>Leonardo Lopez</td>
+      <td>Corrección de TB1</td>
+    </tr>
+    <tr>
+      <td>1.2</td>
+      <td>14/09/2024</td>
+      <td>Diego Defilippi</td>
+      <td>Desarrollo de wireframes y mockups de la aplicación móvil y redacción de reporte</td>
+    </tr>
+    <tr>
+      <td>1.3</td>
+      <td>16/09/2024</td>
+      <td>Fabio Horna</td>
+      <td>Desarrollo de la landing page</td>
+    </tr>
+    <tr>
+      <td>1.4</td>
+      <td>20/09/2024</td>
+      <td>José Ampudia</td>
+      <td>Desarrollo de la primera versión del backend</td>
+    </tr>
+    <tr>
+      <td>1.5</td>
+      <td>24/09/2024</td>
+      <td>Tatiana Paucar</td>
+      <td>Desarrollo de wireframes y mockups de la aplicación web y desarrollo de la primera versión de la aplicación web</td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>25/09/2024</td>
+      <td>Equipo HidroBots</td>
+      <td>Documentación de la solución versión 2.0</td>
+    </tr>
+    <tr>
+      <td>2.1</td>
+      <td>12/10/2024</td>
+      <td>Tatiana Paucar</td>
+      <td>Desarrollo de funcionalidades faltantes de la aplicación web</td>
+    </tr>
+    <tr>
+      <td>2.2</td>
+      <td>16/10/2024</td>
+      <td>Fabiano Horna</td>
+      <td>Configuración inicial del simulador de ESP32 en Wokwi</td>
+    </tr>
+    <tr>
+      <td>2.3</td>
+      <td>26/10/2024</td>
+      <td>Diego Defilippi</td>
+      <td>Desarrollo de la primera versión de la aplicación móvil</td>
+    </tr>
+    <tr>
+      <td>2.4</td>
+      <td>30/10/2024</td>
+      <td>José Ampudia</td>
+      <td>Desarrollo de nuevas funcionalidades del backend</td>
+    </tr>
+    <tr>
+      <td>2.5</td>
+      <td>30/10/2024</td>
+      <td>Leonardo Lopez</td>
+      <td>Desarrollo de nuevas funcionalidades del backend</td>
+    </tr>
+    <tr>
+      <td>3.0</td>
+      <td>02/11/2024</td>
+      <td>Equipo HidroBots</td>
+      <td>Documentación de la solución versión 3.0.</td>
     </tr>
   </tbody>
 </table>
@@ -130,7 +202,19 @@ Gracias a GitHub, se ha podido llevar un control de versiones y colaboración en
 
 La rama "develop" se ha utilizado para la integración de las tareas asignadas a cada miembro del equipo, permitiendo la integración de las tareas de manera ordenada y eficiente. La rama "main" sirvió para presentar la versión final del proyecto.
 
-- **TB1**:
+**TB2**:
+
+Para la entrega del TB2 se designó tareas a cada integrente, el cual se podrá visualizar a continuación:
+
+| Miembro del Equipo | Tarea Asignada |
+| :---: | :---: |
+| Diego Defilippi | Desarrollo de la primera versión de la aplicación móvil y documentación |
+| Jose Ampudia | Desarrollo de la segunda versión del backend y documentación |
+| Tatiana Paucar | Desarrollo de la segunda versión de la segunda versión de la aplicación web y documentación. |
+| Leonardo Lopez | Colaboración en el desarrollo del backend |
+| Fabio Horna | Configuración inicial del ESP32 en el simulador Wokwi |
+
+Es importante mencionar que durante la elaboración del informe se realizaron commits respectivos a cada tarea asignada, con el fin de mantener un control de versiones y colaboración en tiempo real.
 
 <br><br>
 
@@ -291,21 +375,36 @@ La rama "develop" se ha utilizado para la integración de las tareas asignadas a
         <strong>Diego Defilippi</strong><br>
         <strong>TB1:</strong><br>
         Lideré la distribución de tareas, me aseguré de que cada miembro del equipo comprendiera sus responsabilidades. Organizamos reuniones periódicas para revisar avances y ajustar el plan según los resultados obtenidos. Mi función principal fue implementar los bounded context canvases y el apoyo continuo para el desarrollo del Event Storming.<br><br>
+        <strong>TB2:</strong><br>
+        Organización de las tareas en base a user stories y organización de reuniones periódicas para revisar avances.<br><br>
         <strong>Jose Ampudia</strong><br>
         <strong>TB1:</strong><br>
         Propuse el avance conjunto para el desarrollo de los puntos críticos del desarrollo del informe, tales como el capítulo 4, el desarrollo del Event Storming, las cuales se desarrolló con éxito.<br><br>
+        <strong>TB2:</strong><br>
+        Participación activa en el desarrollo del backend de la aplicación. Me encargué de implementar los métodos y endpoints necesarios para que las aplicaciones móviles y web pudieran consumir los servicios, habilitando funcionalidades como la creación de usuarios, gestión de cultivos, actualización de perfiles, entre otros. Este trabajo permitió una integración eficaz entre el backend y los demás componentes del sistema.<br><br>
         <strong>Tatiana Paucar</strong><br>
         <strong>TB1:</strong><br>
         Fomenté la participación activa lo que ayudó en la toma de decisiones clave para el proyecto. Del mismo modo para el desarrollo óptimo de los bounded contexts, los cuales son fundamentales para dividir las funcionalidades principales de la aplicación por módulos.<br><br>
+        <strong>TB2:</strong><br>
+        Durante el sprint 2, participé activamente en el equipo, centrándome en el desarrollo del frontend. Mi responsabilidad fue asegurar que las interfaces fueran funcionales, atractivas y alineadas con los requisitos de diseño establecidos. Colaboré de cerca con los demás miembros para integrar mi trabajo de frontend con el backend y otras funcionalidades, logrando una sincronización eficiente en el avance del proyecto.<br><br>
         <strong>Leonardo Lopez</strong><br>
         <strong>TB1:</strong><br>
         Propuse un sistema de trabajo colaborativo basado en las fortalezas del equipo y medió en la resolución de conflictos. Además, me centré en implementar el modelo C4, lo cual es fundamental para tener una vista de alto nivel sobre el funcionamiento de la aplicación.<br><br>
+        <strong>TB2:</strong><br>
+        Durante el sprint 2 organiza las diferentes actividades y retos que se abarcaron en este entregable, monitorenado las diversas implemataciones de servicios y creación de interfaces. Logrando alcanzar el objetivo de la entrega.<br><br>
         <strong>Fabio Horna</strong><br>
         <strong>TB1:</strong><br>
         Coordiné el uso de herramientas colaborativas y promoví la comunicación constante en el equipo. Del mismo modo, me encargué de realizar el Tactical-Level Domain-Driven Design lo que nos permite tener una visión más clara de la estructura de la aplicación y de cómo se relacionan los diferentes módulos.<br>
+        <strong>TB2:</strong><br>
+        Durante el sprint 2, participé activamente en el equipo, enfocado en finalizar la landing page y en asegurar que todas las validaciones de usuario funcionaran correctamente. Integré mi trabajo con el resto del proyecto, contribuyendo a un avance coordinado y efectivo.
+        <br>
       </td>
       <td>
+        <strong>TB1:</strong><br>
         El liderazgo conjunto permitió la distribución adecuada de tareas, facilitando la consecución de los objetivos del proyecto de manera efectiva. La correcta supervisión, mediación y comunicación aseguraron que todos los miembros estuvieran alineados y motivados.
+        <br><br>
+        <strong>TB2:</strong><br>
+        Se logró el desarrollo del Sprint 2 debido a una efectiva organización de tareas y user stories en base a las habilidades de cada miembro del equipo.
       </td>
     </tr>
     <tr>
@@ -314,21 +413,36 @@ La rama "develop" se ha utilizado para la integración de las tareas asignadas a
         <strong>Diego Defilippi</strong><br>
         <strong>TB1:</strong><br>
         Establecí metas claras y coordiné la planificación de tareas, asegurando que cada fase del proyecto tuviera objetivos alcanzables. Es por ello que delegamos responsabilidades para la correcta implementación de la solución.<br><br>
+        <strong>TB2:</strong><br>
+        Se establecieron objetivos para el Sprint 2 y se desarrollo la primera versión de la aplicación móvil.<br><br>
         <strong>Jose Ampudia</strong><br>
         <strong>TB1:</strong><br>
         Supervisé el cumplimiento de los plazos y fomentó un entorno inclusivo al involucrar a todos los miembros en la revisión de avances, lo que nos permitió corregir errores y mejorar características de nuestra solución.<br><br>
+        <strong>TB2:</strong><br>
+        Involucré a cada miembro del equipo en las revisiones de avances, lo que no solo permitió corregir errores a tiempo, sino también fortalecer nuestro trabajo conjunto. Además, estuve pendiente de los plazos y objetivos, asegurándome de que pudiéramos alcanzar nuestras metas sin perder el ritmo, pero siempre manteniendo un espacio abierto para la colaboración y el aprendizaje mutuo.<br><br>
         <strong>Tatiana Paucar</strong><br>
         <strong>TB1:</strong><br>
         Facilité el uso de herramientas colaborativas y organicé sesiones para revisar el progreso del equipo, tales como reuniones en Discord, además de diseñar modelos de dominio y de arquitectura que permitieron una mejor comprensión de la solución.<br><br>
         <strong>Leonardo Lopez</strong><br>
+        <strong>TB2:</strong><br>
+        Trabajé en constante comunicación con el equipo, atendiendo a los feedbacks para realizar ajustes y mejorar la experiencia de usuario. Me mantuve alineado con las metas del equipo para cumplir con los entregables y asegurar los objetivos del sprint.<br><br>
+        <strong>Leonardo Lopez</strong><br>
         <strong>TB1:</strong><br>
         Me encargué de la gestión de recursos y del seguimiento de los avances de cada miembro del equipo, asegurando que se cumplieran los plazos. Es por ello, que para la implementación de modelo C4, se tuvo que coordinar con los miembros del equipo para establecer una visión clara de la arquitectura.<br><br>
+        <strong>TB2:</strong><br>
+        El trabajo realizado fue con efectiva comunicación, planificando asi las metricas que se alcanzarian en este entregabla, de igual forma se cumplieron los objetivos trazados para la entrega del sprint 2<br><br>
         <strong>Fabio Horna</strong><br>
         <strong>TB1:</strong><br>
         Promoví la cohesión del equipo y facilitó la toma de decisiones consensuada para cumplir con los objetivos establecidos. Del mismo modo, se realizaron entrevistas y se recopiló información para el desarrollo de la solución.<br>
+        <strong>TB2:</strong><br>
+        Se mantuvo una comunicación continua con el equipo, aplicando los comentarios recibidos para realizar ajustes y mejorar la experiencia del usuario. El enfoque en los objetivos del sprint permitió cumplir con los entregables, manteniendo la calidad y alineación con los requisitos del proyecto en cada iteración.<br>
       </td>
       <td>
+        <strong>TB1:</strong><br>
         El ambiente inclusivo, la colaboración y la correcta planificación permitieron al equipo cumplir con los objetivos del proyecto de manera efectiva, optimizando los recursos y maximizando la eficiencia del trabajo en equipo. La cohesión y la revisión constante aseguraron que todos los miembros estuvieran alineados con los objetivos finales.
+        <br><br>
+        <strong>TB2:</strong><br>
+        En el presente Sprint 2, se logró el desarrollo de la segunda versión de la aplicación web y el backend; la primera versión de la aplicación móvil y la configuración inicial del ESP32 en el simulador Wokwi.
       </td>
     </tr>
   </tbody>
