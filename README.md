@@ -6060,6 +6060,46 @@ Profile interface
 </div>
 </br>
 
+**Aplicación móvil**
+
+Login interface
+
+<div align="center">
+  <img width=800 src="./assets/FrontEnt/Login.png" alt="Profile interface"/>
+</div>
+</br>
+
+Register Interface
+
+<div align="center">
+  <img width=800 src="./assets/FrontEnt/Register.png" alt="Profile interface"/>
+</div>
+</br>
+
+Profile Interface
+
+
+<div align="center">
+  <img width=800 src="./assets/FrontEnt/Profile.png" alt="Profile interface"/>
+</div>
+</br>
+
+<div align="center">
+  <img width=800 src="./assets/FrontEnt/ProfileForm.png" alt="Profile interface"/>
+</div>
+</br>
+
+<div align="center">
+  <img width=800 src="./assets/FrontEnt/ProfileUpdate.png" alt="Profile interface"/>
+</div>
+</br>
+
+Crop Integration with backend
+
+<div align="center">
+  <img width=800 src="./assets/FrontEnt/CropForm.png" alt="Profile interface"/>
+</div>
+</br>
 
 #### 6.2.2.6. Services Documentation for Sprint Review
 
