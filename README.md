@@ -35,7 +35,7 @@
 
 </div>
 
-<h3 align="center">Septiembre, 2024</h3>
+<h3 align="center">Noviembre, 2024</h3>
 
 <br><br>
 
@@ -246,6 +246,15 @@ La rama "develop" se ha utilizado para la integración de las tareas asignadas a
     - [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
     - [6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
     - [6.2.1.8. Team Collaboration Insights during Sprint](#6218-team-collaboration-insights-during-sprint)
+  - [6.2.2. Sprint 2](#622-sprint-2)
+    - [6.2.2.1. Sprint Planning 2](#6221-sprint-plannning-2)
+    - [6.2.2.2. Sprint Backlog 2](#6222-sprint-backlog-2)
+    - [6.2.2.3. Development Evidence for Sprint Review](#6223-development-evidence-for-sprint-review)
+    - [6.2.2.4. Testing Suite Evidence for Sprint Review](#6224-testing-suite-for-sprint-review)
+    - [6.2.2.5. Execution Evidence for Sprint Review](#6225-execution-evidence-for-sprint-review)
+    - [6.2.2.6. Services Documentation Evidence for Sprint Review](#6226-services-documentation-for-sprint-review)
+    - [6.2.2.7. Software Deployment Evidence for Sprint Review](#6227-software-deployment-evidence-for-sprint-review)
+    - [6.2.2.8. Team Collaboration Insights during Sprint](#6228-team-collaboration-insights-during-sprint)
 - [6.3. Validation Interviews](#63-validation-interviews)
   - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
   - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
@@ -4366,6 +4375,14 @@ Para asegurar un avance constante en el proyecto, se considera crucial perfeccio
             <b>Sprint Goal & User Stories</b>
         </td>
     </tr>
+    <tr align="left">
+      <td>
+        Sprint 1 goal
+      </td>
+      <td>
+        Nuestro objetivo es consolidar la funcionalidad inicial de la plataforma. Creemos que esto proporcionará una experiencia de usuario básica pero funcional para los clientes y servirá de base para el desarrollo futuro de características. Esto se confirmará cuando la Landing Page esté completamente operativa, la aplicación web sea accesible con funcionalidad básica y el API REST permita las primeras integraciones clave.
+      </td>
+    </tr>
       <tr align="left">
         <td>
             <b>Sprint 1 Velocity</b>
@@ -4921,19 +4938,1102 @@ Accede al Landing Page de Ayni: https://iot-solutions-sw71-grupo-4.github.io/Hid
 
 #### 6.2.1.8. Team Collaboration Insights during Sprint.
 
-#### sprint 1:
-##### -report: Evidencias de los insights del reporte
+##### Evidencias de los insights del reporte
  ![TS07](assets/Insights/sprint1.png)
  ![TS07](assets/Insights/sprint1.1.png)
 
-##### -frontend: Evidencias de los insights del frontend
+##### Evidencias de los insights del frontend
   ![TS07](assets/Insights/sprint1.2.png)
   ![TS07](assets/Insights/sprint1.2.2.png)
 
-  ##### -backend: Evidencias de los insights del backend
-   ![TS07](assets/Backend/i_backend.jpg)
+##### Evidencias de los insights del backend
+  ![TS07](assets/Backend/i_backend.jpg)
   ![TS07](assets/Backend/i_.jpg)
  
+### 6.2.2. Sprint 2
+
+#### 6.2.2.1. Sprint Plannning 2
+
+<table align="center"  border="1" width="90%" style="text-align:center;">
+  <tr align="left">
+    <td>
+      <b>Sprint #</b>
+    </td>
+    <td>
+      <b>Sprint 2</b>           
+    </td>
+  </tr>
+  <tr align="left">
+    <td colspan="2">
+      <b>Sprint Planning Background</b>
+    </td>
+  </tr>
+  <tr align="left">
+    <td>
+      <b>Date</b>
+    </td>
+    <td>
+        07/10/24         
+    </td>
+  </tr>
+      <tr align="left">
+      <td>
+          <b>Time</b>
+      </td>
+      <td>
+          16:00         
+      </td>
+  </tr>
+      <tr align="left">
+      <td>
+          <b>Location</b>
+      </td>
+      <td>
+          Modalidad remota por Discord      
+      </td>
+  </tr>
+    </tr>
+      <tr align="left">
+      <td>
+          <b>Prepared By</b>
+      </td>
+      <td>
+          Integrantes de Hidrobots     
+      </td>
+  </tr>
+  </tr>
+      <tr align="left">
+      <td>
+          <b>Attendess (to planning meeting)</b>
+      </td>
+      <td>
+          - Ampudia Flores, José Carlos Isaac <br/>
+          - Defilippi Santillán, Diego <br/>
+          - Horna Silva, Fabio Ernesto <br/>
+          - Lopez Huarcaya, Leonardo Paul <br/>
+          - Paucar De La Cruz, Tatiana Medalith<br/>
+      </td>
+  </tr>
+    </tr>
+      <tr align="left">
+      <td>
+          <b>Sprint n - 2</b>
+          <b>Review Summary</b>
+      </td>
+      <td>
+          Durante el Sprint 2, el equipo completó con éxito todas las tareas planificadas. Las principales funcionalidades implementadas incluyen el registro e inicio de sesión de usuarios, visualización y edición de perfil, y la gestión de cultivos en la aplicación móvil y web.
+          </br>
+          Logros del sprint:
+          <ul>
+            <li>Desarrollar pantallas de Registro y Login en web y móvil</li>
+            <li>Implementar interfaces de visualización y edición de perfil, incluyendo actualización de imagen.</li>
+            <li>Desarrollar funcionalidades de gestión de cultivos.</li>
+            <li>Implementar control de riego (manual y automático) en la aplicación móvil.</li>
+            <li>Configurar sensores en Wokwi para monitoreo de parámetros de cultivo.</li>
+          </ul>
+      </td>
+  </tr>
+  <tr align="left">
+      <td>
+          <b>Sprint n - 2</b>
+          <b>Retrospective Summary</b>
+      </td>
+      <td>
+        Aspectos positivos
+        <ul>
+          <li>
+            El equipo logró completar todas las tareas en los tiempos estimados.
+          </li>
+          <li>
+            La planificación de tareas en este sprint se organizó de forma eficiente, lo que contribuyó al flujo de trabajo constante.
+          </li>
+        </ul>
+        Áreas de mejora
+        <ul>
+          <li>
+            Se observó que la integración con el backend podría beneficiarse de una mayor automatización en las pruebas, para reducir tiempo y errores en futuras implementaciones.
+          </li>
+        </ul>
+        Acciones a implementar
+        <ul>
+          <li>
+            Mejorar la estimación de tareas de diseño, destinando tiempo adicional para revisiones de usabilidad y aspectos visuales.
+          </li>
+          <li>
+            Continuar fomentando la comunicación constante, aprovechando las herramientas de seguimiento y notificación que permitieron la gestión exitosa del sprint.
+          </li>
+        </ul>
+      </td>
+  </tr>
+  <tr align="left">
+    <td colspan="2">
+      <b>Sprint Goals & User Stories</b>
+    </td>
+    <tr align="left">
+      <td>
+        Sprint 2 goal
+      </td>
+      <td>
+        Nuestro objetivo es implementar el registro y login de usuarios tanto en web como en móvil. Creemos que esto facilitará el acceso y personalización de la cuenta para los agricultores e investigadores que gestionan sus cultivos en la plataforma. Esto se confirmará cuando los usuarios puedan iniciar sesión con sus credenciales y editar su perfil. 
+        </br>
+        Nuestro objetivo es implementar el control de riego automático y manual. Creemos que esto mejorará la eficiencia en la gestión del agua para los agricultores que usan nuestra aplicación para sus cultivos. Esto se confirmará cuando los usuarios puedan activar el riego desde la app y monitorizar su funcionamiento.
+      </td>
+    </tr>
+    
+  </tr>
+  <tr align="left">
+    <td>
+      <b>Sprint 2 Velocity</b>
+    </td>
+    <td>
+      24
+    </td>
+  </tr>
+  <tr align="left">
+    <td>
+      <b>Sum of Story Points</b>
+    </td>
+    <td>
+      24
+    </td>
+  </tr>
+</table>
+</br>
+
+#### 6.2.2.2. Sprint Backlog 2
+
+En esta sección se especifican los detalles del Sprint Backlog, que es una lista de tareas que se han realizado para completar el Sprint.
+
+<table align="center" border="1" width="90%" style="text-align:center">
+  <tr>
+    <td colspan="1"><b>Sprint #</b></td>
+    <td colspan="7"><b>Sprint 2</b></td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>User Story</b></td>
+    <td colspan="6"><b>Work-Item / Task</b></td>
+  </tr>
+  <tr>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Description</b></td>
+    <td><b>Estimation (Hours)</b></td>
+    <td><b>Assigned To</b></td>
+    <td><b>Status (To-do / In-Process / To-Review / Done)</b></td>
+  </tr>
+
+<tr>
+  <td rowspan="3">US1</td>
+  <td rowspan="3">Registro de Usuario</td>
+  <td>T1</td>
+  <td>Diseño de Interfaz de Registro (App Móvil)</td>
+  <td>Desarrollo de la interfaz de usuario para la pantalla de registro en la aplicación móvil.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>T2</td>
+  <td>Desarrollo de Interfaz de Registro (App Web)</td>
+  <td>Creación de la interfaz de usuario para el formulario de registro en la aplicación web.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>T3</td>
+  <td>Integración de Registro con Backend (App Web)</td>
+  <td>Integración del formulario de registro de la aplicación web con el backend.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td rowspan="3">US2</td>
+  <td rowspan="3">Inicio de Sesión</td>
+  <td>T4</td>
+  <td>Diseño de Interfaz de Inicio de Sesión (App Móvil)</td>
+  <td>Desarrollo de la interfaz de usuario para la pantalla de inicio de sesión en la aplicación móvil.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T5</td>
+  <td>Desarrollo de Interfaz de Inicio de Sesión (App Web)</td>
+  <td>Creación de la interfaz de usuario para el formulario de inicio de sesión en la aplicación web.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T6</td>
+  <td>Integración de Inicio de Sesión con Backend (App Web)</td>
+  <td>Integración del formulario de inicio de sesión de la aplicación web con el backend.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td rowspan="4">US6</td>
+  <td rowspan="4">Visualización de Perfil</td>
+  <td>T7</td>
+  <td>Creación de Endpoint para Visualización de Perfil</td>
+  <td>Implementación del endpoint en el backend para obtener los datos del perfil de usuario.</td>
+  <td>2hr</td>
+  <td>José Ampudia</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T8</td>
+  <td>Diseño de Interfaz para Visualización de Perfil (App Móvil)</td>
+  <td>Desarrollo de la pantalla de visualización del perfil en la aplicación móvil.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T9</td>
+  <td>Diseño de Interfaz para Visualización de Perfil (App Web)</td>
+  <td>Desarrollo de la pantalla de visualización de perfil en la aplicación web.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T10</td>
+  <td>Integración de Visualización de Perfil con Backend (App Web)</td>
+  <td>Integración de la pantalla de visualización de perfil en la aplicación web con el backend.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td rowspan="4">US7</td>
+  <td rowspan="4">Edición de Información de Perfil</td>
+  <td>T11</td>
+  <td>Creación de Endpoint para Edición de Perfil</td>
+  <td>Implementación del endpoint en el backend para editar la información del perfil de usuario.</td>
+  <td>2hr</td>
+  <td>José Ampudia</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T12</td>
+  <td>Diseño de Interfaz para Edición de Perfil (App Móvil)</td>
+  <td>Desarrollo de la pantalla para la edición de información del perfil en la aplicación móvil.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T13</td>
+  <td>Diseño de Interfaz para Edición de Perfil (App Web)</td>
+  <td>Desarrollo de la pantalla de edición de perfil en la aplicación web.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T14</td>
+  <td>Integración de Edición de Perfil con Backend (App Web)</td>
+  <td>Integración de la pantalla de edición de perfil en la aplicación web con el backend.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td rowspan="4">US8</td>
+  <td rowspan="4">Actualización de Imagen de Perfil</td>
+  <td>T15</td>
+  <td>Creación de Endpoint para Actualización de Imagen de Perfil</td>
+  <td>Implementación del endpoint en el backend para actualizar la imagen de perfil de usuario.</td>
+  <td>2hr</td>
+  <td>José Ampudia</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T16</td>
+  <td>Diseño de Interfaz para Actualización de Imagen de Perfil (App Móvil)</td>
+  <td>Desarrollo de la pantalla para actualizar la imagen de perfil en la aplicación móvil.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T17</td>
+  <td>Diseño de Interfaz para Actualización de Imagen de Perfil (App Web)</td>
+  <td>Desarrollo de la pantalla para actualizar la imagen de perfil en la aplicación web.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T18</td>
+  <td>Integración de Actualización de Imagen de Perfil con Backend (App Web)</td>
+  <td>Integración de la pantalla para actualizar la imagen de perfil en la aplicación web con el backend.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td rowspan="1">US21</td>
+  <td rowspan="1">Visualización del Resumen en el Dashboard</td>
+  <td>T19</td>
+  <td>Diseño de Interfaz de Dashboard (App Móvil)</td>
+  <td>Desarrollo de la interfaz de usuario para visualizar el resumen en el dashboard de la aplicación móvil.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td rowspan="2">US22</td>
+  <td rowspan="2">Gestión de Cultivos</td>
+  <td>T20</td>
+  <td>Diseño de Interfaz para Gestión de Cultivos (App Móvil)</td>
+  <td>Desarrollo de la interfaz en la aplicación móvil para permitir la creación, edición y eliminación de cultivos.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T21</td>
+  <td>Integración de Gestión de Cultivos con Backend (App Web)</td>
+  <td>Integración de la funcionalidad de gestión de cultivos (creación, edición y eliminación) con el backend en la aplicación web.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td rowspan="1">US13</td>
+  <td rowspan="1">Control de Riego Automático</td>
+  <td>T22</td>
+  <td>Diseño de Interfaz para Control de Riego Automático (App Móvil)</td>
+  <td>Desarrollo de la pantalla para el control automático de riego en la aplicación móvil.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+  </tr>
+
+<tr>
+  <td rowspan="1">US14</td>
+  <td rowspan="1">Control de Riego Manual</td>
+  <td>T23</td>
+  <td>Diseño de Interfaz para Control de Riego Manual (App Móvil)</td>
+  <td>Desarrollo de la pantalla para el control manual de riego en la aplicación móvil.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td rowspan="1">US15</td>
+  <td rowspan="1">Consulta del Historial de Riego</td>
+  <td>T24</td>
+  <td>Diseño de Interfaz para Consulta del Historial de Riego (App Móvil)</td>
+  <td>Desarrollo de la pantalla para la consulta del historial de riego en la aplicación móvil.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td rowspan="1">US16</td>
+  <td rowspan="1">Configuración de Wokwi para Dispositivos y Sensores</td>
+  <td>T25</td>
+  <td>Configuración de Sensores en Wokwi</td>
+  <td>Configuración de sensores en Wokwi para monitoreo de parámetros de cultivo.</td>
+  <td>3hr</td>
+  <td>Fabio Horna</td>
+  <td>Done</td>
+</tr>
+
+</table>
+
+#### 6.2.2.3. Development Evidence for Sprint Review
+
+Se presentan los commits realizados en el repositorio de GitHub, en el cual se puede observar el trabajo realizado por cada integrante del equipo.
+
+- Repositorio Frontend:
+  https://github.com/IoT-Solutions-SW71-Grupo-4/AyniFronted.git
+
+<table align="left" border="1" width="100%">
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit ID</th>
+    <th>Author</th>
+    <th>Message</th>
+    <th>Time ago</th>
+  </tr>
+  <tr>
+    <td rowspan="20">Frontend</td>
+    <td>feat/auth</td>
+    <td>9d083fa8b8b7fa56be3e9c9ecfff2022acb11cdb</td>
+    <td>TMedalith</td>
+    <td>feat: Add authentication section component</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>111b85c15a0a590ff02442a265b20d2a7f2f6008</td>
+    <td>TMedalith</td>
+    <td>feat: Add sign-in and sign-up model classes</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>997237c03d201303acd5fb7958e42e3948299c4f</td>
+    <td>TMedalith</td>
+    <td>feat: Add sign-in component</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>7faf9d68be391f5581c7244d27392181d3847e5f</td>
+    <td>TMedalith</td>
+    <td>feat: Add sign-up component</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>b302f226f216c0017c47903ffee2dd35ae00f9b5</td>
+    <td>TMedalith</td>
+    <td>feat: Add authentication guard and interceptor</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>6616117f5c1d72bae2af3c6edb8222d2165e17ee</td>
+    <td>TMedalith</td>
+    <td>feat: Add base service for HTTP requests</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>5c6bcfa5378a7c66ebbbbb174f18718acf6b932f</td>
+    <td>TMedalith</td>
+    <td>feat: Add environment files for development and production</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>eb9daba5c3eab407edcff2136380e9c184a1a4af</td>
+    <td>TMedalith</td>
+    <td>fix: Improve design for login and register</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>ab66ba7b44157c6ed243b0dd2d128053d212baff</td>
+    <td>TMedalith</td>
+    <td>feat: Add sidebar component</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>bc8d9ef6a88e04c1839b8d003743807cce86801d</td>
+    <td>TMedalith</td>
+    <td>feat: Add dashboard component</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>d701a9cd271dbfad223e5966b8f0d4e03c34bbd6</td>
+    <td>TMedalith</td>
+    <td>feat: Add header component</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>9a07dcce792716fe7c4816fc87c4cb78b60cda93</td>
+    <td>TMedalith</td>
+    <td>feat: Add layout component</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>62e1f4278e7ae40385eed372aa64b10bc87c5228</td>
+    <td>TMedalith</td>
+    <td>feat: Add device-related components and models</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>bedc9290eda4fbd76f0c6019507ba3332d733283</td>
+    <td>TMedalith</td>
+    <td>refactor: Update app.config.ts and app.routes.ts</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>4eac5903315729c532bb59580f4521cea205928d</td>
+    <td>TMedalith</td>
+    <td>refactor: Update dependencies in package.json</td>
+    <td>20/10/2024</td>
+  </tr>
+  <tr>
+  <td>feat/crops</td>
+  <td>07c5e21e718148a38073646fdea73addff902023</td>
+  <td>TMedalith</td>
+  <td>feat: Add crop card component and styles</td>
+  <td>26/10/2024</td>
+</tr>
+<tr>
+  <td>feat/crops</td>
+  <td>6e1ea13aeed9af9adc0f99c67e3b43e73c6f2966</td>
+  <td>TMedalith</td>
+  <td>feat: Add crop service and tests</td>
+  <td>26/10/2024</td>
+</tr>
+<tr>
+  <td>feat/crops</td>
+  <td>745dd5d676b09c996d792d526454742d32974e72</td>
+  <td>TMedalith</td>
+  <td>feat: Add Crop model</td>
+  <td>26/10/2024</td>
+</tr>
+<tr>
+  <td>feat/crops</td>
+  <td>72d39cb9c2a16acd78895182c78907ec7223930a</td>
+  <td>TMedalith</td>
+  <td>refactor: Update dashboard component styles</td>
+  <td>26/10/2024</td>
+</tr>
+<tr>
+  <td>feat/crops</td>
+  <td>c7a1108c8d1bddec73c71bb78b70bc7320a5bb67</td>
+  <td>TMedalith</td>
+  <td>feat: Generate components for routes</td>
+  <td>26/10/2024</td>
+</tr>
+
+</table>
+
+- Repositorio Backend:
+  https://github.com/IoT-Solutions-SW71-Grupo-4/HidroBots-Backend.git
+
+- Repositorio Mobile:
+  https://github.com/IoT-Solutions-SW71-Grupo-4/Ayni-MobileApplication
+
+</br>
+
+<table  align="left" border="1" width="100%">
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit ID</th>
+    <th>Author</th>
+    <th>Message</th>
+    <th>Time ago</th>
+  </tr>
+  <tr>
+    <td rowspan=40>Ayni-MobileApplication</td>
+    <td>Main</td>
+    <td>67ff2b5</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add app structure</td>
+    <td>08/10/24</td>
+  </tr>
+  <tr>
+    <td rowspan=11>feature/user-Authentication</td>
+    <td>5c1ee4c</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add google fonts and assets</td>
+    <td>11/10/24</td>
+  </tr>
+  <tr>
+    <td>bb099dd</td>
+    <td>Diego Defilippi</td>
+    <td>fix: fix assets route in conf</td>
+    <td>11/10/24</td>
+  </tr>
+  <tr>
+    <td>8eb8b31</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add colors constants</td>
+    <td>11/10/24</td>
+  </tr>
+  <tr>
+    <td>3ab603c</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add login view</td>
+    <td>11/10/24</td>
+  </tr>
+  <tr>
+    <td>06da9d6</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add padding to icon</td>
+    <td>11/10/24</td>
+  </tr>
+  <tr>
+    <td>695262b</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add register view</td>
+    <td>11/10/24</td>
+  </tr>
+  <tr>
+    <td>baa900e</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add GoRoute packages</td>
+    <td>12/10/24</td>
+  </tr>
+  <tr>
+    <td>a96c972</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add routing in authentication</td>
+    <td>12/10/24</td>
+  </tr>
+  <tr>
+    <td>a32b938</td>
+    <td>Diego Defilippi</td>
+    <td>styles(iam): Add styles and colors to text fields</td>
+    <td>22/10/24</td>
+  </tr>
+  <tr>
+    <td>9451ff5</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add checkbox widget</td>
+    <td>22/10/24</td>
+  </tr>
+  <tr>
+    <td>d844062</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add input validation in auth</td>
+    <td>22/10/24</td>
+  </tr>
+  <tr>
+    <td rowspan=12>feature/home-view-implementation</td>
+    <td>8b8f6b9</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add weather icons</td>
+    <td>23/10/24</td>
+  </tr>
+  <tr>
+    <td>c5d0893</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add crop icon</td>
+    <td>23/10/24</td>
+  </tr>
+  <tr>
+    <td>a0b1389</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add import assets in pubspec</td>
+    <td>23/10/24</td>
+  </tr>
+  <tr>
+    <td>161b5c4</td>
+    <td>Diego Defilippi</td>
+    <td>feat(home): Add wweather widget</td>
+    <td>23/10/24</td>
+  </tr>
+  <tr>
+    <td>1f6a56b</td>
+    <td>Diego Defilippi</td>
+    <td>feat(home): Add crops list widget</td>
+    <td>23/10/24</td>
+  </tr>
+  <tr>
+    <td>0cbc276</td>
+    <td>Diego Defilippi</td>
+    <td>feat(home): Add home view</td>
+    <td>23/10/24</td>
+  </tr>
+  <tr>
+    <td>0973baa</td>
+    <td>Diego Defilippi</td>
+    <td>ref(shared): Refactor input decoration</td>
+    <td>24/10/24</td>
+  </tr>
+  <tr>
+    <td>eb7f2d6</td>
+    <td>Diego Defilippi</td>
+    <td>feat(shared): Add generic input fields</td>
+    <td>24/10/24</td>
+  </tr>
+  <tr>
+    <td>2c4227f</td>
+    <td>Diego Defilippi</td>
+    <td>feat(home): Add modal to add crop</td>
+    <td>24/10/24</td>
+  </tr>
+  <tr>
+    <td>1de1e06</td>
+    <td>Diego Defilippi</td>
+    <td>styles(home): Added border radius to modal</td>
+    <td>24/10/24</td>
+  </tr>
+  <tr>
+    <td>7509af2</td>
+    <td>Diego Defilippi</td>
+    <td>ref(home): Refactor home widgets</td>
+    <td>24/10/24</td>
+  </tr>
+  <tr>
+    <td>a1f3454</td>
+    <td>Diego Defilippi</td>
+    <td>feat(shared): Add const to TextInputType</td>
+    <td>24/10/24</td>
+  </tr>
+  <tr>
+    <td rowspan=2>feature/profile-view-implementation</td>
+    <td>50a61e6</td>
+    <td>Diego Defilippi</td>
+    <td>feat(profile): Add profile view</td>
+    <td>24/10/24</td>
+  </tr>
+  <tr>
+    <td>2bc9e2d</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add routing between home and profile</td>
+    <td>24/10/24</td>
+  </tr>
+  <tr>
+    <td rowspan=5>feature/irrigation-view-implementation</td>
+    <td>7e14166</td>
+    <td>Diego Defilippi</td>
+    <td>feat(irrigation): Add automatic irrigation widget</td>
+    <td>28/10/24</td>
+  </tr>
+  <tr>
+    <td>d3ef65f</td>
+    <td>Diego Defilippi</td>
+    <td>feat(irrigation): Add manual irrigation widget</td>
+    <td>28/10/24</td>
+  </tr>
+  <tr>
+    <td>9cdb544</td>
+    <td>Diego Defilippi</td>
+    <td>feat(irrigation): Add irrigation history modal</td>
+    <td>28/10/24</td>
+  </tr>
+  <tr>
+    <td>377ce5d</td>
+    <td>Diego Defilippi</td>
+    <td>feat(irrigation): Add irrigation view</td>
+    <td>28/10/24</td>
+  </tr>
+  <tr>
+    <td>a4169ce</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add routing home - irrigation</td>
+    <td>28/10/24</td>
+  </tr>
+    <td rowspan=1>develop</td>
+    <td>2d7d891</td>
+    <td>Diego Defilippi</td>
+    <td>Merge pull request #1</td>
+    <td>28/10/24</td>
+  </tr>
+  </tr>
+    <td rowspan=4>feature/irrigation-routing</td>
+    <td>ee35c56</td>
+    <td>Diego Defilippi</td>
+    <td>feat(home): Add crop model</td>
+    <td>28/10/24</td>
+  </tr>
+  </tr>
+    <td>91a54e3</td>
+    <td>Diego Defilippi</td>
+    <td>feat(home): Add future component</td>
+    <td>28/10/24</td>
+  </tr>
+  </tr>
+    <td>31637a2</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Modify widgets for Crop model</td>
+    <td>28/10/24</td>
+  </tr>
+  </tr>
+    <td>81ea37b</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Modify irrigation rout for cropId</td>
+    <td>28/10/24</td>
+  </tr>
+  </tr>
+    <td rowspan=3>develop</td>
+    <td>4b4c7e0</td>
+    <td>Diego Defilippi</td>
+    <td>Merge pull request #2</td>
+    <td>28/10/24</td>
+  </tr>
+  </tr>
+    <td>31ab4c2</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add login and loguot routing</td>
+    <td>29/10/24</td>
+  </tr>
+  </tr>
+    <td>66edb5b</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Modify initLocation</td>
+    <td>29/10/24</td>
+  </tr>
+  </tr>
+    <td rowspan=1>main</td>
+    <td>4b4c7e0</td>
+    <td>Diego Defilippi</td>
+    <td>Release Ayni v0.1.0</td>
+    <td>30/10/24</td>
+  </tr>
+</table>
+
+
+- Repositorio Backend:
+  https://github.com/IoT-Solutions-SW71-Grupo-4/HidroBots-Backend.git
+
+<div style="overflow-x:auto;">
+  <table width="100%">
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit ID</th>
+      <th>Author</th>
+      <th>Message</th>
+      <th>Time ago</th>
+    </tr>
+    <tr>
+      <td rowspan="4">Backend</td>
+      <td>feature/bc-crops</td>
+      <td>1ebbe5c</td>
+      <td>IsaacAmp24</td>
+      <td>feat(bc-crops): add method to upload imageCrops by cloudinary.</td>
+      <td align="right">24/10/2024</td>
+    </tr>
+    <tr>
+      <td>feature/bc-crops</td>
+      <td>0d134e3</td>
+      <td>IsaacAmp24</td>
+      <td>feat(bc-crops): add method to get crops from a farmer.</td>
+      <td align="right">24/10/2024</td>
+    </tr>
+    <tr>
+      <td>feature/bc-crops</td>
+      <td>aafc2cd</td>
+      <td>IsaacAmp24</td>
+      <td>feat(bc-crops): add method to delete crop with imageCrop of cloudinary.</td>
+      <td align="right">24/10/2024</td>
+    </tr>
+    <tr>
+      <td>feature/bc-profiles</td>
+      <td>816d416</td>
+      <td>IsaacAmp24</td>
+      <td>feat(bc-profiles): add methods to upload and delete imageProfile</td>
+      <td align="right">24/10/2024</td>
+    </tr>
+  </table>
+</div>
+
+
+#### 6.2.2.4. Testing Suite for Sprint Review
+
+Para el Sprint 2, se ha decidido realizar las pruebas con Postman, una herramienta muy robusta y completa que nos permite hacer pruebas de solicitudes HTTP. A continuación, se presentan las pruebas realizadas para el Sprint 2.
+
+ - Sign In (Inicio de sesión): <br>
+
+![sprint2-test-suite-evidence-sign-in](./assets/Backend/sprint-2/testing-suite-evidence/sprint2-test-sign-in.png)
+
+ - Crops (Cultivos): <br>
+
+ ![sprint2-test-suite-evidence-crops](./assets/Backend/sprint-2/testing-suite-evidence/sprint2-test-crops.png)
+
+ ![sprint2-test-suite-evidence-crops-2](./assets/Backend/sprint-2/testing-suite-evidence/sprint2-test-crops-evidence.png)
+
+ - Profiles (Actualizar foto de perfil): <br>
+
+ ![sprint2-test-suite-evidence-profile](./assets/Backend/sprint-2/testing-suite-evidence/sprint2-test-profiles-farmer.png)
+
+  ![sprint2-test-suite-evidence-profile-2](./assets/Backend/sprint-2/testing-suite-evidence/sprint2-test-profiles-farmer-evidence.png)
+
+#### 6.2.2.5. Execution Evidence for Sprint Review
+
+En el presente Sprint 2, se continuó con el desarrollo de la aplicación web y la Api. Asimismo, se comenzó con el desarrollo de la aplicación móvil y de culminó la primera versión del mismo.
+
+**Aplicación móvil**
+
+Login interface
+</br>
+<div align="center">
+  <img width=200 src="./assets/MobileApplication/mobile-login.jpeg" alt="Mobile login"/>
+</div>
+</br>
+
+Register interface
+</br>
+<div align="center">
+  <img width=200 src="./assets/MobileApplication/mobile-register.jpeg" alt="Mobile register"/>
+</div>
+</br>
+
+Home interface
+</br>
+<div align="center">
+  <img width=200 src="./assets/MobileApplication/mobile-home.jpeg" alt="Mobile home"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/MobileApplication/mobile-newcrop-modal.jpeg" alt="Add new crop mobile"/>
+</div>
+</br>
+
+
+Irrigation interface
+</br>
+<div align="center">
+  <img width=200 src="./assets/MobileApplication/mobile-automatic-irrigation.jpeg" alt="Automatic irrigation interface"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/MobileApplication/mobile-manual-irrigation.jpeg" alt="Manual irrigation interface"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/MobileApplication/mobile-irrigation-history.jpeg" alt="History irrigation interface"/>
+</div>
+</br>
+
+Profile interface
+</br>
+<div align="center">
+  <img width=200 src="./assets/MobileApplication/mobile-profile.jpeg" alt="Profile interface"/>
+</div>
+</br>
+
+
+#### 6.2.2.6. Services Documentation for Sprint Review
+
+A continuación, se muestra la documentación de los servicios de la aplicación Ayni, el cual se ha desarrollado para este Sprint 2, para documentar usamos Swagger. A continuación se muestran evidencias.
+
+**Web Services**
+
+![sprint2-web-services](./assets/Backend/sprint-2/execution-backend/sprint2-back-execution-1.png)
+
+![sprint2-web-services](./assets/Backend/sprint-2/execution-backend/sprint2-back-execution-2.png)
+
+![sprint2-web-services](./assets/Backend/sprint-2/execution-backend/sprint2-back-execution-3.png)
+
+| Service | Evidence | Description |
+| --- | --- | --- |
+| Authentication | ![sprint2-web-services](./assets/Backend/sprint-2/web-services-documentation/sprint2-documentation-back-auth.png) | Endpoint que permite autenticar a un usuario. |
+| Crops | ![sprint2-web-services](./assets/Backend/sprint-2/web-services-documentation/sprint2-documentation-back-crops.png) | Endpoint que gestiona los cultivos |
+| Profiles | ![sprint2-web-services](./assets/Backend/sprint-2/web-services-documentation/sprint2-documentation-back-farmers.png) | Endpoint que gestiona los perfiles de los usuarios. |
+| Roles | ![sprint2-web-services](./assets/Backend/sprint-2/web-services-documentation/sprint2-documentation-back-roles.png) | Endpoint que gestiona los roles de los usuarios. |
+| Users | ![sprint2-web-services](./assets/Backend/sprint-2/web-services-documentation/sprint2-documentation-back-users.png) | Endpoint que gestiona todos los usuarios. |
+
+| Endpoint | Method | Parameters | Description |
+| --- | --- | --- | --- |
+| /api/v1/auth/sign-up | POST | { fullName, email, password, role } | Permite registrar un nuevo usuario. |
+| /api/v1/auth/sign-in | POST | { email, password } | Permite autenticar a un usuario. |
+| /api/v1/crops/farmer/{farmerId}/crops | GET | - | Obtiene todos los cultivos de un agricultor. |
+| /api/v1/farmers | GET | - | Obtiene todos los agricultores. |
+| /api/v1/farmers/{farmerId} | GET | - | Obtiene un agricultor por su id. |
+| /api/v1/farmers/{farmerId} | PUT | { fullName, email, password, role } | Actualiza un agricultor por su id. |
+| /api/v1/farmers/{farmerId} | DELETE | - | Elimina un agricultor por su id. |
+| /api/v1/farmers/{farmerId}/farmerImage | PUT | { farnerId, file } | Actualiza la imagen de perfil de un agricultor. |
+| /api/v1/farmers/{farmerId}/farmerImage | DELETE | { farnerId } | Elimina la imagen de perfil de un agricultor. |
+| /api/v1/roles | GET | - | Obtiene todos los roles. |
+| /api/v1/users | GET | - | Obtiene todos los usuarios. |
+| /api/v1/users/{userId} | GET | - | Obtiene un usuario por su id. |
+
+
+#### 6.2.2.7. Software Deployment Evidence for Sprint Review
+
+**Despliegue de la aplicacion web Ayni**
+
+1. **Crear un Nuevo Sitio**
+  Desde el dashboard de Netlify, selecciona la opción **New site from Git** para crear un nuevo sitio basado en tu repositorio.
+
+  <div align="center">
+  <img width=800 src="./assets/deploy/front-1.png" alt="Insights mobile"/>
+</div>
+  
+
+2. **Conectar el Repositorio de Git**
+  Elige la plataforma de Git donde está alojado tu repositorio (GitHub, GitLab o Bitbucket). Selecciona el repositorio que contiene el proyecto del frontend que deseas desplegar.
+
+  <div align="center">
+  <img width=800 src="./assets/deploy/front-2.png" alt="Insights mobile"/>
+</div>
+
+<div align="center">
+  <img width=800 src="./assets/deploy/front-3.png" alt="Insights mobile"/>
+</div>
+  
+
+3. **Configurar Opciones de Despliegue**
+  Define la rama que deseas desplegar y selecciona el nombre para la aplicacion. Clic en **Deploy site** para que Netlify comience la construcción y despliegue del sitio.
+
+    <div align="center">
+  <img width=800 src="./assets/deploy/front-4.png" alt="Insights mobile"/>
+</div>
+  
+4. **Verificar el Despliegue**
+Una vez completado, Netlify generará una URL única para tu sitio. 
+
+<div align="center">
+  <img width=800 src="./assets/deploy/front-5.png" alt="Insights mobile"/>
+</div>
+
+
+
+
+
+#### 6.2.2.8. Team Collaboration Insights during Sprint
+
+**Evidencias de los insights del Mobile**
+</br>
+<div align="center">
+  <img width=800 src="./assets/Insights/sprint2_mobile_pulse.png" alt="Insights mobile"/>
+</div>
+</br>
+<div align="center">
+  <img width=800 src="./assets/Insights/sprint2_mobile_branch.png" alt="Insights mobile"/>
+</div>
+</br>
+
+**Evidencias de los insights del Front**
+</br>
+<div align="center">
+  <img width=800 src="./assets/Insights/sprint2.1_web.png" alt="Insights mobile"/>
+</div>
+</br>
+<div align="center">
+  <img width=800 src="./assets/Insights/sprint2.2_web.png" alt="Insights mobile"/>
+</div>
+</br>
+
+**Evidencias de los insights del Backend**
+</br>
+<div align="center">
+  <img width=800 src="./assets/Insights/sprint2.1_back.png" alt="Insights mobile"/>
+</div>
+</br>
+<div align="center">
+  <img width=800 src="./assets/Insights/sprint2.2_back.png" alt="Insights mobile"/>
+</div>
+</br>
+
+**Front-End desplegado:**  [https://aynii.netlify.app/](https://aynii.netlify.app/) 
+
+
+
 
 ## 6.3. Validation Interviews.
 
