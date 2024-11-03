@@ -5635,9 +5635,6 @@ Se presentan los commits realizados en el repositorio de GitHub, en el cual se p
 
 </table>
 
-- Repositorio Backend:
-  https://github.com/IoT-Solutions-SW71-Grupo-4/HidroBots-Backend.git
-
 - Repositorio Mobile:
   https://github.com/IoT-Solutions-SW71-Grupo-4/Ayni-MobileApplication
 
