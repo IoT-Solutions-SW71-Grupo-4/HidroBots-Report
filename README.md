@@ -376,12 +376,19 @@ Es importante mencionar que durante la elaboración del informe se realizaron co
         <strong>Tatiana Paucar</strong><br>
         <strong>TB1:</strong><br>
         Fomenté la participación activa lo que ayudó en la toma de decisiones clave para el proyecto. Del mismo modo para el desarrollo óptimo de los bounded contexts, los cuales son fundamentales para dividir las funcionalidades principales de la aplicación por módulos.<br><br>
+        <strong>TB2:</strong><br>
+        Durante el sprint 2, participé activamente en el equipo, centrándome en el desarrollo del frontend. Mi responsabilidad fue asegurar que las interfaces fueran funcionales, atractivas y alineadas con los requisitos de diseño establecidos. Colaboré de cerca con los demás miembros para integrar mi trabajo de frontend con el backend y otras funcionalidades, logrando una sincronización eficiente en el avance del proyecto.<br><br>
         <strong>Leonardo Lopez</strong><br>
         <strong>TB1:</strong><br>
         Propuse un sistema de trabajo colaborativo basado en las fortalezas del equipo y medió en la resolución de conflictos. Además, me centré en implementar el modelo C4, lo cual es fundamental para tener una vista de alto nivel sobre el funcionamiento de la aplicación.<br><br>
+        <strong>TB2:</strong><br>
+        Durante el sprint 2 organiza las diferentes actividades y retos que se abarcaron en este entregable, monitorenado las diversas implemataciones de servicios y creación de interfaces. Logrando alcanzar el objetivo de la entrega.<br><br>
         <strong>Fabio Horna</strong><br>
         <strong>TB1:</strong><br>
         Coordiné el uso de herramientas colaborativas y promoví la comunicación constante en el equipo. Del mismo modo, me encargué de realizar el Tactical-Level Domain-Driven Design lo que nos permite tener una visión más clara de la estructura de la aplicación y de cómo se relacionan los diferentes módulos.<br>
+        <strong>TB2:</strong><br>
+        Durante el sprint 2, participé activamente en el equipo, enfocado en finalizar la landing page y en asegurar que todas las validaciones de usuario funcionaran correctamente. Integré mi trabajo con el resto del proyecto, contribuyendo a un avance coordinado y efectivo.
+        <br>
       </td>
       <td>
         <strong>TB1:</strong><br>
@@ -408,11 +415,18 @@ Es importante mencionar que durante la elaboración del informe se realizaron co
         <strong>TB1:</strong><br>
         Facilité el uso de herramientas colaborativas y organicé sesiones para revisar el progreso del equipo, tales como reuniones en Discord, además de diseñar modelos de dominio y de arquitectura que permitieron una mejor comprensión de la solución.<br><br>
         <strong>Leonardo Lopez</strong><br>
+        <strong>TB2:</strong><br>
+        Trabajé en constante comunicación con el equipo, atendiendo a los feedbacks para realizar ajustes y mejorar la experiencia de usuario. Me mantuve alineado con las metas del equipo para cumplir con los entregables y asegurar los objetivos del sprint.<br><br>
+        <strong>Leonardo Lopez</strong><br>
         <strong>TB1:</strong><br>
         Me encargué de la gestión de recursos y del seguimiento de los avances de cada miembro del equipo, asegurando que se cumplieran los plazos. Es por ello, que para la implementación de modelo C4, se tuvo que coordinar con los miembros del equipo para establecer una visión clara de la arquitectura.<br><br>
+        <strong>TB2:</strong><br>
+        El trabajo realizado fue con efectiva comunicación, planificando asi las metricas que se alcanzarian en este entregabla, de igual forma se cumplieron los objetivos trazados para la entrega del sprint 2<br><br>
         <strong>Fabio Horna</strong><br>
         <strong>TB1:</strong><br>
         Promoví la cohesión del equipo y facilitó la toma de decisiones consensuada para cumplir con los objetivos establecidos. Del mismo modo, se realizaron entrevistas y se recopiló información para el desarrollo de la solución.<br>
+        <strong>TB2:</strong><br>
+        Se mantuvo una comunicación continua con el equipo, aplicando los comentarios recibidos para realizar ajustes y mejorar la experiencia del usuario. El enfoque en los objetivos del sprint permitió cumplir con los entregables, manteniendo la calidad y alineación con los requisitos del proyecto en cada iteración.<br>
       </td>
       <td>
         <strong>TB1:</strong><br>
