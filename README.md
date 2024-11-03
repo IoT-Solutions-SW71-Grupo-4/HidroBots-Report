@@ -5954,6 +5954,47 @@ A continuación, se muestra la documentación de los servicios de la aplicación
 
 
 #### 6.2.2.7. Software Deployment Evidence for Sprint Review
+
+**Despliegue de la aplicacion web Ayni**
+
+1. **Crear un Nuevo Sitio**
+  Desde el dashboard de Netlify, selecciona la opción **New site from Git** para crear un nuevo sitio basado en tu repositorio.
+
+  <div align="center">
+  <img width=800 src="./assets/deploy/front-1.png" alt="Insights mobile"/>
+</div>
+  
+
+2. **Conectar el Repositorio de Git**
+  Elige la plataforma de Git donde está alojado tu repositorio (GitHub, GitLab o Bitbucket). Selecciona el repositorio que contiene el proyecto del frontend que deseas desplegar.
+
+  <div align="center">
+  <img width=800 src="./assets/deploy/front-2.png" alt="Insights mobile"/>
+</div>
+
+<div align="center">
+  <img width=800 src="./assets/deploy/front-3.png" alt="Insights mobile"/>
+</div>
+  
+
+3. **Configurar Opciones de Despliegue**
+  Define la rama que deseas desplegar y selecciona el nombre para la aplicacion. Clic en **Deploy site** para que Netlify comience la construcción y despliegue del sitio.
+
+    <div align="center">
+  <img width=800 src="./assets/deploy/front-4.png" alt="Insights mobile"/>
+</div>
+  
+4. **Verificar el Despliegue**
+Una vez completado, Netlify generará una URL única para tu sitio. 
+
+<div align="center">
+  <img width=800 src="./assets/deploy/front-5.png" alt="Insights mobile"/>
+</div>
+
+
+
+
+
 #### 6.2.2.8. Team Collaboration Insights during Sprint
 
 **Evidencias de los insights del Mobile**
@@ -5988,6 +6029,11 @@ A continuación, se muestra la documentación de los servicios de la aplicación
   <img width=800 src="./assets/Insights/sprint2.2_back.png" alt="Insights mobile"/>
 </div>
 </br>
+
+**Front-End desplegado:**  [https://aynii.netlify.app/](https://aynii.netlify.app/) 
+
+
+
 
 ## 6.3. Validation Interviews.
 
