@@ -354,9 +354,13 @@ La rama "develop" se ha utilizado para la integración de las tareas asignadas a
         <strong>Diego Defilippi</strong><br>
         <strong>TB1:</strong><br>
         Lideré la distribución de tareas, me aseguré de que cada miembro del equipo comprendiera sus responsabilidades. Organizamos reuniones periódicas para revisar avances y ajustar el plan según los resultados obtenidos. Mi función principal fue implementar los bounded context canvases y el apoyo continuo para el desarrollo del Event Storming.<br><br>
+        <strong>TB2:</strong><br>
+        Organización de las tareas en base a user stories y organización de reuniones periódicas para revisar avances.<br><br>
         <strong>Jose Ampudia</strong><br>
         <strong>TB1:</strong><br>
         Propuse el avance conjunto para el desarrollo de los puntos críticos del desarrollo del informe, tales como el capítulo 4, el desarrollo del Event Storming, las cuales se desarrolló con éxito.<br><br>
+        <strong>TB2:</strong><br>
+        Participación activa en el desarrollo del backend de la aplicación. Me encargué de implementar los métodos y endpoints necesarios para que las aplicaciones móviles y web pudieran consumir los servicios, habilitando funcionalidades como la creación de usuarios, gestión de cultivos, actualización de perfiles, entre otros. Este trabajo permitió una integración eficaz entre el backend y los demás componentes del sistema.<br><br>
         <strong>Tatiana Paucar</strong><br>
         <strong>TB1:</strong><br>
         Fomenté la participación activa lo que ayudó en la toma de decisiones clave para el proyecto. Del mismo modo para el desarrollo óptimo de los bounded contexts, los cuales son fundamentales para dividir las funcionalidades principales de la aplicación por módulos.<br><br>
@@ -368,7 +372,11 @@ La rama "develop" se ha utilizado para la integración de las tareas asignadas a
         Coordiné el uso de herramientas colaborativas y promoví la comunicación constante en el equipo. Del mismo modo, me encargué de realizar el Tactical-Level Domain-Driven Design lo que nos permite tener una visión más clara de la estructura de la aplicación y de cómo se relacionan los diferentes módulos.<br>
       </td>
       <td>
+        <strong>TB1:</strong><br>
         El liderazgo conjunto permitió la distribución adecuada de tareas, facilitando la consecución de los objetivos del proyecto de manera efectiva. La correcta supervisión, mediación y comunicación aseguraron que todos los miembros estuvieran alineados y motivados.
+        <br><br>
+        <strong>TB2:</strong><br>
+        Se logró el desarrollo del Sprint 2 debido a una efectiva organización de tareas y user stories en base a las habilidades de cada miembro del equipo.
       </td>
     </tr>
     <tr>
@@ -377,9 +385,13 @@ La rama "develop" se ha utilizado para la integración de las tareas asignadas a
         <strong>Diego Defilippi</strong><br>
         <strong>TB1:</strong><br>
         Establecí metas claras y coordiné la planificación de tareas, asegurando que cada fase del proyecto tuviera objetivos alcanzables. Es por ello que delegamos responsabilidades para la correcta implementación de la solución.<br><br>
+        <strong>TB2:</strong><br>
+        Se establecieron objetivos para el Sprint 2 y se desarrollo la primera versión de la aplicación móvil.<br><br>
         <strong>Jose Ampudia</strong><br>
         <strong>TB1:</strong><br>
         Supervisé el cumplimiento de los plazos y fomentó un entorno inclusivo al involucrar a todos los miembros en la revisión de avances, lo que nos permitió corregir errores y mejorar características de nuestra solución.<br><br>
+        <strong>TB2:</strong><br>
+        Involucré a cada miembro del equipo en las revisiones de avances, lo que no solo permitió corregir errores a tiempo, sino también fortalecer nuestro trabajo conjunto. Además, estuve pendiente de los plazos y objetivos, asegurándome de que pudiéramos alcanzar nuestras metas sin perder el ritmo, pero siempre manteniendo un espacio abierto para la colaboración y el aprendizaje mutuo.<br><br>
         <strong>Tatiana Paucar</strong><br>
         <strong>TB1:</strong><br>
         Facilité el uso de herramientas colaborativas y organicé sesiones para revisar el progreso del equipo, tales como reuniones en Discord, además de diseñar modelos de dominio y de arquitectura que permitieron una mejor comprensión de la solución.<br><br>
@@ -391,7 +403,11 @@ La rama "develop" se ha utilizado para la integración de las tareas asignadas a
         Promoví la cohesión del equipo y facilitó la toma de decisiones consensuada para cumplir con los objetivos establecidos. Del mismo modo, se realizaron entrevistas y se recopiló información para el desarrollo de la solución.<br>
       </td>
       <td>
+        <strong>TB1:</strong><br>
         El ambiente inclusivo, la colaboración y la correcta planificación permitieron al equipo cumplir con los objetivos del proyecto de manera efectiva, optimizando los recursos y maximizando la eficiencia del trabajo en equipo. La cohesión y la revisión constante aseguraron que todos los miembros estuvieran alineados con los objetivos finales.
+        <br><br>
+        <strong>TB2:</strong><br>
+        En el presente Sprint 2, se logró el desarrollo de la segunda versión de la aplicación web y el backend; la primera versión de la aplicación móvil y la configuración inicial del ESP32 en el simulador Wokwi.
       </td>
     </tr>
   </tbody>
