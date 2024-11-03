@@ -202,7 +202,19 @@ Gracias a GitHub, se ha podido llevar un control de versiones y colaboración en
 
 La rama "develop" se ha utilizado para la integración de las tareas asignadas a cada miembro del equipo, permitiendo la integración de las tareas de manera ordenada y eficiente. La rama "main" sirvió para presentar la versión final del proyecto.
 
-- **TB2**:
+**TB2**:
+
+Para la entrega del TB2 se designó tareas a cada integrente, el cual se podrá visualizar a continuación:
+
+| Miembro del Equipo | Tarea Asignada |
+| :---: | :---: |
+| Diego Defilippi | Desarrollo de la primera versión de la aplicación móvil y documentación |
+| Jose Ampudia | Desarrollo de la segunda versión del backend y documentación |
+| Tatiana Paucar | Desarrollo de la segunda versión de la segunda versión de la aplicación web y documentación. |
+| Leonardo Lopez | Colaboración en el desarrollo del backend |
+| Fabio Horna | Configuración inicial del ESP32 en el simulador Wokwi |
+
+Es importante mencionar que durante la elaboración del informe se realizaron commits respectivos a cada tarea asignada, con el fin de mantener un control de versiones y colaboración en tiempo real.
 
 <br><br>
 
