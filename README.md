@@ -6188,6 +6188,20 @@ Finalmente, hacemos clic en *Create* y esperamos que nuestro recurso se cree exi
 
 #### 6.2.3.8. Team Collaboration Insights during Sprint
 
+**Evidencias de los insights de la aplicación móvil**
+
+**Evidencias de los insights de la aplicación web**
+
+**Evidencias de los insights de la API**
+
+<div align="center">
+  <img width=800 src="./assets/Insights/sprint3_backend.png"/>
+</div>
+</br>
+<div align="center">
+  <img width=800 src="./assets/Insights/sprint3_back_branches.png"/>
+</div>
+</br>
 
 ## 6.3. Validation Interviews.
 
