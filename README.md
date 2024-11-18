@@ -6089,6 +6089,94 @@ Una vez completado, Netlify generará una URL única para tu sitio.
 
 #### 6.2.3.7. Software Deployment Evidence for Sprint Review
 
+**Despliegue de la base de datos**
+
+La base de datos MySQL fue desplegada a través del servicio externo de Aiven [https://aiven.io](https://aiven.io). El único prerequisito que existe para usar este servicio es tener una cuenta. Los pasos a seguir son los siguientes:
+
+Primero, acceder a la sección de **Aiven console** y crear un servicio de MySQL.
+
+<div align="center">
+  <img width=1200 src="./assets/deploy/database/aiven1.png" alt="Insights mobile"/>
+</div>
+</br>
+
+Seguidamente, seleccionar el plan de pago *Free* y seleccionar la región de nuestra preferencia.
+
+<div align="center">
+  <img width=1200 src="./assets/deploy/database/aiven2.png"/>
+</div>
+</br>
+
+Ya con el servicio creado, tendremos acceso a las credenciales para acceder a la base de datos en MySQL.
+
+<div align="center">
+  <img width=1200 src="./assets/deploy/database/aiven3.png"/>
+</div>
+</br>
+
+Finalmente, para integrarlo correctamente con la aplicación Java, se accede al archivo `application.properties` y se agrega o modifica las siguientes propiedades.
+
+```
+spring.jpa.hibernate.ddl-auto=update
+spring.datasource.url=jdbc:mysql://HOST:PORT/DATABASE
+spring.datasource.username=USERNAME
+spring.datasource.password=PASSWORD
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+```
+
+Ya tendremos el servicio de la base de datos en la nube e integrado con el backend.
+
+**Despliegue del API REST**
+
+Para el despliegue del API, se utilizó App Services de Microsoft Azure.
+
+Primero, iniciar sesión en Microsoft Azure y buscar el servicio App Services. Una vez dentro, darle a “Create -> Web App”
+
+<div align="center">
+  <img width=1200 src="./assets/deploy/backend/azure0.png"/>
+</div>
+</br>
+<div align="center">
+  <img width=1200 src="./assets/deploy/backend/azure-1.png"/>
+</div>
+</br>
+
+Luego, se nos solicita llenar un formulario donde debemos seleccionar nuestra suscripción y a qué grupo de recursos pertenecerá. Asimismo, se debe ingresar el nombre de la instancia, el tipo de publicación, sistema operativo, un Runtime Stack y Region. Además, debemos seleccionar el plan que deseamos pagar.
+
+<div align="center">
+  <img width=1200 src="./assets/deploy/backend/azure1.png"/>
+</div>
+</br>
+
+En la siguiente pestaña, desactivamos la creación de una base de datos y en la sección de deployment, activamos el continuous deployment y seleccionamos el repositorio y la rama.
+
+<div align="center">
+  <img width=1200 src="./assets/deploy/backend/azure2.png"/>
+</div>
+</br>
+<div align="center">
+  <img width=1200 src="./assets/deploy/backend/azure3.png"/>
+</div>
+</br>
+
+En la sección Networking, habilitamos el acceso público. Además, para la sección Monitor + Secure, habilitamos los Insight.
+
+<div align="center">
+  <img width=1200 src="./assets/deploy/backend/azure4.png"/>
+</div>
+</br>
+<div align="center">
+  <img width=1200 src="./assets/deploy/backend/azure5.png"/>
+</div>
+</br>
+
+Finalmente, hacemos clic en *Create* y esperamos que nuestro recurso se cree exitosamente.
+
+<div align="center">
+  <img width=1200 src="./assets/deploy/backend/azure6.png"/>
+</div>
+</br>
+
 #### 6.2.3.8. Team Collaboration Insights during Sprint
 
 
