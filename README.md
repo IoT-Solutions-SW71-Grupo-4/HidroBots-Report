@@ -6073,6 +6073,23 @@ Una vez completado, Netlify generará una URL única para tu sitio.
 **Front-End desplegado:**  [https://aynii.netlify.app/](https://aynii.netlify.app/) 
 
 
+### 6.2.3 Sprint 3
+
+#### 6.2.3.1. Sprint Planning 3
+
+#### 6.2.3.2. Sprint Backlog 3
+
+#### 6.2.3.3. Development Evidence for Sprint Review
+
+#### 6.2.3.4. Testing Suite Evidence for Sprint Review
+
+#### 6.2.3.5. Execution Evidence for Sprint Review
+
+#### 6.2.3.6. Services Documentation Evidence for Sprint Review
+
+#### 6.2.3.7. Software Deployment Evidence for Sprint Review
+
+#### 6.2.3.8. Team Collaboration Insights during Sprint
 
 
 ## 6.3. Validation Interviews.
