@@ -6188,16 +6188,1038 @@ Una vez completado, Netlify generará una URL única para tu sitio.
 
 
 
+### 6.2.3 Sprint 3
+
+#### 6.2.3.1. Sprint Planning 3
+
+| **Sprint #**                     | Sprint 3                                                                                           |
+|-----------------------------------|---------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**    |                                                                                                   |
+| **Date**                          | 01/11/2024                                                                                       |
+| **Time**                          | 09:00 AM                                                                                         |
+| **Location**                      | Virtual                                                                                          |
+| **Prepared By**                   | Fabio Ernesto Horna Silva                                                                         |
+| **Attendees (to planning meeting)** | Ampudia Flores, José Carlos Isaac<br>Defilippi Santillán, Diego<br>Horna Silva, Fabio Ernesto<br>Lopez Huarcaya, Leonardo Paul<br>Paucar De La Cruz, Tatiana Medalith |
+| **Sprint n – 1 Review Summary**   | Se completaron las tareas relacionadas con el diseño e integración de funcionalidades clave como la visualización de nutrientes y programación de riego automático y manual. También se realizó la integración final del dispositivo IoT (ESP32) en Wokwi con el backend, asegurando una comunicación estable y funcional. Además, se finalizó el desarrollo de instrumentos clave como interfaces y dashboards. |
+| **Sprint n – 1 Retrospective Summary** | Se identificó la necesidad de mejorar la organización de las tareas y priorizar pruebas para garantizar la estabilidad del producto. |
+| **Sprint Goal**                   | Completar el monitoreo en tiempo real, asegurando la integración total del riego automático y manual. Finalizar los ajustes en los instrumentos desarrollados. |
+| **Sprint n Velocity**             | 15 Story Points                                                                                 |
+| **Sum of Story Points**           | 15 Story Points                                                                                 |
+
+
+
+
+
+#### 6.2.3.2. Sprint Backlog 3
+
+En esta sección se especifican los detalles del Sprint Backlog, que es una lista de tareas que se han realizado para completar el Sprint.
+
+<table align="center" border="1" width="90%" style="text-align:center">
+  <tr>
+    <td colspan="1"><b>Sprint #</b></td>
+    <td colspan="7"><b>Sprint 3</b></td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>User Story</b></td>
+    <td colspan="6"><b>Work-Item / Task</b></td>
+  </tr>
+  <tr>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Description</b></td>
+    <td><b>Estimation (Hours)</b></td>
+    <td><b>Assigned To</b></td>
+    <td><b>Status (To-do / In-Process / To-Review / Done)</b></td>
+  </tr>
+
+<tr>
+  <td rowspan="4">US1</td>
+  <td rowspan="4">Visualizar nutrientes del suelo</td>
+  <td>T1</td>
+  <td>Diseño de Interfaz y conexión de los nutrientes del suelo (App Móvil)</td>
+  <td>Creacion de la interfaz para el usuario y la conexion con el servicio del backend para dispositivos moviles.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>T2</td>
+  <td>Diseño de Interfaz y conexión de los nutrientes del suelo (App Web)</td>
+  <td>Creacion de la interfaz para el usuario y la conexion con el servicio del backend para aplicaciones web.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>T3</td>
+  <td>Desarrollo del servicio (Backend)</td>
+  <td>Creacion del servicio en arquitectura DDD en el backend.</td>
+  <td>2hr</td>
+  <td>Leonardo Lopez</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T4</td>
+  <td>Integración con el wokwi</td>
+  <td>Integración de nuestro servicio con el dispositivo ESP32 creado en wokwi</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td rowspan="3">US2</td>
+  <td rowspan="3">Historial de nutrientes del suelo</td>
+  <td>T5</td>
+  <td>Diseño de Interfaz y conexión del historial de nutrientes del suelo (App Móvil)</td>
+  <td>Creación de la interfaz de usuario para el historial de nutrientes en la aplicación movil.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T6</td>
+  <td>Diseño de Interfaz y conexión del historial de nutrientes del suelo (App Web)</td>
+  <td>Creación de la interfaz de usuario para el historial de nutrientes en la aplicación web.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T7</td>
+  <td>Integración dehistorial de nutrientes con Backend (App Web)</td>
+  <td>Integración del formulario de historial de nutrientes de la aplicación web con el backend.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td rowspan="4">US6</td>
+  <td rowspan="4">Programación de riego automático</td>
+  <td>T7</td>
+  <td>Creación de Endpoint para Programación de riego automático</td>
+  <td>Implementación del endpoint en el backend para obtener los datos de la programación de riego automático.</td>
+  <td>2hr</td>
+  <td>Leonardo López</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T8</td>
+  <td>Diseño de Interfaz para programación de riego automático (App Móvil)</td>
+  <td>Desarrollo de la pantalla de visualización del programación de riego automático en la aplicación móvil.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T9</td>
+  <td>Diseño de Interfaz para programación de riego automático (App Web)</td>
+  <td>Desarrollo de la pantalla de programación de riego automático en la aplicación web.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T10</td>
+  <td>Integración del riego automático con el ESP32</td>
+  <td>Integración y configuración para la comunicación eficaz de nuestro servicio con el ESP32 en wokwi sobre el riego automático.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td rowspan="4">US7</td>
+  <td rowspan="4">Programación de riego manual</td>
+  <td>T11</td>
+  <td>Creación de Endpoint para Programación de riego manual</td>
+  <td>Implementación del endpoint en el backend para obtener los datos de la programación de riego manual.</td>
+  <td>2hr</td>
+  <td>Leonardo López</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T11</td>
+  <td>Diseño de Interfaz para programación de riego manual (App Móvil)</td>
+  <td>Desarrollo de la pantalla de visualización del programación de riego manual en la aplicación móvil.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T9</td>
+  <td>Diseño de Interfaz para programación de riego manual (App Web)</td>
+  <td>Desarrollo de la pantalla de programación de riego manual en la aplicación web.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T10</td>
+  <td>Integración del riego manual con el ESP32</td>
+  <td>Integración y configuración para la comunicación eficaz de nuestro servicio con el ESP32 en wokwi sobre el riego manual.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td rowspan="4">US8</td>
+  <td rowspan="4">Monitoreo en tiempo real de las plantas</td>
+  <td>T15</td>
+  <td>Creación de Endpoint para Monitoreo en tiempo real de las plantas</td>
+  <td>Implementación del endpoint en el backend para el monitoreo en tiempo real de las plantas.</td>
+  <td>2hr</td>
+  <td>José Ampudia</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T16</td>
+  <td>Diseño de Interfaz para monitoreo en tiempo real de las plantas (App Móvil)</td>
+  <td>Desarrollo de la pantalla para el monitoreo en tiempo real de las plantas en la aplicación móvil.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T17</td>
+  <td>Diseño de Interfaz para Actualización de Imagen de Perfil (App Web)</td>
+  <td>Desarrollo de la pantalla para actualizar la imagen de perfil en la aplicación web.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T18</td>
+  <td>Integración de Actualización de Imagen de Perfil con Backend (App Web)</td>
+  <td>Integración de la pantalla para actualizar la imagen de perfil en la aplicación web con el backend.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+
+
+</table>
+
+#### 6.2.3.3. Development Evidence for Sprint Review
+
+Se presentan los commits realizados en el repositorio de GitHub, en el cual se puede observar el trabajo realizado por cada integrante del equipo.
+
+- Repositorio Frontend:
+  https://github.com/IoT-Solutions-SW71-Grupo-4/AyniFronted.git
+
+<table align="left" border="1" width="100%">
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit ID</th>
+    <th>Author</th>
+    <th>Message</th>
+    <th>Time ago</th>
+  </tr>
+  <tr>
+    <td rowspan="6">Frontend</td>
+    <td>feat/head</td>
+    <td>d7bba05b111e5bbf53e49a5a2feb9e7dd38ade5e</td>
+    <td>TMedalith</td>
+    <td>refactor: Update header component styles and template</td>
+    <td>02/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat/head</td>
+    <td>9dca241bd4ab24e27c74052e01c4279b2a0d776d</td>
+    <td>TMedalith</td>
+    <td>refactor: Update authentication service to navigate to dashboard after signing in</td>
+    <td>02/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>d46934c051f86083f5d4dafdad7b24506dd84d3a</td>
+    <td>TMedalith</td>
+    <td>refactor: Remove unnecessary "years" label in crop card component</td>
+    <td>02/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>72d479d5826ff6507b7c64e868a4ac2fe4fed941</td>
+    <td>TMedalith</td>
+    <td>feat: Add Farmer model to profile module</td>
+    <td>02/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>6afe53c13f4442c96642a2e8788c4b2533c9a24f</td>
+    <td>TMedalith</td>
+    <td>feat: Update profile component styles and template</td>
+    <td>02/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>efd10996bf75dd0e5b1d23f139027f02b5640843</td>
+    <td>TMedalith</td>
+    <td>feat: Add FarmerService to handle farmer-related operations</td>
+    <td>02/11/2024</td>
+  </tr>
+
+
+</table>
+
+- Repositorio Mobile:
+  https://github.com/IoT-Solutions-SW71-Grupo-4/Ayni-MobileApplication
+
+</br>
+
+<table  align="left" border="1" width="100%">
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit ID</th>
+    <th>Author</th>
+    <th>Message</th>
+    <th>Time ago</th>
+  </tr>
+  <tr>
+    <td rowspan=40>Ayni-MobileApplication</td>
+    <td>Main</td>
+    <td>31ab4c2482f7bb712d13c633a6138968fe91be08</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add login and loguot routing</td>
+    <td>28/10/24</td>
+  </tr>
+  <tr>
+    <td rowspan=11>feature/user-Authentication</td>
+    <td>ff3a9616ac7485e1bbe35e3e2930e0bec3b8aa17</td>
+    <td>Diego Defilippi</td>
+    <td>Release Ayni v0.1.0</td>
+    <td>30/10/24</td>
+  </tr>
+  <tr>
+    <td>66edb5b7b554fd50f5904cbe0e08a7715a120323</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Modify initLocation</td>
+    <td>28/10/24</td>
+  </tr>
+ 
+</table>
+
+
+- Repositorio Backend:
+  https://github.com/IoT-Solutions-SW71-Grupo-4/HidroBots-Backend.git
+
+<div style="overflow-x:auto;">
+  <table width="100%">
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit ID</th>
+      <th>Author</th>
+      <th>Message</th>
+      <th>Time ago</th>
+    </tr>
+    <tr>
+    <td>feat</td>
+    <td>72cf8f6</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Irrigation management</td>
+    <td align="right">17/11/2024</td>
+  </tr>
+  <tr>
+    <td>fix</td>
+    <td>0def865</td>
+    <td>Diego Defilippi</td>
+    <td>fix: Modify mqtt public to private connection</td>
+    <td align="right">17/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>d6722b0</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Modify client id for mqtt connection</td>
+    <td align="right">15/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>f43258f</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Implement soil report with mqtt and db</td>
+    <td align="right">15/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>34ba56c</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Implement weather report with mqtt</td>
+    <td align="right">15/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>b0ec80d</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add soil analyze logic</td>
+    <td align="right">15/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>d383f12</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add weather listener service</td>
+    <td align="right">15/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>21934e2</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add mqtt client config</td>
+    <td align="right">15/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>74500ef</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add mqtt and gson dependencies</td>
+    <td align="right">15/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>1445867</td>
+    <td>Tatiana Paucar</td>
+    <td>feat(device): Add DeviceController with CRUD operations and endpoints.</td>
+    <td align="right">14/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>1f9763d</td>
+    <td>Tatiana Paucar</td>
+    <td>feat(device): Add DeviceResource class and assembler for entity transformation</td>
+    <td align="right">14/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>70c8abd</td>
+    <td>Tatiana Paucar</td>
+    <td>feat(device): Add DeviceCommandService and DeviceQueryService</td>
+    <td align="right">14/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>e877d34</td>
+    <td>Tatiana Paucar</td>
+    <td>feat(device): Add Device entity and repository</td>
+    <td align="right">14/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>bd97687</td>
+    <td>Tatiana Paucar</td>
+    <td>feat(device): Add device command implementations</td>
+    <td align="right">14/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>174e596</td>
+    <td>Leonardo Lopez</td>
+    <td>feat(report): Update Soil Report</td>
+    <td align="right">14/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>14f272e</td>
+    <td>Leonardo Lopez</td>
+    <td>feat(report): Add Soil Report</td>
+    <td align="right">14/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>5941733</td>
+    <td>Leonardo Lopez</td>
+    <td>feat(report): Update Weather Report</td>
+    <td align="right">13/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>cde66ec</td>
+    <td>Leonardo Lopez</td>
+    <td>feat(report): Add Weather Report</td>
+    <td align="right">13/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>72cf8f6</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Irrigation management</td>
+    <td align="right">17/11/2024</td>
+  </tr>
+  <tr>
+    <td>fix</td>
+    <td>0def865</td>
+    <td>Diego Defilippi</td>
+    <td>fix: Modify mqtt public to private connection</td>
+    <td align="right">17/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>d6722b0</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Modify client id for mqtt connection</td>
+    <td align="right">15/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>f43258f</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Implement soil report with mqtt and db</td>
+    <td align="right">15/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>34ba56c</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Implement weather report with mqtt</td>
+    <td align="right">15/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>b0ec80d</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add soil analyze logic</td>
+    <td align="right">15/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>d383f12</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add weather listener service</td>
+    <td align="right">15/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>21934e2</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add mqtt client config</td>
+    <td align="right">15/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>74500ef</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add mqtt and gson dependencies</td>
+    <td align="right">15/11/2024</td>
+  </tr>
+  </table>
+</div>
+
+#### 6.2.3.4. Testing Suite Evidence for Sprint Review
+
+En esta seccion se relizarán algunos de los tests necesarios y primordiales de acuerdo a las nuevas implementaciones realizadaas para el Sprint 3, es por ello que usamos la herramiente de gherkin para realizar los tests para los nuevos bounded context desarrollados en la aplicacion backend, se muestran a continuación.
+
+**Tests para el bounded context Report**
+
+![test-bc-reports-1](assets/Backend/sprint-3/testing-suite-evidence/bc-report-test/test-report-1.png)
+
+![test-bc-reports-2](assets/Backend/sprint-3/testing-suite-evidence/bc-report-test/test-report-2.png)
+
+![test-bc-reports-3](assets/Backend/sprint-3/testing-suite-evidence/bc-report-test/test-report-3.png)
+
+![test-bc-reports-4](assets/Backend/sprint-3/testing-suite-evidence/bc-report-test/test-report-4.png)
+
+
+**Tests para el bounded context Devices**
+
+![test-bc-devices-1](assets/Backend/sprint-3/testing-suite-evidence/bc-device-test/test-devices-1.png)
+
+![test-bc-devices-2](assets/Backend/sprint-3/testing-suite-evidence/bc-device-test/test-devices-2.png)
+
+![test-bc-devices-3](assets/Backend/sprint-3/testing-suite-evidence/bc-device-test/test-devices-3.png)
+
+![test-bc-devices-4](assets/Backend/sprint-3/testing-suite-evidence/bc-device-test/test-devices-4.png)
+
+![test-bc-devices-5](assets/Backend/sprint-3/testing-suite-evidence/bc-device-test/test-devices-5.png)
+
+![test-bc-devices-6](assets/Backend/sprint-3/testing-suite-evidence/bc-device-test/test-devices-6.png)
+
+**Tests para el bounded context deviceCommunication**
+
+![test-bc-deviceCommunication-1](assets/Backend/sprint-3/testing-suite-evidence/bc-communication-test/test-communication-1.png)
+
+![test-bc-deviceCommunication-2](assets/Backend/sprint-3/testing-suite-evidence/bc-communication-test/test-communication-2.png)
+
+![test-bc-deviceCommunication-3](assets/Backend/sprint-3/testing-suite-evidence/bc-communication-test/test-communication-3.png)
+
+![test-bc-deviceCommunication-4](assets/Backend/sprint-3/testing-suite-evidence/bc-communication-test/test-communication-4.png)
+
+![test-bc-deviceCommunication-5](assets/Backend/sprint-3/testing-suite-evidence/bc-communication-test/test-communication-5.png)
+
+
+#### 6.2.3.5. Execution Evidence for Sprint Review
+
+En esta sección presentamos las ejecuciones finales de las aplicaciones desarrolladas a lo largo del curso, a continuación se muestran.
+
+**Aplicación Web**
+
+![web-app](assets/sprint%203/execution-evidence/excecution-front/execution-frontend-1.jpeg)
+
+![web-app](assets/sprint%203/execution-evidence/excecution-front/execution-frontend-2.jpeg)
+
+![web-app](assets/sprint%203/execution-evidence/excecution-front/execution-frontend-3.jpeg)
+
+![web-app](assets/sprint%203/execution-evidence/excecution-front/execution-frontend-4.jpeg)
+
+![web-app](assets/sprint%203/execution-evidence/excecution-front/execution-frontend-5.jpeg)
+
+![web-app](assets/sprint%203/execution-evidence/excecution-front/execution-frontend-6.jpeg)
+
+![web-app](assets/sprint%203/execution-evidence/excecution-front/execution-frontend-7.jpeg)
+
+![web-app](assets/sprint%203/execution-evidence/excecution-front/execution-frontend-8.jpeg)
+
+![web-app](assets/sprint%203/execution-evidence/excecution-front/execution-frontend-9.jpeg)
+
+![web-app](assets/sprint%203/execution-evidence/excecution-front/execution-frontend-10.jpeg)
+
+**Aplicacion Movil**
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-1.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-2.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-3.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-4.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-4.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-5.png" alt="Mobile login"/>
+</div>
+</br>
+
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-6.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-7.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-8.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-8.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-10.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-11.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-12.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-13.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-14.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-15.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-16.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-17.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-18.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-19.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-20.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-21.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-22.png" alt="Mobile login"/>
+</div>
+</br>
+
+**Embedded System**
+
+![embedded-system](assets/sprint%203/execution-evidence/execution-embebed-app/embebed-application.png)
+
+accede al wokwi desde aquí: https://wokwi.com/projects/414764412456377345
+
+#### 6.2.3.6. Services Documentation Evidence for Sprint Review
+
+En esta seccion presentamos la documentacion del backend al 100% con todos los endpoints necesarios para la ejecucion de las aplicaciones.
+
+![swagger](assets/sprint%203/services-documentation/doc-backend-1.png)
+
+![swagger](assets/sprint%203/services-documentation/doc-backend-2.png)
+
+![swagger](assets/sprint%203/services-documentation/doc-backend-3.png)
+
+![swagger](assets/sprint%203/services-documentation/doc-backend-4.png)
+
+A continuacion se explican los endpoints nuevos que se implementaron
+
+| Service | Evidence | Description |
+| --- | --- | --- |
+| Devices | ![swagger](assets/sprint%203/services-documentation/peq-back/devices.png) | Gestiona los dispositivos embebidos (ESP32) que se conectan a la aplicación. |
+| Irriagation | ![swagger](assets/sprint%203/services-documentation/peq-back/irrigation.png) | Gestiona la programación de riego automático y manual. |
+| Soil Analysis | ![swagger](assets/sprint%203/services-documentation/peq-back/soil-analist.png) | Gestiona el análisis de suelo que se obtuvieron de los sensores. |
+| Weather Report | ![swagger](assets/sprint%203/services-documentation/peq-back/weather-report.png) | Gestiona el reporte del clima que se obtuvieron de los sensores. |
+| Soil Report | ![swagger](assets/sprint%203/services-documentation/peq-back/soil-report.png) | Gestiona el reporte del suelo que se obtuvieron de los sensores. |
+
+
+#### 6.2.3.7. Software Deployment Evidence for Sprint Review
+
+**Despliegue de la base de datos**
+
+La base de datos MySQL fue desplegada a través del servicio externo de Aiven [https://aiven.io](https://aiven.io). El único prerequisito que existe para usar este servicio es tener una cuenta. Los pasos a seguir son los siguientes:
+
+Primero, acceder a la sección de **Aiven console** y crear un servicio de MySQL.
+
+<div align="center">
+  <img width=1200 src="./assets/deploy/database/aiven1.png" alt="Insights mobile"/>
+</div>
+</br>
+
+Seguidamente, seleccionar el plan de pago *Free* y seleccionar la región de nuestra preferencia.
+
+<div align="center">
+  <img width=1200 src="./assets/deploy/database/aiven2.png"/>
+</div>
+</br>
+
+Ya con el servicio creado, tendremos acceso a las credenciales para acceder a la base de datos en MySQL.
+
+<div align="center">
+  <img width=1200 src="./assets/deploy/database/aiven3.png"/>
+</div>
+</br>
+
+Finalmente, para integrarlo correctamente con la aplicación Java, se accede al archivo `application.properties` y se agrega o modifica las siguientes propiedades.
+
+```
+spring.jpa.hibernate.ddl-auto=update
+spring.datasource.url=jdbc:mysql://HOST:PORT/DATABASE
+spring.datasource.username=USERNAME
+spring.datasource.password=PASSWORD
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+```
+
+Ya tendremos el servicio de la base de datos en la nube e integrado con el backend.
+
+**Despliegue del API REST**
+
+Para el despliegue del API, se utilizó App Services de Microsoft Azure.
+
+Primero, iniciar sesión en Microsoft Azure y buscar el servicio App Services. Una vez dentro, darle a “Create -> Web App”
+
+<div align="center">
+  <img width=1200 src="./assets/deploy/backend/azure0.png"/>
+</div>
+</br>
+<div align="center">
+  <img width=1200 src="./assets/deploy/backend/azure-1.png"/>
+</div>
+</br>
+
+Luego, se nos solicita llenar un formulario donde debemos seleccionar nuestra suscripción y a qué grupo de recursos pertenecerá. Asimismo, se debe ingresar el nombre de la instancia, el tipo de publicación, sistema operativo, un Runtime Stack y Region. Además, debemos seleccionar el plan que deseamos pagar.
+
+<div align="center">
+  <img width=1200 src="./assets/deploy/backend/azure1.png"/>
+</div>
+</br>
+
+En la siguiente pestaña, desactivamos la creación de una base de datos y en la sección de deployment, activamos el continuous deployment y seleccionamos el repositorio y la rama.
+
+<div align="center">
+  <img width=1200 src="./assets/deploy/backend/azure2.png"/>
+</div>
+</br>
+<div align="center">
+  <img width=1200 src="./assets/deploy/backend/azure3.png"/>
+</div>
+</br>
+
+En la sección Networking, habilitamos el acceso público. Además, para la sección Monitor + Secure, habilitamos los Insight.
+
+<div align="center">
+  <img width=1200 src="./assets/deploy/backend/azure4.png"/>
+</div>
+</br>
+<div align="center">
+  <img width=1200 src="./assets/deploy/backend/azure5.png"/>
+</div>
+</br>
+
+Finalmente, hacemos clic en *Create* y esperamos que nuestro recurso se cree exitosamente.
+
+<div align="center">
+  <img width=1200 src="./assets/deploy/backend/azure6.png"/>
+</div>
+</br>
+
+#### 6.2.3.8. Team Collaboration Insights during Sprint
+
+**Evidencias de los insights del reporte**
+
+<div align="center">
+  <img width=1200 src="./assets/sprint 3/img2.png"/>
+</div>
+
+<div align="center">
+  <img width=1200 src="./assets/sprint 3/img3.png"/>
+</div>
+
+**Evidencias de los insights de la aplicación movil**
+
+<div align="center">
+  <img width=1200 src="./assets/sprint 3/img1.png"/>
+</div>
+
+**Evidencias de los insights de la API**
+
+<div align="center">
+  <img width=800 src="./assets/Insights/sprint3_backend.png"/>
+</div>
+</br>
+<div align="center">
+  <img width=800 src="./assets/Insights/sprint3_back_branches.png"/>
+</div>
+</br>
 
 ## 6.3. Validation Interviews.
 
-### 6.3.1. Diseño de Entrevistas.
+### *6.3.1 Diseño de Entrevistas*
+
+#### *1. Información general*
+- ¿Cuál es tu nombre?
+- ¿Qué edad tienes?
+- ¿A qué te dedicas?
+- ¿Dónde vives?
+
+#### *2. Opinión sobre el diseño*
+- ¿Qué te parece el diseño de la aplicación?
+- ¿Consideras que los colores y la disposición de los elementos son adecuados?
+- ¿El diseño te resulta atractivo y fácil de entender?
+
+#### *3. Experiencia de uso*
+- ¿Cómo describirías tu experiencia al usar la aplicación?
+- ¿Fue sencillo realizar las acciones que necesitabas?
+- ¿Encontraste algún obstáculo al navegar por la aplicación?
+
+#### *4. Funcionalidad más útil*
+- ¿Cuál fue la función que más te llamó la atención o que más utilizaste?
+- ¿Por qué consideras que esa función fue la más útil?
+
+#### *5. Sugerencias de mejora*
+- ¿Qué añadirías a la aplicación para mejorarla?
+- ¿Hay algo que cambiarías en el diseño o en las funcionalidades?
+- ¿Crees que falta alguna característica importante para ti?
+
+#### *6. Impacto general*
+- ¿Crees que la aplicación cumple con sus objetivos?
+- ¿Cómo crees que esta aplicación podría ayudarte en tu día a día?
+- ¿Recomendarías esta aplicación a otras personas? ¿Por qué?
+
+#### *7. Retroalimentación final*
+- ¿Hay algo más que te gustaría comentar sobre la aplicación?
+- ¿Qué impresión general te deja el uso de esta herramienta?
 
 ### 6.3.2. Registro de Entrevistas.
+
+| **Entrevista 1** | **Alan Galavis** |
+| --- | --- |
+| **Artefacto** | Mobile |
+| **Edad** | 21 |
+| **Ocupación** | Estudiante de Ingeniería de Software |
+| **Distrito** | Lima |
+| **Fecha** | 17-11-2024 |
+| <img src="assets/v_entrevistas/Entrevista - Alan Galavis.jpg"/> | La entrevista fue realizada a Alan Enrique Galavis Dubois, un joven de 21 años con una conexión cercana a la agricultura, ya que su abuela practica la agricultura doméstica y su abuelo se dedica a la agricultura industrial. Alan evaluó un proyecto IoT diseñado para este sector, destacando la funcionalidad y diseño de la landing page, cuyo uso de colores e imágenes agrícolas la hacen atractiva y efectiva. Sobre la aplicación móvil, señaló su facilidad de uso, incluso para personas con poca experiencia tecnológica, como sus abuelos, y resaltó la utilidad de la función de programación de riegos. Como mejora, propuso añadir la opción de programar riegos continuos en horarios específicos, una funcionalidad que optimizaría aún más la experiencia para agricultores con horarios definidos. |
+| **URL de la grabación** |[Ver grabación]( https://upcedupe-my.sharepoint.com/personal/u202020229_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202020229%5Fupc%5Fedu%5Fpe%2FDocuments%2FValidation%20enterview%20IOT%2D%20Hidrobotsd%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E98e49e49%2D9901%2D4993%2Dbc34%2Dc079c513eb76&isDarkMode=false )  |
+| **Timming** | 0:00 – 3:45 |
+
+| **Entrevista 2** | ** Jean Piere Marín Fuentes** |
+| --- | --- |
+| **Artefacto** | Web |
+| **Edad** | 20 |
+| **Ocupación** | Estudiante de Ingeniería de Software |
+| **Distrito** | Lima |
+| **Fecha** | 14-11-2024 |
+| <img src="assets/v_entrevistas/Entrevista - Jean Marin.jpg"/> | La entrevista fue realizada a Jean Piere Marín Fuentes, un joven de 20 años, estudiante de Ingeniería de Software en la UPC, quien vive en Miraflores y trabaja en una empresa tecnológica. Jean evaluó un proyecto IoT diseñado para la gestión de cultivos, destacando la claridad y organización de la landing page, que incluye secciones como servicios, portafolio y contacto, las cuales considera bien estructuradas. Sobre la aplicación móvil, resaltó su interfaz intuitiva y facilidad de uso, incluso para usuarios con poca experiencia tecnológica. También valoró la funcionalidad de programación de riegos manual y automática, indicando que ambas operan sin errores y ofrecen un gran soporte para gestionar los cultivos. No propuso mejoras adicionales, ya que opinó que la aplicación es completa y adecuada para las necesidades del usuario. |
+| **URL de la grabación** |[Ver grabación]( https://www.youtube.com/watch?v=686GUR3jsWE )  |
+| **Timming** | 3:45 –7:25|
+
+| **Entrevista 3** | ** Gabriela Peña Ruiz** |
+| --- | --- |
+| **Artefacto** | Web |
+| **Edad** | 23 |
+| **Ocupación** | Estudiante de Ingeniería de Software |
+| **Distrito** | Lima |
+| **Fecha** | 15-11-2024 |
+| <img src="assets/v_entrevistas/Entrevista - Gabriela Peña.jpg"/>| La entrevista fue realizada a Gabriela Peña, una joven de 23 años estudiante de contabilidad con interés en los arreglos florales y el conocimiento de plantas. Gabriela evaluó un proyecto IoT enfocado en la gestión de cultivos, destacando el diseño atractivo y la navegación intuitiva de la landing page, la cual facilita su uso. Sobre la aplicación móvil, resaltó la facilidad para añadir cultivos, programar riegos manuales o automáticos y visualizar datos proporcionados por los sensores, funciones que consideró especialmente útiles para la toma de decisiones en el cuidado de plantas. Aunque no identificó errores ni funcionalidades faltantes, mencionó que con el tiempo podrían surgir nuevas necesidades, pero por el momento consideró la aplicación completa. |
+| **URL de la grabación** |[Ver grabación]( https://upcedupe-my.sharepoint.com/personal/u202020229_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202020229%5Fupc%5Fedu%5Fpe%2FDocuments%2FValidation%20enterview%20IOT%2D%20Hidrobotsd%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E98e49e49%2D9901%2D4993%2Dbc34%2Dc079c513eb76&isDarkMode=false )  |
+| **Timming** | 7:25 – 12:50|
+
+
+
+
+| **Entrevista 4** | ** Carlos Cassimiro Fernández ** |
+| --- | --- |
+| **Artefacto** | Mobile |
+| **Edad** | 21 |
+| **Ocupación** | Trabajador de cultivos hidroponicos |
+| **Distrito** | Lima |
+| **Fecha** | 18-11-2024 |
+|<img src="assets/v_entrevistas/Entrevista - Carlos Fernandez.jpg"/>| La entrevista fue realizada a Carlos Fernández, un joven de 22 años dedicado a la siembra de cultivos mediante hidroponía, quien evaluó un proyecto IoT diseñado para el sector agrícola. Carlos destacó la claridad y facilidad de uso de la landing page, resaltando que su diseño es intuitivo y funcional para cualquier usuario. Sobre la aplicación móvil, señaló su carácter interactivo y útil, especialmente la función para regular el tiempo de riego en modo manual o automático, que considera una ventaja significativa para quienes buscan optimizar el control de sus cultivos. Como mejora, propuso añadir una enciclopedia de plantas que permita a los usuarios visualizar el crecimiento y el resultado final de las semillas, lo cual enriquecería aún más la experiencia de los agricultores. |
+| **URL de la grabación** |[Ver grabación]( https://upcedupe-my.sharepoint.com/personal/u202020229_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202020229%5Fupc%5Fedu%5Fpe%2FDocuments%2FValidation%20enterview%20IOT%2D%20Hidrobotsd%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E98e49e49%2D9901%2D4993%2Dbc34%2Dc079c513eb76&isDarkMode=false )  |
+| **Timming** | 12:50 – 17:35|
+
+
+
+| **Entrevista 5** | ** Fiorella Valencia** |
+| --- | --- |
+| **Artefacto** | Web |
+| **Edad** | 20 |
+| **Ocupación** | Estudiante y practicante de Software |
+| **Distrito** | Lima |
+| **Fecha** | 18-11-2024 |
+| <img src="assets/v_entrevistas/Entrevista - Fiorella Valencia.jpg"/>| La entrevista fue realizada a Fiorella Valencia, una joven de 20 años residente en Lima, San Miguel, quien evaluó un proyecto IoT enfocado en sistemas de riego automatizado para agricultores. Fiorella destacó la funcionalidad y diseño de la landing page, resaltando su paleta de colores y segmentación precisa, que la hacen atractiva y fácil de entender. Sobre la aplicación móvil, señaló su interfaz intuitiva y personalizable, permitiendo agregar cultivos y dispositivos con facilidad. Además, valoró la utilidad de los dashboards para visualizar datos clave como temperatura, humedad y nivel de pH, facilitando el control de los cultivos. Como mejora, propuso mantener la simplicidad en el diseño y seguir optimizando la accesibilidad para usuarios con distintos niveles de experiencia tecnológica. |
+| **URL de la grabación** |[Ver grabación]( https://upcedupe-my.sharepoint.com/personal/u202020229_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202020229%5Fupc%5Fedu%5Fpe%2FDocuments%2FValidation%20enterview%20IOT%2D%20Hidrobotsd%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E98e49e49%2D9901%2D4993%2Dbc34%2Dc079c513eb76&isDarkMode=false )  |
+| **Timming** |17:35–21:20|
+ 
+
+| **Entrevista 6** | ** Franco Gutiérrez** |
+| --- | --- |
+| **Artefacto** | Web |
+| **Edad** | 24 |
+| **Ocupación** | Practicante de Banco Agricola|
+| **Distrito** | Lima |
+| **Fecha** | 11-11-2024 |
+| <img src="assets/v_entrevistas/Entrevista - Franco Yance.jpg"/>| La entrevista fue realizada a Franco Gutiérrez, un joven de 24 años estudiante de Ingeniería de Software, quien evaluó un proyecto IoT diseñado para el sector agrícola. Franco destacó la funcionalidad y diseño de la landing page, mencionando que los colores son adecuados y la información está bien organizada, lo que la hace intuitiva y fácil de navegar. Sobre la aplicación web, resaltó su diseño centrado, la ubicación adecuada de las opciones en el dashboard y la facilidad para gestionar cultivos y dispositivos, como sensores e irrigadores, lo que la hace interesante y bien implementada. Como mejora, sugirió explorar posibles ajustes en la interfaz para seguir optimizando la experiencia de usuario, aunque resaltó que la aplicación ya cumple con los estándares de intuitividad y funcionalidad requeridos para el sector agrícola. |
+| **URL de la grabación** |[Ver grabación]( https://upcedupe-my.sharepoint.com/personal/u202020229_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202020229%5Fupc%5Fedu%5Fpe%2FDocuments%2FValidation%20enterview%20IOT%2D%20Hidrobotsd%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E98e49e49%2D9901%2D4993%2Dbc34%2Dc079c513eb76&isDarkMode=false )  |
+| **Timming** | 21:20–24:50|
+
+ 
+| **Entrevista 7** | ** Martin Cifuentes** |
+| --- | --- |
+| **Artefacto** | Web |
+| **Edad** | 21 |
+| **Ocupación** | Estudiante de Ingeniería de Software |
+| **Distrito** | Lima |
+| **Fecha** | 16-11-2024 |
+| <img src="assets/v_entrevistas/Entrevista - Martin Cifuentes.jpg"/> | La entrevista fue realizada a Martín Cifuentes, un joven de 21 años que practica en una empresa agrícola. Martín evaluó un proyecto IoT diseñado para este sector, destacando la funcionalidad y diseño de la landing page, la cual consideró intuitiva y fácil de usar. Sobre la aplicación web, resaltó la facilidad para gestionar cultivos y dispositivos, como la asignación de sensores a cultivos específicos y el filtrado por tipo de cultivo, además de la utilidad del dashboard, que presenta datos clave como temperatura, humedad y nivel de pH, facilitando la toma de decisiones y la elaboración de reportes. También mencionó que su funcionalidad favorita es el riego automático, por simplificar significativamente las labores agrícolas. Como observación final, comentó que no encontró ningún problema en la aplicación y consideró que cumple con las necesidades planteadas, sin sugerir mejoras adicionales. |
+| **URL de la grabación** |[Ver grabación]( https://upcedupe-my.sharepoint.com/personal/u202020229_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202020229%5Fupc%5Fedu%5Fpe%2FDocuments%2FValidation%20enterview%20IOT%2D%20Hidrobotsd%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E98e49e49%2D9901%2D4993%2Dbc34%2Dc079c513eb76&isDarkMode=false )  |
+| **Timming** | 24:50–28:03|
+
+ 
+| **Entrevista 8** | ** Steve Royal Castillo Robles** |
+| --- | --- |
+| **Artefacto** | Mobile |
+| **Edad** | 23 |
+| **Ocupación** | Estudiante de Ingeniería de Software |
+| **Distrito** | Lima |
+| **Fecha** | 16-11-2024 |
+| <img src="assets/v_entrevistas/Entrevista - Steve Castillo.jpg"/> | La entrevista fue realizada a Steve Royal Castillo Robles, un joven de 23 años estudiante, con familiares dedicados a la distribución agrícola minorista. Steve evaluó un proyecto IoT diseñado para este sector, destacando la funcionalidad y diseño de la landing page, la cual considera intuitiva y con un enfoque acertado hacia la agricultura, facilitando la navegación entre servicios, portafolio y contactos. Sobre la aplicación móvil, resaltó su facilidad de uso y su utilidad para planificar riegos en parcelas, destacando la función de programación automática como un elemento clave. Como mejora, propuso añadir un tutorial paso a paso (stepper) para guiar a usuarios con menos experiencia tecnológica, mejorando así la accesibilidad para personas del campo. |
+| **URL de la grabación** |[Ver grabación]( https://upcedupe-my.sharepoint.com/personal/u202020229_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202020229%5Fupc%5Fedu%5Fpe%2FDocuments%2FValidation%20enterview%20IOT%2D%20Hidrobotsd%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E98e49e49%2D9901%2D4993%2Dbc34%2Dc079c513eb76&isDarkMode=false )  |
+| **Timming** | 24:50–28:03|
+
+
+
+
+
+
+
+
 
 ### 6.3.3. Evaluaciones según heurísticas.
 
 ## 6.4. Video About-the-Product.
+
+![video](assets/videos/about-the-product/video-about-the-product.png)
+
+Mira el video avout-the-product aquí: https://youtu.be/OxO7K5ZH7PQ 
 
 </div>
 
@@ -6205,7 +7227,27 @@ Una vez completado, Netlify generará una URL única para tu sitio.
 
 ## Conclusiones y recomendaciones
 
+Tras el desarrollo del proyecto, se concluye que:
+
+- Se desarrolló un prototipo completo cuyo fin es ayudar a agricultores e investigadores a la gestión y supervsión de sus cultivos. 
+
+- Se logró adoptar el marco de trabajo Scrum, lo que permitió gestionar el proyecto de manera iterativa e incremental, facilitando la organización del equipo y la priorización de tareas.
+
+- Se implementó Domain-Driven Design (DDD), lo que permitió estructurar el sistema de manera sólida, enfocándose en el dominio y las reglas de negocio. Esto se logró mediante la definición clara de bounded contexts, la creación de entidades y agregados, y el diseño de interfaces para abstraer la lógica de dominio. 
+
+- Se desarrollaron diagramas de arquitectura, como el diagrama de clases, de base de datos y C4, los cuales facilitaron la comprensión entre los miembros del equipo y aseguraron que todos trabajaran con una visión común del sistema.
+
+- Se integró diversos patrones de diseño para lograr un código modular, reutilizable y fácil de mantener. Tales patrones son: Repository, Observer, Factory y Command.
+
+- Se determinó la aprobación de nuestro público objetivo gracias a las entrevias de validación efectuadas, donde se mostraron los prototipos funcionales.
+
+- Se implementó de manera exitosa una aplicación web, una aplicación móvil, una API, un dispositivo ESP32 y un broker MQTT para culminar el desarrollo del proyecto. Este logro demostró la solidez del diseño arquitectónico y la habilidad para resolver desafíos técnicos complejos, resultando en un sistema funcional y eficiente.
+
 ## Video About-the-Team
+
+![video](assets/videos/about-the-team/video-about-the-team.png)
+
+Mira el video about-the-team aquí: https://www.youtube.com/watch?v=s73QycslfAs 
 
 # Bibliografía
 
@@ -6218,4 +7260,7 @@ Una vez completado, Netlify generará una URL única para tu sitio.
 # Anexos
 
 Repositorio del proyecto: https://github.com/IoT-Solutions-SW71-Grupo-4
-Url de el frontend:  https://ayni-eight.vercel.app/dashboard
+
+Url de el frontend: https://ayni-eight.vercel.app/dashboard
+
+Url de la Api: https://hidrobots-ayni.azurewebsites.net/
