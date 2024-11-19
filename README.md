@@ -6283,6 +6283,311 @@ En esta sección se especifican los detalles del Sprint Backlog, que es una list
 
 #### 6.2.3.3. Development Evidence for Sprint Review
 
+Se presentan los commits realizados en el repositorio de GitHub, en el cual se puede observar el trabajo realizado por cada integrante del equipo.
+
+- Repositorio Frontend:
+  https://github.com/IoT-Solutions-SW71-Grupo-4/AyniFronted.git
+
+<table align="left" border="1" width="100%">
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit ID</th>
+    <th>Author</th>
+    <th>Message</th>
+    <th>Time ago</th>
+  </tr>
+  <tr>
+    <td rowspan="6">Frontend</td>
+    <td>feat/head</td>
+    <td>d7bba05b111e5bbf53e49a5a2feb9e7dd38ade5e</td>
+    <td>TMedalith</td>
+    <td>refactor: Update header component styles and template</td>
+    <td>02/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat/head</td>
+    <td>9dca241bd4ab24e27c74052e01c4279b2a0d776d</td>
+    <td>TMedalith</td>
+    <td>refactor: Update authentication service to navigate to dashboard after signing in</td>
+    <td>02/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>d46934c051f86083f5d4dafdad7b24506dd84d3a</td>
+    <td>TMedalith</td>
+    <td>refactor: Remove unnecessary "years" label in crop card component</td>
+    <td>02/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>72d479d5826ff6507b7c64e868a4ac2fe4fed941</td>
+    <td>TMedalith</td>
+    <td>feat: Add Farmer model to profile module</td>
+    <td>02/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>6afe53c13f4442c96642a2e8788c4b2533c9a24f</td>
+    <td>TMedalith</td>
+    <td>feat: Update profile component styles and template</td>
+    <td>02/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat/auth</td>
+    <td>efd10996bf75dd0e5b1d23f139027f02b5640843</td>
+    <td>TMedalith</td>
+    <td>feat: Add FarmerService to handle farmer-related operations</td>
+    <td>02/11/2024</td>
+  </tr>
+
+
+</table>
+
+- Repositorio Mobile:
+  https://github.com/IoT-Solutions-SW71-Grupo-4/Ayni-MobileApplication
+
+</br>
+
+<table  align="left" border="1" width="100%">
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit ID</th>
+    <th>Author</th>
+    <th>Message</th>
+    <th>Time ago</th>
+  </tr>
+  <tr>
+    <td rowspan=40>Ayni-MobileApplication</td>
+    <td>Main</td>
+    <td>31ab4c2482f7bb712d13c633a6138968fe91be08</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add login and loguot routing</td>
+    <td>28/10/24</td>
+  </tr>
+  <tr>
+    <td rowspan=11>feature/user-Authentication</td>
+    <td>ff3a9616ac7485e1bbe35e3e2930e0bec3b8aa17</td>
+    <td>Diego Defilippi</td>
+    <td>Release Ayni v0.1.0</td>
+    <td>30/10/24</td>
+  </tr>
+  <tr>
+    <td>66edb5b7b554fd50f5904cbe0e08a7715a120323</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Modify initLocation</td>
+    <td>28/10/24</td>
+  </tr>
+ 
+</table>
+
+
+- Repositorio Backend:
+  https://github.com/IoT-Solutions-SW71-Grupo-4/HidroBots-Backend.git
+
+<div style="overflow-x:auto;">
+  <table width="100%">
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit ID</th>
+      <th>Author</th>
+      <th>Message</th>
+      <th>Time ago</th>
+    </tr>
+    <tr>
+    <td>feat</td>
+    <td>72cf8f6</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Irrigation management</td>
+    <td align="right">17/11/2024</td>
+  </tr>
+  <tr>
+    <td>fix</td>
+    <td>0def865</td>
+    <td>Diego Defilippi</td>
+    <td>fix: Modify mqtt public to private connection</td>
+    <td align="right">17/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>d6722b0</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Modify client id for mqtt connection</td>
+    <td align="right">15/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>f43258f</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Implement soil report with mqtt and db</td>
+    <td align="right">15/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>34ba56c</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Implement weather report with mqtt</td>
+    <td align="right">15/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>b0ec80d</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add soil analyze logic</td>
+    <td align="right">15/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>d383f12</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add weather listener service</td>
+    <td align="right">15/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>21934e2</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add mqtt client config</td>
+    <td align="right">15/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>74500ef</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add mqtt and gson dependencies</td>
+    <td align="right">15/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>1445867</td>
+    <td>Tatiana Paucar</td>
+    <td>feat(device): Add DeviceController with CRUD operations and endpoints.</td>
+    <td align="right">14/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>1f9763d</td>
+    <td>Tatiana Paucar</td>
+    <td>feat(device): Add DeviceResource class and assembler for entity transformation</td>
+    <td align="right">14/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>70c8abd</td>
+    <td>Tatiana Paucar</td>
+    <td>feat(device): Add DeviceCommandService and DeviceQueryService</td>
+    <td align="right">14/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>e877d34</td>
+    <td>Tatiana Paucar</td>
+    <td>feat(device): Add Device entity and repository</td>
+    <td align="right">14/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>bd97687</td>
+    <td>Tatiana Paucar</td>
+    <td>feat(device): Add device command implementations</td>
+    <td align="right">14/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>174e596</td>
+    <td>Leonardo Lopez</td>
+    <td>feat(report): Update Soil Report</td>
+    <td align="right">14/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>14f272e</td>
+    <td>Leonardo Lopez</td>
+    <td>feat(report): Add Soil Report</td>
+    <td align="right">14/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>5941733</td>
+    <td>Leonardo Lopez</td>
+    <td>feat(report): Update Weather Report</td>
+    <td align="right">13/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>cde66ec</td>
+    <td>Leonardo Lopez</td>
+    <td>feat(report): Add Weather Report</td>
+    <td align="right">13/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>72cf8f6</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Irrigation management</td>
+    <td align="right">17/11/2024</td>
+  </tr>
+  <tr>
+    <td>fix</td>
+    <td>0def865</td>
+    <td>Diego Defilippi</td>
+    <td>fix: Modify mqtt public to private connection</td>
+    <td align="right">17/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>d6722b0</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Modify client id for mqtt connection</td>
+    <td align="right">15/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>f43258f</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Implement soil report with mqtt and db</td>
+    <td align="right">15/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>34ba56c</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Implement weather report with mqtt</td>
+    <td align="right">15/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>b0ec80d</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add soil analyze logic</td>
+    <td align="right">15/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>d383f12</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add weather listener service</td>
+    <td align="right">15/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>21934e2</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add mqtt client config</td>
+    <td align="right">15/11/2024</td>
+  </tr>
+  <tr>
+    <td>feat</td>
+    <td>74500ef</td>
+    <td>Diego Defilippi</td>
+    <td>feat: Add mqtt and gson dependencies</td>
+    <td align="right">15/11/2024</td>
+  </tr>
+  </table>
+</div>
+
 #### 6.2.3.4. Testing Suite Evidence for Sprint Review
 
 #### 6.2.3.5. Execution Evidence for Sprint Review
