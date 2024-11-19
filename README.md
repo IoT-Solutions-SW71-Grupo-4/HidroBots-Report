@@ -6815,6 +6815,12 @@ En esta sección presentamos las ejecuciones finales de las aplicaciones desarro
 </div>
 </br>
 
+**Embedded System**
+
+![embedded-system](assets/sprint%203/execution-evidence/execution-embebed-app/embebed-application.png)
+
+accede al wokwi desde aquí: https://wokwi.com/projects/414764412456377345
+
 #### 6.2.3.6. Services Documentation Evidence for Sprint Review
 
 En esta seccion presentamos la documentacion del backend al 100% con todos los endpoints necesarios para la ejecucion de las aplicaciones.
@@ -7183,6 +7189,10 @@ Verificar el proceso de carga y almacenamiento de la imagen, asegurándose de qu
 
 ## 6.4. Video About-the-Product.
 
+![video](assets/videos/about-the-product/video-about-the-product.png)
+
+Mira el video avout-the-product aquí: https://youtu.be/OxO7K5ZH7PQ 
+
 </div>
 
 # Conclusiones
@@ -7206,6 +7216,10 @@ Tras el desarrollo del proyecto, se concluye que:
 - Se implementó de manera exitosa una aplicación web, una aplicación móvil, una API, un dispositivo ESP32 y un broker MQTT para culminar el desarrollo del proyecto. Este logro demostró la solidez del diseño arquitectónico y la habilidad para resolver desafíos técnicos complejos, resultando en un sistema funcional y eficiente.
 
 ## Video About-the-Team
+
+![video](assets/videos/about-the-team/video-about-the-team.png)
+
+Mira el video about-the-team aquí: https://www.youtube.com/watch?v=s73QycslfAs 
 
 # Bibliografía
 
