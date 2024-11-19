@@ -6088,6 +6088,199 @@ Una vez completado, Netlify generará una URL única para tu sitio.
 
 #### 6.2.3.2. Sprint Backlog 3
 
+En esta sección se especifican los detalles del Sprint Backlog, que es una lista de tareas que se han realizado para completar el Sprint.
+
+<table align="center" border="1" width="90%" style="text-align:center">
+  <tr>
+    <td colspan="1"><b>Sprint #</b></td>
+    <td colspan="7"><b>Sprint 3</b></td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>User Story</b></td>
+    <td colspan="6"><b>Work-Item / Task</b></td>
+  </tr>
+  <tr>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Description</b></td>
+    <td><b>Estimation (Hours)</b></td>
+    <td><b>Assigned To</b></td>
+    <td><b>Status (To-do / In-Process / To-Review / Done)</b></td>
+  </tr>
+
+<tr>
+  <td rowspan="4">US1</td>
+  <td rowspan="4">Visualizar nutrientes del suelo</td>
+  <td>T1</td>
+  <td>Diseño de Interfaz y conexión de los nutrientes del suelo (App Móvil)</td>
+  <td>Creacion de la interfaz para el usuario y la conexion con el servicio del backend para dispositivos moviles.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>T2</td>
+  <td>Diseño de Interfaz y conexión de los nutrientes del suelo (App Web)</td>
+  <td>Creacion de la interfaz para el usuario y la conexion con el servicio del backend para aplicaciones web.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td>T3</td>
+  <td>Desarrollo del servicio (Backend)</td>
+  <td>Creacion del servicio en arquitectura DDD en el backend.</td>
+  <td>2hr</td>
+  <td>Leonardo Lopez</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T4</td>
+  <td>Integración con el wokwi</td>
+  <td>Integración de nuestro servicio con el dispositivo ESP32 creado en wokwi</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td rowspan="3">US2</td>
+  <td rowspan="3">Historial de nutrientes del suelo</td>
+  <td>T5</td>
+  <td>Diseño de Interfaz y conexión del historial de nutrientes del suelo (App Móvil)</td>
+  <td>Creación de la interfaz de usuario para el historial de nutrientes en la aplicación movil.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T6</td>
+  <td>Diseño de Interfaz y conexión del historial de nutrientes del suelo (App Web)</td>
+  <td>Creación de la interfaz de usuario para el historial de nutrientes en la aplicación web.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T7</td>
+  <td>Integración dehistorial de nutrientes con Backend (App Web)</td>
+  <td>Integración del formulario de historial de nutrientes de la aplicación web con el backend.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td rowspan="4">US6</td>
+  <td rowspan="4">Programación de riego automático</td>
+  <td>T7</td>
+  <td>Creación de Endpoint para Programación de riego automático</td>
+  <td>Implementación del endpoint en el backend para obtener los datos de la programación de riego automático.</td>
+  <td>2hr</td>
+  <td>Leonardo López</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T8</td>
+  <td>Diseño de Interfaz para programación de riego automático (App Móvil)</td>
+  <td>Desarrollo de la pantalla de visualización del programación de riego automático en la aplicación móvil.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T9</td>
+  <td>Diseño de Interfaz para programación de riego automático (App Web)</td>
+  <td>Desarrollo de la pantalla de programación de riego automático en la aplicación web.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T10</td>
+  <td>Integración del riego automático con el ESP32</td>
+  <td>Integración y configuración para la comunicación eficaz de nuestro servicio con el ESP32 en wokwi sobre el riego automático.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td rowspan="4">US7</td>
+  <td rowspan="4">Programación de riego manual</td>
+  <td>T11</td>
+  <td>Creación de Endpoint para Programación de riego manual</td>
+  <td>Implementación del endpoint en el backend para obtener los datos de la programación de riego manual.</td>
+  <td>2hr</td>
+  <td>Leonardo López</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T11</td>
+  <td>Diseño de Interfaz para programación de riego manual (App Móvil)</td>
+  <td>Desarrollo de la pantalla de visualización del programación de riego manual en la aplicación móvil.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T9</td>
+  <td>Diseño de Interfaz para programación de riego manual (App Web)</td>
+  <td>Desarrollo de la pantalla de programación de riego manual en la aplicación web.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T10</td>
+  <td>Integración del riego manual con el ESP32</td>
+  <td>Integración y configuración para la comunicación eficaz de nuestro servicio con el ESP32 en wokwi sobre el riego manual.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+
+<tr>
+  <td rowspan="4">US8</td>
+  <td rowspan="4">Monitoreo en tiempo real de las plantas</td>
+  <td>T15</td>
+  <td>Creación de Endpoint para Monitoreo en tiempo real de las plantas</td>
+  <td>Implementación del endpoint en el backend para el monitoreo en tiempo real de las plantas.</td>
+  <td>2hr</td>
+  <td>José Ampudia</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T16</td>
+  <td>Diseño de Interfaz para monitoreo en tiempo real de las plantas (App Móvil)</td>
+  <td>Desarrollo de la pantalla para el monitoreo en tiempo real de las plantas en la aplicación móvil.</td>
+  <td>2hr</td>
+  <td>Diego Defilippi</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T17</td>
+  <td>Diseño de Interfaz para Actualización de Imagen de Perfil (App Web)</td>
+  <td>Desarrollo de la pantalla para actualizar la imagen de perfil en la aplicación web.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+<tr>
+  <td>T18</td>
+  <td>Integración de Actualización de Imagen de Perfil con Backend (App Web)</td>
+  <td>Integración de la pantalla para actualizar la imagen de perfil en la aplicación web con el backend.</td>
+  <td>2hr</td>
+  <td>Tatiana Paucar</td>
+  <td>Done</td>
+</tr>
+
+
+</table>
+
 #### 6.2.3.3. Development Evidence for Sprint Review
 
 #### 6.2.3.4. Testing Suite Evidence for Sprint Review
