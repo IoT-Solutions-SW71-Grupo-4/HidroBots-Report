@@ -11,7 +11,7 @@
 
 <br>
 
-<h1 align="center"> TB2 Report </h1>
+<h1 align="center"> TF Report </h1>
 
 <h3 align="center"> Desarrollo de Soluciones IoT - SW53 </h3>
 
