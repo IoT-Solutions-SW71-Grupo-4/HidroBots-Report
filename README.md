@@ -6650,7 +6650,193 @@ En esta seccion se relizarán algunos de los tests necesarios y primordiales de 
 
 #### 6.2.3.5. Execution Evidence for Sprint Review
 
+En esta sección presentamos las ejecuciones finales de las aplicaciones desarrolladas a lo largo del curso, a continuación se muestran.
+
+**Aplicación Web**
+
+![web-app](assets/sprint%203/execution-evidence/excecution-front/execution-frontend-1.jpeg)
+
+![web-app](assets/sprint%203/execution-evidence/excecution-front/execution-frontend-2.jpeg)
+
+![web-app](assets/sprint%203/execution-evidence/excecution-front/execution-frontend-3.jpeg)
+
+![web-app](assets/sprint%203/execution-evidence/excecution-front/execution-frontend-4.jpeg)
+
+![web-app](assets/sprint%203/execution-evidence/excecution-front/execution-frontend-5.jpeg)
+
+![web-app](assets/sprint%203/execution-evidence/excecution-front/execution-frontend-6.jpeg)
+
+![web-app](assets/sprint%203/execution-evidence/excecution-front/execution-frontend-7.jpeg)
+
+![web-app](assets/sprint%203/execution-evidence/excecution-front/execution-frontend-8.jpeg)
+
+![web-app](assets/sprint%203/execution-evidence/excecution-front/execution-frontend-9.jpeg)
+
+![web-app](assets/sprint%203/execution-evidence/excecution-front/execution-frontend-10.jpeg)
+
+**Aplicacion Movil**
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-1.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-2.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-3.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-4.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-4.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-5.png" alt="Mobile login"/>
+</div>
+</br>
+
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-6.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-7.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-8.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-8.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-10.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-11.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-12.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-13.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-14.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-15.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-16.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-17.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-18.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-19.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-20.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-21.png" alt="Mobile login"/>
+</div>
+</br>
+
+</br>
+<div align="center">
+  <img width=200 src="./assets/sprint 3/execution-evidence/execution-mobile/mobile-22.png" alt="Mobile login"/>
+</div>
+</br>
+
 #### 6.2.3.6. Services Documentation Evidence for Sprint Review
+
+En esta seccion presentamos la documentacion del backend al 100% con todos los endpoints necesarios para la ejecucion de las aplicaciones.
+
+![swagger](assets/sprint%203/services-documentation/doc-backend-1.png)
+
+![swagger](assets/sprint%203/services-documentation/doc-backend-2.png)
+
+![swagger](assets/sprint%203/services-documentation/doc-backend-3.png)
+
+![swagger](assets/sprint%203/services-documentation/doc-backend-4.png)
+
+A continuacion se explican los endpoints nuevos que se implementaron
+
+| Service | Evidence | Description |
+| --- | --- | --- |
+| Devices | ![swagger](assets/sprint%203/services-documentation/peq-back/devices.png) | Gestiona los dispositivos embebidos (ESP32) que se conectan a la aplicación. |
+| Irriagation | ![swagger](assets/sprint%203/services-documentation/peq-back/irrigation.png) | Gestiona la programación de riego automático y manual. |
+| Soil Analysis | ![swagger](assets/sprint%203/services-documentation/peq-back/soil-analist.png) | Gestiona el análisis de suelo que se obtuvieron de los sensores. |
+| Weather Report | ![swagger](assets/sprint%203/services-documentation/peq-back/weather-report.png) | Gestiona el reporte del clima que se obtuvieron de los sensores. |
+| Soil Report | ![swagger](assets/sprint%203/services-documentation/peq-back/soil-report.png) | Gestiona el reporte del suelo que se obtuvieron de los sensores. |
+
 
 #### 6.2.3.7. Software Deployment Evidence for Sprint Review
 
