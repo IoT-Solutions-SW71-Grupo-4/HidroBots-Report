@@ -11,7 +11,7 @@
 
 <br>
 
-<h1 align="center"> TP Report </h1>
+<h1 align="center"> TB2 Report </h1>
 
 <h3 align="center"> Desarrollo de Soluciones IoT - SW53 </h3>
 
@@ -19,7 +19,7 @@
 
 <h3> Startup: HidroBots </h3>
 
-<h3> Product: </h3>
+<h3> Product: Ayni</h3>
 
 <h3> Team Members: </h3>
 
@@ -45,7 +45,7 @@
 
 El objetivo de esta sección es resumir las modificaciones relevantes que se realizan al informe durante el ciclo de vida del proyecto. Esta sección inicia en una página nueva e incluye un cuadro con la siguiente estructura:
 
-<table>
+<table width="800px" align="center">
   <thead>
     <tr>
       <th>Versión</th>
@@ -75,21 +75,93 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
     </tr>
     <tr>
       <td>0.4</td>
-      <td>10/10/2024</td>
+      <td>02/09/2024</td>
       <td>Leonardo Lopez</td>
       <td>Desarrollo de entrevistas, implementación del Needfinding, desarrollo de Software Architecture, esto incluye el desarrollo del modelo C4.</td>
     </tr>
     <tr>
       <td>0.5</td>
-      <td>18/10/2024</td>
+      <td>04/09/2024</td>
       <td>Fabio Horna</td>
       <td>Desarrollo de entrevistas, y la investigación sobre los competidores y el análisis competitivo y las estrategias frente a los competidores, del mismo modo, apoyo en el desarrollo de Tactical-Level Domain-Driven Design.</td>
     </tr>
     <tr>
       <td>1.0</td>
-      <td>20/10/2024</td>
+      <td>06/09/2024</td>
       <td>Equipo HidroBots</td>
-      <td>Documentación de la solución versión 1.0.</td>
+      <td>Documentación de la solución versión 1.0</td>
+    </tr>
+    <tr>
+      <td>1.1</td>
+      <td>10/09/2024</td>
+      <td>Leonardo Lopez</td>
+      <td>Corrección de TB1</td>
+    </tr>
+    <tr>
+      <td>1.2</td>
+      <td>14/09/2024</td>
+      <td>Diego Defilippi</td>
+      <td>Desarrollo de wireframes y mockups de la aplicación móvil y redacción de reporte</td>
+    </tr>
+    <tr>
+      <td>1.3</td>
+      <td>16/09/2024</td>
+      <td>Fabio Horna</td>
+      <td>Desarrollo de la landing page</td>
+    </tr>
+    <tr>
+      <td>1.4</td>
+      <td>20/09/2024</td>
+      <td>José Ampudia</td>
+      <td>Desarrollo de la primera versión del backend</td>
+    </tr>
+    <tr>
+      <td>1.5</td>
+      <td>24/09/2024</td>
+      <td>Tatiana Paucar</td>
+      <td>Desarrollo de wireframes y mockups de la aplicación web y desarrollo de la primera versión de la aplicación web</td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>25/09/2024</td>
+      <td>Equipo HidroBots</td>
+      <td>Documentación de la solución versión 2.0</td>
+    </tr>
+    <tr>
+      <td>2.1</td>
+      <td>12/10/2024</td>
+      <td>Tatiana Paucar</td>
+      <td>Desarrollo de funcionalidades faltantes de la aplicación web</td>
+    </tr>
+    <tr>
+      <td>2.2</td>
+      <td>16/10/2024</td>
+      <td>Fabiano Horna</td>
+      <td>Configuración inicial del simulador de ESP32 en Wokwi</td>
+    </tr>
+    <tr>
+      <td>2.3</td>
+      <td>26/10/2024</td>
+      <td>Diego Defilippi</td>
+      <td>Desarrollo de la primera versión de la aplicación móvil</td>
+    </tr>
+    <tr>
+      <td>2.4</td>
+      <td>30/10/2024</td>
+      <td>José Ampudia</td>
+      <td>Desarrollo de nuevas funcionalidades del backend</td>
+    </tr>
+    <tr>
+      <td>2.5</td>
+      <td>30/10/2024</td>
+      <td>Leonardo Lopez</td>
+      <td>Desarrollo de nuevas funcionalidades del backend</td>
+    </tr>
+    <tr>
+      <td>3.0</td>
+      <td>02/11/2024</td>
+      <td>Equipo HidroBots</td>
+      <td>Documentación de la solución versión 3.0.</td>
     </tr>
   </tbody>
 </table>
@@ -130,7 +202,19 @@ Gracias a GitHub, se ha podido llevar un control de versiones y colaboración en
 
 La rama "develop" se ha utilizado para la integración de las tareas asignadas a cada miembro del equipo, permitiendo la integración de las tareas de manera ordenada y eficiente. La rama "main" sirvió para presentar la versión final del proyecto.
 
-- **TB1**:
+**TB2**:
+
+Para la entrega del TB2 se designó tareas a cada integrente, el cual se podrá visualizar a continuación:
+
+| Miembro del Equipo | Tarea Asignada |
+| :---: | :---: |
+| Diego Defilippi | Desarrollo de la primera versión de la aplicación móvil y documentación |
+| Jose Ampudia | Desarrollo de la segunda versión del backend y documentación |
+| Tatiana Paucar | Desarrollo de la segunda versión de la segunda versión de la aplicación web y documentación. |
+| Leonardo Lopez | Colaboración en el desarrollo del backend |
+| Fabio Horna | Configuración inicial del ESP32 en el simulador Wokwi |
+
+Es importante mencionar que durante la elaboración del informe se realizaron commits respectivos a cada tarea asignada, con el fin de mantener un control de versiones y colaboración en tiempo real.
 
 <br><br>
 
@@ -255,15 +339,6 @@ La rama "develop" se ha utilizado para la integración de las tareas asignadas a
     - [6.2.2.6. Services Documentation Evidence for Sprint Review](#6226-services-documentation-for-sprint-review)
     - [6.2.2.7. Software Deployment Evidence for Sprint Review](#6227-software-deployment-evidence-for-sprint-review)
     - [6.2.2.8. Team Collaboration Insights during Sprint](#6228-team-collaboration-insights-during-sprint)
-  - [6.2.3. Sprint 3](#623-sprint-3)
-    - [6.2.3.1. Sprint Planning 3](#6231-sprint-plannning-3)
-    - [6.2.3.2. Sprint Backlog 2](#6232-sprint-backlog-3)
-    - [6.2.3.3. Development Evidence for Sprint Review](#6233-development-evidence-for-sprint-review)
-    - [6.2.3.4. Testing Suite Evidence for Sprint Review](#6234-testing-suite-for-sprint-review)
-    - [6.2.3.5. Execution Evidence for Sprint Review](#6235-execution-evidence-for-sprint-review)
-    - [6.2.3.6. Services Documentation Evidence for Sprint Review](#6236-services-documentation-for-sprint-review)
-    - [6.2.3.7. Software Deployment Evidence for Sprint Review](#6237-software-deployment-evidence-for-sprint-review)
-    - [6.2.3.8. Team Collaboration Insights during Sprint](#6238-team-collaboration-insights-during-sprint)
 - [6.3. Validation Interviews](#63-validation-interviews)
   - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
   - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
@@ -300,21 +375,36 @@ La rama "develop" se ha utilizado para la integración de las tareas asignadas a
         <strong>Diego Defilippi</strong><br>
         <strong>TB1:</strong><br>
         Lideré la distribución de tareas, me aseguré de que cada miembro del equipo comprendiera sus responsabilidades. Organizamos reuniones periódicas para revisar avances y ajustar el plan según los resultados obtenidos. Mi función principal fue implementar los bounded context canvases y el apoyo continuo para el desarrollo del Event Storming.<br><br>
+        <strong>TB2:</strong><br>
+        Organización de las tareas en base a user stories y organización de reuniones periódicas para revisar avances.<br><br>
         <strong>Jose Ampudia</strong><br>
         <strong>TB1:</strong><br>
         Propuse el avance conjunto para el desarrollo de los puntos críticos del desarrollo del informe, tales como el capítulo 4, el desarrollo del Event Storming, las cuales se desarrolló con éxito.<br><br>
+        <strong>TB2:</strong><br>
+        Participación activa en el desarrollo del backend de la aplicación. Me encargué de implementar los métodos y endpoints necesarios para que las aplicaciones móviles y web pudieran consumir los servicios, habilitando funcionalidades como la creación de usuarios, gestión de cultivos, actualización de perfiles, entre otros. Este trabajo permitió una integración eficaz entre el backend y los demás componentes del sistema.<br><br>
         <strong>Tatiana Paucar</strong><br>
         <strong>TB1:</strong><br>
         Fomenté la participación activa lo que ayudó en la toma de decisiones clave para el proyecto. Del mismo modo para el desarrollo óptimo de los bounded contexts, los cuales son fundamentales para dividir las funcionalidades principales de la aplicación por módulos.<br><br>
+        <strong>TB2:</strong><br>
+        Durante el sprint 2, participé activamente en el equipo, centrándome en el desarrollo del frontend. Mi responsabilidad fue asegurar que las interfaces fueran funcionales, atractivas y alineadas con los requisitos de diseño establecidos. Colaboré de cerca con los demás miembros para integrar mi trabajo de frontend con el backend y otras funcionalidades, logrando una sincronización eficiente en el avance del proyecto.<br><br>
         <strong>Leonardo Lopez</strong><br>
         <strong>TB1:</strong><br>
         Propuse un sistema de trabajo colaborativo basado en las fortalezas del equipo y medió en la resolución de conflictos. Además, me centré en implementar el modelo C4, lo cual es fundamental para tener una vista de alto nivel sobre el funcionamiento de la aplicación.<br><br>
+        <strong>TB2:</strong><br>
+        Durante el sprint 2 organiza las diferentes actividades y retos que se abarcaron en este entregable, monitorenado las diversas implemataciones de servicios y creación de interfaces. Logrando alcanzar el objetivo de la entrega.<br><br>
         <strong>Fabio Horna</strong><br>
         <strong>TB1:</strong><br>
         Coordiné el uso de herramientas colaborativas y promoví la comunicación constante en el equipo. Del mismo modo, me encargué de realizar el Tactical-Level Domain-Driven Design lo que nos permite tener una visión más clara de la estructura de la aplicación y de cómo se relacionan los diferentes módulos.<br>
+        <strong>TB2:</strong><br>
+        Durante el sprint 2, participé activamente en el equipo, enfocado en finalizar la landing page y en asegurar que todas las validaciones de usuario funcionaran correctamente. Integré mi trabajo con el resto del proyecto, contribuyendo a un avance coordinado y efectivo.
+        <br>
       </td>
       <td>
+        <strong>TB1:</strong><br>
         El liderazgo conjunto permitió la distribución adecuada de tareas, facilitando la consecución de los objetivos del proyecto de manera efectiva. La correcta supervisión, mediación y comunicación aseguraron que todos los miembros estuvieran alineados y motivados.
+        <br><br>
+        <strong>TB2:</strong><br>
+        Se logró el desarrollo del Sprint 2 debido a una efectiva organización de tareas y user stories en base a las habilidades de cada miembro del equipo.
       </td>
     </tr>
     <tr>
@@ -323,21 +413,36 @@ La rama "develop" se ha utilizado para la integración de las tareas asignadas a
         <strong>Diego Defilippi</strong><br>
         <strong>TB1:</strong><br>
         Establecí metas claras y coordiné la planificación de tareas, asegurando que cada fase del proyecto tuviera objetivos alcanzables. Es por ello que delegamos responsabilidades para la correcta implementación de la solución.<br><br>
+        <strong>TB2:</strong><br>
+        Se establecieron objetivos para el Sprint 2 y se desarrollo la primera versión de la aplicación móvil.<br><br>
         <strong>Jose Ampudia</strong><br>
         <strong>TB1:</strong><br>
         Supervisé el cumplimiento de los plazos y fomentó un entorno inclusivo al involucrar a todos los miembros en la revisión de avances, lo que nos permitió corregir errores y mejorar características de nuestra solución.<br><br>
+        <strong>TB2:</strong><br>
+        Involucré a cada miembro del equipo en las revisiones de avances, lo que no solo permitió corregir errores a tiempo, sino también fortalecer nuestro trabajo conjunto. Además, estuve pendiente de los plazos y objetivos, asegurándome de que pudiéramos alcanzar nuestras metas sin perder el ritmo, pero siempre manteniendo un espacio abierto para la colaboración y el aprendizaje mutuo.<br><br>
         <strong>Tatiana Paucar</strong><br>
         <strong>TB1:</strong><br>
         Facilité el uso de herramientas colaborativas y organicé sesiones para revisar el progreso del equipo, tales como reuniones en Discord, además de diseñar modelos de dominio y de arquitectura que permitieron una mejor comprensión de la solución.<br><br>
         <strong>Leonardo Lopez</strong><br>
+        <strong>TB2:</strong><br>
+        Trabajé en constante comunicación con el equipo, atendiendo a los feedbacks para realizar ajustes y mejorar la experiencia de usuario. Me mantuve alineado con las metas del equipo para cumplir con los entregables y asegurar los objetivos del sprint.<br><br>
+        <strong>Leonardo Lopez</strong><br>
         <strong>TB1:</strong><br>
         Me encargué de la gestión de recursos y del seguimiento de los avances de cada miembro del equipo, asegurando que se cumplieran los plazos. Es por ello, que para la implementación de modelo C4, se tuvo que coordinar con los miembros del equipo para establecer una visión clara de la arquitectura.<br><br>
+        <strong>TB2:</strong><br>
+        El trabajo realizado fue con efectiva comunicación, planificando asi las metricas que se alcanzarian en este entregabla, de igual forma se cumplieron los objetivos trazados para la entrega del sprint 2<br><br>
         <strong>Fabio Horna</strong><br>
         <strong>TB1:</strong><br>
         Promoví la cohesión del equipo y facilitó la toma de decisiones consensuada para cumplir con los objetivos establecidos. Del mismo modo, se realizaron entrevistas y se recopiló información para el desarrollo de la solución.<br>
+        <strong>TB2:</strong><br>
+        Se mantuvo una comunicación continua con el equipo, aplicando los comentarios recibidos para realizar ajustes y mejorar la experiencia del usuario. El enfoque en los objetivos del sprint permitió cumplir con los entregables, manteniendo la calidad y alineación con los requisitos del proyecto en cada iteración.<br>
       </td>
       <td>
+        <strong>TB1:</strong><br>
         El ambiente inclusivo, la colaboración y la correcta planificación permitieron al equipo cumplir con los objetivos del proyecto de manera efectiva, optimizando los recursos y maximizando la eficiencia del trabajo en equipo. La cohesión y la revisión constante aseguraron que todos los miembros estuvieran alineados con los objetivos finales.
+        <br><br>
+        <strong>TB2:</strong><br>
+        En el presente Sprint 2, se logró el desarrollo de la segunda versión de la aplicación web y el backend; la primera versión de la aplicación móvil y la configuración inicial del ESP32 en el simulador Wokwi.
       </td>
     </tr>
   </tbody>
@@ -6082,6 +6187,7 @@ Una vez completado, Netlify generará una URL única para tu sitio.
 **Front-End desplegado:**  [https://aynii.netlify.app/](https://aynii.netlify.app/) 
 
 
+
 ### 6.2.3 Sprint 3
 
 #### 6.2.3.1. Sprint Planning 3
@@ -7108,118 +7214,6 @@ Finalmente, hacemos clic en *Create* y esperamos que nuestro recurso se cree exi
 
 
 ### 6.3.3. Evaluaciones según heurísticas.
-
-# UX Heuristics & Principles Evaluation
-*Usability – Inclusive Design – Information Architecture*
-
-- *CARRERA:* Ingeniería de Sistemas de Información / Ingeniería de Software
-- *CURSO:* Desarrollo de Soluciones IOT
-- *SECCIÓN:* SW71
-- *PROFESOR:* Marco Antonio León Baca
-- *AUDITOR:* Grupo 4
-- *CLIENTE:* Leonardo Huarcaya, Diego Defilippi, Jose Ampudia, Tatiana Paucar, Favio Horna
-
-## SITE o APP A EVALUAR
-*Nombre de App: HidroBots*
-
-## Tareas a evaluar:
-- Creación de un usuario
-- Validación de las creaciones
-- Editar perfil de usuario
-- Creacion de regado
-- Vista de reportes de los sistemas IOT
-- Agregar sistema IOT
-
-
-## ESCALA DE SEVERIDAD
-Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
-
-- Nivel 1: Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a menos que exista disponibilidad de tiempo.
-- Nivel 2: Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase.
-- Nivel 3: Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.
-- Nivel 4: Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.
-
-## TABLA RESUMEN
-
-| #   | Problema                                              | Escala de Severidad | Heurística/Principio Violado    |
-| --- | ---------------------------------------------------- | ------------------- | -----------------------------  |
-| 1   | No hay un botón de retroceso en varios apartados     | 3                   | Usability: Libertad y control del usuario |
-| 2   | No hay un apartado para crear cuenta como investigador     | 3                   | Usability: Prevención de errores |
-| 3   | Error al poder actualizar perfil         | 4           | Usability: Libertad y control del usuario |
-| 4   | La opcion de regado automatico aun no funciona  | 2                   | Usability: Consistencia y estándares |
-| 5   | No se puede ingresar a ver más características del reporte | 3 | Usability: Visibilidad del estado del sistema |
-| 6   | No se puede registrar por gmail                 | 3                   | Usability: Consistencia y estándares |
-| 7   | No guarde la imagen de mi perfil, en la parte del navegador  | 2                   | Usability: Visibilidad del estado del sistema |
-
-## DESCRIPCIÓN DE PROBLEMAS
-
-### PROBLEMA #1: No hay un botón de retroceso en varios apartados
-
-*Severidad:* 3
-*Heurística Violada:* Usability: Libertad y control del usuario
-*Descripción:*
-En varios apartados de la plataforma, se encuentra la ausencia de un botón de retroceso o una funcionalidad clara que permita a los usuarios regresar a la pantalla anterior o al punto de inicio de manera intuitiva. Esta carencia limita la libertad y el control del usuario sobre su navegación en la plataforma.
-
-*Recomendación:*
-Se recomienda implementar una funcionalidad de retroceso clara y fácil de usar en los apartados relevantes de la plataforma. Esto mejorará la usabilidad y la experiencia del usuario al brindarles un mayor control y libertad para navegar de manera eficiente.
-
-### PROBLEMA #2: No hay validación al crear un usuario y no se permite elegir el rol (agricultor o investigador) durante el proceso de registro
-
-*Severidad:* 3
-*Heurística Violada:* Usability: Prevención de errores
-*Descripción:*
-Cuando los usuarios intentan crear una cuenta en la plataforma, no se realiza una validación adecuada de los datos ingresados, lo que puede resultar en cuentas incompletas o con información incorrecta. Además, la falta de opción para elegir el rol (agricultor o investigador) durante el proceso de registro puede causar confusiones sobre las funcionalidades y privilegios asociados con cada tipo de cuenta. Esta falta de claridad puede llevar a errores en la elección del rol y a cuentas mal configuradas, afectando negativamente la experiencia del usuario y la interacción en la plataforma.
-
-### PROBLEMA #3: Error al poder actualizar perfil
-
-*Severidad:* 4
-*Heurística Violada:* Usability - Libertad y control del usuario
-*Descripción:*
-Los usuarios enfrentan problemas al intentar actualizar su perfil en la plataforma. Aunque los cambios parecen ser guardados inicialmente, estos no se reflejan al recargar la página o volver a ingresar a la sección de perfil. Esta falla genera frustración entre los usuarios, ya que les impide mantener su información actualizada, como datos de contacto, preferencias o fotografías. Además, puede afectar la percepción de confiabilidad y funcionalidad de la plataforma.
-
-*Recomendación:*
-Revisar y corregir el flujo de actualización de perfil, asegurando que los cambios se guarden correctamente en la base de datos y se reflejen de inmediato en la interfaz del usuario.
-
-### PROBLEMA #4: La opcion de regado automatico aun no funciona
-
-*Severidad:* 2
-*Heurística Violada:* Usability - Consistencia y estándares
-*Descripción:*
-La opción de riego automático no está operativa, lo que impide a los usuarios automatizar esta función clave. Esto afecta la eficiencia del sistema y genera una mayor carga de trabajo manual para los usuarios. Además, la ausencia de esta funcionalidad puede disminuir la confianza en el sistema, especialmente si se diseñó para optimizar tareas agrícolas.
-
-*Recomendación:*
-Verificar la lógica de activación y los componentes del sistema de riego, asegurando su integración y funcionalidad según los parámetros configurados.
-
-### PROBLEMA #5: No se puede ingresar a ver más características del reporte
-
-*Severidad:* 3
-*Heurística Violada:* Usability - Visibilidad del estado del sistema
-*Descripción:*
-Los usuarios no pueden acceder a la sección de "ver más características" en los reportes, limitando su capacidad para obtener información detallada y análisis clave. Esto dificulta la toma de decisiones informadas y puede generar insatisfacción al no cumplir con sus expectativas de funcionalidad.
-
-*Recomendación:*
-Revisar los enlaces o botones de navegación de la sección, asegurando que estén correctamente vinculados al contenido detallado del reporte.
-
-### PROBLEMA #6: No se puede registrar por gmail
-
-*Severidad:* 2
-*Heurística Violada:* Usability - Consistencia y estándares
-*Descripción:*
-Los usuarios no pueden registrarse utilizando su cuenta de Gmail, lo que restringe una opción de registro clave y cómoda. Esto puede desalentar a nuevos usuarios, ya que el proceso de registro manual suele ser más tedioso y menos atractivo.
-
-*Recomendación:*
-Verificar la integración del sistema con la API de Google y solucionar posibles errores en la configuración de OAuth.
-
-### PROBLEMA #7: No guarde la imagen de mi perfil, en la parte del navegador
-
-*Severidad:* 3
-*Heurística Violada:* Usability - Libertad y control del usuario
-*Descripción:*
-La imagen de perfil no se guarda ni se muestra correctamente en el navegador, lo que puede causar confusión y una experiencia de usuario negativa. Este problema afecta la personalización del perfil y la percepción de profesionalismo en la plataforma.
-
-*Recomendación:*
-Verificar el proceso de carga y almacenamiento de la imagen, asegurándose de que el archivo se guarde en el servidor y se renderice adecuadamente en el navegador.
-
 
 ## 6.4. Video About-the-Product.
 
