@@ -6086,6 +6086,24 @@ Una vez completado, Netlify generará una URL única para tu sitio.
 
 #### 6.2.3.1. Sprint Planning 3
 
+| **Sprint #**                     | Sprint 3                                                                                           |
+|-----------------------------------|---------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**    |                                                                                                   |
+| **Date**                          | 01/11/2024                                                                                       |
+| **Time**                          | 09:00 AM                                                                                         |
+| **Location**                      | Virtual                                                                                          |
+| **Prepared By**                   | Fabio Ernesto Horna Silva                                                                         |
+| **Attendees (to planning meeting)** | Ampudia Flores, José Carlos Isaac<br>Defilippi Santillán, Diego<br>Horna Silva, Fabio Ernesto<br>Lopez Huarcaya, Leonardo Paul<br>Paucar De La Cruz, Tatiana Medalith |
+| **Sprint n – 1 Review Summary**   | Se completaron las tareas relacionadas con el diseño e integración de funcionalidades clave como la visualización de nutrientes y programación de riego automático y manual. También se realizó la integración final del dispositivo IoT (ESP32) en Wokwi con el backend, asegurando una comunicación estable y funcional. Además, se finalizó el desarrollo de instrumentos clave como interfaces y dashboards. |
+| **Sprint n – 1 Retrospective Summary** | Se identificó la necesidad de mejorar la organización de las tareas y priorizar pruebas para garantizar la estabilidad del producto. |
+| **Sprint Goal**                   | Completar el monitoreo en tiempo real, asegurando la integración total del riego automático y manual. Finalizar los ajustes en los instrumentos desarrollados. |
+| **Sprint n Velocity**             | 15 Story Points                                                                                 |
+| **Sum of Story Points**           | 15 Story Points                                                                                 |
+
+
+
+
+
 #### 6.2.3.2. Sprint Backlog 3
 
 En esta sección se especifican los detalles del Sprint Backlog, que es una lista de tareas que se han realizado para completar el Sprint.
@@ -6758,6 +6776,110 @@ Finalmente, hacemos clic en *Create* y esperamos que nuestro recurso se cree exi
 ### 6.3.1. Diseño de Entrevistas.
 
 ### 6.3.2. Registro de Entrevistas.
+
+| **Entrevista 1** | **Alan Galavis** |
+| --- | --- |
+| **Artefacto** | Mobile |
+| **Edad** | 21 |
+| **Ocupación** | Estudiante de Ingeniería de Software |
+| **Distrito** | Lima |
+| **Fecha** | 17-11-2024 |
+| <img src="assets/v_entrevistas/Entrevista - Alan Galavis.jpg"/> | La entrevista fue realizada a Alan Enrique Galavis Dubois, un joven de 21 años con una conexión cercana a la agricultura, ya que su abuela practica la agricultura doméstica y su abuelo se dedica a la agricultura industrial. Alan evaluó un proyecto IoT diseñado para este sector, destacando la funcionalidad y diseño de la landing page, cuyo uso de colores e imágenes agrícolas la hacen atractiva y efectiva. Sobre la aplicación móvil, señaló su facilidad de uso, incluso para personas con poca experiencia tecnológica, como sus abuelos, y resaltó la utilidad de la función de programación de riegos. Como mejora, propuso añadir la opción de programar riegos continuos en horarios específicos, una funcionalidad que optimizaría aún más la experiencia para agricultores con horarios definidos. |
+| **URL de la grabación** |[Ver grabación]( https://upcedupe-my.sharepoint.com/personal/u202020229_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202020229%5Fupc%5Fedu%5Fpe%2FDocuments%2FValidation%20enterview%20IOT%2D%20Hidrobotsd%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E98e49e49%2D9901%2D4993%2Dbc34%2Dc079c513eb76&isDarkMode=false )  |
+| **Timming** | 0:00 – 3:45 |
+
+| **Entrevista 2** | ** Jean Piere Marín Fuentes** |
+| --- | --- |
+| **Artefacto** | Web |
+| **Edad** | 20 |
+| **Ocupación** | Estudiante de Ingeniería de Software |
+| **Distrito** | Lima |
+| **Fecha** | 14-11-2024 |
+| <img src="assets/v_entrevistas/Entrevista - Jean Marin.jpg"/> | La entrevista fue realizada a Jean Piere Marín Fuentes, un joven de 20 años, estudiante de Ingeniería de Software en la UPC, quien vive en Miraflores y trabaja en una empresa tecnológica. Jean evaluó un proyecto IoT diseñado para la gestión de cultivos, destacando la claridad y organización de la landing page, que incluye secciones como servicios, portafolio y contacto, las cuales considera bien estructuradas. Sobre la aplicación móvil, resaltó su interfaz intuitiva y facilidad de uso, incluso para usuarios con poca experiencia tecnológica. También valoró la funcionalidad de programación de riegos manual y automática, indicando que ambas operan sin errores y ofrecen un gran soporte para gestionar los cultivos. No propuso mejoras adicionales, ya que opinó que la aplicación es completa y adecuada para las necesidades del usuario. |
+| **URL de la grabación** |[Ver grabación]( https://www.youtube.com/watch?v=686GUR3jsWE )  |
+| **Timming** | 3:45 –7:25|
+
+| **Entrevista 3** | ** Gabriela Peña Ruiz** |
+| --- | --- |
+| **Artefacto** | Web |
+| **Edad** | 23 |
+| **Ocupación** | Estudiante de Ingeniería de Software |
+| **Distrito** | Lima |
+| **Fecha** | 15-11-2024 |
+| <img src="assets/v_entrevistas/Entrevista - Gabriela Peña.jpg"/>| La entrevista fue realizada a Gabriela Peña, una joven de 23 años estudiante de contabilidad con interés en los arreglos florales y el conocimiento de plantas. Gabriela evaluó un proyecto IoT enfocado en la gestión de cultivos, destacando el diseño atractivo y la navegación intuitiva de la landing page, la cual facilita su uso. Sobre la aplicación móvil, resaltó la facilidad para añadir cultivos, programar riegos manuales o automáticos y visualizar datos proporcionados por los sensores, funciones que consideró especialmente útiles para la toma de decisiones en el cuidado de plantas. Aunque no identificó errores ni funcionalidades faltantes, mencionó que con el tiempo podrían surgir nuevas necesidades, pero por el momento consideró la aplicación completa. |
+| **URL de la grabación** |[Ver grabación]( https://upcedupe-my.sharepoint.com/personal/u202020229_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202020229%5Fupc%5Fedu%5Fpe%2FDocuments%2FValidation%20enterview%20IOT%2D%20Hidrobotsd%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E98e49e49%2D9901%2D4993%2Dbc34%2Dc079c513eb76&isDarkMode=false )  |
+| **Timming** | 7:25 – 12:50|
+
+
+
+
+| **Entrevista 4** | ** Carlos Cassimiro Fernández ** |
+| --- | --- |
+| **Artefacto** | Mobile |
+| **Edad** | 21 |
+| **Ocupación** | Trabajador de cultivos hidroponicos |
+| **Distrito** | Lima |
+| **Fecha** | 18-11-2024 |
+|<img src="assets/v_entrevistas/Entrevista - Carlos Fernandez.jpg"/>| La entrevista fue realizada a Carlos Fernández, un joven de 22 años dedicado a la siembra de cultivos mediante hidroponía, quien evaluó un proyecto IoT diseñado para el sector agrícola. Carlos destacó la claridad y facilidad de uso de la landing page, resaltando que su diseño es intuitivo y funcional para cualquier usuario. Sobre la aplicación móvil, señaló su carácter interactivo y útil, especialmente la función para regular el tiempo de riego en modo manual o automático, que considera una ventaja significativa para quienes buscan optimizar el control de sus cultivos. Como mejora, propuso añadir una enciclopedia de plantas que permita a los usuarios visualizar el crecimiento y el resultado final de las semillas, lo cual enriquecería aún más la experiencia de los agricultores. |
+| **URL de la grabación** |[Ver grabación]( https://upcedupe-my.sharepoint.com/personal/u202020229_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202020229%5Fupc%5Fedu%5Fpe%2FDocuments%2FValidation%20enterview%20IOT%2D%20Hidrobotsd%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E98e49e49%2D9901%2D4993%2Dbc34%2Dc079c513eb76&isDarkMode=false )  |
+| **Timming** | 12:50 – 17:35|
+
+
+
+| **Entrevista 5** | ** Fiorella Valencia** |
+| --- | --- |
+| **Artefacto** | Web |
+| **Edad** | 20 |
+| **Ocupación** | Estudiante y practicante de Software |
+| **Distrito** | Lima |
+| **Fecha** | 18-11-2024 |
+| <img src="assets/v_entrevistas/Entrevista - Fiorella Valencia.jpg"/>| La entrevista fue realizada a Fiorella Valencia, una joven de 20 años residente en Lima, San Miguel, quien evaluó un proyecto IoT enfocado en sistemas de riego automatizado para agricultores. Fiorella destacó la funcionalidad y diseño de la landing page, resaltando su paleta de colores y segmentación precisa, que la hacen atractiva y fácil de entender. Sobre la aplicación móvil, señaló su interfaz intuitiva y personalizable, permitiendo agregar cultivos y dispositivos con facilidad. Además, valoró la utilidad de los dashboards para visualizar datos clave como temperatura, humedad y nivel de pH, facilitando el control de los cultivos. Como mejora, propuso mantener la simplicidad en el diseño y seguir optimizando la accesibilidad para usuarios con distintos niveles de experiencia tecnológica. |
+| **URL de la grabación** |[Ver grabación]( https://upcedupe-my.sharepoint.com/personal/u202020229_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202020229%5Fupc%5Fedu%5Fpe%2FDocuments%2FValidation%20enterview%20IOT%2D%20Hidrobotsd%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E98e49e49%2D9901%2D4993%2Dbc34%2Dc079c513eb76&isDarkMode=false )  |
+| **Timming** |17:35–21:20|
+ 
+
+| **Entrevista 6** | ** Franco Gutiérrez** |
+| --- | --- |
+| **Artefacto** | Web |
+| **Edad** | 24 |
+| **Ocupación** | Practicante de Banco Agricola|
+| **Distrito** | Lima |
+| **Fecha** | 11-11-2024 |
+| <img src="assets/v_entrevistas/Entrevista - Franco Yance.jpg"/>| La entrevista fue realizada a Franco Gutiérrez, un joven de 24 años estudiante de Ingeniería de Software, quien evaluó un proyecto IoT diseñado para el sector agrícola. Franco destacó la funcionalidad y diseño de la landing page, mencionando que los colores son adecuados y la información está bien organizada, lo que la hace intuitiva y fácil de navegar. Sobre la aplicación web, resaltó su diseño centrado, la ubicación adecuada de las opciones en el dashboard y la facilidad para gestionar cultivos y dispositivos, como sensores e irrigadores, lo que la hace interesante y bien implementada. Como mejora, sugirió explorar posibles ajustes en la interfaz para seguir optimizando la experiencia de usuario, aunque resaltó que la aplicación ya cumple con los estándares de intuitividad y funcionalidad requeridos para el sector agrícola. |
+| **URL de la grabación** |[Ver grabación]( https://upcedupe-my.sharepoint.com/personal/u202020229_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202020229%5Fupc%5Fedu%5Fpe%2FDocuments%2FValidation%20enterview%20IOT%2D%20Hidrobotsd%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E98e49e49%2D9901%2D4993%2Dbc34%2Dc079c513eb76&isDarkMode=false )  |
+| **Timming** | 21:20–24:50|
+
+ 
+| **Entrevista 7** | ** Martin Cifuentes** |
+| --- | --- |
+| **Artefacto** | Web |
+| **Edad** | 21 |
+| **Ocupación** | Estudiante de Ingeniería de Software |
+| **Distrito** | Lima |
+| **Fecha** | 16-11-2024 |
+| <img src="assets/v_entrevistas/Entrevista - Martin Cifuentes.jpg"/> | La entrevista fue realizada a Martín Cifuentes, un joven de 21 años que practica en una empresa agrícola. Martín evaluó un proyecto IoT diseñado para este sector, destacando la funcionalidad y diseño de la landing page, la cual consideró intuitiva y fácil de usar. Sobre la aplicación web, resaltó la facilidad para gestionar cultivos y dispositivos, como la asignación de sensores a cultivos específicos y el filtrado por tipo de cultivo, además de la utilidad del dashboard, que presenta datos clave como temperatura, humedad y nivel de pH, facilitando la toma de decisiones y la elaboración de reportes. También mencionó que su funcionalidad favorita es el riego automático, por simplificar significativamente las labores agrícolas. Como observación final, comentó que no encontró ningún problema en la aplicación y consideró que cumple con las necesidades planteadas, sin sugerir mejoras adicionales. |
+| **URL de la grabación** |[Ver grabación]( https://upcedupe-my.sharepoint.com/personal/u202020229_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202020229%5Fupc%5Fedu%5Fpe%2FDocuments%2FValidation%20enterview%20IOT%2D%20Hidrobotsd%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E98e49e49%2D9901%2D4993%2Dbc34%2Dc079c513eb76&isDarkMode=false )  |
+| **Timming** | 24:50–28:03|
+
+ 
+| **Entrevista 8** | ** Steve Royal Castillo Robles** |
+| --- | --- |
+| **Artefacto** | Mobile |
+| **Edad** | 23 |
+| **Ocupación** | Estudiante de Ingeniería de Software |
+| **Distrito** | Lima |
+| **Fecha** | 16-11-2024 |
+| <img src="assets/v_entrevistas/Entrevista - Steve Castillo.jpg"/> | La entrevista fue realizada a Steve Royal Castillo Robles, un joven de 23 años estudiante, con familiares dedicados a la distribución agrícola minorista. Steve evaluó un proyecto IoT diseñado para este sector, destacando la funcionalidad y diseño de la landing page, la cual considera intuitiva y con un enfoque acertado hacia la agricultura, facilitando la navegación entre servicios, portafolio y contactos. Sobre la aplicación móvil, resaltó su facilidad de uso y su utilidad para planificar riegos en parcelas, destacando la función de programación automática como un elemento clave. Como mejora, propuso añadir un tutorial paso a paso (stepper) para guiar a usuarios con menos experiencia tecnológica, mejorando así la accesibilidad para personas del campo. |
+| **URL de la grabación** |[Ver grabación]( https://upcedupe-my.sharepoint.com/personal/u202020229_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202020229%5Fupc%5Fedu%5Fpe%2FDocuments%2FValidation%20enterview%20IOT%2D%20Hidrobotsd%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E98e49e49%2D9901%2D4993%2Dbc34%2Dc079c513eb76&isDarkMode=false )  |
+| **Timming** | 24:50–28:03|
+
+
+
+
+
+
+
+
 
 ### 6.3.3. Evaluaciones según heurísticas.
 
