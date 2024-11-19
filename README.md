@@ -7205,15 +7205,120 @@ Finalmente, hacemos clic en *Create* y esperamos que nuestro recurso se cree exi
 | **URL de la grabación** |[Ver grabación]( https://upcedupe-my.sharepoint.com/personal/u202020229_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202020229%5Fupc%5Fedu%5Fpe%2FDocuments%2FValidation%20enterview%20IOT%2D%20Hidrobotsd%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E98e49e49%2D9901%2D4993%2Dbc34%2Dc079c513eb76&isDarkMode=false )  |
 | **Timming** | 24:50–28:03|
 
-
-
-
-
-
-
-
-
 ### 6.3.3. Evaluaciones según heurísticas.
+
+
+# UX Heuristics & Principles Evaluation
+*Usability – Inclusive Design – Information Architecture*
+
+- *CARRERA:* Ingeniería de Sistemas de Información / Ingeniería de Software
+- *CURSO:* Desarrollo de Soluciones IOT
+- *SECCIÓN:* SW71
+- *PROFESOR:* Marco Antonio León Baca
+- *AUDITOR:* Grupo 4
+- *CLIENTE:* Leonardo Huarcaya, Diego Defilippi, Jose Ampudia, Tatiana Paucar, Favio Horna
+
+## SITE o APP A EVALUAR
+*Nombre de App: HidroBots*
+
+## Tareas a evaluar:
+- Creación de un usuario
+- Validación de las creaciones
+- Editar perfil de usuario
+- Creacion de regado
+- Vista de reportes de los sistemas IOT
+- Agregar sistema IOT
+
+
+## ESCALA DE SEVERIDAD
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+- Nivel 1: Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a menos que exista disponibilidad de tiempo.
+- Nivel 2: Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase.
+- Nivel 3: Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.
+- Nivel 4: Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.
+
+## TABLA RESUMEN
+
+| #   | Problema                                              | Escala de Severidad | Heurística/Principio Violado    |
+| --- | ---------------------------------------------------- | ------------------- | -----------------------------  |
+| 1   | No hay un botón de retroceso en varios apartados     | 3                   | Usability: Libertad y control del usuario |
+| 2   | No hay un apartado para crear cuenta como investigador     | 3                   | Usability: Prevención de errores |
+| 3   | Error al poder actualizar perfil         | 4           | Usability: Libertad y control del usuario |
+| 4   | La opcion de regado automatico aun no funciona  | 2                   | Usability: Consistencia y estándares |
+| 5   | No se puede ingresar a ver más características del reporte | 3 | Usability: Visibilidad del estado del sistema |
+| 6   | No se puede registrar por gmail                 | 3                   | Usability: Consistencia y estándares |
+| 7   | No guarde la imagen de mi perfil, en la parte del navegador  | 2                   | Usability: Visibilidad del estado del sistema |
+
+## DESCRIPCIÓN DE PROBLEMAS
+
+### PROBLEMA #1: No hay un botón de retroceso en varios apartados
+
+*Severidad:* 3
+*Heurística Violada:* Usability: Libertad y control del usuario
+*Descripción:*
+En varios apartados de la plataforma, se encuentra la ausencia de un botón de retroceso o una funcionalidad clara que permita a los usuarios regresar a la pantalla anterior o al punto de inicio de manera intuitiva. Esta carencia limita la libertad y el control del usuario sobre su navegación en la plataforma.
+
+*Recomendación:*
+Se recomienda implementar una funcionalidad de retroceso clara y fácil de usar en los apartados relevantes de la plataforma. Esto mejorará la usabilidad y la experiencia del usuario al brindarles un mayor control y libertad para navegar de manera eficiente.
+
+### PROBLEMA #2: No hay validación al crear un usuario y no se permite elegir el rol (agricultor o investigador) durante el proceso de registro
+
+*Severidad:* 3
+*Heurística Violada:* Usability: Prevención de errores
+*Descripción:*
+Cuando los usuarios intentan crear una cuenta en la plataforma, no se realiza una validación adecuada de los datos ingresados, lo que puede resultar en cuentas incompletas o con información incorrecta. Además, la falta de opción para elegir el rol (agricultor o investigador) durante el proceso de registro puede causar confusiones sobre las funcionalidades y privilegios asociados con cada tipo de cuenta. Esta falta de claridad puede llevar a errores en la elección del rol y a cuentas mal configuradas, afectando negativamente la experiencia del usuario y la interacción en la plataforma.
+
+### PROBLEMA #3: Error al poder actualizar perfil
+
+*Severidad:* 4
+*Heurística Violada:* Usability - Libertad y control del usuario
+*Descripción:*
+Los usuarios enfrentan problemas al intentar actualizar su perfil en la plataforma. Aunque los cambios parecen ser guardados inicialmente, estos no se reflejan al recargar la página o volver a ingresar a la sección de perfil. Esta falla genera frustración entre los usuarios, ya que les impide mantener su información actualizada, como datos de contacto, preferencias o fotografías. Además, puede afectar la percepción de confiabilidad y funcionalidad de la plataforma.
+
+*Recomendación:*
+Revisar y corregir el flujo de actualización de perfil, asegurando que los cambios se guarden correctamente en la base de datos y se reflejen de inmediato en la interfaz del usuario.
+
+### PROBLEMA #4: La opcion de regado automatico aun no funciona
+
+*Severidad:* 2
+*Heurística Violada:* Usability - Consistencia y estándares
+*Descripción:*
+La opción de riego automático no está operativa, lo que impide a los usuarios automatizar esta función clave. Esto afecta la eficiencia del sistema y genera una mayor carga de trabajo manual para los usuarios. Además, la ausencia de esta funcionalidad puede disminuir la confianza en el sistema, especialmente si se diseñó para optimizar tareas agrícolas.
+
+*Recomendación:*
+Verificar la lógica de activación y los componentes del sistema de riego, asegurando su integración y funcionalidad según los parámetros configurados.
+
+### PROBLEMA #5: No se puede ingresar a ver más características del reporte
+
+*Severidad:* 3
+*Heurística Violada:* Usability - Visibilidad del estado del sistema
+*Descripción:*
+Los usuarios no pueden acceder a la sección de "ver más características" en los reportes, limitando su capacidad para obtener información detallada y análisis clave. Esto dificulta la toma de decisiones informadas y puede generar insatisfacción al no cumplir con sus expectativas de funcionalidad.
+
+*Recomendación:*
+Revisar los enlaces o botones de navegación de la sección, asegurando que estén correctamente vinculados al contenido detallado del reporte.
+
+### PROBLEMA #6: No se puede registrar por gmail
+
+*Severidad:* 2
+*Heurística Violada:* Usability - Consistencia y estándares
+*Descripción:*
+Los usuarios no pueden registrarse utilizando su cuenta de Gmail, lo que restringe una opción de registro clave y cómoda. Esto puede desalentar a nuevos usuarios, ya que el proceso de registro manual suele ser más tedioso y menos atractivo.
+
+*Recomendación:*
+Verificar la integración del sistema con la API de Google y solucionar posibles errores en la configuración de OAuth.
+
+### PROBLEMA #7: No guarde la imagen de mi perfil, en la parte del navegador
+
+*Severidad:* 3
+*Heurística Violada:* Usability - Libertad y control del usuario
+*Descripción:*
+La imagen de perfil no se guarda ni se muestra correctamente en el navegador, lo que puede causar confusión y una experiencia de usuario negativa. Este problema afecta la personalización del perfil y la percepción de profesionalismo en la plataforma.
+
+*Recomendación:*
+Verificar el proceso de carga y almacenamiento de la imagen, asegurándose de que el archivo se guarde en el servidor y se renderice adecuadamente en el navegador.
+
 
 ## 6.4. Video About-the-Product.
 
