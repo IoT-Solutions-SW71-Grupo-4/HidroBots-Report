@@ -6841,6 +6841,22 @@ Verificar el proceso de carga y almacenamiento de la imagen, asegurándose de qu
 
 ## Conclusiones y recomendaciones
 
+Tras el desarrollo del proyecto, se concluye que:
+
+- Se desarrolló un prototipo completo cuyo fin es ayudar a agricultores e investigadores a la gestión y supervsión de sus cultivos. 
+
+- Se logró adoptar el marco de trabajo Scrum, lo que permitió gestionar el proyecto de manera iterativa e incremental, facilitando la organización del equipo y la priorización de tareas.
+
+- Se implementó Domain-Driven Design (DDD), lo que permitió estructurar el sistema de manera sólida, enfocándose en el dominio y las reglas de negocio. Esto se logró mediante la definición clara de bounded contexts, la creación de entidades y agregados, y el diseño de interfaces para abstraer la lógica de dominio. 
+
+- Se desarrollaron diagramas de arquitectura, como el diagrama de clases, de base de datos y C4, los cuales facilitaron la comprensión entre los miembros del equipo y aseguraron que todos trabajaran con una visión común del sistema.
+
+- Se integró diversos patrones de diseño para lograr un código modular, reutilizable y fácil de mantener. Tales patrones son: Repository, Observer, Factory y Command.
+
+- Se determinó la aprobación de nuestro público objetivo gracias a las entrevias de validación efectuadas, donde se mostraron los prototipos funcionales.
+
+- Se implementó de manera exitosa una aplicación web, una aplicación móvil, una API, un dispositivo ESP32 y un broker MQTT para culminar el desarrollo del proyecto. Este logro demostró la solidez del diseño arquitectónico y la habilidad para resolver desafíos técnicos complejos, resultando en un sistema funcional y eficiente.
+
 ## Video About-the-Team
 
 # Bibliografía
@@ -6854,4 +6870,7 @@ Verificar el proceso de carga y almacenamiento de la imagen, asegurándose de qu
 # Anexos
 
 Repositorio del proyecto: https://github.com/IoT-Solutions-SW71-Grupo-4
-Url de el frontend:  https://ayni-eight.vercel.app/dashboard
+
+Url de el frontend: https://ayni-eight.vercel.app/dashboard
+
+Url de la Api: https://hidrobots-ayni.azurewebsites.net/
