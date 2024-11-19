@@ -6590,6 +6590,46 @@ Se presentan los commits realizados en el repositorio de GitHub, en el cual se p
 
 #### 6.2.3.4. Testing Suite Evidence for Sprint Review
 
+En esta seccion se relizarán algunos de los tests necesarios y primordiales de acuerdo a las nuevas implementaciones realizadaas para el Sprint 3, es por ello que usamos la herramiente de gherkin para realizar los tests para los nuevos bounded context desarrollados en la aplicacion backend, se muestran a continuación.
+
+**Tests para el bounded context Report**
+
+![test-bc-reports-1](assets/Backend/sprint-3/testing-suite-evidence/bc-report-test/test-report-1.png)
+
+![test-bc-reports-2](assets/Backend/sprint-3/testing-suite-evidence/bc-report-test/test-report-2.png)
+
+![test-bc-reports-3](assets/Backend/sprint-3/testing-suite-evidence/bc-report-test/test-report-3.png)
+
+![test-bc-reports-4](assets/Backend/sprint-3/testing-suite-evidence/bc-report-test/test-report-4.png)
+
+
+**Tests para el bounded context Devices**
+
+![test-bc-devices-1](assets/Backend/sprint-3/testing-suite-evidence/bc-device-test/test-devices-1.png)
+
+![test-bc-devices-2](assets/Backend/sprint-3/testing-suite-evidence/bc-device-test/test-devices-2.png)
+
+![test-bc-devices-3](assets/Backend/sprint-3/testing-suite-evidence/bc-device-test/test-devices-3.png)
+
+![test-bc-devices-4](assets/Backend/sprint-3/testing-suite-evidence/bc-device-test/test-devices-4.png)
+
+![test-bc-devices-5](assets/Backend/sprint-3/testing-suite-evidence/bc-device-test/test-devices-5.png)
+
+![test-bc-devices-6](assets/Backend/sprint-3/testing-suite-evidence/bc-device-test/test-devices-6.png)
+
+**Tests para el bounded context deviceCommunication**
+
+![test-bc-deviceCommunication-1](assets/Backend/sprint-3/testing-suite-evidence/bc-communication-test/test-communication-1.png)
+
+![test-bc-deviceCommunication-2](assets/Backend/sprint-3/testing-suite-evidence/bc-communication-test/test-communication-2.png)
+
+![test-bc-deviceCommunication-3](assets/Backend/sprint-3/testing-suite-evidence/bc-communication-test/test-communication-3.png)
+
+![test-bc-deviceCommunication-4](assets/Backend/sprint-3/testing-suite-evidence/bc-communication-test/test-communication-4.png)
+
+![test-bc-deviceCommunication-5](assets/Backend/sprint-3/testing-suite-evidence/bc-communication-test/test-communication-5.png)
+
+
 #### 6.2.3.5. Execution Evidence for Sprint Review
 
 #### 6.2.3.6. Services Documentation Evidence for Sprint Review
